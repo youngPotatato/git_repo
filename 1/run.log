@@ -1,0 +1,25 @@
+Command: ./simv +fsdbfile+test.fsdb -l run.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Sep 11 20:47 2017
+size of array:           4
+
+the first index of the array is      12288
+the next index used of the array is      12291
+the last index used of the array is      12295
+          1
+*Verdi3* Loading libsscore_vcs201606.so
+*Verdi3* : FSDB_GATE is set.
+*Verdi3* : FSDB_RTL is set.
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* : Create FSDB file 'test.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +all dumping.
+*Verdi3* : End of traversing.
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.420 seconds;       Data structure size:   0.0Mb
+Mon Sep 11 20:47:28 2017

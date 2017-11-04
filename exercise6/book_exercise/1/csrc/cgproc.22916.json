@@ -1,0 +1,71 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_22916_archive_1.a",
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    26222
+                ],
+                [
+                    "Vtv4E_d.o",
+                    11693
+                ],
+                [
+                    "x9Hvb_d.o",
+                    8524
+                ]
+            ],
+            "size": 46439
+        }
+    ],
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled Times": 1,
+            "Compiled": "Yes"
+        },
+        "yy": {
+            "Compiled Times": 1,
+            "Compiled": "Yes"
+        },
+        "test": {
+            "Compiled Times": 1,
+            "Compiled": "Yes"
+        }
+    },
+    "CompUnits": {
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 26222,
+            "mode": 4,
+            "archive": "archive.0/_22916_archive_1.a",
+            "checksum": 0
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 4864,
+            "mode": 4,
+            "checksum": 0
+        },
+        "Vtv4E_d": {
+            "mod": "yy",
+            "out": "Vtv4E_d.o",
+            "bytes": 11693,
+            "mode": 4,
+            "archive": "archive.0/_22916_archive_1.a",
+            "checksum": 0
+        },
+        "x9Hvb_d": {
+            "mod": "test",
+            "out": "x9Hvb_d.o",
+            "bytes": 8524,
+            "mode": 4,
+            "archive": "archive.0/_22916_archive_1.a",
+            "checksum": 0
+        }
+    },
+    "reusePaths": {}
+}

@@ -1,0 +1,87 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_unit__3340864491": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "tt": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "mode": 4,
+            "bytes": 4974,
+            "checksum": 0
+        },
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "out": "hEeZs_d.o",
+            "archive": "archive.0/_24726_archive_1.a",
+            "mode": 4,
+            "bytes": 20883,
+            "checksum": 0
+        },
+        "dagMR_d": {
+            "mod": "_vcs_unit__3340864491",
+            "out": "dagMR_d.o",
+            "archive": "archive.0/_24726_archive_1.a",
+            "mode": 4,
+            "bytes": 4076,
+            "checksum": 0
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "archive": "archive.0/_24726_archive_1.a",
+            "mode": 4,
+            "bytes": 26257,
+            "checksum": 0
+        },
+        "RPNsZ_d": {
+            "mod": "tt",
+            "out": "RPNsZ_d.o",
+            "archive": "archive.0/_24726_archive_1.a",
+            "mode": 4,
+            "bytes": 22202,
+            "checksum": 0
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_24726_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    20883
+                ],
+                [
+                    "dagMR_d.o",
+                    4076
+                ],
+                [
+                    "reYIK_d.o",
+                    26257
+                ],
+                [
+                    "RPNsZ_d.o",
+                    22202
+                ]
+            ],
+            "size": 73418
+        }
+    ]
+}

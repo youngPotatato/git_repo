@@ -1,0 +1,110 @@
+Command: ./simv +fsdbfile+test.fsdb +ntb_random_seed= -l run1.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Oct 28 19:16 2017
+*Verdi3* Loading libsscore_vcs201606.so
+*Verdi3* : FSDB_GATE is set.
+*Verdi3* : FSDB_RTL is set.
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi3* : Create FSDB file 'test.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +all dumping.
+*Verdi3* : End of traversing.
+                   0: Starting scoreboard for 21 transaction
+                   0: Starting apb_master
+                 550: Starting apb_gen for 21 transactions
+                 550: Generator Idle  --------------------------
+                 550: Generator Idle  --------------------------
+                 550: Generator Idle  --------------------------
+                 550: Generator Write Addr=0x36ee Data=0xc8e8cbe3
+                 550: Generator Write Addr=0x9178 Data=0x39266bd7
+                 550: Generator Write Addr=0x7abc Data=0xda9cc0e1
+                 550: Generator Write Addr=0x18d2 Data=0x8e84bc14
+                 550: Generator Idle  --------------------------
+                 550: Generator Write Addr=0x8e2a Data=0x5c0d3889
+                 550: Generator Read  Addr=0xbdc1 Data=0xb70462ca
+                 550: Generator Write Addr=0x4836 Data=0xc11ee935
+                 550: Generator Read  Addr=0xa2f4 Data=0x6b802773
+                 550: Generator Idle  --------------------------
+                 550: Generator Write Addr=0xf8d7 Data=0xf3ef167a
+                 550: Generator Read  Addr=0x1991 Data=0x20414c02
+                 550: Generator Idle  --------------------------
+                 550: Generator Read  Addr=0x3f3b Data=0xce93165b
+                 550: Generator Read  Addr=0x3c0a Data=0x2a796d74
+                 550: Generator Read  Addr=0x97d4 Data=0xcf4017b8
+                 550: Generator Idle  --------------------------
+                 550: Generator Write Addr=0xb4e2 Data=0xfe9c29fd
+                 550: Generator Idle  --------------------------
+                 550: Generator Read  Addr=0x510d Data=0xb1005d15
+                 550: Generator Idle  --------------------------
+                 550: Generator Read  Addr=0x32d0 Data=0x50440c49
+                 550: Generator Read  Addr=0x427d Data=0xd81f43b5
+                 550: Generator Write Addr=0x936c Data=0xc3a7a926
+                 550: Generator Read  Addr=0xb0bf Data=0xef07de60
+                 550: Generator Read  Addr=0xf8c2 Data=0x66af8313
+                 550: Generator Idle  --------------------------
+                 550: Generator Idle  --------------------------
+                 550: Generator Read  Addr=0xdf9b Data=0x16604c
+                 550: Ending apb_gen
+
+                 650: Master Idle  --------------------------
+                 750: Master Idle  --------------------------
+                 950: Master Write Addr=0x36ee Data=0xc8e8cbe3
+@950: Data match Addr=36ee Data=c8e8cbe3
+                1150: Master Write Addr=0x9178 Data=0x39266bd7
+@1150: Data match Addr=9178 Data=39266bd7
+                1350: Master Write Addr=0x7abc Data=0xda9cc0e1
+@1350: Data match Addr=7abc Data=da9cc0e1
+                1550: Master Write Addr=0x18d2 Data=0x8e84bc14
+@1550: Data match Addr=18d2 Data=8e84bc14
+                1650: Master Idle  --------------------------
+                1850: Master Write Addr=0x8e2a Data=0x5c0d3889
+@1850: Data match Addr=8e2a Data=5c0d3889
+                2050: Master Read  Addr=0xbdc1 Data=0x00
+@2050: Data match Addr=bdc1 Data=00000000
+                2250: Master Write Addr=0x4836 Data=0xc11ee935
+@2250: Data match Addr=4836 Data=c11ee935
+                2450: Master Read  Addr=0xa2f4 Data=0x00
+@2450: Data match Addr=a2f4 Data=00000000
+                2550: Master Idle  --------------------------
+                2750: Master Write Addr=0xf8d7 Data=0xf3ef167a
+@2750: Data match Addr=f8d7 Data=f3ef167a
+                2950: Master Read  Addr=0x1991 Data=0x00
+@2950: Data match Addr=1991 Data=00000000
+                3050: Master Idle  --------------------------
+                3250: Master Read  Addr=0x3f3b Data=0x00
+@3250: Data match Addr=3f3b Data=00000000
+                3450: Master Read  Addr=0x3c0a Data=0x00
+@3450: Data match Addr=3c0a Data=00000000
+                3650: Master Read  Addr=0x97d4 Data=0x00
+@3650: Data match Addr=97d4 Data=00000000
+                3750: Master Idle  --------------------------
+                3950: Master Write Addr=0xb4e2 Data=0xfe9c29fd
+@3950: Data match Addr=b4e2 Data=fe9c29fd
+                4050: Master Idle  --------------------------
+                4250: Master Read  Addr=0x510d Data=0x00
+@4250: Data match Addr=510d Data=00000000
+                4350: Master Idle  --------------------------
+                4550: Master Read  Addr=0x32d0 Data=0x00
+@4550: Data match Addr=32d0 Data=00000000
+                4750: Master Read  Addr=0x427d Data=0x00
+@4750: Data match Addr=427d Data=00000000
+                4950: Master Write Addr=0x936c Data=0xc3a7a926
+@4950: Data match Addr=936c Data=c3a7a926
+                5150: Master Read  Addr=0xb0bf Data=0x00
+@5150: Data match Addr=b0bf Data=00000000
+                5350: Master Read  Addr=0xf8c2 Data=0x00
+@5350: Data match Addr=f8c2 Data=00000000
+                5450: Master Idle  --------------------------
+                5550: Master Idle  --------------------------
+                5750: Master Read  Addr=0xdf9b Data=0x00
+@5750: Data match Addr=df9b Data=00000000
+$finish called from file "tests/test.sv", line 40.
+$finish at simulation time                 5750
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 5750 ns
+CPU Time:      0.410 seconds;       Data structure size:   0.3Mb
+Sat Oct 28 19:16:08 2017

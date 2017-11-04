@@ -1,0 +1,143 @@
+{
+    "Misc": {
+        "default_output_dir": "csrc",
+        "cwd": "/home/yy/Desktop/My_prog/parking",
+        "daidir_abs": "/home/yy/Desktop/My_prog/parking/simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/home/yy/Desktop/My_prog/parking/csrc",
+        "daidir": "/home/yy/Desktop/My_prog/parking/simv.daidir",
+        "archive_dir": "archive.12"
+    },
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "out": "reYIK_d.o",
+                "checksum": 0,
+                "bytes": 26222,
+                "mode": 4,
+                "mod": "std",
+                "archive": "archive.12/_prev_archive_1.a"
+            }
+        },
+        "parkingLot": {
+            "cZY3D_d": {
+                "out": "cZY3D_d.o",
+                "checksum": 0,
+                "bytes": 14616,
+                "mode": 4,
+                "mod": "parkingLot",
+                "archive": "archive.12/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "out": "objs/amcQw_d.o",
+                "checksum": 0,
+                "bytes": 4738,
+                "mode": 4,
+                "mod": "...MASTER..."
+            }
+        },
+        "test": {
+            "x9Hvb_d": {
+                "checksum": 0,
+                "out": "x9Hvb_d.o",
+                "bytes": 18459,
+                "mode": 4,
+                "mod": "test",
+                "archive": "archive.12/_20971_archive_1.a"
+            }
+        }
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "parkingLot": [
+            "parkingLot",
+            "cZY3D",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "stat": {
+        "nQuads": 1204,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.039426999999999997,
+            "ru_nivcsw": 4,
+            "ru_stime_sec": 0.098036999999999999,
+            "ru_nvcsw": 118,
+            "ru_maxrss_kb": 51428,
+            "ru_minflt": 13551,
+            "ru_majflt": 46
+        },
+        "mop/quad": 2.4584717607973423,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.00062500000000000001,
+            "ru_nivcsw": 2,
+            "ru_stime_sec": 0.0086990000000000001,
+            "ru_nvcsw": 4,
+            "ru_maxrss_kb": 11852,
+            "ru_minflt": 2189,
+            "ru_majflt": 0
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.059500999999999998,
+            "ru_nivcsw": 6,
+            "ru_stime_sec": 0.11273900000000001,
+            "ru_nvcsw": 127,
+            "ru_maxrss_kb": 57292,
+            "ru_minflt": 15789,
+            "ru_majflt": 46
+        },
+        "quadSpeed": 59978.081099930256,
+        "nMops": 2960,
+        "totalObjSize": 80032,
+        "CodeGen(%)": 33.737248113477087,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.001572,
+            "ru_nivcsw": 4,
+            "ru_stime_sec": 0.010593,
+            "ru_nvcsw": 7,
+            "ru_maxrss_kb": 12936,
+            "ru_minflt": 2793,
+            "ru_majflt": 1
+        },
+        "mopSpeed": 147454.41865099131,
+        "outputSizePerQuad": 66.0,
+        "Frontend(%)": 66.262751886522906
+    },
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "bytes": 61573,
+        "out": "amcQwB.o"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "parkingLot",
+        "test",
+        "test"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.20971.json"
+    ],
+    "CompileStatus": "Successful"
+}

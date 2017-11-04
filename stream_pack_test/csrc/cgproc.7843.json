@@ -1,0 +1,71 @@
+{
+    "Modules": {
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_unit__263319711": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "bytes": 4880,
+            "mod": "...MASTER...",
+            "mode": 4,
+            "out": "objs/amcQw_d.o",
+            "checksum": 0
+        },
+        "ta0QG_d": {
+            "bytes": 17176,
+            "mod": "_vcs_unit__263319711",
+            "mode": 4,
+            "out": "ta0QG_d.o",
+            "checksum": 0,
+            "archive": "archive.0/_7843_archive_1.a"
+        },
+        "reYIK_d": {
+            "bytes": 26257,
+            "mod": "std",
+            "mode": 4,
+            "out": "reYIK_d.o",
+            "checksum": 0,
+            "archive": "archive.0/_7843_archive_1.a"
+        },
+        "x9Hvb_d": {
+            "bytes": 11304,
+            "mod": "test",
+            "mode": 4,
+            "out": "x9Hvb_d.o",
+            "checksum": 0,
+            "archive": "archive.0/_7843_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_7843_archive_1.a",
+            "objects": [
+                [
+                    "ta0QG_d.o",
+                    17176
+                ],
+                [
+                    "reYIK_d.o",
+                    26257
+                ],
+                [
+                    "x9Hvb_d.o",
+                    11304
+                ]
+            ],
+            "size": 54737
+        }
+    ]
+}

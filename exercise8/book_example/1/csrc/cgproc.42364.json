@@ -1,0 +1,59 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "tt": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "_vcs_unit__3340864491": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        }
+    },
+    "CompUnits": {
+        "dagMR_d": {
+            "checksum": 0,
+            "mod": "_vcs_unit__3340864491",
+            "out": "dagMR_d.o",
+            "mode": 4,
+            "bytes": 15744,
+            "archive": "archive.2/_42364_archive_1.a"
+        },
+        "RPNsZ_d": {
+            "checksum": 0,
+            "mod": "tt",
+            "out": "RPNsZ_d.o",
+            "mode": 4,
+            "bytes": 8551,
+            "archive": "archive.2/_42364_archive_1.a"
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 24295,
+            "archive": "archive.2/_42364_archive_1.a",
+            "objects": [
+                [
+                    "dagMR_d.o",
+                    15744
+                ],
+                [
+                    "RPNsZ_d.o",
+                    8551
+                ]
+            ]
+        }
+    ]
+}

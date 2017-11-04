@@ -1,0 +1,100 @@
+global coverage_group 0 test::co_p __coverage_co_p unused_co_p_loop_label test 0 1 0 0 ( )
+ 1 1
+ 52 /home/yy/Desktop/My_prog/exercise9/1-5/tests/test.sv
+ 12 0 0 0 0 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+1
+ 9 opcode_cp 13 0 0 0 18 co_p::test_co_p_fn 18 co_p::test_co_p_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 32 1 31 _vcs_unit__1077635475::opcode_e 1 1 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 6 1 1 0 0 1 1 7 add2sub 14 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 20 co_p::test_co_p_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 3 add 15 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 20 co_p::test_co_p_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 3 sub 16 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 20 co_p::test_co_p_fn_2 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 notAdd 17 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 3 1 1 20 co_p::test_co_p_fn_3 0 0 0 0 0 0 0
+ 1 1 20 co_p::test_co_p_fn_2 0 0 0 0 0 0 0
+ 1 1 20 co_p::test_co_p_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 notSub 18 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 3 1 1 20 co_p::test_co_p_fn_1 0 0 0 0 0 0 0
+ 1 1 20 co_p::test_co_p_fn_4 0 0 0 0 0 0 0
+ 1 1 20 co_p::test_co_p_fn_3 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 others 19 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 8 0 0 0 0 0 0 0 0
+
+ 8 operand1 21 0 0 0 20 co_p::test_co_p_fn_5 20 co_p::test_co_p_fn_5 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 22 8 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 1 1 16 maximum_negative 22 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 20 co_p::test_co_p_fn_6 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 15 maximum_positve 23 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 20 co_p::test_co_p_fn_7 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 4 zero 24 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 20 co_p::test_co_p_fn_8 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 others 25 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 8 0 0 0 0 0 0 0 0
+
+ 7 crossyy 0 27 0 0 0 0 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 -1 0 0 1 1 9 maxNegAdd 28 0 1 0 1 3 1 0 1 1 16 maximum_negative 0 0 0 0 0 1 0 0 1 3 add 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 9 maxPosSUB 29 0 1 0 1 3 1 0 1 1 15 maximum_positve 0 0 0 0 0 1 0 0 1 3 sub 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 3 0 0 -1 0 0 1 1 10 maxNnotAdd 30 0 3 0 1 3 1 0 1 1 16 maximum_negative 0 0 0 0 0 1 1 0 1 3 add 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 3 0 0 -1 0 0 1 1 10 maxPnotSub 31 0 3 0 1 3 1 0 1 1 15 maximum_positve 0 0 0 0 0 1 1 0 1 3 sub 0 0 0 0 0 0 0 0 0 0 0 0
+
+end_coverage_group

@@ -1,0 +1,144 @@
+Command: ./simv +fsdbfile+test.fsdb +ntb_random_seed= -l run.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Oct 28 23:16 2017
+trans cnt is          21
+                   0: Starting scoreboard for 64 transaction
+                   0: Starting apb_master
+                 550: Starting apb_gen for 64 transactions
+                 550: Generator Read  Addr=0x8d95 Data=0x00
+                 550: Generator Write Addr=0x27a8 Data=0x00
+                 550: Generator Write Addr=0xea0d Data=0xaa
+                 550: Generator Read  Addr=0x57a6 Data=0x55
+                 550: Generator Read  Addr=0x93ef Data=0xff
+                 550: Generator Read  Addr=0xb10e Data=0x00
+                 550: Generator Read  Addr=0x26f5 Data=0x00
+                 550: Generator Read  Addr=0x2068 Data=0xaa
+                 550: Generator Write Addr=0xe563 Data=0xaa
+                 550: Generator Read  Addr=0xafed Data=0x55
+                 550: Generator Read  Addr=0x5d8f Data=0xff
+                 550: Generator Read  Addr=0xd2a1 Data=0xaa
+                 550: Generator Write Addr=0xe899 Data=0x55
+                 550: Generator Read  Addr=0xcb1b Data=0xff
+                 550: Generator Read  Addr=0x5430 Data=0xaa
+                 550: Generator Read  Addr=0xa391 Data=0x00
+                 550: Generator Write Addr=0xfc3 Data=0x00
+                 550: Generator Write Addr=0xdb23 Data=0xff
+                 550: Generator Read  Addr=0xfb15 Data=0xaa
+                 550: Generator Write Addr=0x5eb6 Data=0xff
+                 550: Generator Read  Addr=0x3133 Data=0x00
+                 550: Generator Read  Addr=0xd1b1 Data=0xaa
+                 550: Generator Read  Addr=0x4b40 Data=0x00
+                 550: Generator Write Addr=0x7949 Data=0x00
+                 550: Generator Read  Addr=0xa97a Data=0x00
+                 550: Generator Read  Addr=0x416c Data=0x55
+                 550: Generator Read  Addr=0x51b7 Data=0xaa
+                 550: Generator Read  Addr=0x686a Data=0xaa
+                 550: Generator Read  Addr=0x566a Data=0xff
+                 550: Generator Read  Addr=0x4bdf Data=0x00
+                 550: Generator Write Addr=0xff24 Data=0x55
+                 550: Generator Read  Addr=0x7c75 Data=0xff
+                 550: Generator Write Addr=0x67e Data=0x55
+                 550: Generator Write Addr=0x9ebd Data=0x00
+                 550: Generator Read  Addr=0x38c0 Data=0x00
+                 550: Generator Read  Addr=0x4cdd Data=0xff
+                 550: Generator Read  Addr=0x36f4 Data=0xaa
+                 550: Generator Read  Addr=0xdeb1 Data=0x55
+                 550: Generator Write Addr=0xcfea Data=0xff
+                 550: Generator Read  Addr=0x2abb Data=0x00
+                 550: Generator Write Addr=0x849d Data=0xff
+                 550: Generator Write Addr=0x3ad9 Data=0xaa
+                 550: Generator Write Addr=0x86f2 Data=0xaa
+                 550: Generator Write Addr=0x99e7 Data=0x55
+                 550: Generator Write Addr=0xdd06 Data=0xaa
+                 550: Generator Read  Addr=0x8c4b Data=0x00
+                 550: Generator Write Addr=0x5fb9 Data=0x55
+                 550: Generator Read  Addr=0xf4e0 Data=0x55
+                 550: Generator Write Addr=0xa6e7 Data=0x55
+                 550: Generator Read  Addr=0x865d Data=0xff
+                 550: Generator Write Addr=0xcd0 Data=0x00
+                 550: Generator Write Addr=0x94f9 Data=0xff
+                 550: Generator Write Addr=0x3801 Data=0x00
+                 550: Generator Read  Addr=0xad2c Data=0x55
+                 550: Generator Read  Addr=0xd67f Data=0xaa
+                 550: Generator Write Addr=0x2c82 Data=0xaa
+                 550: Generator Write Addr=0xe695 Data=0x55
+                 550: Generator Read  Addr=0xb76f Data=0x55
+                 550: Generator Read  Addr=0x4c9c Data=0x55
+                 550: Generator Read  Addr=0x1462 Data=0xaa
+                 550: Generator Write Addr=0x2cb7 Data=0x00
+                 550: Generator Write Addr=0x6d24 Data=0xff
+                 550: Generator Write Addr=0xe3f4 Data=0xff
+                 550: Generator Write Addr=0xed05 Data=0x55
+                 550: Ending apb_gen
+
+                 750: Master Read  Addr=0x8d95 Data=0x00
+                 950: Master Write Addr=0x27a8 Data=0x00
+                1150: Master Write Addr=0xea0d Data=0xaa
+                1350: Master Read  Addr=0x57a6 Data=0x00
+                1550: Master Read  Addr=0x93ef Data=0x00
+                1750: Master Read  Addr=0xb10e Data=0x00
+                1950: Master Read  Addr=0x26f5 Data=0x00
+                2150: Master Read  Addr=0x2068 Data=0x00
+                2350: Master Write Addr=0xe563 Data=0xaa
+                2550: Master Read  Addr=0xafed Data=0x00
+                2750: Master Read  Addr=0x5d8f Data=0x00
+                2950: Master Read  Addr=0xd2a1 Data=0x00
+                3150: Master Write Addr=0xe899 Data=0x55
+                3350: Master Read  Addr=0xcb1b Data=0x00
+                3550: Master Read  Addr=0x5430 Data=0x00
+                3750: Master Read  Addr=0xa391 Data=0x00
+                3950: Master Write Addr=0xfc3 Data=0x00
+                4150: Master Write Addr=0xdb23 Data=0xff
+                4350: Master Read  Addr=0xfb15 Data=0x00
+                4550: Master Write Addr=0x5eb6 Data=0xff
+                4750: Master Read  Addr=0x3133 Data=0x00
+                4950: Master Read  Addr=0xd1b1 Data=0x00
+                5150: Master Read  Addr=0x4b40 Data=0x00
+                5350: Master Write Addr=0x7949 Data=0x00
+                5550: Master Read  Addr=0xa97a Data=0x00
+                5750: Master Read  Addr=0x416c Data=0x00
+                5950: Master Read  Addr=0x51b7 Data=0x00
+                6150: Master Read  Addr=0x686a Data=0x00
+                6350: Master Read  Addr=0x566a Data=0x00
+                6550: Master Read  Addr=0x4bdf Data=0x00
+                6750: Master Write Addr=0xff24 Data=0x55
+                6950: Master Read  Addr=0x7c75 Data=0x00
+                7150: Master Write Addr=0x67e Data=0x55
+                7350: Master Write Addr=0x9ebd Data=0x00
+                7550: Master Read  Addr=0x38c0 Data=0x00
+                7750: Master Read  Addr=0x4cdd Data=0x00
+                7950: Master Read  Addr=0x36f4 Data=0x00
+                8150: Master Read  Addr=0xdeb1 Data=0x00
+                8350: Master Write Addr=0xcfea Data=0xff
+                8550: Master Read  Addr=0x2abb Data=0x00
+                8750: Master Write Addr=0x849d Data=0xff
+                8950: Master Write Addr=0x3ad9 Data=0xaa
+                9150: Master Write Addr=0x86f2 Data=0xaa
+                9350: Master Write Addr=0x99e7 Data=0x55
+                9550: Master Write Addr=0xdd06 Data=0xaa
+                9750: Master Read  Addr=0x8c4b Data=0x00
+                9950: Master Write Addr=0x5fb9 Data=0x55
+               10150: Master Read  Addr=0xf4e0 Data=0x00
+               10350: Master Write Addr=0xa6e7 Data=0x55
+               10550: Master Read  Addr=0x865d Data=0x00
+               10750: Master Write Addr=0xcd0 Data=0x00
+               10950: Master Write Addr=0x94f9 Data=0xff
+               11150: Master Write Addr=0x3801 Data=0x00
+               11350: Master Read  Addr=0xad2c Data=0x00
+               11550: Master Read  Addr=0xd67f Data=0x00
+               11750: Master Write Addr=0x2c82 Data=0xaa
+               11950: Master Write Addr=0xe695 Data=0x55
+               12150: Master Read  Addr=0xb76f Data=0x00
+               12350: Master Read  Addr=0x4c9c Data=0x00
+               12550: Master Read  Addr=0x1462 Data=0x00
+               12750: Master Write Addr=0x2cb7 Data=0x00
+               12950: Master Write Addr=0x6d24 Data=0xff
+               13150: Master Write Addr=0xe3f4 Data=0xff
+               13350: Master Write Addr=0xed05 Data=0x55
+$finish called from file "tests/test_03_cvr_driven.sv", line 130.
+$finish at simulation time                13350
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 13350 ns
+CPU Time:      0.310 seconds;       Data structure size:   0.3Mb
+Sat Oct 28 23:16:56 2017

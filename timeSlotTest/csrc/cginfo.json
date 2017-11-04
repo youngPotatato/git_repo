@@ -1,0 +1,120 @@
+{
+    "LVLData": [
+        "SIM"
+    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 62201
+    },
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/timeSlotTest",
+        "csrc": "csrc",
+        "archive_dir": "archive.0",
+        "daidir": "/home/yy/Desktop/My_prog/timeSlotTest/simv.daidir",
+        "csrc_abs": "/home/yy/Desktop/My_prog/timeSlotTest/csrc",
+        "daidir_abs": "/home/yy/Desktop/My_prog/timeSlotTest/simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "MlibObjs": {},
+    "stat": {
+        "Frontend(%)": 62.172979017686359,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.042254,
+            "ru_nivcsw": 6,
+            "ru_stime_sec": 0.085539000000000004,
+            "ru_minflt": 12588,
+            "ru_maxrss_kb": 50020,
+            "ru_nvcsw": 78,
+            "ru_majflt": 43
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0027190000000000001,
+            "ru_nivcsw": 0,
+            "ru_stime_sec": 0.0062560000000000003,
+            "ru_minflt": 2193,
+            "ru_maxrss_kb": 11708,
+            "ru_nvcsw": 4,
+            "ru_majflt": 0
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0027190000000000001,
+            "ru_nivcsw": 0,
+            "ru_stime_sec": 0.0062560000000000003,
+            "ru_minflt": 2193,
+            "ru_maxrss_kb": 11708,
+            "ru_nvcsw": 4,
+            "ru_majflt": 0
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.067961999999999995,
+            "ru_nivcsw": 10,
+            "ru_stime_sec": 0.094735,
+            "ru_minflt": 15096,
+            "ru_maxrss_kb": 56140,
+            "ru_nvcsw": 83,
+            "ru_majflt": 43
+        },
+        "nMops": 1193,
+        "CodeGen(%)": 37.827020982313641,
+        "quadSpeed": 22677.76567605415,
+        "nQuads": 583,
+        "totalObjSize": 126588,
+        "mopSpeed": 46405.788081531049,
+        "mop/quad": 2.0463121783876499,
+        "outputSizePerQuad": 217.0
+    },
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "arb_dummy": [
+            "arb_dummy",
+            "n41GM",
+            "module"
+        ],
+        "top": [
+            "top",
+            "Emx8S",
+            "module"
+        ],
+        "arb_if": [
+            "arb_if",
+            "jWyhD",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "top",
+        "top",
+        "arb_if",
+        "arb_if",
+        "test",
+        "test",
+        "arb_dummy",
+        "arb_dummy"
+    ],
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.29650.json"
+    ],
+    "CompileStatus": "Successful"
+}

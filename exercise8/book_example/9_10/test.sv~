@@ -1,0 +1,28 @@
+program automatic tt;
+	
+	bit[3:0] mc,mc2;
+	int l1,l2;
+	typedef enum{R,B,G} color_t;
+	color_t		co1,co2;
+
+	Compare        		c1;
+	Compare #(int) 		c2;
+	Compare #(color_t) 	c3;
+
+	initial begin
+		c1 = new();
+		c2 = new();
+		c3 = new();
+		mc = 'd1;
+		mc2= 'd2;
+		l1 = 32;
+		l2 = 32;
+		co1 = R;
+		co2 = G;
+
+
+		$display("%b",c1.cc(mc,mc2));
+		$display("%b",c2.cc(l1,l2));
+		$display("%b",c3.cc(co1,co2));
+	end
+endprogram

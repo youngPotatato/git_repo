@@ -1,0 +1,43 @@
+{
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_58928_archive_1.a",
+            "objects": [
+                [
+                    "x9Hvb_d.o",
+                    8480
+                ]
+            ],
+            "size": 8480
+        }
+    ],
+    "CompUnits": {
+        "x9Hvb_d": {
+            "mod": "test",
+            "out": "x9Hvb_d.o",
+            "bytes": 8480,
+            "archive": "archive.1/_58928_archive_1.a",
+            "mode": 4,
+            "checksum": 0
+        }
+    }
+}

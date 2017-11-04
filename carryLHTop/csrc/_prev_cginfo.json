@@ -1,0 +1,160 @@
+{
+    "CompileProcesses": [
+        "cgproc.16078.json"
+    ],
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "carryLHN_0000": {
+            "p1tY9_d": {
+                "mod": "carryLHN_0000",
+                "bytes": 42119,
+                "out": "p1tY9_d.o",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_16078_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "mod": "std",
+                "bytes": 26222,
+                "out": "reYIK_d.o",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_prev_archive_1.a"
+            }
+        },
+        "carryLHTop": {
+            "DqYAz_d": {
+                "mod": "carryLHTop",
+                "bytes": 8465,
+                "out": "DqYAz_d.o",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mod": "...MASTER...",
+                "bytes": 4872,
+                "out": "objs/amcQw_d.o",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "test": {
+            "x9Hvb_d": {
+                "mod": "test",
+                "bytes": 44271,
+                "out": "x9Hvb_d.o",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.1/_16078_archive_1.a"
+            }
+        }
+    },
+    "CurCompileUdps": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "carryLHN_0000": [
+            "carryLHN_0000",
+            "p1tY9",
+            "module"
+        ],
+        "carryLHTop": [
+            "carryLHTop",
+            "DqYAz",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStatus": "Successful",
+    "PEModules": [],
+    "CompileStrategy": "fullobj",
+    "LVLData": [
+        "SIM"
+    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 61399
+    },
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/carryLHTop",
+        "csrc_abs": "/home/yy/Desktop/My_prog/carryLHTop/csrc",
+        "csrc": "csrc",
+        "daidir": "/home/yy/Desktop/My_prog/carryLHTop/simv.daidir",
+        "daidir_abs": "/home/yy/Desktop/My_prog/carryLHTop/simv.daidir",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.1"
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_utime_sec": 0.200626,
+            "ru_stime_sec": 0.054620000000000002,
+            "ru_maxrss_kb": 56028,
+            "ru_nvcsw": 29,
+            "ru_minflt": 15018,
+            "ru_majflt": 0,
+            "ru_nivcsw": 21
+        },
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.054038000000000003,
+            "ru_stime_sec": 0.033905999999999999,
+            "ru_maxrss_kb": 49760,
+            "ru_nvcsw": 26,
+            "ru_minflt": 12580,
+            "ru_majflt": 0,
+            "ru_nivcsw": 7
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.00075699999999999997,
+            "ru_stime_sec": 0.0079559999999999995,
+            "ru_maxrss_kb": 11864,
+            "ru_nvcsw": 4,
+            "ru_minflt": 2193,
+            "ru_majflt": 0,
+            "ru_nivcsw": 5
+        },
+        "nMops": 13797,
+        "totalObjSize": 161209,
+        "nQuads": 3454,
+        "mopSpeed": 94120.937593800307,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.001652,
+            "ru_stime_sec": 0.010640999999999999,
+            "ru_maxrss_kb": 12696,
+            "ru_nvcsw": 6,
+            "ru_minflt": 2796,
+            "ru_majflt": 1,
+            "ru_nivcsw": 6
+        },
+        "outputSizePerQuad": 46.0,
+        "quadSpeed": 23562.638142276312,
+        "mop/quad": 3.9944991314418066,
+        "Frontend(%)": 26.934694406507631,
+        "CodeGen(%)": 73.065305593492369
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "test",
+        "test",
+        "carryLHN_0000",
+        "carryLHN_0000",
+        "carryLHTop"
+    ]
+}

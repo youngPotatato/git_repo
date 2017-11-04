@@ -1,0 +1,348 @@
+Command: ./simv +fsdbfile+test.fsdb +ntb_random_seed=899 -l run1.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Oct 10 15:31 2017
+count8 is           0
+round2
+ read package data is 3b, addr is    4
+
+ read package data is e4, addr is    7
+
+ read package data is 47, addr is    7
+
+ read package data is 76, addr is    6
+
+ read package data is d4, addr is    8
+
+ read package data is 4a, addr is    7
+
+ read package data is 5f, addr is    6
+
+ read package data is 0e, addr is    4
+
+ read package data is 19, addr is    6
+
+ read package data is 22, addr is    3
+
+ read package data is 33, addr is    8
+
+ read package data is 9a, addr is    6
+
+ read package data is 40, addr is    8
+
+ read package data is c5, addr is    4
+
+ read package data is e5, addr is    4
+
+ read package data is ae, addr is    7
+
+ read package data is 85, addr is    8
+
+ read package data is 39, addr is    6
+
+ read package data is ed, addr is    7
+
+ read package data is fc, addr is    4
+
+ read package data is a9, addr is    6
+
+ read package data is 88, addr is    5
+
+ read package data is 75, addr is    5
+
+ read package data is ed, addr is    5
+
+ read package data is a5, addr is    3
+
+ read package data is 3d, addr is    8
+
+ read package data is f8, addr is    6
+
+ read package data is 0c, addr is    3
+
+ read package data is d6, addr is    5
+
+ read package data is 57, addr is    4
+
+ read package data is b3, addr is    5
+
+ read package data is 80, addr is    4
+
+ read package data is b6, addr is    6
+
+ read package data is 11, addr is    8
+
+ read package data is 70, addr is    4
+
+ read package data is 40, addr is    8
+
+ read package data is 22, addr is    3
+
+ read package data is bf, addr is    3
+
+ read package data is c2, addr is    8
+
+ read package data is 83, addr is    3
+
+ read package data is 1d, addr is    6
+
+ read package data is 95, addr is    5
+
+ read package data is 68, addr is    4
+
+ read package data is 5a, addr is    8
+
+ read package data is 5d, addr is    6
+
+ read package data is e0, addr is    6
+
+ read package data is 6a, addr is    8
+
+ read package data is 72, addr is    7
+
+ read package data is c0, addr is    3
+
+ read package data is 2e, addr is    7
+
+ read package data is a1, addr is    8
+
+ read package data is 7c, addr is    7
+
+ read package data is 96, addr is    3
+
+ read package data is 21, addr is    3
+
+ read package data is 17, addr is    5
+
+ read package data is 78, addr is    3
+
+ read package data is 87, addr is    6
+
+ read package data is 95, addr is    6
+
+ read package data is b7, addr is    7
+
+ read package data is 4f, addr is    5
+
+ read package data is a5, addr is    5
+
+ read package data is 88, addr is    6
+
+ read package data is 4f, addr is    8
+
+ read package data is ae, addr is    4
+
+ read package data is 78, addr is    3
+
+ read package data is dc, addr is    8
+
+ read package data is a7, addr is    8
+
+ read package data is 23, addr is    8
+
+ read package data is 9d, addr is    3
+
+ read package data is 20, addr is    8
+
+ read package data is 0c, addr is    3
+
+ read package data is e0, addr is    3
+
+ read package data is a7, addr is    4
+
+ read package data is bc, addr is    7
+
+ read package data is e2, addr is    7
+
+ read package data is fa, addr is    6
+
+ read package data is b1, addr is    6
+
+ read package data is db, addr is    4
+
+ read package data is cd, addr is    3
+
+ read package data is ee, addr is    5
+
+ read package data is 88, addr is    5
+
+ read package data is 15, addr is    8
+
+ read package data is 0c, addr is    8
+
+ read package data is 57, addr is    5
+
+ read package data is d8, addr is    7
+
+ read package data is 8f, addr is    3
+
+ read package data is 3a, addr is    8
+
+ read package data is b7, addr is    5
+
+ read package data is fb, addr is    6
+
+ read package data is f2, addr is    6
+
+ read package data is c2, addr is    8
+
+ read package data is de, addr is    7
+
+ read package data is 46, addr is    8
+
+ read package data is a8, addr is    6
+
+ read package data is d5, addr is    5
+
+ read package data is 48, addr is    6
+
+ read package data is 83, addr is    6
+
+ read package data is ba, addr is    3
+
+ read package data is 77, addr is    5
+
+ read package data is 4d, addr is    5
+
+ read package data is ac, addr is    5
+
+ read package data is 3b, addr is    5
+
+ read package data is 7f, addr is    6
+
+ read package data is a3, addr is    4
+
+ read package data is c8, addr is    3
+
+ read package data is 17, addr is    5
+
+ read package data is 84, addr is    4
+
+ read package data is 5f, addr is    7
+
+ read package data is 83, addr is    8
+
+ read package data is 01, addr is    8
+
+ read package data is ca, addr is    5
+
+ read package data is 27, addr is    6
+
+ read package data is 76, addr is    4
+
+ read package data is 8b, addr is    8
+
+ read package data is c6, addr is    3
+
+ read package data is 9d, addr is    3
+
+ read package data is 5d, addr is    5
+
+ read package data is f2, addr is    7
+
+ read package data is 48, addr is    3
+
+ read package data is 61, addr is    4
+
+ read package data is 73, addr is    4
+
+ read package data is 90, addr is    8
+
+ read package data is 5c, addr is    5
+
+ read package data is 4b, addr is    7
+
+ read package data is 72, addr is    5
+
+ read package data is 09, addr is    8
+
+ read package data is b1, addr is    5
+
+ read package data is 18, addr is    5
+
+ read package data is df, addr is    4
+
+ read package data is 89, addr is    4
+
+ read package data is 50, addr is    6
+
+ read package data is dc, addr is    6
+
+ read package data is 54, addr is    7
+
+ read package data is 64, addr is    4
+
+ read package data is 8e, addr is    6
+
+ read package data is 84, addr is    4
+
+ read package data is da, addr is    4
+
+ read package data is 76, addr is    5
+
+ read package data is d1, addr is    7
+
+ read package data is 5c, addr is    5
+
+ read package data is 6a, addr is    6
+
+ read package data is 5a, addr is    8
+
+ read package data is 57, addr is    3
+
+ read package data is 0e, addr is    7
+
+ read package data is f8, addr is    4
+
+ read package data is 0f, addr is    3
+
+ read package data is 77, addr is    5
+
+ read package data is be, addr is    8
+
+ read package data is da, addr is    6
+
+ read package data is 56, addr is    7
+
+ read package data is 6f, addr is    4
+
+ read package data is 3b, addr is    5
+
+ read package data is b3, addr is    7
+
+ read package data is 67, addr is    6
+
+ read package data is fa, addr is    8
+
+ read package data is d1, addr is    4
+
+ read package data is 44, addr is    3
+
+ read package data is 38, addr is    8
+
+ read package data is 42, addr is    5
+
+ read package data is 6c, addr is    4
+
+ read package data is 7d, addr is    8
+
+ read package data is bb, addr is    3
+
+ read package data is 86, addr is    4
+
+ read package data is d9, addr is    3
+
+ read package data is 3a, addr is    4
+
+ read package data is f7, addr is    8
+
+ read package data is aa, addr is    8
+
+ read package data is 2e, addr is    7
+
+count8 is         168
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.480 seconds;       Data structure size:   0.0Mb
+Tue Oct 10 15:31:44 2017

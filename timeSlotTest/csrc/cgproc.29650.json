@@ -1,0 +1,103 @@
+{
+    "Modules": {
+        "arb_dummy": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "arb_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "checksum": 0,
+            "mod": "...MASTER...",
+            "mode": 4,
+            "out": "objs/amcQw_d.o",
+            "bytes": 4846
+        },
+        "n41GM_d": {
+            "checksum": 0,
+            "mod": "arb_dummy",
+            "mode": 4,
+            "out": "n41GM_d.o",
+            "bytes": 8950,
+            "archive": "archive.0/_29650_archive_1.a"
+        },
+        "jWyhD_d": {
+            "checksum": 0,
+            "mod": "arb_if",
+            "mode": 4,
+            "out": "jWyhD_d.o",
+            "bytes": 9484,
+            "archive": "archive.0/_29650_archive_1.a"
+        },
+        "reYIK_d": {
+            "checksum": 0,
+            "mod": "std",
+            "mode": 4,
+            "out": "reYIK_d.o",
+            "bytes": 26334,
+            "archive": "archive.0/_29650_archive_1.a"
+        },
+        "Emx8S_d": {
+            "checksum": 0,
+            "mod": "top",
+            "mode": 4,
+            "out": "Emx8S_d.o",
+            "bytes": 5297,
+            "archive": "archive.0/_29650_archive_1.a"
+        },
+        "x9Hvb_d": {
+            "checksum": 0,
+            "mod": "test",
+            "mode": 4,
+            "out": "x9Hvb_d.o",
+            "bytes": 9476,
+            "archive": "archive.0/_29650_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_29650_archive_1.a",
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    26334
+                ],
+                [
+                    "Emx8S_d.o",
+                    5297
+                ],
+                [
+                    "jWyhD_d.o",
+                    9484
+                ],
+                [
+                    "x9Hvb_d.o",
+                    9476
+                ],
+                [
+                    "n41GM_d.o",
+                    8950
+                ]
+            ],
+            "size": 59541
+        }
+    ],
+    "reusePaths": {}
+}

@@ -1,0 +1,55 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "test_fifo": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 4746,
+            "checksum": 0,
+            "mode": 4
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 26222,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_4235_archive_1.a"
+        },
+        "KN3EG_d": {
+            "mod": "test_fifo",
+            "out": "KN3EG_d.o",
+            "bytes": 43180,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_4235_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_4235_archive_1.a",
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    26222
+                ],
+                [
+                    "KN3EG_d.o",
+                    43180
+                ]
+            ],
+            "size": 69402
+        }
+    ]
+}

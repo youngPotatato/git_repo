@@ -1,0 +1,85 @@
+Magic 271485
+Revision Verdi3_L-2016.06-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort -10 20 1920 979 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/yy/Desktop/My_prog/parking/test.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 2575.500000
+cursor 800.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 15
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+aliasmapname parkingLot.state
+nalias A		2'b00		NULL
+nalias B		2'b01		NULL
+nalias C		2'b10		NULL
+nalias D		2'b11		NULL
+
+addGroup "G1"
+activeDirFile "" "/home/yy/Desktop/My_prog/parking/test.fsdb"
+addSignal -h 15 /test/rst
+addSignal -h 15 /BLANK
+addSignal -h 15 /test/dut/parkingLot_2Entry_inst/error_local[1]
+addSignal -h 15 -holdScope a[1]
+addSignal -h 15 -holdScope b[1]
+aliasname parkingLot.state
+addSignal -h 15 -UNSIGNED -HEX /test/dut/parkingLot_2Entry_inst/parkingLot_inst1/state[1:0]
+addSignal -h 15 /BLANK
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 /test/dut/parkingLot_2Entry_inst/parkingLot_inst1/in
+addSignal -c ID_RED5 -ls solid -lw 1 -h 15 -holdScope out
+addSignal -h 15 /BLANK
+addSignal -h 15 /test/dut/parkingLot_2Entry_inst/error_local[0]
+addSignal -h 15 -holdScope a[0]
+addSignal -h 15 -holdScope b[0]
+aliasname parkingLot.state
+addSignal -h 15 -UNSIGNED -HEX /test/dut/parkingLot_2Entry_inst/parkingLot_inst0/state[1:0]
+addSignal -h 14 -UNSIGNED -HEX -holdScope cnt[1:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 /test/dut/parkingLot_2Entry_inst/parkingLot_inst0/in
+addSignal -h 15 -holdScope out
+addSignal -h 15 /BLANK
+addSignal -h 15 /test/dut/clk
+addSignal -h 15 /BLANK
+addSignal -h 15 /test/error
+addSignal -h 15 -UNSIGNED -UDEC -holdScope counter[6:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

@@ -1,0 +1,96 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    +v2k
+    -sverilog
+    +systemverilogext+sv
+    _verdilog2001ext+v
+    -f 1.f
+        ./hdl/root.v
+        ./hdl/top.v
+        ./hdl/mem.v
+        ./apb_env/apb_if.sv
+        ./apb_env/apb_trans.sv
+        ./apb_env/apb_gen.sv
+        ./apb_env/apb_master.sv
+        ./tests/test.sv
+
+
+*Error* failed to open source file "_verdilog2001ext+v" with read access: No such file or directory
+
+
+*Error* `include file "apb_trans.sv" cannot be read
+"./tests/test.sv", 28: 
+
+*Error* `include file "apb_if.sv" cannot be read
+"./tests/test.sv", 29: 
+
+*Error* `include file "apb_master.sv" cannot be read
+"./tests/test.sv", 30: 
+
+*Error* `include file "apb_gen.sv" cannot be read
+"./tests/test.sv", 31: 
+Highest level modules:
+top
+
+
+*Error* failed to find identifier apb.cb.Rst
+"./apb_env/apb_master.sv", 82: 
+
+*Error* failed to find identifier apb.cb.Rst
+"./apb_env/apb_master.sv", 84: 
+
+*Error* failed to find identifier apb.cb.PAddr
+"./apb_env/apb_master.sv", 90: 
+
+*Error* failed to find identifier apb.cb.PSel
+"./apb_env/apb_master.sv", 91: 
+
+*Error* failed to find identifier apb.cb.PWData
+"./apb_env/apb_master.sv", 92: 
+
+*Error* failed to find identifier apb.cb.PEnable
+"./apb_env/apb_master.sv", 93: 
+
+*Error* failed to find identifier apb.cb.PWrite
+"./apb_env/apb_master.sv", 94: 
+
+*Error* failed to find identifier apb.cb.PWrite
+"./apb_env/apb_master.sv", 95: 
+
+*Error* failed to find identifier apb.cb.PAddr
+"./apb_env/apb_master.sv", 106: 
+
+*Error* failed to find identifier apb.cb.PWrite
+"./apb_env/apb_master.sv", 107: 
+
+*Error* failed to find identifier apb.cb.PSel
+"./apb_env/apb_master.sv", 108: 
+
+*Error* failed to find identifier apb.cb.PEnable
+"./apb_env/apb_master.sv", 111: 
+
+*Error* failed to find identifier apb.cb.PEnable
+"./apb_env/apb_master.sv", 114: 
+
+*Error* failed to find identifier apb.cb.PRData
+"./apb_env/apb_master.sv", 115: 
+
+*Error* failed to find identifier apb.cb.PAddr
+"./apb_env/apb_master.sv", 129: 
+
+*Error* failed to find identifier apb.cb.PWData
+"./apb_env/apb_master.sv", 130: 
+
+*Error* failed to find identifier apb.cb.PWrite
+"./apb_env/apb_master.sv", 131: 
+
+*Error* failed to find identifier apb.cb.PSel
+"./apb_env/apb_master.sv", 132: 
+
+*Error* failed to find identifier apb.cb.PEnable
+"./apb_env/apb_master.sv", 135: 
+
+*Error* failed to find identifier apb.cb.PEnable
+"./apb_env/apb_master.sv", 138: 
+Total	25 error(s),   0 warning(s)

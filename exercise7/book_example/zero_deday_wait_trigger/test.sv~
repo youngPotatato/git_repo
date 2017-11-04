@@ -1,0 +1,14 @@
+program automatic test;
+	event aa;
+	initial begin
+		forever begin
+			wait(aa.triggered);
+			$display("triggered");
+			$finish;
+		end
+	end
+	initial begin
+		#4ns;
+		-> aa;
+	end
+endprogram

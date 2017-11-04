@@ -1,0 +1,70 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+postSimFile = /home/yy/Desktop/My_prog/timeSlotTest/test.fsdb
+syncTime = 50
+viewport = 0 28 1440 799 474 433 59 1438
+activeNode = "top.arb_if"
+activeScope = "top.arb_if"
+activeFile = "./src/intf.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "top.arb_if"
+Scope2 = "top.test"
+Scope3 = "top"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = top.arb_if
+File = /home/yy/Desktop/My_prog/timeSlotTest/src/intf.sv
+Line = 1
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/yy/Desktop/My_prog/timeSlotTest
+design = DebussyLib
+hostCommand = hostCommand +v2k -sverilog +systemverilogext+sv _verdilog2001ext+v -f 1.f
+[nMemoryManager]
+FsdbFile = /home/yy/Desktop/My_prog/timeSlotTest/test.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1440 181 194 65
+SessionFile = /home/yy/Desktop/My_prog/timeSlotTest/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = TRUE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

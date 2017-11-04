@@ -1,0 +1,132 @@
+Group : top.t1::Coverage::CG_Forward
+
+===============================================================================
+Group : top.t1::Coverage::CG_Forward
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 36.11 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/yy/Desktop/My_prog/exercise11/Example_midify/env/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   top.t1::Coverage::CG_Forward
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 19       14        5       53.33   
+Crosses   60       59        1       1.67    
+
+
+Variables for Group  top.t1::Coverage::CG_Forward
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+src      4        0         4       100.00  100  1      1        0                    
+fwd      15       14        1       6.67    100  1      1        0                    
+
+
+Crosses for Group  top.t1::Coverage::CG_Forward
+
+
+CROSS         EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+CG_Forward_cc 60       59        1       1.67    100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable src
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for src
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+src_0 101   1        
+src_1 74    1        
+src_2 67    1        
+src_3 72    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable fwd
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 15       14        1       6.67    
+
+
+User Defined Bins for fwd
+
+
+Uncovered bins
+
+NAME    COUNT AT LEAST NUMBER 
+fwd_001 0     1        1      
+fwd_003 0     1        1      
+fwd_004 0     1        1      
+fwd_005 0     1        1      
+fwd_006 0     1        1      
+fwd_007 0     1        1      
+fwd_008 0     1        1      
+fwd_009 0     1        1      
+fwd_00a 0     1        1      
+fwd_00b 0     1        1      
+fwd_00c 0     1        1      
+fwd_00d 0     1        1      
+fwd_00e 0     1        1      
+fwd_00f 0     1        1      
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+fwd_002 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross CG_Forward_cc
+
+
+Samples crossed: src fwd
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 60       59        1       1.67    59      
+
+
+Automatically Generated Cross Bins for CG_Forward_cc
+
+
+Element holes
+
+src             fwd COUNT AT LEAST NUMBER 
+[src_0]         *   --    --       15     
+[src_2 , src_3] *   --    --       30     
+
+
+Uncovered bins
+
+src     fwd                                                                                                                               COUNT AT LEAST NUMBER 
+[src_1] [fwd_001]                                                                                                                         0     1        1      
+[src_1] [fwd_003 , fwd_004 , fwd_005 , fwd_006 , fwd_007 , fwd_008 , fwd_009 , fwd_00a , fwd_00b , fwd_00c , fwd_00d , fwd_00e , fwd_00f] --    --       13     
+
+
+Covered bins
+
+src   fwd     COUNT AT LEAST 
+src_1 fwd_002 1     1        
+
+

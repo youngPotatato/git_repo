@@ -1,0 +1,104 @@
+global coverage_group 0 test::my_gen::TransCov __coverage_my_gen.TransCov unused_my_gen_TransCov_loop_label test 0 1 0 0 ( )
+ 1 1
+ 71 /home/yy/Desktop/My_prog/svtb_training/lab4/tests/test_03_cvr_driven.sv
+ 53 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+1
+ 10 read_write 57 0 0 0 31 my_gen::test_my_gen_TransCov_fn 31 my_gen::test_my_gen_TransCov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 32 1 29 _vcs_unit__906330284::trans_e 1 1 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 4 read 58 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 33 my_gen::test_my_gen_TransCov_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 write 59 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 33 my_gen::test_my_gen_TransCov_fn_1 0 0 0 0 0 0 0
+
+ 7 address 64 0 0 0 33 my_gen::test_my_gen_TransCov_fn_2 33 my_gen::test_my_gen_TransCov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 16 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 8 seleData 68 0 0 0 33 my_gen::test_my_gen_TransCov_fn_3 33 my_gen::test_my_gen_TransCov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 32 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 1 1 1 a 69 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 33 my_gen::test_my_gen_TransCov_fn_4 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 1 b 70 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 33 my_gen::test_my_gen_TransCov_fn_5 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 1 c 71 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 33 my_gen::test_my_gen_TransCov_fn_6 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 1 d 72 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 33 my_gen::test_my_gen_TransCov_fn_7 0 0 0 0 0 0 0
+
+ 11 TransCov_cc 0 74 0 0 0 0 3 0 1 2 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

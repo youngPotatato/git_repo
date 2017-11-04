@@ -1,0 +1,10 @@
+module arb_dummy(arb_if.DUT arb_if);
+	initial begin
+		fork
+			#10 arb_if.grant = 1;
+			#120 arb_if.grant = 2;
+			#200 arb_if.grant = 3;
+		join
+	end
+
+endmodule

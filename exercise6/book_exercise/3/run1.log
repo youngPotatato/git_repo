@@ -1,0 +1,49 @@
+Command: ./simv +fsdbfile+test.fsdb +ntb_random_seed= -l run1.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Oct  9 22:20 2017
+data is 05, addr is  4
+
+data is 05, addr is  8
+
+data is 05, addr is  1
+
+data is 05, addr is 11
+
+data is 05, addr is 10
+
+data is 05, addr is 13
+
+data is 05, addr is  7
+
+data is 05, addr is 13
+
+data is 05, addr is 10
+
+data is 05, addr is  7
+
+data is 05, addr is  3
+
+data is 05, addr is 10
+
+data is 05, addr is  7
+
+data is 05, addr is 13
+
+data is 05, addr is  9
+
+data is 05, addr is  8
+
+data is 05, addr is  1
+
+data is 05, addr is  9
+
+data is 05, addr is 14
+
+data is 05, addr is  5
+
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.290 seconds;       Data structure size:   0.0Mb
+Mon Oct  9 22:20:57 2017

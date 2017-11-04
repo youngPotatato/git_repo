@@ -1,0 +1,20 @@
+Command: ./simv +fsdbfile+test.fsdb -l run1.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Oct  4 18:04 2017
+1a2a3a4affffffff0000000000000001000000020000000300000004000000050000000600000007
+tr: id =           1, addr = 1a2a3a4a, crc = ffffffffdata is :
+    00000000
+    00000001
+    00000002
+    00000003
+    00000004
+    00000005
+    00000006
+    00000007
+
+$finish at simulation time                    0
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.330 seconds;       Data structure size:   0.0Mb
+Wed Oct  4 18:04:35 2017

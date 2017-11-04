@@ -1,0 +1,109 @@
+/*********************************************************************
+ * SYNOPSYS CONFIDENTIAL                                             *
+ *                                                                   *
+ * This is an unpublished, proprietary work of Synopsys, Inc., and   *
+ * is fully protected under copyright and trade secret laws. You may *
+ * not view, use, disclose, copy, or distribute this file or any     *
+ * information contained herein except pursuant to a valid written   *
+ * license from Synopsys.                                            *
+ *********************************************************************/
+
+/*******************************************************************************
+ *
+ * File:        $RCSfile: apb_gen.sv,v $
+ * Revision:    $Revision: 1.7 $  
+ * Date:        $Date: 2003/07/15 15:18:31 $
+ *
+ *******************************************************************************
+ *
+ * Basic Transaction Generator aimed at randomizing and
+ * initiating read() and write() transactions based
+ * on APB BFM (apb_master)
+ *
+ *******************************************************************************
+ */
+
+
+class apb_gen;
+
+  // Random APB transaction
+  rand apb_trans tr;
+
+  // Test terminates when the trans_cnt is greater
+  // than max_trans_cnt member
+  int max_trans_cnt;
+  
+  // Counts the number of performed transactions
+  int trans_cnt = 0;
+
+  // Verbosity level
+  bit verbose;
+  
+  // APB Transaction mailbox
+  mailbox apb_mbox;
+    
+
+  // Constructor
+// LAB: Create a constructor that sets the mailbox, transaction count, and
+// verbosity level, and constructs a new transaction.  
+// This is called from tests/test/sv
+	function new(int max_trans, mailbox mbb, bit verbo);
+		apb_mbox = mbb;
+		tr = new();
+		verbose = verbo;
+		//checkRandom(tr);
+		max_trans_cnt = max_trans;
+	endfunction
+
+	function checkRandom(apb_trans m);
+		do begin 
+			if(!(m.randomize())) begin 
+				$display("%s:%0d: Rand failed \" %s\"", `__FILE__,`__LINE__,`"m.randomize()`"); 
+				$finish;  
+			end 
+		end while(0);
+	endfunction
+
+
+  // Method aimed at generating transactions
+  task main();
+    if(verbose)
+      $display($time, ": Starting apb_gen for %0d transactions", 
+               max_trans_cnt);
+    
+    // Run this daemon as long as there is a transaction to be processed
+// LAB: Loop until number of non-IDLE transactions is greater than "max"
+	while(trans_cnt < max_trans_cnt) begin : test
+
+        	// Wait & Get a transaction
+        	tr = get_transaction();
+  
+        	// Increment the number of sent transactions
+		if(tr.transaction != IDLE) 
+        	  trans_cnt++;
+  
+        	if(verbose)
+        	  tr.display("Generator");
+
+	  	$display("trans cnt == %d",trans_cnt);
+
+        	apb_mbox.put(tr);
+      	end // while (!end_of_test())
+        
+    if(verbose) 
+      $display($time, ": Ending apb_gen\n");
+  
+  endtask
+
+
+  // Returns a transaction (associated with tr member)
+  function apb_trans get_transaction();
+    checkRandom(tr); //if (! this.tr.randomize())
+    //  begin
+    //    $display("apb_gen::randomize failed");
+    //    $finish;
+    //  end
+    get_transaction = tr.copy();
+  endfunction
+    
+endclass

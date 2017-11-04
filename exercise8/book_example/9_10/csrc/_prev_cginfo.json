@@ -1,0 +1,161 @@
+{
+    "CompileStatus": "Successful",
+    "MlibObjs": {},
+    "NameTable": {
+        "vcs_paramclassrepository": [
+            "vcs_paramclassrepository",
+            "hEeZs",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "_vcs_unit__3340864491": [
+            "_vcs_unit__3340864491",
+            "dagMR",
+            "module"
+        ],
+        "tt": [
+            "tt",
+            "RPNsZ",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "PrevCompiledModules": {
+        "_vcs_unit__3340864491": {
+            "dagMR_d": {
+                "archive": "archive.2/_63019_archive_1.a",
+                "bytes": 4041,
+                "mod": "_vcs_unit__3340864491",
+                "mode": 4,
+                "checksum": 0,
+                "out": "dagMR_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "archive": "archive.2/_prev_archive_1.a",
+                "bytes": 26222,
+                "mod": "std",
+                "mode": 4,
+                "checksum": 0,
+                "out": "reYIK_d.o"
+            }
+        },
+        "tt": {
+            "RPNsZ_d": {
+                "archive": "archive.2/_63019_archive_1.a",
+                "bytes": 10281,
+                "mod": "tt",
+                "mode": 4,
+                "checksum": 0,
+                "out": "RPNsZ_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 4974,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "vcs_paramclassrepository": {
+            "hEeZs_d": {
+                "archive": "archive.2/_63019_archive_1.a",
+                "bytes": 12163,
+                "mod": "vcs_paramclassrepository",
+                "mode": 4,
+                "checksum": 0,
+                "out": "hEeZs_d.o"
+            }
+        }
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "vcs_paramclassrepository",
+        "vcs_paramclassrepository",
+        "_vcs_unit__3340864491",
+        "_vcs_unit__3340864491",
+        "std",
+        "tt",
+        "tt"
+    ],
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/exercise8/book_example/9_10",
+        "archive_dir": "archive.2",
+        "daidir_abs": "/home/yy/Desktop/My_prog/exercise8/book_example/9_10/simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/home/yy/Desktop/My_prog/exercise8/book_example/9_10/csrc",
+        "daidir": "/home/yy/Desktop/My_prog/exercise8/book_example/9_10/simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "CompileProcesses": [
+        "cgproc.63019.json"
+    ],
+    "stat": {
+        "nMops": 1301,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.053656000000000002,
+            "ru_stime_sec": 0.034339000000000001,
+            "ru_minflt": 12777,
+            "ru_maxrss_kb": 46476,
+            "ru_nivcsw": 6,
+            "ru_majflt": 0,
+            "ru_nvcsw": 25
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0067000000000000002,
+            "ru_stime_sec": 0.0032200000000000002,
+            "ru_minflt": 2192,
+            "ru_maxrss_kb": 9312,
+            "ru_nivcsw": 4,
+            "ru_majflt": 0,
+            "ru_nvcsw": 4
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0067000000000000002,
+            "ru_stime_sec": 0.0074289999999999998,
+            "ru_minflt": 2797,
+            "ru_maxrss_kb": 10532,
+            "ru_nivcsw": 5,
+            "ru_majflt": 0,
+            "ru_nvcsw": 5
+        },
+        "mop/quad": 2.5213178294573644,
+        "nQuads": 516,
+        "totalObjSize": 93437,
+        "ru_self_end": {
+            "ru_utime_sec": 0.074880000000000002,
+            "ru_stime_sec": 0.045760000000000002,
+            "ru_minflt": 15035,
+            "ru_maxrss_kb": 52120,
+            "ru_nivcsw": 37,
+            "ru_majflt": 0,
+            "ru_nvcsw": 26
+        },
+        "mopSpeed": 61298.529966076137,
+        "quadSpeed": 24312.099509988693,
+        "outputSizePerQuad": 181.0,
+        "Frontend(%)": 71.65598290598291,
+        "CodeGen(%)": 28.344017094017094
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 61173
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": []
+}

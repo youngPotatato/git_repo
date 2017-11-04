@@ -1,0 +1,64 @@
+{
+    "Modules": {
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 11
+        },
+        "...MASTER...": {},
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 11
+        },
+        "_vcs_unit__1077635475": {
+            "Compiled": "Yes",
+            "Compiled Times": 11
+        },
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 11
+        },
+        "itf": {
+            "Compiled": "Yes",
+            "Compiled Times": 11
+        }
+    },
+    "CompUnits": {
+        "x9Hvb_d": {
+            "archive": "archive.10/_45596_archive_1.a",
+            "checksum": 0,
+            "out": "x9Hvb_d.o",
+            "mod": "test",
+            "bytes": 23909,
+            "mode": 4
+        }
+    },
+    "reusePaths": {
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "PC6rT_d": {
+            "icPath": "csrc"
+        },
+        "Emx8S_d": {
+            "icPath": "csrc"
+        },
+        "pw3jD_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.10/_45596_archive_1.a",
+            "objects": [
+                [
+                    "x9Hvb_d.o",
+                    23909
+                ]
+            ],
+            "size": 23909
+        }
+    ]
+}

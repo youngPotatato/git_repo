@@ -1,0 +1,119 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "user_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "hEeZs_d": {
+            "mod": "vcs_paramclassrepository",
+            "archive": "archive.0/_22902_archive_1.a",
+            "out": "hEeZs_d.o",
+            "bytes": 3347828,
+            "checksum": 0,
+            "mode": 4
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 5306,
+            "checksum": 0,
+            "mode": 4
+        },
+        "uM9F1_d": {
+            "mod": "_vcs_DPI_package",
+            "archive": "archive.0/_22902_archive_1.a",
+            "out": "uM9F1_d.o",
+            "bytes": 5856,
+            "checksum": 0,
+            "mode": 4
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "archive": "archive.0/_22902_archive_1.a",
+            "out": "reYIK_d.o",
+            "bytes": 26904,
+            "checksum": 0,
+            "mode": 4
+        },
+        "A5Tvj_d": {
+            "mod": "user_pkg",
+            "archive": "archive.0/_22902_archive_1.a",
+            "out": "A5Tvj_d.o",
+            "bytes": 54150,
+            "checksum": 0,
+            "mode": 4
+        },
+        "zr7M1_d": {
+            "mod": "uvm_pkg",
+            "archive": "archive.0/_22902_archive_1.a",
+            "out": "zr7M1_d.o",
+            "bytes": 4202305,
+            "checksum": 0,
+            "mode": 4
+        },
+        "Emx8S_d": {
+            "mod": "top",
+            "archive": "archive.0/_22902_archive_1.a",
+            "out": "Emx8S_d.o",
+            "bytes": 10939,
+            "checksum": 0,
+            "mode": 4
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_22902_archive_1.a",
+            "size": 7647982,
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    3347828
+                ],
+                [
+                    "uM9F1_d.o",
+                    5856
+                ],
+                [
+                    "reYIK_d.o",
+                    26904
+                ],
+                [
+                    "zr7M1_d.o",
+                    4202305
+                ],
+                [
+                    "A5Tvj_d.o",
+                    54150
+                ],
+                [
+                    "Emx8S_d.o",
+                    10939
+                ]
+            ]
+        }
+    ]
+}

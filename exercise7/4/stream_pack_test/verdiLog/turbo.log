@@ -1,0 +1,2 @@
+Command Line: /home/yy/EDA/disk2/verdi2016_06/platform/LINUXAMD64/bin/Novas +v2k -sverilog +systemverilogext+sv _verdilog2001ext+v -f 1.f
+uname(Linux localhost.localdomain 3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017 x86_64)

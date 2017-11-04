@@ -1,0 +1,148 @@
+{
+    "MlibObjs": {},
+    "CompileStatus": "Successful",
+    "CompileProcesses": [
+        "cgproc.14062.json"
+    ],
+    "PrevCompiledModules": {},
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "outputSizePerQuad": 60.0,
+        "mopSpeed": 139792.04113672045,
+        "ru_self_cgstart": {
+            "ru_nvcsw": 25,
+            "ru_utime_sec": 0.18632499999999999,
+            "ru_minflt": 14824,
+            "ru_stime_sec": 0.034058999999999999,
+            "ru_maxrss_kb": 57912,
+            "ru_majflt": 0,
+            "ru_nivcsw": 18
+        },
+        "ru_childs_cgstart": {
+            "ru_nvcsw": 4,
+            "ru_utime_sec": 0.0013060000000000001,
+            "ru_minflt": 2195,
+            "ru_stime_sec": 0.0071040000000000001,
+            "ru_maxrss_kb": 12564,
+            "ru_majflt": 0,
+            "ru_nivcsw": 4
+        },
+        "nMops": 24576,
+        "nQuads": 8739,
+        "ru_childs_end": {
+            "ru_nvcsw": 4,
+            "ru_utime_sec": 0.0013060000000000001,
+            "ru_minflt": 2195,
+            "ru_stime_sec": 0.0071040000000000001,
+            "ru_maxrss_kb": 12564,
+            "ru_majflt": 0,
+            "ru_nivcsw": 4
+        },
+        "totalObjSize": 528883,
+        "ru_self_end": {
+            "ru_nvcsw": 27,
+            "ru_utime_sec": 0.36212899999999998,
+            "ru_minflt": 18368,
+            "ru_stime_sec": 0.053018000000000003,
+            "ru_maxrss_kb": 67100,
+            "ru_majflt": 0,
+            "ru_nivcsw": 19
+        },
+        "quadSpeed": 49708.766580965166,
+        "mop/quad": 2.8122210779265364,
+        "Frontend(%)": 51.45265913528052,
+        "CodeGen(%)": 48.54734086471948
+    },
+    "NameTable": {
+        "_vcs_unit__528695478": [
+            "_vcs_unit__528695478",
+            "yBBEe",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "utopia1_atm_rx": [
+            "utopia1_atm_rx",
+            "qmxfw",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "top": [
+            "top",
+            "Emx8S",
+            "module"
+        ],
+        "Utopia": [
+            "Utopia",
+            "BPgBK",
+            "module"
+        ],
+        "cpu_ifc": [
+            "cpu_ifc",
+            "Ed7wN",
+            "module"
+        ],
+        "LookupTable": [
+            "LookupTable",
+            "wBAGP",
+            "module"
+        ],
+        "utopia1_atm_tx": [
+            "utopia1_atm_tx",
+            "AfFkn",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 74966
+    },
+    "Misc": {
+        "daidir_abs": "/home/yy/Desktop/My_prog/exercise11/Example_midify/simv.daidir",
+        "cwd": "/home/yy/Desktop/My_prog/exercise11/Example_midify",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "csrc_abs": "/home/yy/Desktop/My_prog/exercise11/Example_midify/csrc",
+        "daidir": "/home/yy/Desktop/My_prog/exercise11/Example_midify/simv.daidir",
+        "archive_dir": "archive.0"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "_vcs_unit__528695478",
+        "_vcs_unit__528695478",
+        "std",
+        "std",
+        "top",
+        "top",
+        "Utopia",
+        "Utopia",
+        "cpu_ifc",
+        "cpu_ifc",
+        "LookupTable",
+        "LookupTable",
+        "utopia1_atm_rx",
+        "utopia1_atm_rx",
+        "utopia1_atm_tx",
+        "utopia1_atm_tx",
+        "test",
+        "test"
+    ],
+    "LVLData": [
+        "SIM"
+    ]
+}

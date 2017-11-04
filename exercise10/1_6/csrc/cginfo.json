@@ -1,0 +1,176 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "top": {
+            "Emx8S_d": {
+                "mod": "top",
+                "bytes": 13743,
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.5/_prev_archive_1.a",
+                "out": "Emx8S_d.o"
+            }
+        },
+        "_vcs_unit__906330284": {
+            "Zc9Qb_d": {
+                "mod": "_vcs_unit__906330284",
+                "bytes": 4809,
+                "out": "Zc9Qb_d.o",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.5/_17096_archive_1.a"
+            }
+        },
+        "apb_if": {
+            "d9vZk_d": {
+                "mod": "apb_if",
+                "bytes": 37203,
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.5/_prev_archive_1.a",
+                "out": "d9vZk_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "mod": "std",
+                "bytes": 26398,
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.5/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "test": {
+            "x9Hvb_d": {
+                "mod": "test",
+                "bytes": 119662,
+                "out": "x9Hvb_d.o",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.5/_17096_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mod": "...MASTER...",
+                "bytes": 4996,
+                "mode": 4,
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        }
+    },
+    "CompileStrategy": "fullobj",
+    "NameTable": {
+        "top": [
+            "top",
+            "Emx8S",
+            "module"
+        ],
+        "_vcs_unit__906330284": [
+            "_vcs_unit__906330284",
+            "Zc9Qb",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "apb_if": [
+            "apb_if",
+            "d9vZk",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ]
+    },
+    "stat": {
+        "mopSpeed": 115008.73729855672,
+        "ru_self_cgstart": {
+            "ru_majflt": 3,
+            "ru_maxrss_kb": 54088,
+            "ru_utime_sec": 0.082479999999999998,
+            "ru_minflt": 13752,
+            "ru_stime_sec": 0.050113999999999999,
+            "ru_nivcsw": 12,
+            "ru_nvcsw": 25
+        },
+        "ru_self_end": {
+            "ru_majflt": 4,
+            "ru_maxrss_kb": 60828,
+            "ru_utime_sec": 0.17518600000000001,
+            "ru_minflt": 16443,
+            "ru_stime_sec": 0.063147999999999996,
+            "ru_nivcsw": 23,
+            "ru_nvcsw": 26
+        },
+        "ru_childs_cgstart": {
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 11988,
+            "ru_utime_sec": 0.0010139999999999999,
+            "ru_minflt": 2190,
+            "ru_stime_sec": 0.0075570000000000003,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 4
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 13588,
+            "ru_utime_sec": 0.0018959999999999999,
+            "ru_minflt": 2795,
+            "ru_stime_sec": 0.0093209999999999994,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 5
+        },
+        "nMops": 10662,
+        "totalObjSize": 201685,
+        "nQuads": 3586,
+        "quadSpeed": 38681.422993118023,
+        "mop/quad": 2.9732292247629672,
+        "outputSizePerQuad": 56.0,
+        "Frontend(%)": 47.081387782128708,
+        "CodeGen(%)": 52.918612217871292
+    },
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/svtb_training/lab4",
+        "csrc": "csrc",
+        "daidir_abs": "/home/yy/Desktop/My_prog/svtb_training/lab4/simv.daidir",
+        "csrc_abs": "/home/yy/Desktop/My_prog/svtb_training/lab4/csrc",
+        "daidir": "/home/yy/Desktop/My_prog/svtb_training/lab4/simv.daidir",
+        "archive_dir": "archive.5",
+        "default_output_dir": "csrc"
+    },
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 66914
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "_vcs_unit__906330284",
+        "_vcs_unit__906330284",
+        "std",
+        "top",
+        "apb_if",
+        "test",
+        "test"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileProcesses": [
+        "cgproc.17096.json"
+    ],
+    "CompileStatus": "Successful"
+}

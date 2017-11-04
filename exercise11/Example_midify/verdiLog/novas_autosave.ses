@@ -1,0 +1,73 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+postSimFile = /home/yy/Desktop/My_prog/exercise11/Example_midify/test.fsdb
+syncTime = 0
+viewport = 0 20 1920 1099 625 457 204 898
+activeNode = "top.Tx[0]"
+activeScope = "top.Tx[0]"
+activeFile = "hdl/utopia.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 71
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "top.Tx[0]"
+Scope2 = "top.Rx[0]"
+Scope3 = "top.squat"
+Scope4 = "top.mif"
+Scope5 = "top"
+rangeSelection = 72 76 12 1 1 1
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = top.Tx[0]
+File = /home/yy/Desktop/My_prog/exercise11/Example_midify/hdl/utopia.sv
+Line = 72
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/yy/Desktop/My_prog/exercise11/Example_midify
+design = DebussyLib
+hostCommand = hostCommand +v2k -sverilog +incdir+env+env +systemverilogext+sv +verdilog2001ext+v hdl/definitions.sv hdl/atm_cell.sv hdl/top.sv hdl/utopia.sv hdl/cpu_ifc.sv hdl/LookupTable.sv hdl/squat.sv hdl/utopia1_atm_rx.sv hdl/utopia1_atm_tx.sv tests/test.sv
+[nMemoryManager]
+FsdbFile = /home/yy/Desktop/My_prog/exercise11/Example_midify/test.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1920 454 100 65
+SessionFile = /home/yy/Desktop/My_prog/exercise11/Example_midify/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

@@ -1,0 +1,99 @@
+{
+    "CompileProcesses": [
+        "cgproc.4235.json"
+    ],
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "test_fifo": [
+            "test_fifo",
+            "KN3EG",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "mopSpeed": 87559.106473177875,
+        "mop/quad": 2.3866666666666667,
+        "ru_self_cgstart": {
+            "ru_nivcsw": 4,
+            "ru_utime_sec": 0.035184,
+            "ru_stime_sec": 0.066348000000000004,
+            "ru_nvcsw": 107,
+            "ru_majflt": 46,
+            "ru_maxrss_kb": 50844,
+            "ru_minflt": 13465
+        },
+        "nMops": 3222,
+        "ru_childs_cgstart": {
+            "ru_nivcsw": 5,
+            "ru_utime_sec": 0.0025179999999999998,
+            "ru_stime_sec": 0.0069129999999999999,
+            "ru_nvcsw": 5,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 13436,
+            "ru_minflt": 2772
+        },
+        "totalObjSize": 137516,
+        "nQuads": 1350,
+        "ru_self_end": {
+            "ru_nivcsw": 9,
+            "ru_utime_sec": 0.071982000000000004,
+            "ru_stime_sec": 0.074981000000000006,
+            "ru_nvcsw": 108,
+            "ru_majflt": 46,
+            "ru_maxrss_kb": 56984,
+            "ru_minflt": 15612
+        },
+        "Frontend(%)": 48.87888638826373,
+        "ru_childs_end": {
+            "ru_nivcsw": 5,
+            "ru_utime_sec": 0.0025179999999999998,
+            "ru_stime_sec": 0.0069129999999999999,
+            "ru_nvcsw": 5,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 13436,
+            "ru_minflt": 2772
+        },
+        "CodeGen(%)": 51.12111361173627,
+        "outputSizePerQuad": 101.0,
+        "quadSpeed": 36686.776455242129
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 63368
+    },
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "test_fifo",
+        "test_fifo"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "csrc_abs": "/home/yy/Desktop/My_prog/2/csrc",
+        "cwd": "/home/yy/Desktop/My_prog/2",
+        "daidir_abs": "/home/yy/Desktop/My_prog/2/simv1.daidir",
+        "csrc": "csrc",
+        "archive_dir": "archive.0",
+        "daidir": "/home/yy/Desktop/My_prog/2/simv1.daidir",
+        "default_output_dir": "csrc"
+    },
+    "CompileStatus": "Successful"
+}

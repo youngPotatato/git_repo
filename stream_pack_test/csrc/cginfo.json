@@ -1,0 +1,106 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "CurCompileUdps": {},
+    "NameTable": {
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "_vcs_unit__263319711": [
+            "_vcs_unit__263319711",
+            "ta0QG",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ]
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 63201
+    },
+    "CompileStrategy": "fullobj",
+    "CompileProcesses": [
+        "cgproc.7843.json"
+    ],
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.040207,
+            "ru_stime_sec": 0.10618900000000001,
+            "ru_minflt": 12686,
+            "ru_maxrss_kb": 45968,
+            "ru_majflt": 37,
+            "ru_nvcsw": 55,
+            "ru_nivcsw": 8
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.002065,
+            "ru_stime_sec": 0.0056490000000000004,
+            "ru_minflt": 2186,
+            "ru_maxrss_kb": 9116,
+            "ru_majflt": 0,
+            "ru_nvcsw": 4,
+            "ru_nivcsw": 8
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.061262999999999998,
+            "ru_stime_sec": 0.119464,
+            "ru_minflt": 14591,
+            "ru_maxrss_kb": 51624,
+            "ru_majflt": 39,
+            "ru_nvcsw": 55,
+            "ru_nivcsw": 12
+        },
+        "CodeGen(%)": 34.369848032254374,
+        "nMops": 1529,
+        "mopSpeed": 72615.881458966571,
+        "nQuads": 623,
+        "totalObjSize": 122818,
+        "Frontend(%)": 65.630151967745618,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.002065,
+            "ru_stime_sec": 0.0056490000000000004,
+            "ru_minflt": 2186,
+            "ru_maxrss_kb": 9116,
+            "ru_majflt": 0,
+            "ru_nvcsw": 4,
+            "ru_nivcsw": 8
+        },
+        "quadSpeed": 29587.765957446813,
+        "mop/quad": 2.4542536115569824,
+        "outputSizePerQuad": 197.0
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "_vcs_unit__263319711",
+        "_vcs_unit__263319711",
+        "std",
+        "std",
+        "test",
+        "test"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/stream_pack_test",
+        "csrc": "csrc",
+        "csrc_abs": "/home/yy/Desktop/My_prog/stream_pack_test/csrc",
+        "archive_dir": "archive.0",
+        "daidir": "/home/yy/Desktop/My_prog/stream_pack_test/simv.daidir",
+        "default_output_dir": "csrc",
+        "daidir_abs": "/home/yy/Desktop/My_prog/stream_pack_test/simv.daidir"
+    },
+    "CompileStatus": "Successful"
+}

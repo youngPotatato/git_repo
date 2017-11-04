@@ -1,0 +1,33 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "yy": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        }
+    },
+    "CompUnits": {},
+    "ObjArchives": [],
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "x9Hvb_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "Vtv4E_d": {
+            "icPath": "csrc"
+        }
+    }
+}

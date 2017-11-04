@@ -1,0 +1,305 @@
+Command: ./simv +fsdbfile+test.fsdb +ntb_solver_mode=1 -cm line+tgl +ntb_random_seed=99 -l run.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Oct 31 19:33 2017
+*Verdi3* Loading libsscore_vcs201606.so
+*Verdi3* : FSDB_GATE is set.
+*Verdi3* : FSDB_RTL is set.
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi3* : Create FSDB file 'test.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +all dumping.
+*Verdi3* : End of traversing.
+simulation runs with seed =          99
+Config: numRx=4, numTx=4, nCells=62(14 29 19 0 ),enable RX: 012
+build done!
+initialize host complete
+R complete
+CellFwd.FWD[0]=2
+CellFwd.FWD[1]=9
+CellFwd.FWD[2]=9
+CellFwd.FWD[3]=2
+CellFwd.FWD[4]=1
+CellFwd.FWD[5]=1
+CellFwd.FWD[6]=10
+CellFwd.FWD[7]=9
+CellFwd.FWD[8]=5
+CellFwd.FWD[9]=13
+CellFwd.FWD[10]=7
+CellFwd.FWD[11]=13
+CellFwd.FWD[12]=7
+CellFwd.FWD[13]=13
+CellFwd.FWD[14]=11
+CellFwd.FWD[15]=0
+CellFwd.FWD[16]=4
+CellFwd.FWD[17]=5
+CellFwd.FWD[18]=5
+CellFwd.FWD[19]=11
+CellFwd.FWD[20]=8
+CellFwd.FWD[21]=12
+CellFwd.FWD[22]=7
+CellFwd.FWD[23]=5
+CellFwd.FWD[24]=2
+CellFwd.FWD[25]=14
+CellFwd.FWD[26]=4
+CellFwd.FWD[27]=15
+CellFwd.FWD[28]=8
+CellFwd.FWD[29]=15
+CellFwd.FWD[30]=10
+CellFwd.FWD[31]=5
+CellFwd.FWD[32]=7
+CellFwd.FWD[33]=10
+CellFwd.FWD[34]=6
+CellFwd.FWD[35]=6
+CellFwd.FWD[36]=14
+CellFwd.FWD[37]=14
+CellFwd.FWD[38]=0
+CellFwd.FWD[39]=2
+CellFwd.FWD[40]=4
+CellFwd.FWD[41]=10
+CellFwd.FWD[42]=5
+CellFwd.FWD[43]=13
+CellFwd.FWD[44]=0
+CellFwd.FWD[45]=13
+CellFwd.FWD[46]=1
+CellFwd.FWD[47]=2
+CellFwd.FWD[48]=6
+CellFwd.FWD[49]=15
+CellFwd.FWD[50]=13
+CellFwd.FWD[51]=5
+CellFwd.FWD[52]=8
+CellFwd.FWD[53]=1
+CellFwd.FWD[54]=14
+CellFwd.FWD[55]=11
+CellFwd.FWD[56]=13
+CellFwd.FWD[57]=4
+CellFwd.FWD[58]=12
+CellFwd.FWD[59]=6
+CellFwd.FWD[60]=5
+CellFwd.FWD[61]=8
+CellFwd.FWD[62]=5
+CellFwd.FWD[63]=14
+CellFwd.FWD[64]=8
+CellFwd.FWD[65]=8
+CellFwd.FWD[66]=2
+CellFwd.FWD[67]=2
+CellFwd.FWD[68]=3
+CellFwd.FWD[69]=7
+CellFwd.FWD[70]=6
+CellFwd.FWD[71]=13
+CellFwd.FWD[72]=15
+CellFwd.FWD[73]=12
+CellFwd.FWD[74]=7
+CellFwd.FWD[75]=10
+CellFwd.FWD[76]=14
+CellFwd.FWD[77]=5
+CellFwd.FWD[78]=5
+CellFwd.FWD[79]=11
+CellFwd.FWD[80]=12
+CellFwd.FWD[81]=15
+CellFwd.FWD[82]=7
+CellFwd.FWD[83]=10
+CellFwd.FWD[84]=15
+CellFwd.FWD[85]=11
+CellFwd.FWD[86]=6
+CellFwd.FWD[87]=9
+CellFwd.FWD[88]=13
+CellFwd.FWD[89]=2
+CellFwd.FWD[90]=9
+CellFwd.FWD[91]=3
+CellFwd.FWD[92]=5
+CellFwd.FWD[93]=5
+CellFwd.FWD[94]=3
+CellFwd.FWD[95]=1
+CellFwd.FWD[96]=15
+CellFwd.FWD[97]=11
+CellFwd.FWD[98]=4
+CellFwd.FWD[99]=8
+CellFwd.FWD[100]=4
+CellFwd.FWD[101]=14
+CellFwd.FWD[102]=13
+CellFwd.FWD[103]=5
+CellFwd.FWD[104]=8
+CellFwd.FWD[105]=3
+CellFwd.FWD[106]=11
+CellFwd.FWD[107]=14
+CellFwd.FWD[108]=12
+CellFwd.FWD[109]=6
+CellFwd.FWD[110]=9
+CellFwd.FWD[111]=8
+CellFwd.FWD[112]=0
+CellFwd.FWD[113]=9
+CellFwd.FWD[114]=2
+CellFwd.FWD[115]=14
+CellFwd.FWD[116]=5
+CellFwd.FWD[117]=4
+CellFwd.FWD[118]=0
+CellFwd.FWD[119]=2
+CellFwd.FWD[120]=15
+CellFwd.FWD[121]=2
+CellFwd.FWD[122]=0
+CellFwd.FWD[123]=4
+CellFwd.FWD[124]=14
+CellFwd.FWD[125]=0
+CellFwd.FWD[126]=13
+CellFwd.FWD[127]=1
+CellFwd.FWD[128]=1
+CellFwd.FWD[129]=14
+CellFwd.FWD[130]=2
+CellFwd.FWD[131]=0
+CellFwd.FWD[132]=11
+CellFwd.FWD[133]=3
+CellFwd.FWD[134]=10
+CellFwd.FWD[135]=6
+CellFwd.FWD[136]=13
+CellFwd.FWD[137]=9
+CellFwd.FWD[138]=2
+CellFwd.FWD[139]=8
+CellFwd.FWD[140]=15
+CellFwd.FWD[141]=7
+CellFwd.FWD[142]=10
+CellFwd.FWD[143]=1
+CellFwd.FWD[144]=15
+CellFwd.FWD[145]=3
+CellFwd.FWD[146]=0
+CellFwd.FWD[147]=2
+CellFwd.FWD[148]=10
+CellFwd.FWD[149]=6
+CellFwd.FWD[150]=7
+CellFwd.FWD[151]=14
+CellFwd.FWD[152]=13
+CellFwd.FWD[153]=9
+CellFwd.FWD[154]=3
+CellFwd.FWD[155]=1
+CellFwd.FWD[156]=14
+CellFwd.FWD[157]=11
+CellFwd.FWD[158]=2
+CellFwd.FWD[159]=7
+CellFwd.FWD[160]=15
+CellFwd.FWD[161]=2
+CellFwd.FWD[162]=8
+CellFwd.FWD[163]=5
+CellFwd.FWD[164]=11
+CellFwd.FWD[165]=14
+CellFwd.FWD[166]=8
+CellFwd.FWD[167]=6
+CellFwd.FWD[168]=15
+CellFwd.FWD[169]=5
+CellFwd.FWD[170]=4
+CellFwd.FWD[171]=15
+CellFwd.FWD[172]=6
+CellFwd.FWD[173]=10
+CellFwd.FWD[174]=12
+CellFwd.FWD[175]=9
+CellFwd.FWD[176]=5
+CellFwd.FWD[177]=14
+CellFwd.FWD[178]=6
+CellFwd.FWD[179]=10
+CellFwd.FWD[180]=1
+CellFwd.FWD[181]=14
+CellFwd.FWD[182]=7
+CellFwd.FWD[183]=15
+CellFwd.FWD[184]=7
+CellFwd.FWD[185]=0
+CellFwd.FWD[186]=7
+CellFwd.FWD[187]=0
+CellFwd.FWD[188]=6
+CellFwd.FWD[189]=6
+CellFwd.FWD[190]=11
+CellFwd.FWD[191]=10
+CellFwd.FWD[192]=11
+CellFwd.FWD[193]=9
+CellFwd.FWD[194]=4
+CellFwd.FWD[195]=2
+CellFwd.FWD[196]=6
+CellFwd.FWD[197]=3
+CellFwd.FWD[198]=14
+CellFwd.FWD[199]=1
+CellFwd.FWD[200]=7
+CellFwd.FWD[201]=7
+CellFwd.FWD[202]=15
+CellFwd.FWD[203]=11
+CellFwd.FWD[204]=4
+CellFwd.FWD[205]=5
+CellFwd.FWD[206]=8
+CellFwd.FWD[207]=12
+CellFwd.FWD[208]=15
+CellFwd.FWD[209]=4
+CellFwd.FWD[210]=7
+CellFwd.FWD[211]=10
+CellFwd.FWD[212]=11
+CellFwd.FWD[213]=0
+CellFwd.FWD[214]=9
+CellFwd.FWD[215]=12
+CellFwd.FWD[216]=3
+CellFwd.FWD[217]=3
+CellFwd.FWD[218]=14
+CellFwd.FWD[219]=0
+CellFwd.FWD[220]=2
+CellFwd.FWD[221]=8
+CellFwd.FWD[222]=5
+CellFwd.FWD[223]=15
+CellFwd.FWD[224]=11
+CellFwd.FWD[225]=2
+CellFwd.FWD[226]=7
+CellFwd.FWD[227]=15
+CellFwd.FWD[228]=12
+CellFwd.FWD[229]=13
+CellFwd.FWD[230]=5
+CellFwd.FWD[231]=10
+CellFwd.FWD[232]=2
+CellFwd.FWD[233]=5
+CellFwd.FWD[234]=0
+CellFwd.FWD[235]=7
+CellFwd.FWD[236]=5
+CellFwd.FWD[237]=14
+CellFwd.FWD[238]=14
+CellFwd.FWD[239]=15
+CellFwd.FWD[240]=10
+CellFwd.FWD[241]=15
+CellFwd.FWD[242]=15
+CellFwd.FWD[243]=15
+CellFwd.FWD[244]=15
+CellFwd.FWD[245]=1
+CellFwd.FWD[246]=8
+CellFwd.FWD[247]=3
+CellFwd.FWD[248]=6
+CellFwd.FWD[249]=0
+CellFwd.FWD[250]=10
+CellFwd.FWD[251]=2
+CellFwd.FWD[252]=9
+CellFwd.FWD[253]=4
+CellFwd.FWD[254]=4
+CellFwd.FWD[255]=3
+Verifying ...Verified
+cpu run
+Rx 0 port in use, running gen for this port
+@25705 Gen :UNI id:4 VPI=a4, VCI=d32b, CLP=0, PT=2, HEC=28, Payload[0]=e1
+@25705: Drv0: UNI id:4 VPI=a4, VCI=d32b, CLP=0, PT=2, HEC=28, Payload[0]=e1
+Sending cell: 7a 4d 32 b2 28 e1 ff 31 b8 3f e2 c8 8a b1 78 4a b2 a0 96 12 f4 35 d6 18 bb 46 21 90 bb 66 f0 24 72 d5 24 1b 62 11 50 73 7d b3 cb 21 d4 8b c3 0d b5 32 45 34 31 
+Rx 1 port in use, running gen for this port
+@25705 Gen :UNI id:5 VPI=66, VCI=039f, CLP=1, PT=6, HEC=65, Payload[0]=b5
+@25705: Drv1: UNI id:5 VPI=66, VCI=039f, CLP=1, PT=6, HEC=65, Payload[0]=b5
+Sending cell: 86 60 39 fe 65 b5 22 ec 36 3c 8f 07 6b 95 25 26 d6 66 d2 08 3f 9c cc f2 03 81 24 f2 db 44 38 aa 46 66 15 d3 24 dd 94 ac f6 a4 42 f4 63 ac f8 ca 9b 30 54 1e d1 
+Rx 2 port in use, running gen for this port
+@25705 Gen :UNI id:6 VPI=ae, VCI=b986, CLP=0, PT=1, HEC=28, Payload[0]=08
+@25705: Drv2: UNI id:6 VPI=ae, VCI=b986, CLP=0, PT=1, HEC=28, Payload[0]=08
+Sending cell: ca eb 98 61 28 08 a2 02 90 7c 7c 6f 1a b9 8c 44 bc b2 5b d7 13 7a 00 fa 0f ff 40 7e ec 14 cf ff c1 e7 b0 45 c2 f6 8c 07 ab 64 24 74 f1 d3 e1 cf b4 cc a8 54 94 
+@26240: Scb save: VPI = ae, Forward = 1100
+@26240: Scb save:NNI id:7 VPI=0ae, VCI=b986, CLP=0, PT=1, HEC=28, Payload[0]=08
+@26240: Scb save: VPI = 66, Forward = 1101
+@26240: Scb save:NNI id:8 VPI=066, VCI=039f, CLP=1, PT=6, HEC=65, Payload[0]=b5
+@26240: Scb save: VPI = a4, Forward = 1011
+@26240: Scb save:NNI id:9 VPI=0a4, VCI=d32b, CLP=0, PT=2, HEC=28, Payload[0]=e1
+@26240 Gen :UNI id:10 VPI=7d, VCI=da6d, CLP=0, PT=0, HEC=4a, Payload[0]=16
+@26240 Gen :UNI id:11 VPI=c8, VCI=0028, CLP=0, PT=7, HEC=a9, Payload[0]=82
+@26240 Gen :UNI id:12 VPI=82, VCI=8589, CLP=1, PT=6, HEC=18, Payload[0]=27
+@26240: Drv2: UNI id:10 VPI=7d, VCI=da6d, CLP=0, PT=0, HEC=4a, Payload[0]=16
+Sending cell: 47 dd a6 d0 4a 16 db 7b 0b 63 0e b9 f1 6c 00 92 50 51 30 6d 96 98 25 d9 67 5d ea 4e 07 4a 1b 6f 8c 0f 16 46 c9 c6 af 9a 78 24 6f 04 dc c4 0c 2f 59 6f b7 e5 e3 
+@26240: Drv1: UNI id:11 VPI=c8, VCI=0028, CLP=0, PT=7, HEC=a9, Payload[0]=82
+Sending cell: 3c 80 02 87 a9 82 85 09 bc 16 22 94 d2 75 6a 29 ed d2 da 82 85 42 30 cc 07 66 3b f1 20 2c df ae 12 d8 47 a0 90 36 03 3f 01 22 50 31 29 90 2e e3 06 99 ea 03 6f 
+@26240: Drv0: UNI id:12 VPI=82, VCI=8589, CLP=1, PT=6, HEC=18, Payload[0]=27
+Sending cell: b8 28 58 9e 18 27 e9 51 4e fb e6 6a 2b a4 fb 37 02 1a 72 f6 77 73 02 18 48 92 62 ec 5e 25 ae c5 b9 f4 0e ed 8d 8d e9 90 32 4c 39 2a d9 77 db bd fe a0 e7 a7 3d 

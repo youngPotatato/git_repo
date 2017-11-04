@@ -1,0 +1,11 @@
+/home/yy/Desktop/My_prog/svtb_training/lab4/apb_env/apb_gen.sv
+/home/yy/Desktop/My_prog/svtb_training/lab4/apb_env/apb_if.sv
+/home/yy/Desktop/My_prog/svtb_training/lab4/apb_env/apb_master.sv
+/home/yy/Desktop/My_prog/svtb_training/lab4/apb_env/apb_monitor.sv
+/home/yy/Desktop/My_prog/svtb_training/lab4/apb_env/apb_trans.sv
+/home/yy/Desktop/My_prog/svtb_training/lab4/env/env.sv
+/home/yy/Desktop/My_prog/svtb_training/lab4/env/scoreboard.sv
+/home/yy/Desktop/My_prog/svtb_training/lab4/hdl/mem.v
+/home/yy/Desktop/My_prog/svtb_training/lab4/hdl/root.v
+/home/yy/Desktop/My_prog/svtb_training/lab4/hdl/top.sv
+/home/yy/Desktop/My_prog/svtb_training/lab4/tests/test.sv

@@ -1,0 +1,31 @@
+
+
+Keywords:
+		Search keywords: 	systemverilog demo
+ 
+Technical content:
+ 
+		Title: 			SystemVerilog Demo fifo
+ 
+		Objective: 		To Demonstrate advantage of systemverilog over verilog
+		Description: 	Inorder to illustrate the constructs of Systemverilog, a Synchronous FIFO (4 x 16 bit words) has been chosen. 
+
+		Additional setup: None	
+
+	To run the Example:
+			make test1 (or)  make comp1 run1  --> Compiles and Runs the Verilog only design and testbench.
+			make test2 (or)  make comp2 run2 --> Compiles and runs the modified Verilog design to introduce structures
+			make test3 (or)  make comp3 run3 --> Compiles and runs the modified Verilog design to introduce interfaces
+
+
+	 Using Shell Scripts:
+		comp1.csh & run1.csh -- Compiles and Runs the Verilog only design and testbench	
+		comp2.csh & run2.csh -- Compiles and runs the modified Verilog design to introduce structures
+		comp3.csh & run3.csh --  Compiles and runs the modified Verilog design to introduce interfaces
+
+
+
+Location Information:
+		PATH: 			$VCS_HOME/doc/examples/basic-hdl/systemverilog/demo
+		DIAGRAMS: 		None
+		Cross Reference:	System Verilog LRM

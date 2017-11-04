@@ -1,0 +1,55 @@
+debImport "+v2k" "-sverilog" "+systemverilogext+sv" "_verdilog2001ext+v" "-f" \
+          "run1.f"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+srcHBSelect "test_fifo.test1" -win $_nTrace1
+srcSetScope -win $_nTrace1 "test_fifo.test1" -delim "."
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {33 45 6 1 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {33 44 6 8 1 1}
+wvCreateWindow
+srcAddSelectedToWave -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 {/home/yy/Desktop/My_prog/2/test1.fsdb}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {33 41 6 8 1 1}
+srcAddSelectedToWave -win $_nTrace1
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+verdiWindowResize -win $_Verdi_1 -10 "20" "1440" "799"
+wvZoom -win $_nWave2 509.081567 1290.629324
+wvZoom -win $_nWave2 591.053349 829.459831
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 337.472105 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 774.200712 -snap {("G1" 4)}
+wvZoom -win $_nWave2 725.335973 827.646521
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 338.140866 -snap {("G1" 4)}
+srcActiveTrace "test_fifo.U1.src_in\[7:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 215 -TraceValue zzzzzzzz
+verdiWindowResize -win $_Verdi_1 -10 "20" "1440" "799"
+nsMsgSwitchTab -tab trace
+srcHBSelect "test_fifo.write_word" -win $_nTrace1
+srcSetOptions -win $_nTrace1 -annotate on
+schSetOptions -win $_nSchema1 -annotate on
+wvSetCursor -win $_nWave2 660.554249 -snap {("G1" 3)}
+wvSetCursor -win $_nWave2 650.069261 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 650.069261 -snap {("G1" 1)}
+srcActiveTrace "test_fifo.clk" -win $_nTrace1 -TraceByDConWave -TraceTime 640 \
+           -TraceValue 0
+srcHBSelect "test_fifo" -win $_nTrace1
+wvScrollDown -win $_nWave2 1
+wvSetCursor -win $_nWave2 779.820988 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 778.510365 -snap {("G1" 4)}
+srcActiveTrace "test_fifo.U1.src_in\[7:0\]" -win $_nTrace1 -TraceByDConWave \
+           -TraceTime 495 -TraceValue zzzzzzzz
+srcHBSelect "test_fifo.write_word" -win $_nTrace1
+debExit

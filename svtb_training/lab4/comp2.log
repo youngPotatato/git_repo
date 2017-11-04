@@ -1,0 +1,70 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS Linux release 7.3.1611 (Core) ' is not supported on 
+  'x86_64' officially, assuming linux compatibility by default. Set 
+  VCS_ARCH_OVERRIDE to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[UNKWN_OPTVSIM] Unknown option passed
+  Ignoring unknown option '-rdynamic' passed to 'vcs' and continuing 
+  compilation.
+
+Command: vcs +acc -lca +vpi -debug_access+all -rdynamic -LDFLAGS-wl,--rpth,/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX \
+-sverilog -debug_all +incdir+env+apb_env+env hdl/root.v hdl/top.v hdl/mem.v apb_env/apb_if.sv \
+tests/test_02_constrained.sv -l comp2.log -o simv
+                         Chronologic VCS (TM)
+            Version L-2016.06 -- Sat Oct 28 23:06:28 2017
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[DBG_FLAG_DEP] Debug Option is being Deprecated
+  The '+acc' debug-related option is being deprecated and will no longer be 
+  supported in a future release.
+  Please recompile using the '-debug_access<+options>' switch and incremental 
+  options as required.  Recommended options are '-debug_access' for 
+  post-process debug, '-debug_access+classdbg' for testbench debug, and 
+  '-debug_access+all' for all debug capabilities.  Refer the VCS user guide 
+  for more granular options for debug control under the switch '-debug_access'
+  and refer to '-debug_region' for region control.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+Parsing design file 'hdl/root.v'
+Parsing design file 'hdl/top.v'
+Parsing design file 'hdl/mem.v'
+Parsing design file 'apb_env/apb_if.sv'
+Parsing design file 'tests/test_02_constrained.sv'
+Parsing included file 'env/env.sv'.
+Parsing included file 'apb_env/apb_trans.sv'.
+Back to file 'env/env.sv'.
+Parsing included file 'apb_env/apb_if.sv'.
+Back to file 'env/env.sv'.
+Parsing included file 'apb_env/apb_master.sv'.
+Back to file 'env/env.sv'.
+Parsing included file 'apb_env/apb_monitor.sv'.
+Back to file 'env/env.sv'.
+Parsing included file 'apb_env/apb_gen.sv'.
+Back to file 'env/env.sv'.
+Parsing included file 'env/scoreboard.sv'.
+Back to file 'env/env.sv'.
+Back to file 'tests/test_02_constrained.sv'.
+
+Error-[SE] Syntax error
+  Following verilog source has syntax error :
+  "tests/test_02_constrained.sv", 51: token is 'directed'
+  apb_trans::directed {
+                     ^
+
+2 warnings
+1 error
+CPU time: .078 seconds to compile

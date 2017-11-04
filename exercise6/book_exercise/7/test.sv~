@@ -1,0 +1,31 @@
+program automatic test;
+	import yy::*;
+	Transaction e1[] = new[50];
+	initial begin
+		foreach(e1[i]) begin
+			e1[i] = new();
+			//e1[i].e1.constraint_mode(0);
+			//e1[i].randomize() with {
+			//	(!rw)-> {address inside {['d0:'d8]}};
+			//				}
+			//	;
+			checkRandom(e1[i]);
+			//e1[i].print();
+		end
+		$display("count8 is %d",Exercise1::countA8);
+		$display("round2");
+		foreach(e2[i]) begin
+			e2[i] = new();
+			e2[i].e1.constraint_mode(0);
+			//checkRandom(e1[i].randomize() with {
+			e2[i].randomize() with {
+				(!rw)-> {address inside {['d0:'d8]}};
+							}
+				;
+			//e1[i].print();
+		end
+		$display("count8 is %d",Exercise1::countA8);
+
+		//$display("addr0 ---- %4d times\naddr1 ---- %4d times\naddr2 ---- %4d times\n",Exercise1::addr_cnt[0],Exercise1::addr_cnt[1],Exercise1::addr_cnt[2],);
+	end
+endprogram

@@ -1,0 +1,127 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "test": {
+            "x9Hvb_d": {
+                "archive": "archive.4/_61994_archive_1.a",
+                "bytes": 9660,
+                "mod": "test",
+                "mode": 4,
+                "out": "x9Hvb_d.o",
+                "checksum": 0
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "archive": "archive.4/_prev_archive_1.a",
+                "bytes": 26222,
+                "mod": "std",
+                "out": "reYIK_d.o",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 4738,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o",
+                "mode": 4,
+                "checksum": 0
+            }
+        }
+    },
+    "NameTable": {
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 60464
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "test",
+        "test"
+    ],
+    "stat": {
+        "quadSpeed": 21282.613306936299,
+        "ru_self_cgstart": {
+            "ru_nvcsw": 61,
+            "ru_utime_sec": 0.046974000000000002,
+            "ru_majflt": 42,
+            "ru_stime_sec": 0.118935,
+            "ru_maxrss_kb": 44616,
+            "ru_minflt": 12274,
+            "ru_nivcsw": 7
+        },
+        "CodeGen(%)": 23.140860971579098,
+        "ru_childs_cgstart": {
+            "ru_nvcsw": 4,
+            "ru_utime_sec": 0.0021940000000000002,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.0096080000000000002,
+            "ru_maxrss_kb": 9048,
+            "ru_minflt": 2198,
+            "ru_nivcsw": 1
+        },
+        "totalObjSize": 70205,
+        "nMops": 662,
+        "mopSpeed": 46807.608003959569,
+        "nQuads": 301,
+        "ru_self_end": {
+            "ru_nvcsw": 63,
+            "ru_utime_sec": 0.061116999999999998,
+            "ru_majflt": 44,
+            "ru_stime_sec": 0.127244,
+            "ru_maxrss_kb": 49880,
+            "ru_minflt": 14303,
+            "ru_nivcsw": 8
+        },
+        "ru_childs_end": {
+            "ru_nvcsw": 6,
+            "ru_utime_sec": 0.0021940000000000002,
+            "ru_majflt": 1,
+            "ru_stime_sec": 0.012418999999999999,
+            "ru_maxrss_kb": 9740,
+            "ru_minflt": 2805,
+            "ru_nivcsw": 2
+        },
+        "mop/quad": 2.1993355481727574,
+        "outputSizePerQuad": 233.0,
+        "Frontend(%)": 76.859139028420898
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.61994.json"
+    ],
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/exercise7/book_example/zero_deday_wait_trigger",
+        "csrc": "csrc",
+        "csrc_abs": "/home/yy/Desktop/My_prog/exercise7/book_example/zero_deday_wait_trigger/csrc",
+        "archive_dir": "archive.4",
+        "default_output_dir": "csrc",
+        "daidir": "/home/yy/Desktop/My_prog/exercise7/book_example/zero_deday_wait_trigger/simv.daidir",
+        "daidir_abs": "/home/yy/Desktop/My_prog/exercise7/book_example/zero_deday_wait_trigger/simv.daidir"
+    },
+    "CompileStatus": "Successful"
+}

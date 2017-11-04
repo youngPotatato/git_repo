@@ -1,0 +1,51 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+postSimFile = /home/yy/Desktop/My_prog/parking/test.fsdb
+syncTime = 800
+viewport = 0 28 1920 1099 632 456 394 1918
+activeNode = "test"
+activeScope = "test"
+activeFile = "tests/test.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 1
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "test"
+multipleSelection = 1 1 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = test
+File = /home/yy/Desktop/My_prog/parking/tests/test.sv
+Line = 2
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/yy/Desktop/My_prog/parking
+design = DebussyLib
+hostCommand = hostCommand +v2k -sverilog +systemverilogext+sv _verdilog2001ext+v -f 1.f tests/test.sv
+[nMemoryManager]
+FsdbFile = /home/yy/Desktop/My_prog/parking/test.fsdb
+UserActionNum = 0
+nMemWindowNum = 0

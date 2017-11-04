@@ -1,0 +1,50 @@
+{
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "x9Hvb_d.o",
+                    18459
+                ]
+            ],
+            "archive": "archive.12/_20971_archive_1.a",
+            "size": 18459
+        }
+    ],
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 13
+        },
+        "parkingLot": {
+            "Compiled": "Yes",
+            "Compiled Times": 11
+        },
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 13
+        }
+    },
+    "CompUnits": {
+        "x9Hvb_d": {
+            "mode": 4,
+            "mod": "test",
+            "checksum": 0,
+            "bytes": 18459,
+            "out": "x9Hvb_d.o",
+            "archive": "archive.12/_20971_archive_1.a"
+        }
+    },
+    "reusePaths": {
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "cZY3D_d": {
+            "icPath": "csrc"
+        }
+    }
+}

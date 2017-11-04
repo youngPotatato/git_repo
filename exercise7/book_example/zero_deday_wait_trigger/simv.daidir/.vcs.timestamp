@@ -1,0 +1,105 @@
+0 
+34
++acc
++itf+/home/yy/EDA/VCS2016/linux/lib/vcsdp_lite.tab
++vcsd1
++vpi
++vpi
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/home/yy/EDA/VCS2016/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -LDFLAGS-wl,--rpth,/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX -rdynamic
+-Mobjects= /home/yy/EDA/VCS2016/linux/lib/libvirsim.so /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/home/yy/EDA/VCS2016/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a /home/yy/EDA/VCS2016/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/home/yy/EDA/VCS2016/include
+-P
+-debug_access+all
+-f 1.f
+-fsdb
+-gen_obj
+-l
+-lca
+-o simv
+-picarchive
+-sverilog
+/home/yy/EDA/VCS2016/linux/bin/vcs1
+/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
+comp1.log
+56
+sysc_uni_pwd=/home/yy/Desktop/My_prog/exercise7/book_example/zero_deday_wait_trigger
+XMODIFIERS=@im=ibus
+XDG_VTNR=1
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+WINDOWPATH=1
+VTE_VERSION=3804
+VMR_MODE_FLAG=32
+VERDI_HOME=/home/yy/EDA/disk2/verdi2016_06
+VCS_MX_HOME_INTERNAL=1
+VCS_LOG_FILE=comp1.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/home/yy/EDA/VCS2016
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+USERNAME=yy
+UNAME=/bin/uname
+TOOL_HOME=/home/yy/EDA/VCS2016/linux
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=3032
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2850,unix/unix:/tmp/.ICE-unix/2850
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
+PERL_MB_OPT=--install_base /home/yy/perl5
+PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
+PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
+OVA_UUM=0
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HISTCONTROL=ignoredups
+GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome-classic
+DESKTOP_SESSION=gnome-classic
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-8t7UjhXYka,guid=830f2e1c4db408cfab00b2cc59da9e2b
+0
+4
+1507689503 ./test.sv
+1507689168 1.f
+1468145765 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
+1464145466 /home/yy/EDA/VCS2016/linux/lib/vcsdp_lite.tab
+4
+0 
+1464147795 /home/yy/EDA/VCS2016/linux/lib/libvirsim.so
+1464147272 /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so
+1464147247 /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so
+1507689514 simv.daidir

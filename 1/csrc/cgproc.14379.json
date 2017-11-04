@@ -1,0 +1,71 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "_vcs_unit__2575082055": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "sram_modeling": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 4888,
+            "checksum": 0,
+            "mode": 4
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 26222,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_14379_archive_1.a"
+        },
+        "VAieM_d": {
+            "mod": "_vcs_unit__2575082055",
+            "out": "VAieM_d.o",
+            "bytes": 3985,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_14379_archive_1.a"
+        },
+        "QGzQa_d": {
+            "mod": "sram_modeling",
+            "out": "QGzQa_d.o",
+            "bytes": 11362,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.0/_14379_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_14379_archive_1.a",
+            "objects": [
+                [
+                    "VAieM_d.o",
+                    3985
+                ],
+                [
+                    "reYIK_d.o",
+                    26222
+                ],
+                [
+                    "QGzQa_d.o",
+                    11362
+                ]
+            ],
+            "size": 41569
+        }
+    ],
+    "reusePaths": {}
+}

@@ -1,0 +1,144 @@
+{
+    "PEModules": [],
+    "LVLData": [
+        "SIM"
+    ],
+    "MlibObjs": {},
+    "NameTable": {
+        "tt": [
+            "tt",
+            "RPNsZ",
+            "module"
+        ],
+        "_vcs_unit__3340864491": [
+            "_vcs_unit__3340864491",
+            "dagMR",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "mode": 4,
+                "bytes": 26222,
+                "checksum": 0,
+                "mod": "std",
+                "archive": "archive.2/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "tt": {
+            "RPNsZ_d": {
+                "mode": 4,
+                "bytes": 8753,
+                "checksum": 0,
+                "mod": "tt",
+                "archive": "archive.2/_42364_archive_1.a",
+                "out": "RPNsZ_d.o"
+            }
+        },
+        "_vcs_unit__3340864491": {
+            "dagMR_d": {
+                "mode": 4,
+                "bytes": 15792,
+                "checksum": 0,
+                "mod": "_vcs_unit__3340864491",
+                "out": "dagMR_d.o",
+                "archive": "archive.2/_42364_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mode": 4,
+                "bytes": 4880,
+                "checksum": 0,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o"
+            }
+        }
+    },
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/exercise8/book_example/1",
+        "csrc": "csrc",
+        "daidir_abs": "/home/yy/Desktop/My_prog/exercise8/book_example/1/simv.daidir",
+        "csrc_abs": "/home/yy/Desktop/My_prog/exercise8/book_example/1/csrc",
+        "default_output_dir": "csrc",
+        "daidir": "/home/yy/Desktop/My_prog/exercise8/book_example/1/simv.daidir",
+        "archive_dir": "archive.2"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "_vcs_unit__3340864491",
+        "_vcs_unit__3340864491",
+        "std",
+        "tt",
+        "tt"
+    ],
+    "CompileProcesses": [
+        "cgproc.42364.json"
+    ],
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_minflt": 12212,
+            "ru_utime_sec": 0.0286,
+            "ru_nvcsw": 25,
+            "ru_maxrss_kb": 48848,
+            "ru_stime_sec": 0.035201000000000003,
+            "ru_majflt": 0,
+            "ru_nivcsw": 5
+        },
+        "ru_childs_cgstart": {
+            "ru_minflt": 2191,
+            "ru_utime_sec": 0.003156,
+            "ru_nvcsw": 4,
+            "ru_maxrss_kb": 11624,
+            "ru_stime_sec": 0.003431,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0
+        },
+        "nMops": 1378,
+        "CodeGen(%)": 36.897381020673834,
+        "outputSizePerQuad": 167.0,
+        "mop/quad": 2.69140625,
+        "nQuads": 512,
+        "totalObjSize": 85859,
+        "ru_self_end": {
+            "ru_minflt": 14268,
+            "ru_utime_sec": 0.045323000000000002,
+            "ru_nvcsw": 26,
+            "ru_maxrss_kb": 54180,
+            "ru_stime_sec": 0.041006000000000001,
+            "ru_majflt": 0,
+            "ru_nivcsw": 7
+        },
+        "mopSpeed": 82401.482987502241,
+        "ru_childs_end": {
+            "ru_minflt": 2797,
+            "ru_utime_sec": 0.003156,
+            "ru_nvcsw": 5,
+            "ru_maxrss_kb": 12332,
+            "ru_stime_sec": 0.006149,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0
+        },
+        "quadSpeed": 30616.51617532739,
+        "Frontend(%)": 63.102618979326166
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 61564
+    },
+    "CurCompileUdps": {},
+    "CompileStatus": "Successful"
+}

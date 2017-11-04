@@ -1,0 +1,71 @@
+{
+    "reusePaths": {},
+    "Modules": {
+        "...MASTER...": {},
+        "_vcs_unit__3340864491": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "tt": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "reYIK_d": {
+            "mod": "std",
+            "checksum": 0,
+            "out": "reYIK_d.o",
+            "bytes": 26222,
+            "mode": 4,
+            "archive": "archive.0/_53906_archive_1.a"
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "checksum": 0,
+            "out": "objs/amcQw_d.o",
+            "bytes": 4880,
+            "mode": 4
+        },
+        "dagMR_d": {
+            "mod": "_vcs_unit__3340864491",
+            "checksum": 0,
+            "out": "dagMR_d.o",
+            "bytes": 14751,
+            "mode": 4,
+            "archive": "archive.0/_53906_archive_1.a"
+        },
+        "RPNsZ_d": {
+            "mod": "tt",
+            "checksum": 0,
+            "out": "RPNsZ_d.o",
+            "bytes": 7754,
+            "mode": 4,
+            "archive": "archive.0/_53906_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_53906_archive_1.a",
+            "objects": [
+                [
+                    "dagMR_d.o",
+                    14751
+                ],
+                [
+                    "reYIK_d.o",
+                    26222
+                ],
+                [
+                    "RPNsZ_d.o",
+                    7754
+                ]
+            ],
+            "size": 48727
+        }
+    ]
+}

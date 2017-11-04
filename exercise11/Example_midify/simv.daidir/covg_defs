@@ -1,0 +1,84 @@
+global coverage_group 0 test::Coverage::CG_Forward __coverage_Coverage.CG_Forward unused_Coverage_CG_Forward_loop_label test 0 1 0 0 ( )
+ 1 1
+ 66 /home/yy/Desktop/My_prog/exercise11/Example_midify/env/coverage.sv
+ 29 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+1
+ 3 src 32 0 0 0 37 Coverage::test_Coverage_CG_Forward_fn 37 Coverage::test_Coverage_CG_Forward_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 2 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 39 Coverage::test_Coverage_CG_Forward_fn_0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 3 src 32 0 1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 Coverage::test_Coverage_CG_Forward_fn_0 0 39 Coverage::test_Coverage_CG_Forward_fn_1 0 0 0 0 0
+
+ 3 fwd 35 0 0 0 39 Coverage::test_Coverage_CG_Forward_fn_2 39 Coverage::test_Coverage_CG_Forward_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 9 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 39 Coverage::test_Coverage_CG_Forward_fn_0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 3 fwd 35 0 1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 39 Coverage::test_Coverage_CG_Forward_fn_3 0 39 Coverage::test_Coverage_CG_Forward_fn_4 0 0 0 0 0
+
+ 13 CG_Forward_cc 0 37 0 0 0 0 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

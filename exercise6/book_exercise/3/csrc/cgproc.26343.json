@@ -1,0 +1,50 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "test": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "yy": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "Vtv4E_d": {
+            "icPath": "csrc"
+        }
+    },
+    "CompUnits": {
+        "x9Hvb_d": {
+            "mod": "test",
+            "archive": "archive.2/_26343_archive_1.a",
+            "out": "x9Hvb_d.o",
+            "bytes": 9205,
+            "mode": 4,
+            "checksum": 0
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.2/_26343_archive_1.a",
+            "objects": [
+                [
+                    "x9Hvb_d.o",
+                    9205
+                ]
+            ],
+            "size": 9205
+        }
+    ]
+}

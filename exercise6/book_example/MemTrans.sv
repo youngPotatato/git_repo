@@ -1,0 +1,20 @@
+package yy;
+	class MemTrans;
+		rand logic [7:0] data_in;
+		randc logic [3:0] address;
+
+
+		constraint c {
+			data_in > 8'd5;
+			data_in < 8'd65;
+		}
+	endclass
+	function checkRandom(MemTrans m);
+		do begin 
+			if(!(m.randomize())) begin 
+				$display("%s:%0d: Rand failed \" %s\"", `__FILE__,`__LINE__,`"m.randomize()`"); 
+				$finish;  
+			end 
+		end while(0);
+	endfunction
+endpackage

@@ -1,0 +1,106 @@
+{
+    "MlibObjs": {},
+    "PEModules": [],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 60856
+    },
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "yy": [
+            "yy",
+            "Vtv4E",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStatus": "Successful",
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.14643600000000001,
+            "ru_stime_sec": 0.12288300000000001,
+            "ru_nvcsw": 102,
+            "ru_maxrss_kb": 47932,
+            "ru_nivcsw": 9,
+            "ru_minflt": 11938,
+            "ru_majflt": 45
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0040660000000000002,
+            "ru_stime_sec": 0.0042950000000000002,
+            "ru_nvcsw": 4,
+            "ru_maxrss_kb": 11592,
+            "ru_nivcsw": 2,
+            "ru_minflt": 2189,
+            "ru_majflt": 0
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0040660000000000002,
+            "ru_stime_sec": 0.0042950000000000002,
+            "ru_nvcsw": 4,
+            "ru_maxrss_kb": 11592,
+            "ru_nivcsw": 2,
+            "ru_minflt": 2189,
+            "ru_majflt": 0
+        },
+        "outputSizePerQuad": 339.0,
+        "nMops": 813,
+        "totalObjSize": 108621,
+        "CodeGen(%)": 15.61197969192113,
+        "mop/quad": 2.5406249999999999,
+        "quadSpeed": 11812.040899191625,
+        "nQuads": 320,
+        "mopSpeed": 30009.966409508721,
+        "ru_self_end": {
+            "ru_utime_sec": 0.17352699999999999,
+            "ru_stime_sec": 0.12759300000000001,
+            "ru_nvcsw": 102,
+            "ru_maxrss_kb": 53112,
+            "ru_nivcsw": 12,
+            "ru_minflt": 13652,
+            "ru_majflt": 45
+        },
+        "Frontend(%)": 84.388020308078865
+    },
+    "CompileStrategy": "fullobj",
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "yy",
+        "yy",
+        "test",
+        "test"
+    ],
+    "CompileProcesses": [
+        "cgproc.4456.json"
+    ],
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/simple_customized_copyFunc_test",
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "csrc_abs": "/home/yy/Desktop/My_prog/simple_customized_copyFunc_test/csrc",
+        "archive_dir": "archive.0",
+        "daidir": "/home/yy/Desktop/My_prog/simple_customized_copyFunc_test/simv.daidir",
+        "daidir_abs": "/home/yy/Desktop/My_prog/simple_customized_copyFunc_test/simv.daidir"
+    }
+}

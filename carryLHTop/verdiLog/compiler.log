@@ -1,0 +1,20 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    +v2k
+    -sverilog
+    +systemverilogext+sv
+    _verdilog2001ext+v
+    -f 1.f
+        ./test.sv
+        ./rippleAdder.v
+        ./carryLHN.v
+        ./carryLHTOP.v
+
+
+*Error* failed to open source file "_verdilog2001ext+v" with read access: No such file or directory
+
+Highest level modules:
+test
+
+Total	1 error(s),   0 warning(s)

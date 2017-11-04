@@ -1,0 +1,148 @@
+{
+    "CompileStrategy": "fullobj",
+    "CompileProcesses": [
+        "cgproc.119537.json"
+    ],
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "_vcs_unit__528695478": [
+            "_vcs_unit__528695478",
+            "yBBEe",
+            "module"
+        ],
+        "LookupTable": [
+            "LookupTable",
+            "wBAGP",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "top": [
+            "top",
+            "Emx8S",
+            "module"
+        ],
+        "cpu_ifc": [
+            "cpu_ifc",
+            "Ed7wN",
+            "module"
+        ],
+        "Utopia": [
+            "Utopia",
+            "BPgBK",
+            "module"
+        ],
+        "utopia1_atm_rx": [
+            "utopia1_atm_rx",
+            "qmxfw",
+            "module"
+        ],
+        "utopia1_atm_tx": [
+            "utopia1_atm_tx",
+            "AfFkn",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_majflt": 98,
+            "ru_utime_sec": 0.205369,
+            "ru_nivcsw": 20,
+            "ru_stime_sec": 0.21040300000000001,
+            "ru_maxrss_kb": 52520,
+            "ru_minflt": 14811,
+            "ru_nvcsw": 165
+        },
+        "ru_childs_cgstart": {
+            "ru_majflt": 10,
+            "ru_utime_sec": 0.0011310000000000001,
+            "ru_nivcsw": 5,
+            "ru_stime_sec": 0.01355,
+            "ru_maxrss_kb": 9920,
+            "ru_minflt": 2184,
+            "ru_nvcsw": 17
+        },
+        "totalObjSize": 493024,
+        "nQuads": 7891,
+        "CodeGen(%)": 54.817283787648783,
+        "mopSpeed": 89998.033400090702,
+        "nMops": 22424,
+        "ru_self_end": {
+            "ru_majflt": 114,
+            "ru_utime_sec": 0.45452999999999999,
+            "ru_nivcsw": 52,
+            "ru_stime_sec": 0.31367499999999998,
+            "ru_maxrss_kb": 55524,
+            "ru_minflt": 17920,
+            "ru_nvcsw": 167
+        },
+        "ru_childs_end": {
+            "ru_majflt": 10,
+            "ru_utime_sec": 0.0011310000000000001,
+            "ru_nivcsw": 5,
+            "ru_stime_sec": 0.01355,
+            "ru_maxrss_kb": 9920,
+            "ru_minflt": 2184,
+            "ru_nvcsw": 17
+        },
+        "Frontend(%)": 45.182716212351217,
+        "quadSpeed": 31670.285478064387,
+        "mop/quad": 2.8417184133823343,
+        "outputSizePerQuad": 62.0
+    },
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 74468
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "_vcs_unit__528695478",
+        "_vcs_unit__528695478",
+        "std",
+        "std",
+        "top",
+        "top",
+        "Utopia",
+        "Utopia",
+        "cpu_ifc",
+        "cpu_ifc",
+        "LookupTable",
+        "LookupTable",
+        "utopia1_atm_rx",
+        "utopia1_atm_rx",
+        "utopia1_atm_tx",
+        "utopia1_atm_tx",
+        "test",
+        "test"
+    ],
+    "CompileStatus": "Successful",
+    "Misc": {
+        "daidir": "/home/yy/Desktop/My_prog/exercise11/book_code/simv.daidir",
+        "csrc": "csrc",
+        "cwd": "/home/yy/Desktop/My_prog/exercise11/book_code",
+        "csrc_abs": "/home/yy/Desktop/My_prog/exercise11/book_code/csrc",
+        "daidir_abs": "/home/yy/Desktop/My_prog/exercise11/book_code/simv.daidir",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.0"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": []
+}

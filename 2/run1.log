@@ -1,0 +1,2399 @@
+Command: ./simv1 +fsdbfile+test1.fsdb -l run1.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Sep 28 13:27 2017
+*Verdi3* Loading libsscore_vcs201606.so
+*Verdi3* : FSDB_GATE is set.
+*Verdi3* : FSDB_RTL is set.
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi3* : Create FSDB file 'test1.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +all dumping.
+*Verdi3* : End of traversing.
+head = 0
+tail = 0
+emptyp = 1
+fullp = 0
+Write 1111 to FIFO
+head = 1
+emptyp = 0
+Write 2222 to FIFO
+head = 2
+Write 3333 to FIFO
+head = 3
+tail = 1
+Read 1111 from FIFO
+tail = 2
+Read 2222 from FIFO
+Write 4444 to FIFO
+head = 4
+tail = 3
+Read 3333 from FIFO
+tail = 4
+emptyp = 1
+Read 4444 from FIFO
+Read xxxxxxxx from FIFO
+Read xxxxxxxx from FIFO
+Read xxxxxxxx from FIFO
+Read xxxxxxxx from FIFO
+Write 1 to FIFO
+head = 5
+emptyp = 0
+Write 2 to FIFO
+head = 6
+Write 3 to FIFO
+head = 7
+Write 4 to FIFO
+head = 0
+Write 5 to FIFO
+head = 1
+Write 6 to FIFO
+head = 2
+Write 7 to FIFO
+head = 3
+Write 8 to FIFO
+head = 4
+fullp = 1
+tail = 5
+fullp = 0
+Read 1 from FIFO
+tail = 6
+Read 2 from FIFO
+tail = 7
+Read 3 from FIFO
+tail = 0
+Read 4 from FIFO
+tail = 1
+Read 5 from FIFO
+tail = 2
+Read 6 from FIFO
+tail = 3
+Read 7 from FIFO
+tail = 4
+emptyp = 1
+Read 8 from FIFO
+Done TEST1.
+head = 0
+tail = 0
+READER is waiting..
+Write 8484d609 to FIFO
+head = 1
+emptyp = 0
+tail = 1
+emptyp = 1
+Read 8484d609 from FIFO
+Write f3e301 to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read f3e301 from FIFO
+Write 462df78c to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read 462df78c from FIFO
+READER is waiting..
+READER is waiting..
+Write 72aff7e5 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read 72aff7e5 from FIFO
+Write e2ca4ec5 to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read e2ca4ec5 from FIFO
+Write b1ef6263 to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read b1ef6263 from FIFO
+READER is waiting..
+Write cb203e96 to FIFO
+head = 7
+emptyp = 0
+Write 359fdd6b to FIFO
+head = 0
+tail = 7
+Read cb203e96 from FIFO
+tail = 0
+emptyp = 1
+Read 359fdd6b from FIFO
+Write e7c572cf to FIFO
+head = 1
+emptyp = 0
+Write 7968bdf2 to FIFO
+head = 2
+tail = 1
+Read e7c572cf from FIFO
+Write c48a1289 to FIFO
+head = 3
+tail = 2
+Read 7968bdf2 from FIFO
+Write de7502bc to FIFO
+head = 4
+tail = 3
+Read c48a1289 from FIFO
+tail = 4
+emptyp = 1
+Read de7502bc from FIFO
+READER is waiting..
+Write 9dcc603b to FIFO
+head = 5
+emptyp = 0
+Write 6c9c4bd9 to FIFO
+head = 6
+tail = 5
+Read 9dcc603b from FIFO
+Write 7c6da9f8 to FIFO
+head = 7
+tail = 6
+Read 6c9c4bd9 from FIFO
+Write 44de3789 to FIFO
+head = 0
+tail = 7
+Read 7c6da9f8 from FIFO
+Write 4b212f96 to FIFO
+head = 1
+tail = 0
+Read 44de3789 from FIFO
+tail = 1
+emptyp = 1
+Read 4b212f96 from FIFO
+Write 90cdb12 to FIFO
+head = 2
+emptyp = 0
+Write fd28f1f to FIFO
+head = 3
+tail = 2
+Read 90cdb12 from FIFO
+tail = 3
+emptyp = 1
+Read fd28f1f from FIFO
+READER is waiting..
+Write 9ff2ae3f to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read 9ff2ae3f from FIFO
+READER is waiting..
+READER is waiting..
+Write 937dbc26 to FIFO
+head = 5
+emptyp = 0
+Write afd8565f to FIFO
+head = 6
+tail = 5
+Read 937dbc26 from FIFO
+Write 2d28db5a to FIFO
+head = 7
+tail = 6
+Read afd8565f from FIFO
+Write da8ae2b5 to FIFO
+head = 0
+tail = 7
+Read 2d28db5a from FIFO
+Write e8740cd0 to FIFO
+head = 1
+tail = 0
+Read da8ae2b5 from FIFO
+Write cd5ebc9a to FIFO
+head = 2
+tail = 1
+Read e8740cd0 from FIFO
+Write b3d97667 to FIFO
+head = 3
+tail = 2
+Read cd5ebc9a from FIFO
+tail = 3
+emptyp = 1
+Read b3d97667 from FIFO
+Write 4a74bf94 to FIFO
+head = 4
+emptyp = 0
+Write a6fcde4d to FIFO
+head = 5
+tail = 4
+Read 4a74bf94 from FIFO
+tail = 5
+emptyp = 1
+Read a6fcde4d from FIFO
+READER is waiting..
+Write 4a937195 to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read 4a937195 from FIFO
+READER is waiting..
+Write 44018d88 to FIFO
+head = 7
+emptyp = 0
+Write 8477e408 to FIFO
+head = 0
+tail = 7
+Read 44018d88 from FIFO
+Write 43356786 to FIFO
+head = 1
+tail = 0
+Read 8477e408 from FIFO
+Write b9f50473 to FIFO
+head = 2
+tail = 1
+Read 43356786 from FIFO
+Write 8d24f61a to FIFO
+head = 3
+tail = 2
+Read b9f50473 from FIFO
+Write 13259f26 to FIFO
+head = 4
+tail = 3
+Read 8d24f61a from FIFO
+Write 43615786 to FIFO
+head = 5
+Write 3ced2b79 to FIFO
+head = 6
+tail = 4
+Read 13259f26 from FIFO
+Write 43779186 to FIFO
+head = 7
+tail = 5
+Read 43615786 from FIFO
+tail = 6
+Read 3ced2b79 from FIFO
+Write e2e574c5 to FIFO
+head = 0
+tail = 7
+Read 43779186 from FIFO
+Write c550168a to FIFO
+head = 1
+tail = 0
+Read e2e574c5 from FIFO
+Write 70bb90e to FIFO
+head = 2
+tail = 1
+Read c550168a from FIFO
+tail = 2
+emptyp = 1
+Read 70bb90e from FIFO
+Write c6b5f48d to FIFO
+head = 3
+emptyp = 0
+Write 652345ca to FIFO
+head = 4
+tail = 3
+Read c6b5f48d from FIFO
+Write 5d059dba to FIFO
+head = 5
+tail = 4
+Read 652345ca from FIFO
+tail = 5
+emptyp = 1
+Read 5d059dba from FIFO
+Write 3fbb3b7f to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read 3fbb3b7f from FIFO
+READER is waiting..
+Write f249a4e4 to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read f249a4e4 from FIFO
+Write fd8b6afb to FIFO
+head = 0
+emptyp = 0
+Write 1b60e536 to FIFO
+head = 1
+tail = 0
+Read fd8b6afb from FIFO
+Write d73fb4ae to FIFO
+head = 2
+tail = 1
+Read 1b60e536 from FIFO
+Write 25b75f4b to FIFO
+head = 3
+tail = 2
+Read d73fb4ae from FIFO
+Write 7679fdec to FIFO
+head = 4
+tail = 3
+Read 25b75f4b from FIFO
+Write 6c44f9d8 to FIFO
+head = 5
+tail = 4
+Read 7679fdec from FIFO
+tail = 5
+emptyp = 1
+Read 6c44f9d8 from FIFO
+READER is waiting..
+READER is waiting..
+Write 39ac0373 to FIFO
+head = 6
+emptyp = 0
+Write d0c5dca1 to FIFO
+head = 7
+tail = 6
+Read 39ac0373 from FIFO
+tail = 7
+emptyp = 1
+Read d0c5dca1 from FIFO
+Write 8f8c6e1f to FIFO
+head = 0
+emptyp = 0
+Write a6e9314 to FIFO
+head = 1
+tail = 0
+Read 8f8c6e1f from FIFO
+Write f6c38eed to FIFO
+head = 2
+tail = 1
+Read a6e9314 from FIFO
+Write 4249ff84 to FIFO
+head = 3
+tail = 2
+Read f6c38eed from FIFO
+Write 6de5bbdb to FIFO
+head = 4
+tail = 3
+Read 4249ff84 from FIFO
+Write 7d2a45fa to FIFO
+head = 5
+tail = 4
+Read 6de5bbdb from FIFO
+tail = 5
+emptyp = 1
+Read 7d2a45fa from FIFO
+READER is waiting..
+Write b455f268 to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read b455f268 from FIFO
+Write 20769140 to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read 20769140 from FIFO
+READER is waiting..
+Write 1cde7139 to FIFO
+head = 0
+emptyp = 0
+tail = 0
+emptyp = 1
+Read 1cde7139 from FIFO
+Write f0b14ee1 to FIFO
+head = 1
+emptyp = 0
+tail = 1
+emptyp = 1
+Read f0b14ee1 from FIFO
+Write c3360486 to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read c3360486 from FIFO
+Write 3d62707 to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read 3d62707 from FIFO
+READER is waiting..
+Write fbdfc2f7 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read fbdfc2f7 from FIFO
+Write d00b12a0 to FIFO
+head = 5
+emptyp = 0
+Write 25b0994b to FIFO
+head = 6
+tail = 5
+Read d00b12a0 from FIFO
+Write bde0d27b to FIFO
+head = 7
+Write 58f93db1 to FIFO
+head = 0
+tail = 6
+Read 25b0994b from FIFO
+tail = 7
+Read bde0d27b from FIFO
+Write 297a1552 to FIFO
+head = 1
+tail = 0
+Read 58f93db1 from FIFO
+Write c63a928c to FIFO
+head = 2
+tail = 1
+Read 297a1552 from FIFO
+Write d55bbcaa to FIFO
+head = 3
+tail = 2
+Read c63a928c from FIFO
+Write d31dfea6 to FIFO
+head = 4
+tail = 3
+Read d55bbcaa from FIFO
+tail = 4
+emptyp = 1
+Read d31dfea6 from FIFO
+READER is waiting..
+Write 9ec9c03d to FIFO
+head = 5
+emptyp = 0
+Write 9caf7a39 to FIFO
+head = 6
+tail = 5
+Read 9ec9c03d from FIFO
+Write 3e9b707 to FIFO
+head = 7
+Write a5e79e4b to FIFO
+head = 0
+tail = 6
+Read 9caf7a39 from FIFO
+tail = 7
+Read 3e9b707 from FIFO
+Write 9ca70439 to FIFO
+head = 1
+Write 4ea0419d to FIFO
+head = 2
+tail = 0
+Read a5e79e4b from FIFO
+Write 1000b720 to FIFO
+head = 3
+tail = 1
+Read 9ca70439 from FIFO
+Write e471f8c8 to FIFO
+head = 4
+tail = 2
+Read 4ea0419d from FIFO
+Write 1c8d7f39 to FIFO
+head = 5
+Write e82b96d0 to FIFO
+head = 6
+tail = 3
+Read 1000b720 from FIFO
+Write 5d85d3bb to FIFO
+head = 7
+tail = 4
+Read e471f8c8 from FIFO
+Write 8653620c to FIFO
+head = 0
+Write a8e4d851 to FIFO
+head = 1
+tail = 5
+Read 1c8d7f39 from FIFO
+tail = 6
+Read e82b96d0 from FIFO
+Write 4ddd4d9b to FIFO
+head = 2
+tail = 7
+Read 5d85d3bb from FIFO
+tail = 0
+Read 8653620c from FIFO
+Write 3bed5377 to FIFO
+head = 3
+tail = 1
+Read a8e4d851 from FIFO
+Write 45e28b8b to FIFO
+head = 4
+tail = 2
+Read 4ddd4d9b from FIFO
+Write e2ecdac5 to FIFO
+head = 5
+tail = 3
+Read 3bed5377 from FIFO
+Write f4d86ee9 to FIFO
+head = 6
+tail = 4
+Read 45e28b8b from FIFO
+Write cab47c95 to FIFO
+head = 7
+tail = 5
+Read e2ecdac5 from FIFO
+tail = 6
+Read f4d86ee9 from FIFO
+Write 14b43729 to FIFO
+head = 0
+tail = 7
+Read cab47c95 from FIFO
+Write 6a9fb9d5 to FIFO
+head = 1
+tail = 0
+Read 14b43729 from FIFO
+Write f8dc48f1 to FIFO
+head = 2
+tail = 1
+Read 6a9fb9d5 from FIFO
+Write d4b5e6a9 to FIFO
+head = 3
+tail = 2
+Read f8dc48f1 from FIFO
+Write 5cd20db9 to FIFO
+head = 4
+tail = 3
+Read d4b5e6a9 from FIFO
+Write db983ab7 to FIFO
+head = 5
+tail = 4
+Read 5cd20db9 from FIFO
+Write f2356ae4 to FIFO
+head = 6
+tail = 5
+Read db983ab7 from FIFO
+tail = 6
+emptyp = 1
+Read f2356ae4 from FIFO
+Write e4a800c9 to FIFO
+head = 7
+emptyp = 0
+Write e696e8cd to FIFO
+head = 0
+tail = 7
+Read e4a800c9 from FIFO
+Write b555de6a to FIFO
+head = 1
+tail = 0
+Read e696e8cd from FIFO
+Write bc3f8478 to FIFO
+head = 2
+tail = 1
+Read b555de6a from FIFO
+Write 644605c8 to FIFO
+head = 3
+tail = 2
+Read bc3f8478 from FIFO
+Write e70f98ce to FIFO
+head = 4
+tail = 3
+Read 644605c8 from FIFO
+tail = 4
+emptyp = 1
+Read e70f98ce from FIFO
+Write baf4e275 to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read baf4e275 from FIFO
+READER is waiting..
+Write 271c434e to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read 271c434e from FIFO
+Write d7b48eaf to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read d7b48eaf from FIFO
+READER is waiting..
+Write 3d82bd7b to FIFO
+head = 0
+emptyp = 0
+tail = 0
+emptyp = 1
+Read 3d82bd7b from FIFO
+READER is waiting..
+READER is waiting..
+READER is waiting..
+Write 5e2551bc to FIFO
+head = 1
+emptyp = 0
+tail = 1
+emptyp = 1
+Read 5e2551bc from FIFO
+READER is waiting..
+Write 7a87aff5 to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read 7a87aff5 from FIFO
+Write dc4308b8 to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read dc4308b8 from FIFO
+Write aada7455 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read aada7455 from FIFO
+Write 9372ce26 to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read 9372ce26 from FIFO
+READER is waiting..
+Write e43851c to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read e43851c from FIFO
+Write a2cc8845 to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read a2cc8845 from FIFO
+Write 6e1e1fdc to FIFO
+head = 0
+emptyp = 0
+tail = 0
+emptyp = 1
+Read 6e1e1fdc from FIFO
+Write ac782c58 to FIFO
+head = 1
+emptyp = 0
+tail = 1
+emptyp = 1
+Read ac782c58 from FIFO
+READER is waiting..
+Write c161918 to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read c161918 from FIFO
+READER is waiting..
+READER is waiting..
+Write 633630c to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read 633630c from FIFO
+Write 4483ad89 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read 4483ad89 from FIFO
+Write 67e857cf to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read 67e857cf from FIFO
+READER is waiting..
+READER is waiting..
+Write 82344204 to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read 82344204 from FIFO
+Write f24baee4 to FIFO
+head = 7
+emptyp = 0
+Write 4665378c to FIFO
+head = 0
+tail = 7
+Read f24baee4 from FIFO
+tail = 0
+emptyp = 1
+Read 4665378c from FIFO
+Write bec5717 to FIFO
+head = 1
+emptyp = 0
+tail = 1
+emptyp = 1
+Read bec5717 from FIFO
+READER is waiting..
+Write dff6f6bf to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read dff6f6bf from FIFO
+READER is waiting..
+Write 38e6a771 to FIFO
+head = 3
+emptyp = 0
+Write 2bd4305 to FIFO
+head = 4
+tail = 3
+Read 38e6a771 from FIFO
+Write b2d14a65 to FIFO
+head = 5
+tail = 4
+Read 2bd4305 from FIFO
+Write 9f7a0e3e to FIFO
+head = 6
+tail = 5
+Read b2d14a65 from FIFO
+Write 9164d12 to FIFO
+head = 7
+tail = 6
+Read 9f7a0e3e from FIFO
+Write 799f09f3 to FIFO
+head = 0
+tail = 7
+Read 9164d12 from FIFO
+Write 8a47b614 to FIFO
+head = 1
+tail = 0
+Read 799f09f3 from FIFO
+Write b587c26b to FIFO
+head = 2
+tail = 1
+Read 8a47b614 from FIFO
+tail = 2
+emptyp = 1
+Read b587c26b from FIFO
+Write 42e3bd85 to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read 42e3bd85 from FIFO
+Write 1e74cb3c to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read 1e74cb3c from FIFO
+Write 6e6d23dc to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read 6e6d23dc from FIFO
+Write 7c6e91f8 to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read 7c6e91f8 from FIFO
+Write fd5f5afa to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read fd5f5afa from FIFO
+READER is waiting..
+Write 892fc012 to FIFO
+head = 0
+emptyp = 0
+tail = 0
+emptyp = 1
+Read 892fc012 from FIFO
+Write 2a1ba354 to FIFO
+head = 1
+emptyp = 0
+tail = 1
+emptyp = 1
+Read 2a1ba354 from FIFO
+Write f695deed to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read f695deed from FIFO
+Write 5596ebab to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read 5596ebab from FIFO
+READER is waiting..
+Write c1406282 to FIFO
+head = 4
+emptyp = 0
+Write 84651408 to FIFO
+head = 5
+tail = 4
+Read c1406282 from FIFO
+Write c1233a82 to FIFO
+head = 6
+tail = 5
+Read 84651408 from FIFO
+Write 32c3df65 to FIFO
+head = 7
+tail = 6
+Read c1233a82 from FIFO
+Write e455f0c8 to FIFO
+head = 0
+tail = 7
+Read 32c3df65 from FIFO
+Write 28d6a951 to FIFO
+head = 1
+tail = 0
+Read e455f0c8 from FIFO
+tail = 1
+emptyp = 1
+Read 28d6a951 from FIFO
+Write 278dbb4f to FIFO
+head = 2
+emptyp = 0
+Write a36ae846 to FIFO
+head = 3
+tail = 2
+Read 278dbb4f from FIFO
+Write 85ce500b to FIFO
+head = 4
+tail = 3
+Read a36ae846 from FIFO
+Write 74dc69e9 to FIFO
+head = 5
+tail = 4
+Read 85ce500b from FIFO
+Write 3f25ef7e to FIFO
+head = 6
+tail = 5
+Read 74dc69e9 from FIFO
+Write c10f0482 to FIFO
+head = 7
+tail = 6
+Read 3f25ef7e from FIFO
+Write ba941075 to FIFO
+head = 0
+tail = 7
+Read c10f0482 from FIFO
+Write 18bd6331 to FIFO
+head = 1
+Write 872d2c0e to FIFO
+head = 2
+tail = 0
+Read ba941075 from FIFO
+Write c2e87485 to FIFO
+head = 3
+Write 69e751d3 to FIFO
+head = 4
+tail = 1
+Read 18bd6331 from FIFO
+Write e64828cc to FIFO
+head = 5
+tail = 2
+Read 872d2c0e from FIFO
+Write df9bd0bf to FIFO
+head = 6
+tail = 3
+Read c2e87485 from FIFO
+Write 2a1d7354 to FIFO
+head = 7
+tail = 4
+Read 69e751d3 from FIFO
+Write 123aaf24 to FIFO
+head = 0
+Write bb934a77 to FIFO
+head = 1
+tail = 5
+Read e64828cc from FIFO
+tail = 6
+Read df9bd0bf from FIFO
+Write 7e29b3fc to FIFO
+head = 2
+tail = 7
+Read 2a1d7354 from FIFO
+Write 398a1973 to FIFO
+head = 3
+tail = 0
+Read 123aaf24 from FIFO
+Write 5d86b7bb to FIFO
+head = 4
+tail = 1
+Read bb934a77 from FIFO
+Write 4fdbed9f to FIFO
+head = 5
+tail = 2
+Read 7e29b3fc from FIFO
+tail = 3
+Read 398a1973 from FIFO
+Write 5a0a0fb4 to FIFO
+head = 6
+tail = 4
+Read 5d86b7bb from FIFO
+tail = 5
+Read 4fdbed9f from FIFO
+Write 1df61f3b to FIFO
+head = 7
+tail = 6
+Read 5a0a0fb4 from FIFO
+Write f964fef2 to FIFO
+head = 0
+Write a0b8a241 to FIFO
+head = 1
+tail = 7
+Read 1df61f3b from FIFO
+tail = 0
+Read f964fef2 from FIFO
+Write dac986b5 to FIFO
+head = 2
+tail = 1
+Read a0b8a241 from FIFO
+Write fc4ca4f8 to FIFO
+head = 3
+tail = 2
+Read dac986b5 from FIFO
+Write 9535122a to FIFO
+head = 4
+tail = 3
+Read fc4ca4f8 from FIFO
+Write 5b4f70b to FIFO
+head = 5
+tail = 4
+Read 9535122a from FIFO
+Write c5cb548b to FIFO
+head = 6
+tail = 5
+Read 5b4f70b from FIFO
+Write 674fdfce to FIFO
+head = 7
+Write f204eee4 to FIFO
+head = 0
+tail = 6
+Read c5cb548b from FIFO
+tail = 7
+Read 674fdfce from FIFO
+Write 79c681f3 to FIFO
+head = 1
+tail = 0
+Read f204eee4 from FIFO
+Write c7d87a8f to FIFO
+head = 2
+tail = 1
+Read 79c681f3 from FIFO
+Write 7dca0ffb to FIFO
+head = 3
+tail = 2
+Read c7d87a8f from FIFO
+Write a4d83a49 to FIFO
+head = 4
+tail = 3
+Read 7dca0ffb from FIFO
+Write 84e32609 to FIFO
+head = 5
+tail = 4
+Read a4d83a49 from FIFO
+tail = 5
+emptyp = 1
+Read 84e32609 from FIFO
+Write c7b43a8f to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read c7b43a8f from FIFO
+Write e4824cc9 to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read e4824cc9 from FIFO
+Write d6aea8ad to FIFO
+head = 0
+emptyp = 0
+Write a8c6c451 to FIFO
+head = 1
+tail = 0
+Read d6aea8ad from FIFO
+tail = 1
+emptyp = 1
+Read a8c6c451 from FIFO
+Write ef8d64df to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read ef8d64df from FIFO
+Write 8098510 to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read 8098510 from FIFO
+READER is waiting..
+READER is waiting..
+Write 86c8320d to FIFO
+head = 4
+emptyp = 0
+Write 2720634e to FIFO
+head = 5
+tail = 4
+Read 86c8320d from FIFO
+Write 17b47f2f to FIFO
+head = 6
+Write 748abbe9 to FIFO
+head = 7
+tail = 5
+Read 2720634e from FIFO
+tail = 6
+Read 17b47f2f from FIFO
+Write d01df0a0 to FIFO
+head = 0
+Write 68cd09d1 to FIFO
+head = 1
+tail = 7
+Read 748abbe9 from FIFO
+Write cff5509f to FIFO
+head = 2
+tail = 0
+Read d01df0a0 from FIFO
+Write ebb0f6d7 to FIFO
+head = 3
+tail = 1
+Read 68cd09d1 from FIFO
+tail = 2
+Read cff5509f from FIFO
+Write 5cdc65b9 to FIFO
+head = 4
+Write 18fb8331 to FIFO
+head = 5
+tail = 3
+Read ebb0f6d7 from FIFO
+Write 199bcb33 to FIFO
+head = 6
+tail = 4
+Read 5cdc65b9 from FIFO
+Write 24e90749 to FIFO
+head = 7
+tail = 5
+Read 18fb8331 from FIFO
+Write 1ccb3539 to FIFO
+head = 0
+tail = 6
+Read 199bcb33 from FIFO
+Write e99b1cd3 to FIFO
+head = 1
+tail = 7
+Read 24e90749 from FIFO
+Write b66a586c to FIFO
+head = 2
+tail = 0
+Read 1ccb3539 from FIFO
+Write ed4d78da to FIFO
+head = 3
+tail = 1
+Read e99b1cd3 from FIFO
+Write a8bb0c51 to FIFO
+head = 4
+Write bf21067e to FIFO
+head = 5
+tail = 2
+Read b66a586c from FIFO
+Write 98b4dc31 to FIFO
+head = 6
+tail = 3
+Read ed4d78da from FIFO
+Write 29100 to FIFO
+head = 7
+tail = 4
+Read a8bb0c51 from FIFO
+Write 742819e8 to FIFO
+head = 0
+tail = 5
+Read bf21067e from FIFO
+tail = 6
+Read 98b4dc31 from FIFO
+Write a4d98649 to FIFO
+head = 1
+tail = 7
+Read 29100 from FIFO
+Write 97dde22f to FIFO
+head = 2
+tail = 0
+Read 742819e8 from FIFO
+Write 1e32673c to FIFO
+head = 3
+tail = 1
+Read a4d98649 from FIFO
+tail = 2
+Read 97dde22f from FIFO
+Write 8b7c3816 to FIFO
+head = 4
+tail = 3
+Read 1e32673c from FIFO
+Write 34097568 to FIFO
+head = 5
+tail = 4
+Read 8b7c3816 from FIFO
+Write 2f49535e to FIFO
+head = 6
+Write c118be82 to FIFO
+head = 7
+tail = 5
+Read 34097568 from FIFO
+Write 29f0505 to FIFO
+head = 0
+tail = 6
+Read 2f49535e from FIFO
+Write c6878a8d to FIFO
+head = 1
+tail = 7
+Read c118be82 from FIFO
+Write 1a133934 to FIFO
+head = 2
+tail = 0
+Read 29f0505 from FIFO
+tail = 1
+Read c6878a8d from FIFO
+Write 5a0f27b4 to FIFO
+head = 3
+tail = 2
+Read 1a133934 from FIFO
+Write 4dfe879b to FIFO
+head = 4
+Write f1eca2e3 to FIFO
+head = 5
+tail = 3
+Read 5a0f27b4 from FIFO
+Write afd1265f to FIFO
+head = 6
+tail = 4
+Read 4dfe879b from FIFO
+tail = 5
+Read f1eca2e3 from FIFO
+Write 84a8e809 to FIFO
+head = 7
+Write 52a151a5 to FIFO
+head = 0
+tail = 6
+Read afd1265f from FIFO
+tail = 7
+Read 84a8e809 from FIFO
+Write 43c11587 to FIFO
+head = 1
+tail = 0
+Read 52a151a5 from FIFO
+Write 2a2ff554 to FIFO
+head = 2
+tail = 1
+Read 43c11587 from FIFO
+Write 16b46d2d to FIFO
+head = 3
+tail = 2
+Read 2a2ff554 from FIFO
+Write 506a57a0 to FIFO
+head = 4
+tail = 3
+Read 16b46d2d from FIFO
+Write 8f49661e to FIFO
+head = 5
+tail = 4
+Read 506a57a0 from FIFO
+Write 92c27025 to FIFO
+head = 6
+tail = 5
+Read 8f49661e from FIFO
+Write faf084f5 to FIFO
+head = 7
+tail = 6
+Read 92c27025 from FIFO
+Write 93ba6027 to FIFO
+head = 0
+Write 64d2d3c9 to FIFO
+head = 1
+tail = 7
+Read faf084f5 from FIFO
+Write 4b2f0596 to FIFO
+head = 2
+tail = 0
+Read 93ba6027 from FIFO
+tail = 1
+Read 64d2d3c9 from FIFO
+Write 8e39901c to FIFO
+head = 3
+Write 2cfff159 to FIFO
+head = 4
+Write e02148c0 to FIFO
+head = 5
+tail = 2
+Read 4b2f0596 from FIFO
+Write 4277d784 to FIFO
+head = 6
+tail = 3
+Read 8e39901c from FIFO
+Write 144ced28 to FIFO
+head = 7
+tail = 4
+Read 2cfff159 from FIFO
+Write 5d8e95bb to FIFO
+head = 0
+tail = 5
+Read e02148c0 from FIFO
+Write 3b07bd76 to FIFO
+head = 1
+tail = 6
+Read 4277d784 from FIFO
+Write 207bb04 to FIFO
+head = 2
+tail = 7
+Read 144ced28 from FIFO
+Write a2ce0045 to FIFO
+head = 3
+tail = 0
+Read 5d8e95bb from FIFO
+Write 5db7e1bb to FIFO
+head = 4
+tail = 1
+Read 3b07bd76 from FIFO
+Write 24011148 to FIFO
+head = 5
+tail = 2
+Read 207bb04 from FIFO
+Write d0770ea0 to FIFO
+head = 6
+Write 13913127 to FIFO
+head = 7
+tail = 3
+Read a2ce0045 from FIFO
+tail = 4
+Read 5db7e1bb from FIFO
+Write c0a7e881 to FIFO
+head = 0
+Write d33554a6 to FIFO
+head = 1
+tail = 5
+Read 24011148 from FIFO
+tail = 6
+Read d0770ea0 from FIFO
+Write 90b93021 to FIFO
+head = 2
+tail = 7
+Read 13913127 from FIFO
+Write 9530362a to FIFO
+head = 3
+tail = 0
+Read c0a7e881 from FIFO
+tail = 1
+Read d33554a6 from FIFO
+Write 7d4b53fa to FIFO
+head = 4
+tail = 2
+Read 90b93021 from FIFO
+Write 38422d70 to FIFO
+head = 5
+tail = 3
+Read 9530362a from FIFO
+Write 6b825dd7 to FIFO
+head = 6
+Write 20dcbf41 to FIFO
+head = 7
+tail = 4
+Read 7d4b53fa from FIFO
+tail = 5
+Read 38422d70 from FIFO
+Write b600e26c to FIFO
+head = 0
+tail = 6
+Read 6b825dd7 from FIFO
+Write 7a1e8bf4 to FIFO
+head = 1
+Write 7c99cff9 to FIFO
+head = 2
+tail = 7
+Read 20dcbf41 from FIFO
+tail = 0
+Read b600e26c from FIFO
+Write 4506218a to FIFO
+head = 3
+tail = 1
+Read 7a1e8bf4 from FIFO
+Write 67dd53cf to FIFO
+head = 4
+tail = 2
+Read 7c99cff9 from FIFO
+Write 4c54e198 to FIFO
+head = 5
+tail = 3
+Read 4506218a from FIFO
+Write d7e1c6af to FIFO
+head = 6
+tail = 4
+Read 67dd53cf from FIFO
+Write ca594094 to FIFO
+head = 7
+tail = 5
+Read 4c54e198 from FIFO
+Write 9743be2e to FIFO
+head = 0
+tail = 6
+Read d7e1c6af from FIFO
+Write ca91f895 to FIFO
+head = 1
+tail = 7
+Read ca594094 from FIFO
+Write cc1b6098 to FIFO
+head = 2
+tail = 0
+Read 9743be2e from FIFO
+Write 29349952 to FIFO
+head = 3
+tail = 1
+Read ca91f895 from FIFO
+tail = 2
+Read cc1b6098 from FIFO
+Write ba460274 to FIFO
+head = 4
+tail = 3
+Read 29349952 from FIFO
+Write 41524b82 to FIFO
+head = 5
+tail = 4
+Read ba460274 from FIFO
+Write e28688c5 to FIFO
+head = 6
+Write 1550d12a to FIFO
+head = 7
+tail = 5
+Read 41524b82 from FIFO
+tail = 6
+Read e28688c5 from FIFO
+Write f720bcee to FIFO
+head = 0
+Write 39213b72 to FIFO
+head = 1
+tail = 7
+Read 1550d12a from FIFO
+tail = 0
+Read f720bcee from FIFO
+Write 98f8c031 to FIFO
+head = 2
+Write 5a3681b4 to FIFO
+head = 3
+tail = 1
+Read 39213b72 from FIFO
+Write 8f77461e to FIFO
+head = 4
+tail = 2
+Read 98f8c031 from FIFO
+Write dfa7f1b to FIFO
+head = 5
+tail = 3
+Read 5a3681b4 from FIFO
+tail = 4
+Read 8f77461e from FIFO
+Write 9690342d to FIFO
+head = 6
+tail = 5
+Read dfa7f1b from FIFO
+Write 1ee3173d to FIFO
+head = 7
+tail = 6
+Read 9690342d from FIFO
+Write 4d27799a to FIFO
+head = 0
+tail = 7
+Read 1ee3173d from FIFO
+Write ecc6d4d9 to FIFO
+head = 1
+Write 40f9f181 to FIFO
+head = 2
+tail = 0
+Read 4d27799a from FIFO
+Write 7c9b37f9 to FIFO
+head = 3
+tail = 1
+Read ecc6d4d9 from FIFO
+tail = 2
+Read 40f9f181 from FIFO
+Write 4b498396 to FIFO
+head = 4
+tail = 3
+Read 7c9b37f9 from FIFO
+Write 535d70a to FIFO
+head = 5
+tail = 4
+Read 4b498396 from FIFO
+Write ffa3aaff to FIFO
+head = 6
+tail = 5
+Read 535d70a from FIFO
+Write d651b1a to FIFO
+head = 7
+Write 9b4a313 to FIFO
+head = 0
+tail = 6
+Read ffa3aaff from FIFO
+Write c762268e to FIFO
+head = 1
+tail = 7
+Read d651b1a from FIFO
+Write 7f4ce1fe to FIFO
+head = 2
+tail = 0
+Read 9b4a313 from FIFO
+Write acce1c59 to FIFO
+head = 3
+tail = 1
+Read c762268e from FIFO
+tail = 2
+Read 7f4ce1fe from FIFO
+Write 679709cf to FIFO
+head = 4
+tail = 3
+Read acce1c59 from FIFO
+Write 366d676c to FIFO
+head = 5
+tail = 4
+Read 679709cf from FIFO
+Write cbe34297 to FIFO
+head = 6
+tail = 5
+Read 366d676c from FIFO
+Write da3c32b4 to FIFO
+head = 7
+tail = 6
+Read cbe34297 from FIFO
+tail = 7
+emptyp = 1
+Read da3c32b4 from FIFO
+Write 6e3c37dc to FIFO
+head = 0
+emptyp = 0
+Write 671fa9ce to FIFO
+head = 1
+tail = 0
+Read 6e3c37dc from FIFO
+tail = 1
+emptyp = 1
+Read 671fa9ce from FIFO
+Write 83610a06 to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read 83610a06 from FIFO
+READER is waiting..
+READER is waiting..
+Write 3f32b07 to FIFO
+head = 3
+emptyp = 0
+Write dbc631b to FIFO
+head = 4
+tail = 3
+Read 3f32b07 from FIFO
+Write 308d00 to FIFO
+head = 5
+tail = 4
+Read dbc631b from FIFO
+Write c9bdf19 to FIFO
+head = 6
+tail = 5
+Read 308d00 from FIFO
+Write bffa847f to FIFO
+head = 7
+tail = 6
+Read c9bdf19 from FIFO
+Write 8b84fe17 to FIFO
+head = 0
+Write ec1446d8 to FIFO
+head = 1
+tail = 7
+Read bffa847f from FIFO
+Write 833a6206 to FIFO
+head = 2
+tail = 0
+Read 8b84fe17 from FIFO
+tail = 1
+Read ec1446d8 from FIFO
+Write bbf7917 to FIFO
+head = 3
+tail = 2
+Read 833a6206 from FIFO
+Write 68e3b0d to FIFO
+head = 4
+tail = 3
+Read bbf7917 from FIFO
+Write f97cb4f2 to FIFO
+head = 5
+tail = 4
+Read 68e3b0d from FIFO
+tail = 5
+emptyp = 1
+Read f97cb4f2 from FIFO
+Write efc5c0df to FIFO
+head = 6
+emptyp = 0
+Write a631ec4c to FIFO
+head = 7
+tail = 6
+Read efc5c0df from FIFO
+Write 1dc5013b to FIFO
+head = 0
+tail = 7
+Read a631ec4c from FIFO
+Write e256d0c4 to FIFO
+head = 1
+tail = 0
+Read 1dc5013b from FIFO
+Write 7eddcdfd to FIFO
+head = 2
+Write ad82f15 to FIFO
+head = 3
+tail = 1
+Read e256d0c4 from FIFO
+Write 1b40cf36 to FIFO
+head = 4
+Write f8c1b2f1 to FIFO
+head = 5
+tail = 2
+Read 7eddcdfd from FIFO
+Write 286cff50 to FIFO
+head = 6
+tail = 3
+Read ad82f15 from FIFO
+Write f9a6aef3 to FIFO
+head = 7
+tail = 4
+Read 1b40cf36 from FIFO
+Write 1cd73d39 to FIFO
+head = 0
+tail = 5
+Read f8c1b2f1 from FIFO
+Write 28624b50 to FIFO
+head = 1
+tail = 6
+Read 286cff50 from FIFO
+tail = 7
+Read f9a6aef3 from FIFO
+Write 5cfaf0b to FIFO
+head = 2
+Write 6e2e59dc to FIFO
+head = 3
+tail = 0
+Read 1cd73d39 from FIFO
+Write 21a4cb43 to FIFO
+head = 4
+tail = 1
+Read 28624b50 from FIFO
+Write 80a3ec01 to FIFO
+head = 5
+tail = 2
+Read 5cfaf0b from FIFO
+Write 81694602 to FIFO
+head = 6
+tail = 3
+Read 6e2e59dc from FIFO
+Write 7254d3e4 to FIFO
+head = 7
+tail = 4
+Read 21a4cb43 from FIFO
+Write 1d5c3f3a to FIFO
+head = 0
+tail = 5
+Read 80a3ec01 from FIFO
+Write 5be7d7b7 to FIFO
+head = 1
+tail = 6
+Read 81694602 from FIFO
+Write 164beb2c to FIFO
+head = 2
+Write f2b778e5 to FIFO
+head = 3
+tail = 7
+Read 7254d3e4 from FIFO
+Write cbb5b897 to FIFO
+head = 4
+tail = 0
+Read 1d5c3f3a from FIFO
+Write 955b312 to FIFO
+head = 5
+tail = 1
+Read 5be7d7b7 from FIFO
+tail = 2
+Read 164beb2c from FIFO
+Write b65f1c6c to FIFO
+head = 6
+tail = 3
+Read f2b778e5 from FIFO
+Write aa756854 to FIFO
+head = 7
+tail = 4
+Read cbb5b897 from FIFO
+tail = 5
+Read 955b312 from FIFO
+Write c1994683 to FIFO
+head = 0
+Write f3232ee6 to FIFO
+head = 1
+tail = 6
+Read b65f1c6c from FIFO
+Write b6d1ec6d to FIFO
+head = 2
+tail = 7
+Read aa756854 from FIFO
+tail = 0
+Read c1994683 from FIFO
+Write 3033ff60 to FIFO
+head = 3
+Write 570875ae to FIFO
+head = 4
+tail = 1
+Read f3232ee6 from FIFO
+tail = 2
+Read b6d1ec6d from FIFO
+Write 7598d3eb to FIFO
+head = 5
+Write 47a9a38f to FIFO
+head = 6
+tail = 3
+Read 3033ff60 from FIFO
+tail = 4
+Read 570875ae from FIFO
+Write e08096c1 to FIFO
+head = 7
+tail = 5
+Read 7598d3eb from FIFO
+Write 4e86199d to FIFO
+head = 0
+tail = 6
+Read 47a9a38f from FIFO
+Write 3b308b76 to FIFO
+head = 1
+tail = 7
+Read e08096c1 from FIFO
+Write 639a3fc7 to FIFO
+head = 2
+tail = 0
+Read 4e86199d from FIFO
+Write f91cdef2 to FIFO
+head = 3
+tail = 1
+Read 3b308b76 from FIFO
+Write 179bcd2f to FIFO
+head = 4
+tail = 2
+Read 639a3fc7 from FIFO
+tail = 3
+Read f91cdef2 from FIFO
+Write 47e50f8f to FIFO
+head = 5
+Write b0323e60 to FIFO
+head = 6
+tail = 4
+Read 179bcd2f from FIFO
+Write e7a170cf to FIFO
+head = 7
+Write 3a70ef74 to FIFO
+head = 0
+tail = 5
+Read 47e50f8f from FIFO
+Write 184abd30 to FIFO
+head = 1
+tail = 6
+Read b0323e60 from FIFO
+Write 85826e0b to FIFO
+head = 2
+Write 5750e5ae to FIFO
+head = 3
+tail = 7
+Read e7a170cf from FIFO
+Write 767c07ec to FIFO
+head = 4
+Write 33b8f767 to FIFO
+head = 5
+tail = 0
+Read 3a70ef74 from FIFO
+tail = 1
+Read 184abd30 from FIFO
+Write 38bcbb71 to FIFO
+head = 6
+tail = 2
+Read 85826e0b from FIFO
+Write 54238da8 to FIFO
+head = 7
+tail = 3
+Read 5750e5ae from FIFO
+Write b22cf464 to FIFO
+head = 0
+Write 27b91f4f to FIFO
+head = 1
+tail = 4
+Read 767c07ec from FIFO
+Write 77b957ef to FIFO
+head = 2
+tail = 5
+Read 33b8f767 from FIFO
+Write 213ad542 to FIFO
+head = 3
+tail = 6
+Read 38bcbb71 from FIFO
+Write 7a6af5f4 to FIFO
+head = 4
+tail = 7
+Read 54238da8 from FIFO
+Write 294c2b52 to FIFO
+head = 5
+tail = 0
+Read b22cf464 from FIFO
+Write 6de21ddb to FIFO
+head = 6
+Write c16ed18 to FIFO
+head = 7
+tail = 1
+Read 27b91f4f from FIFO
+tail = 2
+Read 77b957ef from FIFO
+Write 5471e7a8 to FIFO
+head = 0
+tail = 3
+Read 213ad542 from FIFO
+Write 5a3079b4 to FIFO
+head = 1
+tail = 4
+Read 7a6af5f4 from FIFO
+Write f5fb76eb to FIFO
+head = 2
+tail = 5
+Read 294c2b52 from FIFO
+Write cd36119 to FIFO
+head = 3
+tail = 6
+Read 6de21ddb from FIFO
+Write 1e46693c to FIFO
+head = 4
+tail = 7
+Read c16ed18 from FIFO
+Write 43772386 to FIFO
+head = 5
+tail = 0
+Read 5471e7a8 from FIFO
+tail = 1
+Read 5a3079b4 from FIFO
+Write 1699502 to FIFO
+head = 6
+tail = 2
+Read f5fb76eb from FIFO
+Write 41180b82 to FIFO
+head = 7
+tail = 3
+Read cd36119 from FIFO
+Write 240f3d48 to FIFO
+head = 0
+tail = 4
+Read 1e46693c from FIFO
+tail = 5
+Read 43772386 from FIFO
+Write 45240d8a to FIFO
+head = 1
+tail = 6
+Read 1699502 from FIFO
+Write 713fabe2 to FIFO
+head = 2
+tail = 7
+Read 41180b82 from FIFO
+Write eef2c2dd to FIFO
+head = 3
+tail = 0
+Read 240f3d48 from FIFO
+Write 5a4dc3b4 to FIFO
+head = 4
+tail = 1
+Read 45240d8a from FIFO
+tail = 2
+Read 713fabe2 from FIFO
+Write 4a666194 to FIFO
+head = 5
+tail = 3
+Read eef2c2dd from FIFO
+Write f83cb4f0 to FIFO
+head = 6
+tail = 4
+Read 5a4dc3b4 from FIFO
+Write 40f5b381 to FIFO
+head = 7
+tail = 5
+Read 4a666194 from FIFO
+Write 1dc2173b to FIFO
+head = 0
+Write 76e9dfed to FIFO
+head = 1
+tail = 6
+Read f83cb4f0 from FIFO
+tail = 7
+Read 40f5b381 from FIFO
+Write 1fdfe53f to FIFO
+head = 2
+tail = 0
+Read 1dc2173b from FIFO
+Write 99586632 to FIFO
+head = 3
+tail = 1
+Read 76e9dfed from FIFO
+Write 982eb030 to FIFO
+head = 4
+Write e6720ccc to FIFO
+head = 5
+tail = 2
+Read 1fdfe53f from FIFO
+Write bf24207e to FIFO
+head = 6
+tail = 3
+Read 99586632 from FIFO
+Write 1643a12c to FIFO
+head = 7
+tail = 4
+Read 982eb030 from FIFO
+Write a164cc42 to FIFO
+head = 0
+tail = 5
+Read e6720ccc from FIFO
+tail = 6
+Read bf24207e from FIFO
+Write 9e212a3c to FIFO
+head = 1
+tail = 7
+Read 1643a12c from FIFO
+tail = 0
+Read a164cc42 from FIFO
+Write 486a709 to FIFO
+head = 2
+tail = 1
+Read 9e212a3c from FIFO
+Write 34eacd69 to FIFO
+head = 3
+tail = 2
+Read 486a709 from FIFO
+Write 8d19d01a to FIFO
+head = 4
+tail = 3
+Read 34eacd69 from FIFO
+Write 8ca44819 to FIFO
+head = 5
+tail = 4
+Read 8d19d01a from FIFO
+tail = 5
+emptyp = 1
+Read 8ca44819 from FIFO
+Write d1b31ca3 to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read d1b31ca3 from FIFO
+Write 7c23eff8 to FIFO
+head = 7
+emptyp = 0
+Write 32a20765 to FIFO
+head = 0
+tail = 7
+Read 7c23eff8 from FIFO
+tail = 0
+emptyp = 1
+Read 32a20765 from FIFO
+Write c4437e88 to FIFO
+head = 1
+emptyp = 0
+tail = 1
+emptyp = 1
+Read c4437e88 from FIFO
+READER is waiting..
+Write d8d756b1 to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read d8d756b1 from FIFO
+Write ad43a25a to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read ad43a25a from FIFO
+Write a8575c50 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read a8575c50 from FIFO
+Write 9ac1ca35 to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read 9ac1ca35 from FIFO
+READER is waiting..
+Write c50e508a to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read c50e508a from FIFO
+Write 7fe3b7ff to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read 7fe3b7ff from FIFO
+Write 887daa10 to FIFO
+head = 0
+emptyp = 0
+Write 88539e10 to FIFO
+head = 1
+tail = 0
+Read 887daa10 from FIFO
+tail = 1
+emptyp = 1
+Read 88539e10 from FIFO
+Write 49569992 to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read 49569992 from FIFO
+Write df218abe to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read df218abe from FIFO
+Write e47676c8 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read e47676c8 from FIFO
+READER is waiting..
+Write ab5c3856 to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read ab5c3856 from FIFO
+Write bc80117 to FIFO
+head = 6
+emptyp = 0
+Write 2a23a754 to FIFO
+head = 7
+tail = 6
+Read bc80117 from FIFO
+Write edf7b0db to FIFO
+head = 0
+tail = 7
+Read 2a23a754 from FIFO
+Write 55574baa to FIFO
+head = 1
+tail = 0
+Read edf7b0db from FIFO
+Write d979f2b2 to FIFO
+head = 2
+tail = 1
+Read 55574baa from FIFO
+Write 19302f32 to FIFO
+head = 3
+tail = 2
+Read d979f2b2 from FIFO
+Write 3479a568 to FIFO
+head = 4
+Write ec38c4d8 to FIFO
+head = 5
+tail = 3
+Read 19302f32 from FIFO
+tail = 4
+Read 3479a568 from FIFO
+Write f409cee8 to FIFO
+head = 6
+tail = 5
+Read ec38c4d8 from FIFO
+Write afedbc5f to FIFO
+head = 7
+Write f30542e6 to FIFO
+head = 0
+tail = 6
+Read f409cee8 from FIFO
+tail = 7
+Read afedbc5f from FIFO
+Write 8a830015 to FIFO
+head = 1
+tail = 0
+Read f30542e6 from FIFO
+Write ce5a389c to FIFO
+head = 2
+tail = 1
+Read 8a830015 from FIFO
+tail = 2
+emptyp = 1
+Read ce5a389c from FIFO
+Write c8bb7c91 to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read c8bb7c91 from FIFO
+Write c053be80 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read c053be80 from FIFO
+Write e994fed3 to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read e994fed3 from FIFO
+Write b2d0f065 to FIFO
+head = 6
+emptyp = 0
+Write ead458d5 to FIFO
+head = 7
+tail = 6
+Read b2d0f065 from FIFO
+Write b9799a72 to FIFO
+head = 0
+tail = 7
+Read ead458d5 from FIFO
+Write f87838f0 to FIFO
+head = 1
+tail = 0
+Read b9799a72 from FIFO
+Write 3292e165 to FIFO
+head = 2
+tail = 1
+Read f87838f0 from FIFO
+tail = 2
+emptyp = 1
+Read 3292e165 from FIFO
+Write 3600a36c to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read 3600a36c from FIFO
+Write 83a4fa07 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read 83a4fa07 from FIFO
+READER is waiting..
+Write 3dd3d57b to FIFO
+head = 5
+emptyp = 0
+Write f7f42cef to FIFO
+head = 6
+tail = 5
+Read 3dd3d57b from FIFO
+tail = 6
+emptyp = 1
+Read f7f42cef from FIFO
+Write 16b9412d to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read 16b9412d from FIFO
+Write 33f6b567 to FIFO
+head = 0
+emptyp = 0
+tail = 0
+emptyp = 1
+Read 33f6b567 from FIFO
+Write e3642ac6 to FIFO
+head = 1
+emptyp = 0
+Write eb5d8cd6 to FIFO
+head = 2
+tail = 1
+Read e3642ac6 from FIFO
+tail = 2
+emptyp = 1
+Read eb5d8cd6 from FIFO
+Write 4788e78f to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read 4788e78f from FIFO
+READER is waiting..
+Write c94ce892 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read c94ce892 from FIFO
+Write 8601b60c to FIFO
+head = 5
+emptyp = 0
+Write a64ff64c to FIFO
+head = 6
+tail = 5
+Read 8601b60c from FIFO
+Write da7cbcb4 to FIFO
+head = 7
+tail = 6
+Read a64ff64c from FIFO
+tail = 7
+emptyp = 1
+Read da7cbcb4 from FIFO
+Write 2e01fd5c to FIFO
+head = 0
+emptyp = 0
+Write e4e99ac9 to FIFO
+head = 1
+tail = 0
+Read 2e01fd5c from FIFO
+tail = 1
+emptyp = 1
+Read e4e99ac9 from FIFO
+Write b6bafc6d to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read b6bafc6d from FIFO
+Write a4884649 to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read a4884649 from FIFO
+Write e13db2c2 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read e13db2c2 from FIFO
+READER is waiting..
+Write 87e7080f to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read 87e7080f from FIFO
+READER is waiting..
+Write 3aef1b75 to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read 3aef1b75 from FIFO
+Write 2f376f5e to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read 2f376f5e from FIFO
+Write e526f6ca to FIFO
+head = 0
+emptyp = 0
+tail = 0
+emptyp = 1
+Read e526f6ca from FIFO
+Write 27e9ed4f to FIFO
+head = 1
+emptyp = 0
+tail = 1
+emptyp = 1
+Read 27e9ed4f from FIFO
+Write 4d7a999a to FIFO
+head = 2
+emptyp = 0
+Write ca08a094 to FIFO
+head = 3
+tail = 2
+Read 4d7a999a from FIFO
+tail = 3
+emptyp = 1
+Read ca08a094 from FIFO
+Write 640083c8 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read 640083c8 from FIFO
+Write 523a07a4 to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read 523a07a4 from FIFO
+Write ef2f94de to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read ef2f94de from FIFO
+Write 85a6740b to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read 85a6740b from FIFO
+Write b74b866e to FIFO
+head = 0
+emptyp = 0
+Write 31f94b63 to FIFO
+head = 1
+tail = 0
+Read b74b866e from FIFO
+tail = 1
+emptyp = 1
+Read 31f94b63 from FIFO
+Write 941eba28 to FIFO
+head = 2
+emptyp = 0
+tail = 2
+emptyp = 1
+Read 941eba28 from FIFO
+READER is waiting..
+Write c9c33293 to FIFO
+head = 3
+emptyp = 0
+tail = 3
+emptyp = 1
+Read c9c33293 from FIFO
+Write 15ee0d2b to FIFO
+head = 4
+emptyp = 0
+Write 1b570f36 to FIFO
+head = 5
+tail = 4
+Read 15ee0d2b from FIFO
+Write 766c75ec to FIFO
+head = 6
+tail = 5
+Read 1b570f36 from FIFO
+tail = 6
+emptyp = 1
+Read 766c75ec from FIFO
+Write c5dc3a8b to FIFO
+head = 7
+emptyp = 0
+tail = 7
+emptyp = 1
+Read c5dc3a8b from FIFO
+Write 5695dbad to FIFO
+head = 0
+emptyp = 0
+Write 7dbb99fb to FIFO
+head = 1
+tail = 0
+Read 5695dbad from FIFO
+Write a4dcf249 to FIFO
+head = 2
+tail = 1
+Read 7dbb99fb from FIFO
+Write 8db84e1b to FIFO
+head = 3
+tail = 2
+Read a4dcf249 from FIFO
+tail = 3
+emptyp = 1
+Read 8db84e1b from FIFO
+READER is waiting..
+READER is waiting..
+Write e41132c8 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read e41132c8 from FIFO
+Write 7c9f2df9 to FIFO
+head = 5
+emptyp = 0
+tail = 5
+emptyp = 1
+Read 7c9f2df9 from FIFO
+Write d36876a6 to FIFO
+head = 6
+emptyp = 0
+tail = 6
+emptyp = 1
+Read d36876a6 from FIFO
+READER is waiting..
+Write 8e697a1c to FIFO
+head = 7
+emptyp = 0
+Write b836c070 to FIFO
+head = 0
+tail = 7
+Read 8e697a1c from FIFO
+tail = 0
+emptyp = 1
+Read b836c070 from FIFO
+Write 90af4e21 to FIFO
+head = 1
+emptyp = 0
+Write 61d9abc3 to FIFO
+head = 2
+tail = 1
+Read 90af4e21 from FIFO
+Write 86ef900d to FIFO
+head = 3
+tail = 2
+Read 61d9abc3 from FIFO
+tail = 3
+emptyp = 1
+Read 86ef900d from FIFO
+Write 797585f2 to FIFO
+head = 4
+emptyp = 0
+tail = 4
+emptyp = 1
+Read 797585f2 from FIFO
+READER is waiting..
+Write 28428950 to FIFO
+head = 5
+emptyp = 0
+Write ff7c3efe to FIFO
+head = 6
+tail = 5
+Read 28428950 from FIFO
+tail = 6
+emptyp = 1
+Read ff7c3efe from FIFO
+Write 31492362 to FIFO
+head = 7
+emptyp = 0
+Write c941319 to FIFO
+head = 0
+tail = 7
+Read 31492362 from FIFO
+tail = 0
+emptyp = 1
+Read c941319 from FIFO
+Write e8b1c6d1 to FIFO
+head = 1
+emptyp = 0
+Write ab9b7457 to FIFO
+head = 2
+tail = 1
+Read e8b1c6d1 from FIFO
+Write a663624c to FIFO
+head = 3
+tail = 2
+Read ab9b7457 from FIFO
+Write aa7fac54 to FIFO
+head = 4
+tail = 3
+Read a663624c from FIFO
+Done with WRITER fork..
+tail = 4
+emptyp = 1
+Read aa7fac54 from FIFO
+READER is waiting..
+$finish called from file "fifo_tb.v", line 199.
+$finish at simulation time                50818
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 50818
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Thu Sep 28 13:27:19 2017

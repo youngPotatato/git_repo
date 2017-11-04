@@ -1,0 +1,2 @@
+./Trac.sv
+./testCopyObject.sv

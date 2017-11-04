@@ -1,0 +1,350 @@
+Group : top.t1::my_gen::TransCov
+
+===============================================================================
+Group : top.t1::my_gen::TransCov
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 70.46 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/yy/Desktop/My_prog/svtb_training/lab4/tests/test_03_cvr_driven.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   top.t1::my_gen::TransCov
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 70       19        51      90.10   
+Crosses   512      453       59      11.52   
+
+
+Variables for Group  top.t1::my_gen::TransCov
+
+
+VARIABLE   EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+read_write 2        0         2       100.00  100  1      1        0                    
+address    64       19        45      70.31   100  1      1        64                   
+seleData   4        0         4       100.00  100  1      1        0                    
+
+
+Crosses for Group  top.t1::my_gen::TransCov
+
+
+CROSS       EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+TransCov_cc 512      453       59      11.52   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable read_write
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for read_write
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+write 28    1        
+read  36    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable address
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 64       19        45      70.31   
+
+
+Automatically Generated Bins for address
+
+
+Uncovered bins
+
+NAME                                    COUNT AT LEAST NUMBER 
+[auto[0:1023]]                          0     1        1      
+[auto[2048:3071]]                       0     1        1      
+[auto[4096:5119]]                       0     1        1      
+[auto[6144:7167] - auto[7168:8191]]     --    --       2      
+[auto[15360:16383]]                     0     1        1      
+[auto[17408:18431]]                     0     1        1      
+[auto[22528:23551]]                     0     1        1      
+[auto[24576:25599] - auto[25600:26623]] --    --       2      
+[auto[28672:29695] - auto[29696:30719]] --    --       2      
+[auto[32768:33791]]                     0     1        1      
+[auto[34816:35839]]                     0     1        1      
+[auto[47104:48127] - auto[50176:51199]] --    --       4      
+[auto[61440:62463]]                     0     1        1      
+
+
+Covered bins
+
+NAME              COUNT AT LEAST 
+auto[1024:2047]   1     1        
+auto[3072:4095]   2     1        
+auto[5120:6143]   1     1        
+auto[8192:9215]   1     1        
+auto[9216:10239]  2     1        
+auto[10240:11263] 1     1        
+auto[11264:12287] 2     1        
+auto[12288:13311] 1     1        
+auto[13312:14335] 1     1        
+auto[14336:15359] 3     1        
+auto[16384:17407] 1     1        
+auto[18432:19455] 2     1        
+auto[19456:20479] 2     1        
+auto[20480:21503] 1     1        
+auto[21504:22527] 3     1        
+auto[23552:24575] 3     1        
+auto[26624:27647] 1     1        
+auto[27648:28671] 1     1        
+auto[30720:31743] 1     1        
+auto[31744:32767] 1     1        
+auto[33792:34815] 3     1        
+auto[35840:36863] 2     1        
+auto[36864:37887] 1     1        
+auto[37888:38911] 1     1        
+auto[38912:39935] 1     1        
+auto[39936:40959] 1     1        
+auto[40960:41983] 1     1        
+auto[41984:43007] 1     1        
+auto[43008:44031] 1     1        
+auto[44032:45055] 2     1        
+auto[45056:46079] 1     1        
+auto[46080:47103] 1     1        
+auto[51200:52223] 1     1        
+auto[52224:53247] 1     1        
+auto[53248:54271] 2     1        
+auto[54272:55295] 1     1        
+auto[55296:56319] 1     1        
+auto[56320:57343] 2     1        
+auto[57344:58367] 1     1        
+auto[58368:59391] 2     1        
+auto[59392:60415] 2     1        
+auto[60416:61439] 1     1        
+auto[62464:63487] 1     1        
+auto[63488:64511] 1     1        
+auto[64512:65535] 1     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable seleData
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 4        0         4       100.00  
+
+
+User Defined Bins for seleData
+
+
+Bins
+
+NAME COUNT AT LEAST 
+d    14    1        
+c    16    1        
+b    16    1        
+a    18    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross TransCov_cc
+
+
+Samples crossed: read_write address seleData
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 512      453       59      11.52   453     
+
+
+Automatically Generated Cross Bins for TransCov_cc
+
+
+Element holes
+
+read_write address                                 seleData COUNT AT LEAST NUMBER 
+[write]    [auto[0:1023]]                          *        --    --       4      
+[write]    [auto[2048:3071]]                       *        --    --       4      
+[write]    [auto[4096:5119] - auto[8192:9215]]     *        --    --       20     
+[write]    [auto[10240:11263]]                     *        --    --       4      
+[write]    [auto[12288:13311] - auto[13312:14335]] *        --    --       8      
+[write]    [auto[15360:16383] - auto[22528:23551]] *        --    --       32     
+[write]    [auto[24576:25599] - auto[26624:27647]] *        --    --       12     
+[write]    [auto[28672:29695] - auto[29696:30719]] *        --    --       8      
+[write]    [auto[31744:32767] - auto[32768:33791]] *        --    --       8      
+[write]    [auto[34816:35839] - auto[36864:37887]] *        --    --       12     
+[write]    [auto[40960:41983]]                     *        --    --       4      
+[write]    [auto[43008:44031] - auto[51200:52223]] *        --    --       36     
+[write]    [auto[53248:54271] - auto[54272:55295]] *        --    --       8      
+[write]    [auto[61440:62463] - auto[63488:64511]] *        --    --       12     
+[read]     [auto[0:1023] - auto[4096:5119]]        *        --    --       20     
+[read]     [auto[6144:7167] - auto[7168:8191]]     *        --    --       8      
+[read]     [auto[11264:12287]]                     *        --    --       4      
+[read]     [auto[15360:16383]]                     *        --    --       4      
+[read]     [auto[17408:18431]]                     *        --    --       4      
+[read]     [auto[22528:23551]]                     *        --    --       4      
+[read]     [auto[24576:25599] - auto[25600:26623]] *        --    --       8      
+[read]     [auto[27648:28671] - auto[30720:31743]] *        --    --       16     
+[read]     [auto[32768:33791]]                     *        --    --       4      
+[read]     [auto[34816:35839]]                     *        --    --       4      
+[read]     [auto[37888:38911] - auto[39936:40959]] *        --    --       12     
+[read]     [auto[41984:43007]]                     *        --    --       4      
+[read]     [auto[47104:48127] - auto[50176:51199]] *        --    --       16     
+[read]     [auto[52224:53247]]                     *        --    --       4      
+[read]     [auto[55296:56319]]                     *        --    --       4      
+[read]     [auto[57344:58367] - auto[61440:62463]] *        --    --       20     
+[read]     [auto[64512:65535]]                     *        --    --       4      
+
+
+Uncovered bins
+
+read_write address                                 seleData    COUNT AT LEAST NUMBER 
+[write]    [auto[1024:2047]]                       [d , c]     --    --       2      
+[write]    [auto[1024:2047]]                       [a]         0     1        1      
+[write]    [auto[3072:4095]]                       [d , c , b] --    --       3      
+[write]    [auto[9216:10239]]                      [d , c , b] --    --       3      
+[write]    [auto[11264:12287]]                     [d]         0     1        1      
+[write]    [auto[11264:12287]]                     [b]         0     1        1      
+[write]    [auto[14336:15359]]                     [d]         0     1        1      
+[write]    [auto[14336:15359]]                     [b]         0     1        1      
+[write]    [auto[23552:24575]]                     [c]         0     1        1      
+[write]    [auto[23552:24575]]                     [a]         0     1        1      
+[write]    [auto[27648:28671]]                     [c , b , a] --    --       3      
+[write]    [auto[30720:31743]]                     [d , c , b] --    --       3      
+[write]    [auto[33792:34815]]                     [b , a]     --    --       2      
+[write]    [auto[37888:38911]]                     [c , b , a] --    --       3      
+[write]    [auto[38912:39935]]                     [d , c]     --    --       2      
+[write]    [auto[38912:39935]]                     [a]         0     1        1      
+[write]    [auto[39936:40959]]                     [d , c , b] --    --       3      
+[write]    [auto[41984:43007]]                     [d , c]     --    --       2      
+[write]    [auto[41984:43007]]                     [a]         0     1        1      
+[write]    [auto[52224:53247]]                     [c , b , a] --    --       3      
+[write]    [auto[55296:56319]]                     [c , b , a] --    --       3      
+[write]    [auto[56320:57343]]                     [d]         0     1        1      
+[write]    [auto[56320:57343]]                     [b , a]     --    --       2      
+[write]    [auto[57344:58367]]                     [c , b , a] --    --       3      
+[write]    [auto[58368:59391] - auto[59392:60415]] [d]         --    --       2      
+[write]    [auto[58368:59391] - auto[59392:60415]] [a]         --    --       2      
+[write]    [auto[60416:61439]]                     [d , c]     --    --       2      
+[write]    [auto[60416:61439]]                     [a]         0     1        1      
+[write]    [auto[64512:65535]]                     [d , c]     --    --       2      
+[write]    [auto[64512:65535]]                     [a]         0     1        1      
+[read]     [auto[5120:6143]]                       [d]         0     1        1      
+[read]     [auto[5120:6143]]                       [b , a]     --    --       2      
+[read]     [auto[8192:9215]]                       [d]         0     1        1      
+[read]     [auto[8192:9215]]                       [b , a]     --    --       2      
+[read]     [auto[9216:10239] - auto[10240:11263]]  [d , c , b] --    --       6      
+[read]     [auto[12288:13311]]                     [d , c , b] --    --       3      
+[read]     [auto[13312:14335]]                     [d]         0     1        1      
+[read]     [auto[13312:14335]]                     [b , a]     --    --       2      
+[read]     [auto[14336:15359]]                     [d , c , b] --    --       3      
+[read]     [auto[16384:17407]]                     [d , c]     --    --       2      
+[read]     [auto[16384:17407]]                     [a]         0     1        1      
+[read]     [auto[18432:19455]]                     [d , c , b] --    --       3      
+[read]     [auto[19456:20479]]                     [c]         0     1        1      
+[read]     [auto[19456:20479]]                     [a]         0     1        1      
+[read]     [auto[20480:21503]]                     [d]         0     1        1      
+[read]     [auto[20480:21503]]                     [b , a]     --    --       2      
+[read]     [auto[21504:22527]]                     [a]         0     1        1      
+[read]     [auto[23552:24575]]                     [c , b , a] --    --       3      
+[read]     [auto[26624:27647]]                     [d]         0     1        1      
+[read]     [auto[26624:27647]]                     [b , a]     --    --       2      
+[read]     [auto[31744:32767]]                     [c , b , a] --    --       3      
+[read]     [auto[33792:34815]]                     [c , b , a] --    --       3      
+[read]     [auto[35840:36863]]                     [d , c , b] --    --       3      
+[read]     [auto[36864:37887]]                     [c , b , a] --    --       3      
+[read]     [auto[40960:41983]]                     [d , c , b] --    --       3      
+[read]     [auto[43008:44031]]                     [d , c , b] --    --       3      
+[read]     [auto[44032:45055]]                     [d , c]     --    --       2      
+[read]     [auto[44032:45055]]                     [a]         0     1        1      
+[read]     [auto[45056:46079]]                     [d , c , b] --    --       3      
+[read]     [auto[46080:47103]]                     [d , c]     --    --       2      
+[read]     [auto[46080:47103]]                     [a]         0     1        1      
+[read]     [auto[51200:52223]]                     [c , b , a] --    --       3      
+[read]     [auto[53248:54271] - auto[54272:55295]] [d]         --    --       2      
+[read]     [auto[53248:54271] - auto[54272:55295]] [b , a]     --    --       4      
+[read]     [auto[56320:57343]]                     [d , c]     --    --       2      
+[read]     [auto[56320:57343]]                     [a]         0     1        1      
+[read]     [auto[62464:63487]]                     [d , c]     --    --       2      
+[read]     [auto[62464:63487]]                     [a]         0     1        1      
+[read]     [auto[63488:64511]]                     [d]         0     1        1      
+[read]     [auto[63488:64511]]                     [b , a]     --    --       2      
+
+
+Covered bins
+
+read_write address           seleData COUNT AT LEAST 
+write      auto[58368:59391] b        1     1        
+write      auto[58368:59391] c        1     1        
+write      auto[14336:15359] a        1     1        
+write      auto[14336:15359] c        1     1        
+write      auto[56320:57343] c        1     1        
+write      auto[57344:58367] d        1     1        
+write      auto[27648:28671] d        1     1        
+write      auto[55296:56319] d        1     1        
+write      auto[1024:2047]   b        1     1        
+write      auto[30720:31743] a        1     1        
+write      auto[39936:40959] a        1     1        
+write      auto[52224:53247] d        1     1        
+write      auto[41984:43007] b        1     1        
+write      auto[11264:12287] a        1     1        
+write      auto[11264:12287] c        1     1        
+write      auto[38912:39935] b        1     1        
+write      auto[23552:24575] b        1     1        
+write      auto[23552:24575] d        1     1        
+write      auto[3072:4095]   a        2     1        
+write      auto[59392:60415] b        1     1        
+write      auto[59392:60415] c        1     1        
+write      auto[60416:61439] b        1     1        
+write      auto[33792:34815] d        1     1        
+write      auto[33792:34815] c        1     1        
+write      auto[9216:10239]  a        1     1        
+write      auto[37888:38911] d        1     1        
+write      auto[64512:65535] b        1     1        
+read       auto[46080:47103] b        1     1        
+read       auto[56320:57343] b        1     1        
+read       auto[14336:15359] a        1     1        
+read       auto[26624:27647] c        1     1        
+read       auto[20480:21503] c        1     1        
+read       auto[35840:36863] a        2     1        
+read       auto[45056:46079] a        1     1        
+read       auto[21504:22527] d        1     1        
+read       auto[21504:22527] b        1     1        
+read       auto[21504:22527] c        1     1        
+read       auto[62464:63487] b        1     1        
+read       auto[10240:11263] a        1     1        
+read       auto[16384:17407] b        1     1        
+read       auto[5120:6143]   c        1     1        
+read       auto[31744:32767] d        1     1        
+read       auto[51200:52223] d        1     1        
+read       auto[40960:41983] a        1     1        
+read       auto[13312:14335] c        1     1        
+read       auto[23552:24575] d        1     1        
+read       auto[53248:54271] c        2     1        
+read       auto[54272:55295] c        1     1        
+read       auto[33792:34815] d        1     1        
+read       auto[12288:13311] a        1     1        
+read       auto[19456:20479] b        1     1        
+read       auto[19456:20479] d        1     1        
+read       auto[9216:10239]  a        1     1        
+read       auto[36864:37887] d        1     1        
+read       auto[63488:64511] c        1     1        
+read       auto[43008:44031] a        1     1        
+read       auto[44032:45055] b        2     1        
+read       auto[8192:9215]   c        1     1        
+read       auto[18432:19455] a        2     1        
+
+
