@@ -1,0 +1,597 @@
+312      
+0 uvm_pkg.sv
+0 /home/yy/EDA/VCS2016/etc/systemverilog/uvm_pkg.sv
+0 uvm_macros.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/uvm_macros.svh
+0 macros/uvm_version_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_version_defines.svh
+0 macros/uvm_global_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_global_defines.svh
+0 macros/uvm_message_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_message_defines.svh
+0 macros/uvm_phase_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_phase_defines.svh
+0 macros/uvm_object_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_object_defines.svh
+0 macros/uvm_printer_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_printer_defines.svh
+0 macros/uvm_tlm_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_tlm_defines.svh
+0 tlm1/uvm_tlm_imps.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_tlm_imps.svh
+0 macros/uvm_sequence_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_sequence_defines.svh
+0 macros/uvm_callback_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_callback_defines.svh
+0 macros/uvm_reg_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_reg_defines.svh
+0 macros/uvm_deprecated_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/macros/uvm_deprecated_defines.svh
+0 dpi/uvm_dpi.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dpi/uvm_dpi.svh
+0 dpi/uvm_hdl.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dpi/uvm_hdl.svh
+0 dpi/uvm_svcmd_dpi.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dpi/uvm_svcmd_dpi.svh
+0 dpi/uvm_regex.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dpi/uvm_regex.svh
+0 base/uvm_base.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_base.svh
+0 base/uvm_coreservice.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_coreservice.svh
+0 base/uvm_version.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_version.svh
+0 base/uvm_object_globals.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_object_globals.svh
+0 base/uvm_misc.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_misc.svh
+0 base/uvm_object.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_object.svh
+0 base/uvm_pool.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_pool.svh
+0 base/uvm_queue.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_queue.svh
+0 base/uvm_factory.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_factory.svh
+0 base/uvm_registry.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_registry.svh
+0 base/uvm_spell_chkr.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_spell_chkr.svh
+0 base/uvm_resource.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_resource.svh
+0 base/uvm_resource_specializations.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_resource_specializations.svh
+0 base/uvm_resource_db.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_resource_db.svh
+0 base/uvm_config_db.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_config_db.svh
+0 base/uvm_printer.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_printer.svh
+0 base/uvm_comparer.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_comparer.svh
+0 base/uvm_packer.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_packer.svh
+0 base/uvm_links.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_links.svh
+0 base/uvm_tr_database.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_tr_database.svh
+0 base/uvm_tr_stream.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_tr_stream.svh
+0 base/uvm_recorder.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_recorder.svh
+0 base/uvm_event_callback.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_event_callback.svh
+0 base/uvm_event.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_event.svh
+0 base/uvm_barrier.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_barrier.svh
+0 base/uvm_callback.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_callback.svh
+0 base/uvm_report_message.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_report_message.svh
+0 base/uvm_report_catcher.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_report_catcher.svh
+0 base/uvm_report_server.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_report_server.svh
+0 base/uvm_report_handler.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_report_handler.svh
+0 base/uvm_report_object.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_report_object.svh
+0 base/uvm_transaction.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_transaction.svh
+0 base/uvm_phase.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_phase.svh
+0 base/uvm_domain.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_domain.svh
+0 base/uvm_bottomup_phase.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_bottomup_phase.svh
+0 base/uvm_topdown_phase.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_topdown_phase.svh
+0 base/uvm_task_phase.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_task_phase.svh
+0 base/uvm_common_phases.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_common_phases.svh
+0 base/uvm_runtime_phases.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_runtime_phases.svh
+0 base/uvm_component.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_component.svh
+0 base/uvm_root.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_root.svh
+0 base/uvm_objection.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_objection.svh
+0 base/uvm_heartbeat.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_heartbeat.svh
+0 base/uvm_globals.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_globals.svh
+0 base/uvm_cmdline_processor.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_cmdline_processor.svh
+0 base/uvm_traversal.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_traversal.svh
+0 dap/uvm_dap.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dap/uvm_dap.svh
+0 dap/uvm_set_get_dap_base.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dap/uvm_set_get_dap_base.svh
+0 dap/uvm_simple_lock_dap.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dap/uvm_simple_lock_dap.svh
+0 dap/uvm_get_to_lock_dap.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dap/uvm_get_to_lock_dap.svh
+0 dap/uvm_set_before_get_dap.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/dap/uvm_set_before_get_dap.svh
+0 tlm1/uvm_tlm.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_tlm.svh
+0 tlm1/uvm_tlm_ifs.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_tlm_ifs.svh
+0 tlm1/uvm_sqr_ifs.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_sqr_ifs.svh
+0 base/uvm_port_base.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/base/uvm_port_base.svh
+0 tlm1/uvm_imps.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_imps.svh
+0 tlm1/uvm_ports.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_ports.svh
+0 tlm1/uvm_exports.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_exports.svh
+0 tlm1/uvm_analysis_port.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_analysis_port.svh
+0 tlm1/uvm_tlm_fifo_base.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_tlm_fifo_base.svh
+0 tlm1/uvm_tlm_fifos.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_tlm_fifos.svh
+0 tlm1/uvm_tlm_req_rsp.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_tlm_req_rsp.svh
+0 tlm1/uvm_sqr_connections.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm1/uvm_sqr_connections.svh
+0 comps/uvm_comps.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_comps.svh
+0 comps/uvm_pair.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_pair.svh
+0 comps/uvm_policies.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_policies.svh
+0 comps/uvm_in_order_comparator.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_in_order_comparator.svh
+0 comps/uvm_algorithmic_comparator.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_algorithmic_comparator.svh
+0 comps/uvm_random_stimulus.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_random_stimulus.svh
+0 comps/uvm_subscriber.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_subscriber.svh
+0 comps/uvm_monitor.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_monitor.svh
+0 comps/uvm_driver.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_driver.svh
+0 comps/uvm_push_driver.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_push_driver.svh
+0 comps/uvm_scoreboard.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_scoreboard.svh
+0 comps/uvm_agent.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_agent.svh
+0 comps/uvm_env.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_env.svh
+0 comps/uvm_test.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/comps/uvm_test.svh
+0 seq/uvm_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_seq.svh
+0 seq/uvm_sequence_item.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequence_item.svh
+0 seq/uvm_sequencer_base.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequencer_base.svh
+0 seq/uvm_sequencer_analysis_fifo.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequencer_analysis_fifo.svh
+0 seq/uvm_sequencer_param_base.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequencer_param_base.svh
+0 seq/uvm_sequencer.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequencer.svh
+0 seq/uvm_push_sequencer.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_push_sequencer.svh
+0 seq/uvm_sequence_base.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequence_base.svh
+0 seq/uvm_sequence.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequence.svh
+0 seq/uvm_sequence_library.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequence_library.svh
+0 seq/uvm_sequence_builtin.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/seq/uvm_sequence_builtin.svh
+0 tlm2/uvm_tlm2.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2.svh
+0 tlm2/uvm_tlm2_defines.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_defines.svh
+0 tlm2/uvm_tlm2_time.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_time.svh
+0 tlm2/uvm_tlm2_generic_payload.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_generic_payload.svh
+0 tlm2/uvm_tlm2_ifs.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_ifs.svh
+0 tlm2/uvm_tlm2_imps.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_imps.svh
+0 tlm2/uvm_tlm2_ports.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_ports.svh
+0 tlm2/uvm_tlm2_exports.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_exports.svh
+0 tlm2/uvm_tlm2_sockets_base.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_sockets_base.svh
+0 tlm2/uvm_tlm2_sockets.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/tlm2/uvm_tlm2_sockets.svh
+0 reg/uvm_reg_model.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_model.svh
+0 reg/uvm_reg_item.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_item.svh
+0 reg/uvm_reg_adapter.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_adapter.svh
+0 reg/uvm_reg_predictor.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_predictor.svh
+0 reg/uvm_reg_sequence.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_sequence.svh
+0 reg/uvm_reg_cbs.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_cbs.svh
+0 reg/uvm_reg_backdoor.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_backdoor.svh
+0 reg/uvm_reg_field.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_field.svh
+0 reg/uvm_vreg_field.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_vreg_field.svh
+0 reg/uvm_reg.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg.svh
+0 reg/uvm_reg_indirect.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_indirect.svh
+0 reg/uvm_reg_fifo.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_fifo.svh
+0 reg/uvm_reg_file.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_file.svh
+0 reg/uvm_mem_mam.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_mem_mam.svh
+0 reg/uvm_vreg.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_vreg.svh
+0 reg/uvm_mem.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_mem.svh
+0 reg/uvm_reg_map.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_map.svh
+0 reg/uvm_reg_block.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/uvm_reg_block.svh
+0 reg/sequences/uvm_reg_hw_reset_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/sequences/uvm_reg_hw_reset_seq.svh
+0 reg/sequences/uvm_reg_bit_bash_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/sequences/uvm_reg_bit_bash_seq.svh
+0 reg/sequences/uvm_mem_walk_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/sequences/uvm_mem_walk_seq.svh
+0 reg/sequences/uvm_mem_access_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/sequences/uvm_mem_access_seq.svh
+0 reg/sequences/uvm_reg_access_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/sequences/uvm_reg_access_seq.svh
+0 reg/sequences/uvm_reg_mem_shared_access_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/sequences/uvm_reg_mem_shared_access_seq.svh
+0 reg/sequences/uvm_reg_mem_built_in_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/sequences/uvm_reg_mem_built_in_seq.svh
+0 reg/sequences/uvm_reg_mem_hdl_paths_seq.svh
+0 /home/yy/EDA/VCS2016/etc/systemverilog/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh
+0 transfer.sv
+0 /home/yy/EDA/VCS2016/etc/systemverilog/transfer.sv
+0 /home/yy/EDA/uvm-1.2/src/transfer.sv
+0 env/transfer.sv
+0 my_sequencer.sv
+0 /home/yy/EDA/VCS2016/etc/systemverilog/my_sequencer.sv
+0 /home/yy/EDA/uvm-1.2/src/my_sequencer.sv
+0 env/my_sequencer.sv
+0 my_dut_config.sv
+0 /home/yy/EDA/VCS2016/etc/systemverilog/my_dut_config.sv
+0 /home/yy/EDA/uvm-1.2/src/my_dut_config.sv
+0 env/my_dut_config.sv
+0 my_driver.sv
+0 /home/yy/EDA/VCS2016/etc/systemverilog/my_driver.sv
+0 /home/yy/EDA/uvm-1.2/src/my_driver.sv
+0 env/my_driver.sv
+0 my_monitor.sv
+0 /home/yy/EDA/VCS2016/etc/systemverilog/my_monitor.sv
+0 /home/yy/EDA/uvm-1.2/src/my_monitor.sv
+0 env/my_monitor.sv
+0 my_agent.sv
+0 /home/yy/EDA/VCS2016/etc/systemverilog/my_agent.sv
+0 /home/yy/EDA/uvm-1.2/src/my_agent.sv
+0 env/my_agent.sv
+0 my_env.sv
+0 /home/yy/EDA/VCS2016/etc/systemverilog/my_env.sv
+0 /home/yy/EDA/uvm-1.2/src/my_env.sv
+0 env/my_env.sv
+51
++acc
++incdir+/home/yy/EDA/uvm-1.2/src
++incdir+env+../sv
++itf+/home/yy/EDA/VCS2016/linux/lib/vcsdp_lite.tab
++vcsd1
++vpi
++vpi
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -DVCS -O -I/home/yy/EDA/VCS2016/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=/home/yy/EDA/uvm-1.2/src/dpi/uvm_dpi.cc
+-Mexternalobj=
+-Mldflags= -m32 -m32 -LDFLAGS-wl,--rpth,/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX -rdynamic
+-Mobjects= /home/yy/EDA/VCS2016/linux/lib/libvirsim.so /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a
+-Mout=simv
+-Msaverestoreobj=/home/yy/EDA/VCS2016/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a /home/yy/EDA/VCS2016/linux/lib/ctype-stubs_32.a -ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/home/yy/EDA/VCS2016/include
+-P
+-P
+-Xcbug=0x1
+-Xpiyushb1=0x80
+-Xpiyushb1=0x80
+-debug_access+all
+-debug_access+all+dmptf+bc
+-debug_region=cell+lib
+-fsdb
+-gen_obj
+-l
+-lca
+-load
+-o simv
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+../dut/dut.sv
+../dut/dut.v
+../sv/env.svh
+./test_lib.sv
+/home/yy/EDA/VCS2016/linux/bin/vcs1
+/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/novas.tab
+/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
+/home/yy/EDA/uvm-1.2/src/uvm.sv
+comp.log
+libnovas.so:FSDBDumpCmd
+top.sv
+60
+sysc_uni_pwd=/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test
+XMODIFIERS=@im=ibus
+XDG_VTNR=1
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+WINDOWPATH=1
+VTE_VERSION=3804
+VMR_MODE_FLAG=32
+VERDI_HOME=/home/yy/EDA/disk2/verdi2016_06
+VCS_MX_HOME_INTERNAL=1
+VCS_LOG_FILE=comp.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/home/yy/EDA/VCS2016
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UVM_HOME=/home/yy/EDA/uvm-1.2
+USERNAME=yy
+UNAME=/bin/uname
+TOOL_HOME=/home/yy/EDA/VCS2016/linux
+TN=test1
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=3079
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2897,unix/unix:/tmp/.ICE-unix/2897
+SEED=90
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
+PERL_MB_OPT=--install_base /home/yy/perl5
+PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
+PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
+OVA_UUM=0
+MFLAGS=
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=1
+MAKEFLAGS=SEED=90 TN=test1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HISTCONTROL=ignoredups
+GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome-classic
+DESKTOP_SESSION=gnome-classic
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-FAtbNqUVbn,guid=f7050fedf89b144180639fd15a0a2324
+0
+161
+1510635239 ../sv/my_env.sv
+1510628506 my_scoreboard.sv
+1510635193 ../sv/my_agent.sv
+1510635759 ../sv/my_monitor.sv
+1510635216 ../sv/my_driver.sv
+1510635698 ../sv/my_dut_config.sv
+1510022717 ../sv/my_sequencer.sv
+1510633743 ../sv/transfer.sv
+1510349114 ../test/dut_if.sv
+1510437921 ../test/definition.sv
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_block.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_map.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_mem.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_vreg.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_mem_mam.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_file.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_fifo.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_indirect.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_vreg_field.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_field.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_backdoor.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_cbs.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_sequence.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_predictor.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_adapter.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_item.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/reg/uvm_reg_model.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_time.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm2/uvm_tlm2.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequence_builtin.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequence_library.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequence.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequence_base.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_push_sequencer.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_param_base.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_sequence_item.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/seq/uvm_seq.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_test.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_env.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_agent.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_scoreboard.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_push_driver.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_driver.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_monitor.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_subscriber.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_random_stimulus.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_in_order_comparator.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_policies.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_pair.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/comps/uvm_comps.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_sqr_connections.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_analysis_port.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_exports.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_ports.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_imps.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_port_base.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_tlm.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dap/uvm_set_before_get_dap.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dap/uvm_simple_lock_dap.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dap/uvm_set_get_dap_base.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dap/uvm_dap.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_traversal.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_cmdline_processor.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_globals.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_heartbeat.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_root.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_component.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_runtime_phases.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_common_phases.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_task_phase.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_topdown_phase.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_bottomup_phase.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_domain.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_phase.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_transaction.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_report_object.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_report_handler.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_report_server.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_report_catcher.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_report_message.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_callback.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_barrier.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_event.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_event_callback.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_recorder.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_tr_stream.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_tr_database.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_links.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_packer.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_printer.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_config_db.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_resource_db.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_resource_specializations.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_resource.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_spell_chkr.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_registry.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_factory.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_queue.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_pool.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_object.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_misc.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_object_globals.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_version.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_coreservice.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/base/uvm_base.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dpi/uvm_regex.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dpi/uvm_hdl.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/dpi/uvm_dpi.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_deprecated_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_reg_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_callback_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_sequence_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/tlm1/uvm_tlm_imps.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_tlm_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_printer_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_object_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_phase_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_message_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_global_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_version_defines.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/uvm_macros.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/uvm_pkg.sv
+1510434483 ../dut/dut.sv
+1510297666 ../dut/dut.v
+1510635349 top.sv
+1510636825 ./test_lib.sv
+1510627104 ../sv/env.svh
+1402647219 /home/yy/EDA/uvm-1.2/src/uvm.sv
+1468145765 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
+1468145765 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/novas.tab
+1464145466 /home/yy/EDA/VCS2016/linux/lib/vcsdp_lite.tab
+6
+1402647219 /home/yy/EDA/uvm-1.2/src/dpi/uvm_dpi.cc
+0 
+1464147795 /home/yy/EDA/VCS2016/linux/lib/libvirsim.so
+1464147272 /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so
+1464147247 /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so
+1468144949 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a
+1510636840 simv.daidir

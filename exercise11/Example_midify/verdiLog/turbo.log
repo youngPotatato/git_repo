@@ -1,3 +1,0 @@
-Command Line: /home/yy/EDA/disk2/verdi2016_06/platform/LINUXAMD64/bin/Novas +v2k -sverilog +incdir+env+env +systemverilogext+sv +verdilog2001ext+v hdl/definitions.sv hdl/atm_cell.sv hdl/top.sv hdl/utopia.sv hdl/cpu_ifc.sv hdl/LookupTable.sv hdl/squat.sv hdl/utopia1_atm_rx.sv hdl/utopia1_atm_tx.sv tests/test.sv -ssf test.fsdb
-uname(Linux localhost.localdomain 3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017 x86_64)
-au time 117.277690 9.292514 7.634218 delta 256110592 256110592 total 633556992 633556992

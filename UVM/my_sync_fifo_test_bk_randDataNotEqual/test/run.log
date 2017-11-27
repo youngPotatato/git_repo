@@ -1,0 +1,223 @@
+Command: ./simv +fsdbfile+test.fsdb +ntb_solver_mode=1 -cm line+tgl +UVM_NO_RELNOTES +UVM_TESTNAME=test1 -ucli +ntb_random_seed=90 +UVM_VERBOSITY=UVM_LOW +UVM_VERDI_TRACE=UVM_AWARE+RAL+TLM+MSG+HIER+PRINT +UVM_VERDI_TRACE +UVM_TR_RECORD +UVM_LOG_RECORD -l run.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Nov 13 23:20 2017
+
+run 900ns
+ UVM_INFO @ 0: reporter [RNTST] Running test test1...
+*Verdi3* Loading libsscore_vcs201606.so
+*Verdi3* : FSDB_GATE is set.
+*Verdi3* : FSDB_RTL is set.
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* : Create FSDB file 'test.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +all dumping.
+*Verdi3* : End of traversing.
+SEQ1 INFO (@0: seq2 t_num = 14 size = 6) 
+SEQ2 INFO (@0: seq2 t_num = 0 size = 0) 
+[TEST1 BUILD] num trans is 6
+[SUBCCRIBER] run_phase_start                   0
+[SUBCCRIBER] there 6 trans to check
+UVM_INFO ./test_lib.sv(65) @ 0: uvm_test_top [YY DEBUG INFO] @0: raise objection
+UVM_INFO ../sv/transfer.sv(164) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [YY RANDOM INFO] @0: sequence is randomized,t_num is 14,size is 6
+rd wr is 0 0,
+0 1,
+0 1,
+1 0,
+1 0,
+1 1,
+1 1,
+0 1,
+1 1,
+1 1,
+0 1,
+0 1,
+0 1,
+0 1,
+ 
+UVM_INFO ../sv/transfer.sv(164) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [YY RANDOM INFO] @0: sequence is randomized,t_num is 14,size is 6
+rd wr is 0 0,
+0 1,
+0 1,
+1 0,
+1 0,
+1 1,
+1 1,
+0 1,
+1 1,
+1 1,
+0 1,
+0 1,
+0 1,
+0 1,
+ 
+UVM_INFO top.sv(50) @ 8: reporter [YY DEBUG INFO] @8: reset posedge
+UVM_INFO top.sv(54) @ 32: reporter [YY DEBUG INFO] @32: reset negedge
+UVM_INFO ../sv/my_driver.sv(30) @ 32: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @32: item type:NOP
+UVM_INFO ../sv/my_driver.sv(30) @ 32: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @32: item type:NOP
+sequence          1 fin
+sequence          1 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 36: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @36: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 36: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @36: item type:PUSH
+sequence          2 fin
+sequence          2 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 44: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @44: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 44: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @44: item type:PUSH
+sequence          3 fin
+sequence          3 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 52: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @52: item type:POP
+UVM_INFO ../sv/my_driver.sv(30) @ 52: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @52: item type:POP
+sequence          4 fin
+sequence          4 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 60: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @60: item type:POP
+UVM_INFO ../sv/my_driver.sv(30) @ 60: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @60: item type:POP
+[MONITOR] @68 receive r_data 17702
+[MONITOR] @68 receive r_data 64529
+[SUBCCRIBER] @68 received actual trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1057 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'hfc11
+--------------------------------------------
+[SUBCCRIBER] @68 received ecped trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1053 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'h4526
+--------------------------------------------
+sequence          5 fin
+sequence          5 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 68: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @68: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 68: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @68: item type:PUSH_POP
+[MONITOR] @76 receive r_data 35591
+[MONITOR] @76 receive r_data 41959
+[SUBCCRIBER] @76 received actual trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1077 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'ha3e7
+--------------------------------------------
+[SUBCCRIBER] @76 received ecped trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1073 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'h8b07
+--------------------------------------------
+sequence          6 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 76: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @76: item type:PUSH_POP
+sequence          6 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 84: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @84: item type:PUSH_POP
+sequence          7 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 84: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @84: item type:PUSH
+sequence          7 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 86: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @86: item type:PUSH
+[MONITOR] @92 receive r_data 35591
+[MONITOR] @92 receive r_data 42651
+[SUBCCRIBER] @92 received actual trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1109 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'ha69b
+--------------------------------------------
+[SUBCCRIBER] @92 received ecped trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1105 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'h8b07
+--------------------------------------------
+sequence          8 fin
+sequence          8 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 92: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @92: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 92: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @92: item type:PUSH_POP
+UVM_ERROR @ 100: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h.seq2] Response queue overflow, response was dropped
+UVM_ERROR @ 100: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [uvm_test_top.my_env_h.my_agent_h.my_sequencer_h.seq] Response queue overflow, response was dropped
+sequence          9 fin
+sequence          9 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 100: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @100: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 100: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @100: item type:PUSH_POP
+[MONITOR] @108 receive r_data 55539
+[MONITOR] @108 receive r_data 7096
+[SUBCCRIBER] @108 received actual trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1145 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'h1bb8
+--------------------------------------------
+[SUBCCRIBER] @108 received ecped trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1141 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'hd8f3
+--------------------------------------------
+UVM_ERROR @ 108: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [uvm_test_top.my_env_h.my_agent_h.my_sequencer_h.seq] Response queue overflow, response was dropped
+UVM_ERROR @ 108: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h.seq2] Response queue overflow, response was dropped
+sequence         10 fin
+sequence         10 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 108: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @108: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 108: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @108: item type:PUSH
+[MONITOR] @116 receive r_data 52742
+[MONITOR] @116 receive r_data 21508
+UVM_ERROR @ 116: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h.seq2] Response queue overflow, response was dropped
+UVM_ERROR @ 116: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [uvm_test_top.my_env_h.my_agent_h.my_sequencer_h.seq] Response queue overflow, response was dropped
+[SUBCCRIBER] @116 received actual trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1169 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'h5404
+--------------------------------------------
+[SUBCCRIBER] @116 received ecped trans:
+--------------------------------------------
+Name       Type                 Size  Value 
+--------------------------------------------
+tx         my_transaction_base  -     @1165 
+  tr_type  trans_type           32    POP   
+  r_data   integral             16    'hce06
+--------------------------------------------
+sequence         11 fin
+sequence         11 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 116: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @116: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 116: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @116: item type:PUSH
+UVM_ERROR @ 124: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [uvm_test_top.my_env_h.my_agent_h.my_sequencer_h.seq] Response queue overflow, response was dropped
+UVM_ERROR @ 124: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h.seq2] Response queue overflow, response was dropped
+sequence         12 fin
+sequence         12 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 124: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @124: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 124: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @124: item type:PUSH
+UVM_ERROR @ 132: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h.seq2] Response queue overflow, response was dropped
+UVM_ERROR @ 132: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [uvm_test_top.my_env_h.my_agent_h.my_sequencer_h.seq] Response queue overflow, response was dropped
+sequence         13 fin
+sequence         13 fin
+UVM_INFO ../sv/my_driver.sv(30) @ 132: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @132: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 132: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @132: item type:PUSH
+UVM_ERROR @ 140: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [uvm_test_top.my_env_h.my_agent_h.my_sequencer_h.seq] Response queue overflow, response was dropped
+UVM_ERROR @ 140: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h.seq2] Response queue overflow, response was dropped
+sequence         14 fin
+sequence         14 fin
+UVM_INFO ./test_lib.sv(73) @ 140: uvm_test_top [YY DEBUG INFO] @140: drop objection
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 140: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+900 ns
+run 900ns
+ 1800 ns
+fsdbDumpflush
+ *Verdi3* : Flush all FSDB Files at 1,800 ns.
+

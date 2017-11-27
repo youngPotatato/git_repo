@@ -1,0 +1,135 @@
+{
+    "CompUnits": {
+        "amcQw_d": {
+            "bytes": 5314,
+            "mod": "...MASTER...",
+            "checksum": 0,
+            "out": "objs/amcQw_d.o",
+            "mode": 4
+        },
+        "FL4gc_d": {
+            "bytes": 35300,
+            "mod": "my_pkg",
+            "checksum": 0,
+            "out": "FL4gc_d.o",
+            "mode": 4,
+            "archive": "archive.0/_39828_archive_1.a"
+        },
+        "hEeZs_d": {
+            "bytes": 3351125,
+            "mod": "vcs_paramclassrepository",
+            "checksum": 0,
+            "out": "hEeZs_d.o",
+            "mode": 4,
+            "archive": "archive.0/_39828_archive_1.a"
+        },
+        "zr7M1_d": {
+            "bytes": 4202641,
+            "mod": "uvm_pkg",
+            "checksum": 0,
+            "out": "zr7M1_d.o",
+            "mode": 4,
+            "archive": "archive.0/_39828_archive_1.a"
+        },
+        "uM9F1_d": {
+            "bytes": 5864,
+            "mod": "_vcs_DPI_package",
+            "checksum": 0,
+            "out": "uM9F1_d.o",
+            "mode": 4,
+            "archive": "archive.0/_39828_archive_1.a"
+        },
+        "Emx8S_d": {
+            "bytes": 6604,
+            "mod": "top",
+            "checksum": 0,
+            "out": "Emx8S_d.o",
+            "mode": 4,
+            "archive": "archive.0/_39828_archive_1.a"
+        },
+        "reYIK_d": {
+            "bytes": 26912,
+            "mod": "std",
+            "checksum": 0,
+            "out": "reYIK_d.o",
+            "mode": 4,
+            "archive": "archive.0/_39828_archive_1.a"
+        },
+        "e7EBi_d": {
+            "bytes": 4205,
+            "mod": "dut_if",
+            "checksum": 0,
+            "out": "e7EBi_d.o",
+            "mode": 4,
+            "archive": "archive.0/_39828_archive_1.a"
+        }
+    },
+    "Modules": {
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "my_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "dut_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_39828_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    3351125
+                ],
+                [
+                    "uM9F1_d.o",
+                    5864
+                ],
+                [
+                    "reYIK_d.o",
+                    26912
+                ],
+                [
+                    "zr7M1_d.o",
+                    4202641
+                ],
+                [
+                    "FL4gc_d.o",
+                    35300
+                ],
+                [
+                    "Emx8S_d.o",
+                    6604
+                ],
+                [
+                    "e7EBi_d.o",
+                    4205
+                ]
+            ],
+            "size": 7632651
+        }
+    ]
+}

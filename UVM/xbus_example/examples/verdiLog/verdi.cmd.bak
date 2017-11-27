@@ -1,0 +1,154 @@
+verdiWindowResize -win $_Verdi_1 "0" "28" "1920" "979"
+debImport "+v2k" "-sverilog" "+incdir+env+../sv+/home/yy/EDA/uvm-1.2/src" \
+          "/home/yy/EDA/uvm-1.2/src/uvm.sv" "+systemverilogext+sv" \
+          "+verdilog2001ext+v" "../sv/xbus.svh" "./test_lib.sv" \
+          "xbus_tb_top.sv" "dut_dummy.v" "../sv/xbus_if.sv"
+debLoadSimResult \
+           /home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/test.fsdb
+wvCreateWindow
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiDockWidgetHide -dock widgetDock_WelcomePage
+srcHBSelect "xbus_tb_top.dut" -win $_nTrace1
+srcSetScope -win $_nTrace1 "xbus_tb_top.dut" -delim "."
+srcHBSelect "xbus_tb_top.xi0" -win $_nTrace1
+srcSetScope -win $_nTrace1 "xbus_tb_top.xi0" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "sig_addr" -win $_nTrace1
+srcAction -pos 37 9 4 -win $_nTrace1 -name "sig_addr" -ctrlKey off
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_agent"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_agent"
+srcTBTreeAction -win $_nTrace1 -path "\$root.xbus_master_agent"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_agent.build_phase"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_agent.build_phase"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_agent.build_phase"
+srcTBTreeAction -win $_nTrace1 -path "\$root.xbus_master_agent.build_phase"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_agent"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_driver"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_driver"
+srcTBTreeAction -win $_nTrace1 -path "\$root.xbus_master_driver"
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 66 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 66 -pos 1 -win $_nTrace1
+srcAction -pos 66 1 19 -win $_nTrace1 -name "seq_item_port.get_next_item" \
+          -ctrlKey off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "xbus_tb_top.xi0" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_sequencer"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_master_sequencer"
+srcTBTreeAction -win $_nTrace1 -path "\$root.xbus_master_sequencer"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "master_id" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 39 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_demo_tb"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_demo_tb"
+srcTBTreeAction -win $_nTrace1 -path "\$root.xbus_demo_tb"
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 64 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 65 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 56 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 57 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 59 -pos 5 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 59 -pos 7 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 64 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 65 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 67 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcTBTreeAction -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {237 237 2 5 1 21}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 236 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 231 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 236 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 236 -pos 4 -win $_nTrace1
+srcAction -pos 236 4 5 -win $_nTrace1 -name "p_sequencer.get_config_int" -ctrlKey \
+          off
+srcBackwardHistory -win $_nTrace1
+srcHBSelect "xbus_tb_top.xi0" -win $_nTrace1
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_demo_tb"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.xbus_demo_tb"
+srcTBTreeAction -win $_nTrace1 -path "\$root.xbus_demo_tb"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcTBTreeAction -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 233 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 233 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 233 -pos 3 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 236 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 241 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 241 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcTBBTreeSelect -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcTBTreeAction -win $_nTrace1 -path "\$root.loop_read_modify_write_seq"
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 223 -pos 6 -win $_nTrace1
+srcAction -pos 223 6 10 -win $_nTrace1 -name "xbus_base_sequence" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {40 40 2 2 12 70}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {41 42 2 1 5 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {42 43 2 1 4 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 43 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 72 -pos 2 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+debExit

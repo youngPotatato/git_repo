@@ -1,0 +1,53 @@
+global coverage_group 0 $unit::my_scoreboard::cover_type __coverage_my_scoreboard.cover_type unused_my_scoreboard_cover_type_loop_label $unit 0 1 0 1 $unit::../dut/dut.sv::../dut/dut.v...@3169092938 ( )
+ 1 1
+ 77 /home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/my_scoreboard.sv
+ 14 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+ 6 t_type 15 0 0 0 64 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_cover_type_fn 64 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_cover_type_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 32 1 33 _vcs_unit__3169092938::trans_type 1 1 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

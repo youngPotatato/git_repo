@@ -1,0 +1,35 @@
+UVM_INFO ./test_lib.sv(65) @ 0: uvm_test_top [YY DEBUG INFO] @0: raise objection
+UVM_INFO ../sv/transfer.sv(164) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [YY RANDOM INFO] @0: sequence is randomized,t_num is 14,size is 6
+UVM_INFO ../sv/transfer.sv(164) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [YY RANDOM INFO] @0: sequence is randomized,t_num is 14,size is 6
+UVM_INFO top.sv(50) @ 8: reporter [YY DEBUG INFO] @8: reset posedge
+UVM_INFO top.sv(54) @ 32: reporter [YY DEBUG INFO] @32: reset negedge
+UVM_INFO ../sv/my_driver.sv(30) @ 32: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @32: item type:NOP
+UVM_INFO ../sv/my_driver.sv(30) @ 32: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @32: item type:NOP
+UVM_INFO ../sv/my_driver.sv(30) @ 36: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @36: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 36: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @36: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 44: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @44: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 44: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @44: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 52: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @52: item type:POP
+UVM_INFO ../sv/my_driver.sv(30) @ 52: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @52: item type:POP
+UVM_INFO ../sv/my_driver.sv(30) @ 60: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @60: item type:POP
+UVM_INFO ../sv/my_driver.sv(30) @ 60: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @60: item type:POP
+UVM_INFO ../sv/my_driver.sv(30) @ 68: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @68: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 68: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @68: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 76: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @76: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 84: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @84: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 84: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @84: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 86: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @86: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 92: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @92: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 92: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @92: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 100: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @100: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 100: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @100: item type:PUSH_POP
+UVM_INFO ../sv/my_driver.sv(30) @ 108: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @108: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 108: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @108: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 116: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @116: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 116: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @116: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 124: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @124: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 124: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @124: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 132: uvm_test_top.my_env_h.my_agent_h.my_driver_h [YY DEBUG INFO] @132: item type:PUSH
+UVM_INFO ../sv/my_driver.sv(30) @ 132: uvm_test_top.my_env_h.my_agent2_h.my_driver_h [YY DEBUG INFO] @132: item type:PUSH
+UVM_INFO ./test_lib.sv(73) @ 140: uvm_test_top [YY DEBUG INFO] @140: drop objection
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 140: reporter [TEST_DO

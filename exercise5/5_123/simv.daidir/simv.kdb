@@ -1,7 +1,7 @@
 rc file Version 1.0
 
 [Design]
-COMPILE_PATH=/home/yy/Desktop/My_prog/exercise5/5_123
+COMPILE_PATH=/home/yy/Desktop/My_prog/git_repo/exercise5/5_123
 SystemC=FALSE
 UUM=FALSE
 KDB=FALSE

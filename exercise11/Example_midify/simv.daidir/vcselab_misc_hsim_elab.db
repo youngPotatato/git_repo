@@ -1,6 +1,6 @@
 psSimBaseName                      	simv
 psLogFileName                      	comp.log
-pDaiDir                            	/home/yy/Desktop/My_prog/exercise11/Example_midify/simv.daidir
+pDaiDir                            	/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify/simv.daidir
 destPath                           	csrc/
 fSharedMaster                      	0
 hsMainFileCount                    	0

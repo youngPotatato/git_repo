@@ -159,8 +159,8 @@ VTE_VERSION=3804
 SHELL=/bin/bash
 HISTSIZE=1000
 MAKEFLAGS=
-PERL5LIB=/home/yy/perl5/lib/perl5:
-WINDOWID=35658210
+PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
+WINDOWID=35665596
 QTDIR=/usr/lib64/qt-3.3
 QTINC=/usr/lib64/qt-3.3/include
 PERL_MB_OPT=--install_base /home/yy/perl5
@@ -176,12 +176,12 @@ USERNAME=yy
 MFLAGS=
 GNOME_SHELL_SESSION_MODE=classic
 MAIL=/var/spool/mail/yy
-PATH=/usr/lib64/qt-3.3/bin:/home/yy/perl5/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/.local/bin:/home/yy/bin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin
+PATH=/home/yy/perl5/bin:/root/perl5/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/.local/bin:/home/yy/bin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin
 DESKTOP_SESSION=gnome-classic
 QT_IM_MODULE=ibus
 _=./simv
 VERDI_HOME=/home/yy/EDA/disk2/verdi2016_06
-PWD=/home/yy/Desktop/My_prog/UVM/hello_world
+PWD=/home/yy/Desktop/My_prog/git_repo/UVM/hello_world
 VCS_HOME=/home/yy/EDA/VCS2016
 XMODIFIERS=@im=ibus
 LANG=en_US.UTF-8
@@ -190,11 +190,11 @@ KDEDIRS=/usr
 LM_LICENSE_FILE=27000@localhost
 GDMSESSION=gnome-classic
 HISTCONTROL=ignoredups
-SHLVL=3
+SHLVL=5
 XDG_SEAT=seat0
 HOME=/home/yy
 GNOME_DESKTOP_SESSION_ID=this-is-deprecated
-PERL_LOCAL_LIB_ROOT=:/home/yy/perl5
+PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
 LOGNAME=yy
 XDG_SESSION_DESKTOP=gnome-classic
 QTLIB=/usr/lib64/qt-3.3/lib
@@ -206,7 +206,6 @@ XDG_RUNTIME_DIR=/run/user/1000
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
 XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
 PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
-XAUTHORITY=/run/gdm/auth-for-yy-TK97J5/database
 VCS_PATHMAP_PRELOAD_DONE=1
 LC_ALL=C
 DVE=/home/yy/EDA/VCS2016/gui/dve
@@ -225,55 +224,55 @@ argv[9]=+UVM_TR_RECORD
 argv[10]=+UVM_LOG_RECORD
 argv[11]=-l
 argv[12]=run.log
-227 profile - 100
-          CPU/Mem usage: 0.050 sys,  0.250 user,  140.48M sys,  0.00M vm
-228 VC callback profile - scalar:0 vector:0
-229 Wed Nov  1 13:32:21 2017
-230 pliAppInit
-231 *Verdi3* : FSDB_GATE is set.
-232 *Verdi3* : FSDB_RTL is set.
-233 *Verdi3* : Enable Parallel Dumping.
-234 pliAppMiscSet: New Sim Round
-235 pliEntryInit
-236 LIBSSCORE=found /home/yy/EDA/disk2/verdi2016_06/share/PLI/lib/LINUX/libsscore_vcs201606.so through $NOVAS_HOME setting.
-237 FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
-238 (C) 1996 - 2016 by Synopsys, Inc.
-239 sps_call_fsdbDumpfile at 0 : hdl/top.sv(11)
-240 argv[0]: test.fsdb
-241 *Verdi3* : Create FSDB file 'test.fsdb'
-242 sps_call_fsdbDumpvars at 0 : hdl/top.sv(12)
-243 argv[0]: +all
-244 *Verdi3* : Begin traversing the scopes, layer (0).
-245 *Verdi3* : Enable +all dumping.
-246 *Verdi3* : End of traversing.
-247 fsdbDumpvars traverse var: profile - 
-          CPU/Mem usage: 0.050 sys,  0.290 user,  226.55M sys,  0.00M vm
-                   incr: 0.000 sys,  0.040 user,  9.33M sys,  0.00M vm
-                   accu: 0.000 sys,  0.040 user,  9.33M sys,  0.00M vm
-              accu incr: 0.000 sys,  0.040 user,  9.33M sys,  0.00M vm
+226 profile - 100
+          CPU/Mem usage: 0.170 sys,  0.210 user,  140.49M sys,  0.00M vm
+227 VC callback profile - scalar:0 vector:0
+228 Fri Nov  3 23:13:33 2017
+229 pliAppInit
+230 *Verdi3* : FSDB_GATE is set.
+231 *Verdi3* : FSDB_RTL is set.
+232 *Verdi3* : Enable Parallel Dumping.
+233 pliAppMiscSet: New Sim Round
+234 pliEntryInit
+235 LIBSSCORE=found /home/yy/EDA/disk2/verdi2016_06/share/PLI/lib/LINUX/libsscore_vcs201606.so through $NOVAS_HOME setting.
+236 FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+237 (C) 1996 - 2016 by Synopsys, Inc.
+238 sps_call_fsdbDumpfile at 0 : hdl/top.sv(11)
+239 argv[0]: test.fsdb
+240 *Verdi3* : Create FSDB file 'test.fsdb'
+241 sps_call_fsdbDumpvars at 0 : hdl/top.sv(12)
+242 argv[0]: +all
+243 *Verdi3* : Begin traversing the scopes, layer (0).
+244 *Verdi3* : Enable +all dumping.
+245 *Verdi3* : End of traversing.
+246 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.200 sys,  0.230 user,  226.56M sys,  0.00M vm
+                   incr: 0.020 sys,  0.020 user,  9.33M sys,  0.00M vm
+                   accu: 0.020 sys,  0.020 user,  9.33M sys,  0.00M vm
+              accu incr: 0.020 sys,  0.020 user,  9.33M sys,  0.00M vm
 
           Count usage: 3 var,  3 idcode,  3 callback
                  incr: 3 var,  3 idcode,  3 callback
                  accu: 3 var,  3 idcode,  3 callback
             accu incr: 3 var,  3 idcode,  3 callback
-248 VC callback profile - scalar:0 vector:0
-249 Wed Nov  1 13:32:21 2017
-250 fsdbDumpvars: profile - 
-          CPU/Mem usage: 0.050 sys,  0.290 user,  227.60M sys,  0.00M vm
+247 VC callback profile - scalar:0 vector:0
+248 Fri Nov  3 23:13:33 2017
+249 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.200 sys,  0.230 user,  227.61M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
-                   accu: 0.000 sys,  0.040 user,  10.38M sys,  0.00M vm
+                   accu: 0.020 sys,  0.020 user,  10.38M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
 
           Count usage: 3 var,  3 idcode,  3 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 3 var,  3 idcode,  3 callback
             accu incr: 0 var,  0 idcode,  0 callback
-251 VC callback profile - scalar:1 vector:2
-252 Wed Nov  1 13:32:21 2017
-253 End of simulation at 10
-254 VC callback profile - scalar:1 vector:2
-255 Wed Nov  1 13:32:21 2017
-256 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
-257                        ProduceTime:0.361376742 ConsumerTime:0.000000000 Buffer:64MB
-258 SimExit
-259 Sim process exit
+250 VC callback profile - scalar:1 vector:2
+251 Fri Nov  3 23:13:33 2017
+252 End of simulation at 10
+253 VC callback profile - scalar:1 vector:2
+254 Fri Nov  3 23:13:33 2017
+255 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+256                        ProduceTime:0.453668582 ConsumerTime:0.000000000 Buffer:64MB
+257 SimExit
+258 Sim process exit

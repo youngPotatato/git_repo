@@ -333,8 +333,8 @@ env/package.sv
 hdl/dut.sv
 hdl/dut_if.sv
 hdl/top.sv
-58
-sysc_uni_pwd=/home/yy/Desktop/My_prog/UVM/hello_world
+57
+sysc_uni_pwd=/home/yy/Desktop/My_prog/git_repo/UVM/hello_world
 XMODIFIERS=@im=ibus
 XDG_VTNR=1
 XDG_SESSION_ID=1
@@ -343,7 +343,6 @@ XDG_SEAT=seat0
 XDG_RUNTIME_DIR=/run/user/1000
 XDG_MENU_PREFIX=gnome-
 XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
-XAUTHORITY=/run/gdm/auth-for-yy-TK97J5/database
 WINDOWPATH=1
 VTE_VERSION=3804
 VMR_MODE_FLAG=32
@@ -373,8 +372,8 @@ QTINC=/usr/lib64/qt-3.3/include
 QTDIR=/usr/lib64/qt-3.3
 PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
 PERL_MB_OPT=--install_base /home/yy/perl5
-PERL_LOCAL_LIB_ROOT=:/home/yy/perl5
-PERL5LIB=/home/yy/perl5/lib/perl5:
+PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
+PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
 OVA_UUM=0
 MFLAGS=
 MAKELEVEL=1
@@ -394,8 +393,8 @@ DESKTOP_SESSION=gnome-classic
 DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Pd8rhmq1kF,guid=bb6bbd8b656144f320a40d5a59f93df0
 0
 151
-1509560020 env/test.sv
-1509560808 env/environment.sv
+1509762739 env/test.sv
+1509762739 env/environment.sv
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh
@@ -538,10 +537,10 @@ DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Pd8rhmq1kF,guid=bb6bbd8b656144f
 1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_version_defines.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/uvm_macros.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/uvm_pkg.sv
-1509559790 hdl/dut_if.sv
-1509559761 hdl/dut.sv
-1509560940 hdl/top.sv
-1509560078 env/package.sv
+1509762739 hdl/dut_if.sv
+1509762739 hdl/dut.sv
+1509762739 hdl/top.sv
+1509762739 env/package.sv
 1402647219 /home/yy/EDA/uvm-1.2/src/uvm.sv
 1468145765 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
 1464145466 /home/yy/EDA/VCS2016/linux/lib/vcsdp_lite.tab
@@ -551,4 +550,4 @@ DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Pd8rhmq1kF,guid=bb6bbd8b656144f
 1464147795 /home/yy/EDA/VCS2016/linux/lib/libvirsim.so
 1464147272 /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so
 1464147247 /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so
-1509561141 simv.daidir
+1509768752 simv.daidir

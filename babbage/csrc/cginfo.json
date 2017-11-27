@@ -1,0 +1,99 @@
+{
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.074653999999999998,
+            "ru_maxrss_kb": 49860,
+            "ru_stime_sec": 0.075648999999999994,
+            "ru_minflt": 14315,
+            "ru_majflt": 46,
+            "ru_nivcsw": 7,
+            "ru_nvcsw": 100
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.106515,
+            "ru_maxrss_kb": 56936,
+            "ru_stime_sec": 0.087600999999999998,
+            "ru_minflt": 16548,
+            "ru_majflt": 46,
+            "ru_nivcsw": 11,
+            "ru_nvcsw": 105
+        },
+        "nQuads": 1517,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.00365,
+            "ru_maxrss_kb": 11448,
+            "ru_stime_sec": 0.0087250000000000001,
+            "ru_minflt": 2771,
+            "ru_majflt": 0,
+            "ru_nivcsw": 4,
+            "ru_nvcsw": 5
+        },
+        "nMops": 3507,
+        "totalObjSize": 134497,
+        "Frontend(%)": 70.08778106369995,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.00365,
+            "ru_maxrss_kb": 11448,
+            "ru_stime_sec": 0.0087250000000000001,
+            "ru_minflt": 2771,
+            "ru_majflt": 0,
+            "ru_nivcsw": 4,
+            "ru_nvcsw": 5
+        },
+        "mopSpeed": 110071.87470575311,
+        "quadSpeed": 47613.06926964,
+        "mop/quad": 2.3117996044825313,
+        "outputSizePerQuad": 88.0,
+        "CodeGen(%)": 29.912218936300054
+    },
+    "MlibObjs": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "PrevCompiledModules": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 62998
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "test",
+        "test"
+    ],
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "Misc": {
+        "cwd": "/home/yy/Desktop/My_prog/git_repo/babbage",
+        "csrc": "csrc",
+        "csrc_abs": "/home/yy/Desktop/My_prog/git_repo/babbage/csrc",
+        "default_output_dir": "csrc",
+        "daidir": "/home/yy/Desktop/My_prog/git_repo/babbage/simv.daidir",
+        "daidir_abs": "/home/yy/Desktop/My_prog/git_repo/babbage/simv.daidir",
+        "archive_dir": "archive.0"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileStatus": "Successful",
+    "CompileProcesses": [
+        "cgproc.114560.json"
+    ]
+}

@@ -1,0 +1,69 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+postSimFile = /home/yy/Desktop/My_prog/git_repo/babbage/test.fsdb
+syncTime = 168920.895
+viewport = 0 28 1916 770 632 448 265 1914
+activeNode = "test"
+activeScope = "test"
+activeFile = "tests/test.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 1
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "test"
+rangeSelection = 9 19 2 1 1 1
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = test
+File = /home/yy/Desktop/My_prog/git_repo/babbage/tests/test.sv
+Line = 2
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/yy/Desktop/My_prog/git_repo/babbage
+design = DebussyLib
+hostCommand = hostCommand +v2k -sverilog +incdir+env+env +systemverilogext+sv +verdilog2001ext+v ./hdl/babbage.v tests/test.sv
+[nMemoryManager]
+FsdbFile = /home/yy/Desktop/My_prog/git_repo/babbage/test.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1916 667 100 66
+SessionFile = /home/yy/Desktop/My_prog/git_repo/babbage/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

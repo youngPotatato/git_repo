@@ -4,19 +4,29 @@
         "yBBEe",
         "module"
     ],
-    "std": [
-        "std",
-        "reYIK",
-        "module"
-    ],
     "utopia1_atm_rx": [
         "utopia1_atm_rx",
         "qmxfw",
         "module"
     ],
-    "...MASTER...": [
-        "SIM",
-        "amcQw",
+    "std": [
+        "std",
+        "reYIK",
+        "module"
+    ],
+    "utopia1_atm_tx": [
+        "utopia1_atm_tx",
+        "AfFkn",
+        "module"
+    ],
+    "test": [
+        "test",
+        "x9Hvb",
+        "module"
+    ],
+    "LookupTable": [
+        "LookupTable",
+        "wBAGP",
         "module"
     ],
     "top": [
@@ -34,19 +44,9 @@
         "Ed7wN",
         "module"
     ],
-    "LookupTable": [
-        "LookupTable",
-        "wBAGP",
-        "module"
-    ],
-    "utopia1_atm_tx": [
-        "utopia1_atm_tx",
-        "AfFkn",
-        "module"
-    ],
-    "test": [
-        "test",
-        "x9Hvb",
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
         "module"
     ]
 }

@@ -1,0 +1,210 @@
+Command: ./simv +fsdbfile+test.fsdb +ntb_solver_mode=1 -cm line+tgl +UVM_NO_RELNOTES +UVM_TESTNAME=test_read_modify_write +ntb_random_seed= +UVM_VERBOSITY=UVM_LOW +UVM_VERDI_TRACE=UVM_AWARE+RAL+TLM+MSG+HIER+PRINT +UVM_VERDI_TRACE +UVM_TR_RECORD +UVM_LOG_RECORD -l run.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Nov  5 22:39 2017
+UVM_INFO @ 0: reporter [RNTST] Running test test_read_modify_write...
+*Verdi3* Loading libsscore_vcs201606.so
+*Verdi3* : FSDB_GATE is set.
+*Verdi3* : FSDB_RTL is set.
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* : Create FSDB file 'test.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +all dumping.
+*Verdi3* : End of traversing.
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/base/uvm_component.svh(3029) @ 0: uvm_test_top [UVM/CFG/SET/DPR] get/set_config_* API has been deprecated. Use uvm_config_db instead.
+
+Note-[FCICIO] Instance coverage is ON
+/home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/../sv/xbus_bus_monitor.sv, 135
+$unit, "xbus_bus_monitor::cov_trans"
+  Instance coverage is set (option.per_instance = 1) for covergroup 
+  'xbus_bus_monitor::cov_trans'
+  
+  Covergroup Instance: xbus_tb_top.me.obj.cov_trans 
+  Design hierarchy: $unit
+
+
+Note-[FCICIO] Instance coverage is ON
+/home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/../sv/xbus_bus_monitor.sv, 148
+$unit, "xbus_bus_monitor::cov_trans_beat"
+  Instance coverage is set (option.per_instance = 1) for covergroup 
+  'xbus_bus_monitor::cov_trans_beat'
+  
+  Covergroup Instance: xbus_tb_top.me.obj.cov_trans_beat 
+  Design hierarchy: $unit
+
+
+Note-[FCICIO] Instance coverage is ON
+/home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/../sv/xbus_master_monitor.sv, 61
+$unit, "xbus_master_monitor::cov_trans"
+  Instance coverage is set (option.per_instance = 1) for covergroup 
+  'xbus_master_monitor::cov_trans'
+  
+  Covergroup Instance: xbus_tb_top.me.obj.cov_trans 
+  Design hierarchy: $unit
+
+
+Note-[FCICIO] Instance coverage is ON
+/home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/../sv/xbus_master_monitor.sv, 74
+$unit, "xbus_master_monitor::cov_trans_beat"
+  Instance coverage is set (option.per_instance = 1) for covergroup 
+  'xbus_master_monitor::cov_trans_beat'
+  
+  Covergroup Instance: xbus_tb_top.me.obj.cov_trans_beat 
+  Design hierarchy: $unit
+
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(1557) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer [UVM_DEPRECATED] Registering sequence 'uvm_random_sequence' with sequencer 'uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer' is deprecated. 
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(1557) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer [UVM_DEPRECATED] Registering sequence 'uvm_exhaustive_sequence' with sequencer 'uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer' is deprecated. 
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(1557) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer [UVM_DEPRECATED] Registering sequence 'uvm_simple_sequence' with sequencer 'uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer' is deprecated. 
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(521) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer [UVM_DEPRECATED] default_sequence config parameter is deprecated and not part of the UVM standard. See documentation for uvm_sequencer_base::start_phase_sequence().
+
+Note-[FCICIO] Instance coverage is ON
+/home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/../sv/xbus_slave_monitor.sv, 67
+$unit, "xbus_slave_monitor::cov_trans"
+  Instance coverage is set (option.per_instance = 1) for covergroup 
+  'xbus_slave_monitor::cov_trans'
+  
+  Covergroup Instance: xbus_tb_top.me.obj.cov_trans 
+  Design hierarchy: $unit
+
+
+Note-[FCICIO] Instance coverage is ON
+/home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/../sv/xbus_slave_monitor.sv, 80
+$unit, "xbus_slave_monitor::cov_trans_beat"
+  Instance coverage is set (option.per_instance = 1) for covergroup 
+  'xbus_slave_monitor::cov_trans_beat'
+  
+  Covergroup Instance: xbus_tb_top.me.obj.cov_trans_beat 
+  Design hierarchy: $unit
+
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(1557) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer [UVM_DEPRECATED] Registering sequence 'uvm_random_sequence' with sequencer 'uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer' is deprecated. 
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(1557) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer [UVM_DEPRECATED] Registering sequence 'uvm_exhaustive_sequence' with sequencer 'uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer' is deprecated. 
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(1557) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer [UVM_DEPRECATED] Registering sequence 'uvm_simple_sequence' with sequencer 'uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer' is deprecated. 
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(521) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer [UVM_DEPRECATED] default_sequence config parameter is deprecated and not part of the UVM standard. See documentation for uvm_sequencer_base::start_phase_sequence().
+UVM_INFO ./test_lib.sv(52) @ 0: uvm_test_top [test_read_modify_write] Printing the test topology :
+-------------------------------------------------------------------
+Name                         Type                    Size  Value   
+-------------------------------------------------------------------
+uvm_test_top                 test_read_modify_write  -     @333    
+  xbus_demo_tb0              xbus_demo_tb            -     @357    
+    scoreboard0              xbus_demo_scoreboard    -     @378    
+      item_collected_export  uvm_analysis_imp        -     @386    
+      disable_scoreboard     integral                1     'h0     
+      num_writes             integral                32    'd0     
+      num_init_reads         integral                32    'd0     
+      num_uninit_reads       integral                32    'd0     
+      recording_detail       uvm_verbosity           32    UVM_FULL
+    xbus0                    xbus_env                -     @370    
+      bus_monitor            xbus_bus_monitor        -     @398    
+      masters[0]             xbus_master_agent       -     @429    
+      slaves[0]              xbus_slave_agent        -     @440    
+      has_bus_monitor        integral                1     'h1     
+      num_masters            integral                32    'h1     
+      num_slaves             integral                32    'h1     
+      intf_checks_enable     integral                1     'h1     
+      intf_coverage_enable   integral                1     'h1     
+      recording_detail       uvm_verbosity           32    UVM_FULL
+    recording_detail         uvm_verbosity           32    UVM_FULL
+-------------------------------------------------------------------
+
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(1641) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer [UVM_DEPRECATED] Starting (deprecated) default sequence 'read_modify_write_seq' on sequencer 'uvm_test_top.xbus_demo_tb0.xbus0.masters[0].sequencer'. See documentation for uvm_sequencer_base::start_phase_sequence() for information on starting default sequences in UVM.
+UVM_WARNING /home/yy/EDA/uvm-1.2/src/seq/uvm_sequencer_base.svh(1641) @ 0: uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer [UVM_DEPRECATED] Starting (deprecated) default sequence 'slave_memory_seq' on sequencer 'uvm_test_top.xbus_demo_tb0.xbus0.slaves[0].sequencer'. See documentation for uvm_sequencer_base::start_phase_sequence() for information on starting default sequences in UVM.
+UVM_INFO xbus_demo_scoreboard.sv(99) @ 110: uvm_test_top.xbus_demo_tb0.scoreboard0 [xbus_demo_scoreboard] READ to empty address...Updating address : 12 with data : fd
+UVM_INFO ../sv/xbus_bus_monitor.sv(225) @ 110: uvm_test_top.xbus_demo_tb0.xbus0.bus_monitor [xbus_bus_monitor] Transfer collected :
+----------------------------------------------------------
+Name                Type                  Size  Value     
+----------------------------------------------------------
+xbus_transfer_inst  xbus_transfer         -     @406      
+  addr              integral              16    'h12      
+  read_write        xbus_read_write_enum  32    READ      
+  size              integral              32    'h1       
+  data              da(integral)          1     -         
+    [0]             integral              8     'hfd      
+  wait_state        da(integral)          1     -         
+  error_pos         integral              32    'h0       
+  transmit_delay    integral              32    'h0       
+  master            string                10    masters[0]
+  slave             string                9     slaves[0] 
+  begin_time        time                  64    70        
+  end_time          time                  64    110       
+----------------------------------------------------------
+
+UVM_INFO xbus_demo_scoreboard.sv(88) @ 200: uvm_test_top.xbus_demo_tb0.scoreboard0 [xbus_demo_scoreboard] WRITE to existing address...Updating address : 12 with data : fe
+UVM_INFO ../sv/xbus_bus_monitor.sv(225) @ 200: uvm_test_top.xbus_demo_tb0.xbus0.bus_monitor [xbus_bus_monitor] Transfer collected :
+----------------------------------------------------------
+Name                Type                  Size  Value     
+----------------------------------------------------------
+xbus_transfer_inst  xbus_transfer         -     @406      
+  addr              integral              16    'h12      
+  read_write        xbus_read_write_enum  32    WRITE     
+  size              integral              32    'h1       
+  data              da(integral)          1     -         
+    [0]             integral              8     'hfe      
+  wait_state        da(integral)          1     -         
+  error_pos         integral              32    'h0       
+  transmit_delay    integral              32    'h0       
+  master            string                10    masters[0]
+  slave             string                9     slaves[0] 
+  begin_time        time                  64    160       
+  end_time          time                  64    200       
+----------------------------------------------------------
+
+UVM_INFO xbus_demo_scoreboard.sv(75) @ 350: uvm_test_top.xbus_demo_tb0.scoreboard0 [xbus_demo_scoreboard] READ to existing address...Checking address : 12 with data : fe
+UVM_INFO ../sv/xbus_bus_monitor.sv(225) @ 350: uvm_test_top.xbus_demo_tb0.xbus0.bus_monitor [xbus_bus_monitor] Transfer collected :
+----------------------------------------------------------
+Name                Type                  Size  Value     
+----------------------------------------------------------
+xbus_transfer_inst  xbus_transfer         -     @406      
+  addr              integral              16    'h12      
+  read_write        xbus_read_write_enum  32    READ      
+  size              integral              32    'h1       
+  data              da(integral)          1     -         
+    [0]             integral              8     'hfe      
+  wait_state        da(integral)          1     -         
+  error_pos         integral              32    'h0       
+  transmit_delay    integral              32    'h0       
+  master            string                10    masters[0]
+  slave             string                9     slaves[0] 
+  begin_time        time                  64    310       
+  end_time          time                  64    350       
+----------------------------------------------------------
+
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 400: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO xbus_demo_scoreboard.sv(114) @ 400: uvm_test_top.xbus_demo_tb0.scoreboard0 [xbus_demo_scoreboard] Reporting scoreboard information...
+-------------------------------------------------------------
+Name                     Type                  Size  Value   
+-------------------------------------------------------------
+scoreboard0              xbus_demo_scoreboard  -     @378    
+  item_collected_export  uvm_analysis_imp      -     @386    
+    recording_detail     uvm_verbosity         32    UVM_FULL
+  disable_scoreboard     integral              1     'h0     
+  num_writes             integral              32    'd1     
+  num_init_reads         integral              32    'd1     
+  num_uninit_reads       integral              32    'd1     
+  recording_detail       uvm_verbosity         32    UVM_FULL
+-------------------------------------------------------------
+
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_report_server.svh(847) @ 400: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   10
+UVM_WARNING :   11
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/CFG/SET/DPR]     1
+[UVM_DEPRECATED]    10
+[test_read_modify_write]     1
+[xbus_bus_monitor]     3
+[xbus_demo_scoreboard]     4
+
+$finish called from file "/home/yy/EDA/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time                  400
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 400 ns
+CPU Time:      0.700 seconds;       Data structure size:   0.5Mb
+Sun Nov  5 22:39:37 2017

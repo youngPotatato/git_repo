@@ -1,0 +1,22 @@
+<session version="1.1" release="L-2016.06" timestp="2017-11-27 02:17:46 GMT">
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="88.8889%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="$unit::my_scoreboard::crossTypeUsedDepth">
+      <metric name="Group" value="77.7778%" />
+    </scope>
+    <scope type="group" name="$unit::my_scoreboard::cover_type">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  </old_coverage>
+</session>

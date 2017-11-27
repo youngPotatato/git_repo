@@ -15,7 +15,7 @@ Command: vcs +acc -lca +vpi -debug_access+all -rdynamic -LDFLAGS-wl,--rpth,/home
 hdl/utopia.sv hdl/cpu_ifc.sv hdl/LookupTable.sv hdl/squat.sv hdl/utopia1_atm_rx.sv \
 hdl/utopia1_atm_tx.sv tests/test.sv -l comp.log -o simv
                          Chronologic VCS (TM)
-            Version L-2016.06 -- Tue Oct 31 23:04:21 2017
+            Version L-2016.06 -- Thu Nov  9 22:22:37 2017
                Copyright (c) 1991-2016 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -82,13 +82,13 @@ recompiling module utopia1_atm_rx
 recompiling module utopia1_atm_tx
 recompiling module test
 All of 9 modules done
-make[1]: Entering directory `/home/yy/Desktop/My_prog/exercise11/Example_midify/csrc' \
+make[1]: Entering directory `/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify/csrc' \
 
 rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
 if [ -x ../simv ]; then chmod -x ../simv; fi
 g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
 -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -m32 -m32 -LDFLAGS-wl,--rpth,/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX \
--rdynamic   amcQwB.o objs/amcQw_d.o   _14062_archive_1.so  SIM_l.o       rmapats_mop.o \
+-rdynamic   amcQwB.o objs/amcQw_d.o   _15085_archive_1.so  SIM_l.o       rmapats_mop.o \
 rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /home/yy/EDA/VCS2016/linux/lib/libzerosoft_rt_stubs.so \
 /home/yy/EDA/VCS2016/linux/lib/libvirsim.so /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so \
 /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so    /home/yy/EDA/VCS2016/linux/lib/libvcsnew.so \
@@ -97,6 +97,6 @@ rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /home/yy/EDA/VCS2016/
 _vcs_pli_stub_.o   /home/yy/EDA/VCS2016/linux/lib/vcs_save_restore_new.o /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a \
 /home/yy/EDA/VCS2016/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
 ../simv up to date
-make[1]: Leaving directory `/home/yy/Desktop/My_prog/exercise11/Example_midify/csrc' \
+make[1]: Leaving directory `/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify/csrc' \
 
-CPU time: .462 seconds to compile + .269 seconds to elab + .213 seconds to link
+CPU time: 2.742 seconds to compile + .674 seconds to elab + .315 seconds to link

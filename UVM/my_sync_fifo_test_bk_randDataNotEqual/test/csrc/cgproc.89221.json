@@ -1,0 +1,167 @@
+{
+    "CompUnits": {
+        "amcQw_d": {
+            "mode": 4,
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 5346,
+            "checksum": 0
+        },
+        "hEeZs_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "vcs_paramclassrepository",
+            "out": "hEeZs_d.o",
+            "bytes": 4216061,
+            "checksum": 0
+        },
+        "reYIK_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 26928,
+            "checksum": 0
+        },
+        "uM9F1_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "_vcs_DPI_package",
+            "out": "uM9F1_d.o",
+            "bytes": 5880,
+            "checksum": 0
+        },
+        "e7EBi_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "dut_if",
+            "out": "e7EBi_d.o",
+            "bytes": 29697,
+            "checksum": 0
+        },
+        "N5CAk_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "_vcs_unit__3169092938",
+            "out": "N5CAk_d.o",
+            "bytes": 212829,
+            "checksum": 0
+        },
+        "zr7M1_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "uvm_pkg",
+            "out": "zr7M1_d.o",
+            "bytes": 4272666,
+            "checksum": 0
+        },
+        "Emx8S_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "top",
+            "out": "Emx8S_d.o",
+            "bytes": 18607,
+            "checksum": 0
+        },
+        "BWIbP_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "fifo",
+            "out": "BWIbP_d.o",
+            "bytes": 14504,
+            "checksum": 0
+        },
+        "zKa3y_d": {
+            "archive": "archive.0/_89221_archive_1.a",
+            "mode": 4,
+            "mod": "fifo_grm",
+            "out": "zKa3y_d.o",
+            "bytes": 16234,
+            "checksum": 0
+        }
+    },
+    "Modules": {
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "_vcs_unit__3169092938": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "fifo": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "dut_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "fifo_grm": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    4216061
+                ],
+                [
+                    "uM9F1_d.o",
+                    5880
+                ],
+                [
+                    "N5CAk_d.o",
+                    212829
+                ],
+                [
+                    "reYIK_d.o",
+                    26928
+                ],
+                [
+                    "zr7M1_d.o",
+                    4272666
+                ],
+                [
+                    "e7EBi_d.o",
+                    29697
+                ],
+                [
+                    "Emx8S_d.o",
+                    18607
+                ],
+                [
+                    "BWIbP_d.o",
+                    14504
+                ],
+                [
+                    "zKa3y_d.o",
+                    16234
+                ]
+            ],
+            "archive": "archive.0/_89221_archive_1.a",
+            "size": 8813406
+        }
+    ]
+}

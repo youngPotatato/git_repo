@@ -1,6 +1,6 @@
 psSimBaseName                      	simv
 psLogFileName                      	comp.log
-pDaiDir                            	/home/yy/Desktop/My_prog/UVM/hello_world/simv.daidir
+pDaiDir                            	/home/yy/Desktop/My_prog/git_repo/UVM/hello_world/simv.daidir
 destPath                           	csrc/
 fSharedMaster                      	0
 hsMainFileCount                    	0

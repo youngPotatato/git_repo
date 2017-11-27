@@ -1,0 +1,21 @@
+Command: ./simv +fsdbfile+test.fsdb +ntb_solver_mode=1 -cm line+tgl +ntb_random_seed=776 -l run.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06; Runtime version L-2016.06;  Nov 16 10:33 2017
+*Verdi3* Loading libsscore_vcs201606.so
+*Verdi3* : FSDB_GATE is set.
+*Verdi3* : FSDB_RTL is set.
+*Verdi3* : Enable Parallel Dumping.
+FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+(C) 1996 - 2016 by Synopsys, Inc.
+*Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi3* : Create FSDB file 'test.fsdb'
+*Verdi3* : Begin traversing the scopes, layer (0).
+*Verdi3* : Enable +all dumping.
+*Verdi3* : End of traversing.
+$finish called from file "tests/test.sv", line 38.
+$finish at simulation time            120150750
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 120150750 ns
+CPU Time:      7.400 seconds;       Data structure size:   0.0Mb
+Thu Nov 16 10:33:28 2017

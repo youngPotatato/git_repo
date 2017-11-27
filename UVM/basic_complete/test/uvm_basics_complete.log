@@ -1,0 +1,18 @@
+UVM_INFO ../sv/my_subscriber.sv(25) @ 5: uvm_test_top.my_env_h.my_subscriber_h [mg] Subscriber received tx cmd=0, addr=0, data=0
+UVM_INFO ../dut/dut.sv(13) @ 5: reporter [mg] DUT received cmd=x, addr=  x, data=  x
+UVM_INFO ../sv/my_subscriber.sv(25) @ 15: uvm_test_top.my_env_h.my_subscriber_h [mg] Subscriber received tx cmd=1, addr=100, data=84
+UVM_INFO ../dut/dut.sv(13) @ 15: reporter [mg] DUT received cmd=1, addr=100, data= 84
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 15: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_report_server.svh(847) @ 15: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[mg]     4
+

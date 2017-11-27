@@ -1,4 +1,9 @@
 {
+    "test": [
+        "test",
+        "x9Hvb",
+        "module"
+    ],
     "std": [
         "std",
         "reYIK",
@@ -7,11 +12,6 @@
     "yy": [
         "yy",
         "Vtv4E",
-        "module"
-    ],
-    "test": [
-        "test",
-        "x9Hvb",
         "module"
     ],
     "...MASTER...": [

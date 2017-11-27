@@ -1,0 +1,71 @@
+Magic 271485
+Revision Verdi3_L-2016.06-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 28 1920 690 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/test.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 254.520000
+cursor 243.67355516637
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 17
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/test.fsdb"
+addSignal -h 15 /top/dut_if1/reset
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_data[15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_data[15:0]
+addSignal -h 15 -holdScope pop
+addSignal -h 15 -holdScope push
+addSignal -h 15 -holdScope ept
+addSignal -h 15 -holdScope ful
+addSignal -h 15 -holdScope valid
+addGroup "G2"
+addSignal -h 15 /top/dut_if2/reset
+addSignal -h 15 -UNSIGNED -HEX -holdScope r_data[15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope w_data[15:0]
+addSignal -h 15 -holdScope pop
+addSignal -h 15 -holdScope push
+addSignal -h 15 -holdScope ept
+addSignal -h 15 -holdScope ful
+addSignal -h 15 -holdScope valid
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

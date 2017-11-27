@@ -1,0 +1,87 @@
+global coverage_group 0 $unit::my_subscriber::cover_bus __coverage_my_subscriber.cover_bus unused_my_subscriber_cover_bus_loop_label $unit 0 1 0 1 $unit::../dut/dut.sv::../sv/env.svh...@1460397963 ( )
+ 1 1
+ 80 /home/yy/Desktop/My_prog/git_repo/UVM/basic_complete/test/../sv/my_subscriber.sv
+ 9 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+0
+ 3 cmd 10 0 0 0 107 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn 107 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 addr 11 0 0 0 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_0 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 1 32 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 1 a 12 0 1 0 0 0 0 0 0 0 0 0 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_1 0 -1 0 0 -1 0 0 1 1 1 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_2 0 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_3 0 0 0 0 0
+
+ 4 data 14 0 0 0 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_4 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 1 32 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 1 d 15 0 1 0 0 0 0 0 0 0 0 0 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_1 0 -1 0 0 -1 0 0 1 1 1 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_2 0 109 _vcs_unit__1460397963_my_subscriber_1_0::_vcs_unit__1460397963_my_subscriber_1_0_my_subscriber_cover_bus_fn_3 0 0 0 0 0
+
+end_coverage_group

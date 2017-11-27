@@ -1,0 +1,291 @@
+ANF: vcsd_register_1st_RTL_rfn('./simv: undefined symbol: vcsd_register_1st_RTL_rfn')
+ANF: vcsd_register_1st_sequential_rfn('./simv: undefined symbol: vcsd_register_1st_sequential_rfn')
+ANF: vcsd_register_2nd_RTL_rfn('./simv: undefined symbol: vcsd_register_2nd_RTL_rfn')
+ANF: vcsd_register_2nd_sequential_rfn('./simv: undefined symbol: vcsd_register_2nd_sequential_rfn')
+ANF: scsd_xprop_is_enabled('./simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('./simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('./simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('./simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('./simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('./simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('./simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('./simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: msvEnableDumpingMode('./simv: undefined symbol: msvEnableDumpingMode')
+ANF: msvGetVersion('./simv: undefined symbol: msvGetVersion')
+ANF: msvGetInstProp('./simv: undefined symbol: msvGetInstProp')
+ANF: msvIsSpiceEngineReady('./simv: undefined symbol: msvIsSpiceEngineReady')
+ANF: msvSetAddProbeCallback('./simv: undefined symbol: msvSetAddProbeCallback')
+ANF: msvGetInstHandle('./simv: undefined symbol: msvGetInstHandle')
+ANF: msvGetProbeByInst('./simv: undefined symbol: msvGetProbeByInst')
+ANF: msvGetSigHandle('./simv: undefined symbol: msvGetSigHandle')
+ANF: msvGetProbeBySig('./simv: undefined symbol: msvGetProbeBySig')
+ANF: msvGetProbeInfo('./simv: undefined symbol: msvGetProbeInfo')
+ANF: msvRelease('./simv: undefined symbol: msvRelease')
+ANF: msvSetVcCallbackFunc('./simv: undefined symbol: msvSetVcCallbackFunc')
+ANF: msvCheckVcCallback('./simv: undefined symbol: msvCheckVcCallback')
+ANF: msvAddVcCallback('./simv: undefined symbol: msvAddVcCallback')
+ANF: msvRemoveVcCallback('./simv: undefined symbol: msvRemoveVcCallback')
+ANF: msvGetLatestValue('./simv: undefined symbol: msvGetLatestValue')
+ANF: msvSetEndofSimCallback('./simv: undefined symbol: msvSetEndofSimCallback')
+ANF: msvIgnoredProbe('./simv: undefined symbol: msvIgnoredProbe')
+ANF: msvGetThruNetInfo('./simv: undefined symbol: msvGetThruNetInfo')
+ANF: msvFreeThruNetInfo('./simv: undefined symbol: msvFreeThruNetInfo')
+ANF: PI_ace_get_output_time_unit('./simv: undefined symbol: PI_ace_get_output_time_unit')
+ANF: PI_ace_sim_sync('./simv: undefined symbol: PI_ace_sim_sync')
+ANF: msvGetRereadInitFile('./simv: undefined symbol: msvGetRereadInitFile')
+ANF: msvSetBeforeRereadCallback('./simv: undefined symbol: msvSetBeforeRereadCallback')
+ANF: msvSetAfterRereadCallback('./simv: undefined symbol: msvSetAfterRereadCallback')
+ANF: msvSetForceCallback('./simv: undefined symbol: msvSetForceCallback')
+ANF: msvSetReleaseCallback('./simv: undefined symbol: msvSetReleaseCallback')
+ANF: msvGetForceStatus('./simv: undefined symbol: msvGetForceStatus')
+ANF: vhdi_dt_get_type('./simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('./simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('./simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('./simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('./simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('./simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_def_traverse_module('./simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('./simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('./simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('./simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('./simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_free('./simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('./simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('./simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('./simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('./simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('./simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('./simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('./simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('./simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('./simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_ist_check_scsd_callback('./simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('./simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('./simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('./simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('./simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('./simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('./simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('./simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+VCS compile option:
+ option[0]: ./simv
+ option[1]: +fsdbfile+test.fsdb
+ option[2]: +ntb_solver_mode=1
+ option[3]: -cm
+ option[4]: line+tgl
+ option[5]: +UVM_NO_RELNOTES
+ option[6]: +UVM_TESTNAME=test1
+ option[7]: -ucli
+ option[8]: +ntb_random_seed=90
+ option[9]: +UVM_VERBOSITY=UVM_LOW
+ option[10]: +UVM_VERDI_TRACE=UVM_AWARE+RAL+TLM+MSG+HIER+PRINT
+ option[11]: +UVM_VERDI_TRACE
+ option[12]: +UVM_TR_RECORD
+ option[13]: +UVM_LOG_RECORD
+ option[14]: -l
+ option[15]: run.log
+ option[16]: /home/yy/EDA/VCS2016/linux/bin/vcs1
+ option[17]: -Mcc=gcc
+ option[18]: -Mcplusplus=g++
+ option[19]: -Masflags=--32
+ option[20]: -Mcfl= -pipe -m32 -DVCS -O -I/home/yy/EDA/VCS2016/include 
+ option[21]: -Mxcflags= -pipe -m32 -I/home/yy/EDA/VCS2016/include
+ option[22]: -Mldflags= -m32 -m32 -LDFLAGS-wl,--rpth,/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX -rdynamic 
+ option[23]: -Mout=simv
+ option[24]: -Mamsrun=
+ option[25]: -Mvcsaceobjs=
+ option[26]: -Mobjects= /home/yy/EDA/VCS2016/linux/lib/libvirsim.so /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a 
+ option[27]: -Mexternalobj=
+ option[28]: -Msaverestoreobj=/home/yy/EDA/VCS2016/linux/lib/vcs_save_restore_new.o
+ option[29]: -Mcrt0=
+ option[30]: -Mcrtn=
+ option[31]: -Mcsrc=/home/yy/EDA/uvm-1.2/src/dpi/uvm_dpi.cc 
+ option[32]: -Msyslibs=/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a /home/yy/EDA/VCS2016/linux/lib/ctype-stubs_32.a -ldl -lm 
+ option[33]: -l
+ option[34]: comp.log
+ option[35]: +acc
+ option[36]: -lca
+ option[37]: -debug_access+all
+ option[38]: +vpi
+ option[39]: +vcsd1
+ option[40]: +itf+/home/yy/EDA/VCS2016/linux/lib/vcsdp_lite.tab
+ option[41]: -Xcbug=0x1
+ option[42]: -Xpiyushb1=0x80
+ option[43]: -P
+ option[44]: /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/novas.tab
+ option[45]: -load
+ option[46]: libnovas.so:FSDBDumpCmd
+ option[47]: -timescale=1ns/1ns
+ option[48]: -debug_access+all+dmptf+bc
+ option[49]: -debug_region=cell+lib
+ option[50]: -Xpiyushb1=0x80
+ option[51]: -o
+ option[52]: simv
+ option[53]: -picarchive
+ option[54]: -P
+ option[55]: /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
+ option[56]: -fsdb
+ option[57]: +vpi
+ option[58]: -sverilog
+ option[59]: -gen_obj
+ option[60]: +incdir+/home/yy/EDA/uvm-1.2/src
+ option[61]: /home/yy/EDA/uvm-1.2/src/uvm.sv
+ option[62]: +incdir+env+../sv
+ option[63]: ../sv/env.svh
+ option[64]: ./test_lib.sv
+ option[65]: top.sv
+ option[66]: ../dut/dut.v
+ option[67]: ../dut/dut.sv
+ option[68]: -load
+ option[69]: /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/libnovas.so:FSDBDumpCmd
+ option[70]: timescale=1ns/1ns
+Chronologic Simulation VCS Release L-2016.06
+Linux 3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017 x86_64
+CPU cores: 2
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8250 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+XDG_VTNR=1
+XDG_SESSION_ID=1
+SSH_AGENT_PID=3079
+HOSTNAME=localhost.localdomain
+UVM_HOME=/home/yy/EDA/uvm-1.2
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1
+TERM=xterm-256color
+XDG_MENU_PREFIX=gnome-
+VTE_VERSION=3804
+SHELL=/bin/bash
+HISTSIZE=1000
+MAKEFLAGS=SEED=90 TN=test1
+PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
+WINDOWID=35651591
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+PERL_MB_OPT=--install_base /home/yy/perl5
+IMSETTINGS_MODULE=none
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=yy
+MAKEOVERRIDES=${-*-command-variables-*-}
+LD_LIBRARY_PATH=/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SEED=90
+MAKELEVEL=1
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2897,unix/unix:/tmp/.ICE-unix/2897
+USERNAME=yy
+MFLAGS=
+GNOME_SHELL_SESSION_MODE=classic
+MAIL=/var/spool/mail/yy
+PATH=/home/yy/perl5/bin:/root/perl5/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/.local/bin:/home/yy/bin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin
+DESKTOP_SESSION=gnome-classic
+QT_IM_MODULE=ibus
+_=./simv
+VERDI_HOME=/home/yy/EDA/disk2/verdi2016_06
+PWD=/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test
+VCS_HOME=/home/yy/EDA/VCS2016
+XMODIFIERS=@im=ibus
+LANG=en_US.UTF-8
+GDM_LANG=en_US.UTF-8
+KDEDIRS=/usr
+LM_LICENSE_FILE=27000@localhost
+GDMSESSION=gnome-classic
+HISTCONTROL=ignoredups
+SHLVL=5
+XDG_SEAT=seat0
+HOME=/home/yy
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
+TN=test1
+LOGNAME=yy
+XDG_SESSION_DESKTOP=gnome-classic
+QTLIB=/usr/lib64/qt-3.3/lib
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-FAtbNqUVbn,guid=f7050fedf89b144180639fd15a0a2324
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+WINDOWPATH=1
+DISPLAY=:0
+XDG_RUNTIME_DIR=/run/user/1000
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
+VCS_PATHMAP_PRELOAD_DONE=1
+LC_ALL=C
+DVE=/home/yy/EDA/VCS2016/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+Runtime command line arguments:
+argv[0]=./simv
+argv[1]=+fsdbfile+test.fsdb
+argv[2]=+ntb_solver_mode=1
+argv[3]=-cm
+argv[4]=line+tgl
+argv[5]=+UVM_NO_RELNOTES
+argv[6]=+UVM_TESTNAME=test1
+argv[7]=-ucli
+argv[8]=+ntb_random_seed=90
+argv[9]=+UVM_VERBOSITY=UVM_LOW
+argv[10]=+UVM_VERDI_TRACE=UVM_AWARE+RAL+TLM+MSG+HIER+PRINT
+argv[11]=+UVM_VERDI_TRACE
+argv[12]=+UVM_TR_RECORD
+argv[13]=+UVM_LOG_RECORD
+argv[14]=-l
+argv[15]=run.log
+244 profile - 100
+          CPU/Mem usage: 0.200 sys,  0.290 user,  165.32M sys,  0.00M vm
+245 VC callback profile - scalar:0 vector:0
+246 Mon Nov 13 23:20:48 2017
+247 pliAppInit
+248 *Verdi3* : FSDB_GATE is set.
+249 *Verdi3* : FSDB_RTL is set.
+250 *Verdi3* : Enable Parallel Dumping.
+251 pliAppMiscSet: New Sim Round
+252 pliEntryInit
+253 LIBSSCORE=found /home/yy/EDA/disk2/verdi2016_06/share/PLI/lib/LINUX/libsscore_vcs201606.so through $NOVAS_HOME setting.
+254 FSDB Dumper for VCS, Release Verdi3_L-2016.06-1, Linux, 07/10/2016
+255 (C) 1996 - 2016 by Synopsys, Inc.
+256 sps_call_fsdbDumpfile at 0 : top.sv(72)
+257 argv[0]: test.fsdb
+258 *Verdi3* : Create FSDB file 'test.fsdb'
+259 sps_call_fsdbDumpvars at 0 : top.sv(73)
+260 argv[0]: +all
+261 *Verdi3* : Begin traversing the scopes, layer (0).
+262 *Verdi3* : Enable +all dumping.
+263 *Verdi3* : End of traversing.
+264 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.220 sys,  0.330 user,  255.23M sys,  0.00M vm
+                   incr: 0.010 sys,  0.040 user,  13.31M sys,  0.00M vm
+                   accu: 0.010 sys,  0.040 user,  13.31M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.040 user,  13.31M sys,  0.00M vm
+
+          Count usage: 125 var,  80 idcode,  48 callback
+                 incr: 125 var,  80 idcode,  48 callback
+                 accu: 125 var,  80 idcode,  48 callback
+            accu incr: 125 var,  80 idcode,  48 callback
+265 VC callback profile - scalar:0 vector:0
+266 Mon Nov 13 23:20:48 2017
+267 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.220 sys,  0.330 user,  256.42M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.19M sys,  0.00M vm
+                   accu: 0.010 sys,  0.040 user,  14.50M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.19M sys,  0.00M vm
+
+          Count usage: 125 var,  80 idcode,  48 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 125 var,  80 idcode,  48 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+268 VC callback profile - scalar:31 vector:32
+269 Mon Nov 13 23:20:48 2017
+270 sps_tcl_fsdbDumpflush
+271 *Verdi3* : Flush all FSDB Files at 1,800 ns.

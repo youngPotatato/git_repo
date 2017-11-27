@@ -73,7 +73,7 @@ VCS compile option:
  option[2]: +ntb_solver_mode=1
  option[3]: -cm
  option[4]: line+tgl
- option[5]: +ntb_random_seed=521
+ option[5]: +ntb_random_seed=
  option[6]: -l
  option[7]: run.log
  option[8]: /home/yy/EDA/VCS2016/linux/bin/vcs1
@@ -146,6 +146,7 @@ maxproc			4096
 
 Runtime environment variables:
 DESKTOP_SESSION=gnome-classic
+XAUTHORITY=/run/gdm/auth-for-yy-TK97J5/database
 GDMSESSION=gnome-classic
 XMODIFIERS=@im=ibus
 SHELL=/bin/bash
@@ -157,13 +158,13 @@ USERNAME=yy
 PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
 LESSOPEN=||/usr/bin/lesspipe.sh %s
-PATH=/home/yy/perl5/bin:/root/perl5/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/.local/bin:/home/yy/bin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin
+PATH=/usr/lib64/qt-3.3/bin:/home/yy/perl5/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/.local/bin:/home/yy/bin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin
 LM_LICENSE_FILE=27000@localhost
 GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1
 QT_GRAPHICSSYSTEM_CHECKED=1
 SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2876,unix/unix:/tmp/.ICE-unix/2876
 XDG_RUNTIME_DIR=/run/user/1000
-WINDOWID=35651591
+WINDOWID=35665596
 XDG_MENU_PREFIX=gnome-
 LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
 XDG_SESSION_DESKTOP=gnome-classic
@@ -173,33 +174,32 @@ DISPLAY=:0
 IMSETTINGS_INTEGRATE_DESKTOP=yes
 HOME=/home/yy
 VCS_HOME=/home/yy/EDA/VCS2016
-PWD=/home/yy/Desktop/My_prog/exercise11/Example_midify
+PWD=/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify
 XDG_SEAT=seat0
 SSH_AGENT_PID=3058
 VERDI_HOME=/home/yy/EDA/disk2/verdi2016_06
 DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Pd8rhmq1kF,guid=bb6bbd8b656144f320a40d5a59f93df0
 LD_LIBRARY_PATH=/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX
-PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
-PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
+PERL_LOCAL_LIB_ROOT=:/home/yy/perl5
+PERL5LIB=/home/yy/perl5/lib/perl5:
 LOGNAME=yy
 GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+UVM_HOME=/home/yy/EDA/uvm-1.2
 HOSTNAME=localhost.localdomain
 XDG_VTNR=1
 QT_IM_MODULE=ibus
-SHLVL=4
-MAKEOVERRIDES=${-*-command-variables-*-}
+SHLVL=2
 GNOME_SHELL_SESSION_MODE=classic
 XDG_SESSION_ID=1
 USER=yy
 QTLIB=/usr/lib64/qt-3.3/lib
 XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
-OLDPWD=/home/yy
+OLDPWD=/home/yy/Desktop/My_prog/git_repo/exercise11
 IMSETTINGS_MODULE=none
-MAKEFLAGS=SEED=521
+MAKEFLAGS=
 MFLAGS=
 MAIL=/var/spool/mail/yy
 PERL_MB_OPT=--install_base /home/yy/perl5
-SEED=521
 HISTSIZE=1000
 WINDOWPATH=1
 QTINC=/usr/lib64/qt-3.3/include
@@ -217,13 +217,13 @@ argv[1]=+fsdbfile+test.fsdb
 argv[2]=+ntb_solver_mode=1
 argv[3]=-cm
 argv[4]=line+tgl
-argv[5]=+ntb_random_seed=521
+argv[5]=+ntb_random_seed=
 argv[6]=-l
 argv[7]=run.log
 222 profile - 100
-          CPU/Mem usage: 0.040 sys,  0.220 user,  142.70M sys,  0.00M vm
+          CPU/Mem usage: 0.570 sys,  0.250 user,  142.69M sys,  0.00M vm
 223 VC callback profile - scalar:0 vector:0
-224 Tue Oct 31 23:04:23 2017
+224 Thu Nov  9 22:22:46 2017
 225 pliAppInit
 226 *Verdi3* : FSDB_GATE is set.
 227 *Verdi3* : FSDB_RTL is set.
@@ -243,33 +243,35 @@ argv[7]=run.log
 241 *Verdi3* : Enable +all dumping.
 242 *Verdi3* : End of traversing.
 243 fsdbDumpvars traverse var: profile - 
-          CPU/Mem usage: 0.050 sys,  0.250 user,  228.40M sys,  0.00M vm
-                   incr: 0.010 sys,  0.030 user,  8.27M sys,  0.00M vm
-                   accu: 0.010 sys,  0.030 user,  8.27M sys,  0.00M vm
-              accu incr: 0.010 sys,  0.030 user,  8.27M sys,  0.00M vm
+          CPU/Mem usage: 1.400 sys,  0.290 user,  228.39M sys,  0.00M vm
+                   incr: 0.430 sys,  0.030 user,  8.27M sys,  0.00M vm
+                   accu: 0.430 sys,  0.030 user,  8.27M sys,  0.00M vm
+              accu incr: 0.430 sys,  0.030 user,  8.27M sys,  0.00M vm
 
           Count usage: 33425 var,  6485 idcode,  392 callback
                  incr: 33425 var,  6485 idcode,  392 callback
                  accu: 33425 var,  6485 idcode,  392 callback
             accu incr: 33425 var,  6485 idcode,  392 callback
 244 VC callback profile - scalar:0 vector:0
-245 Tue Oct 31 23:04:23 2017
+245 Thu Nov  9 22:22:49 2017
 246 fsdbDumpvars: profile - 
-          CPU/Mem usage: 0.050 sys,  0.250 user,  229.72M sys,  0.00M vm
-                   incr: 0.000 sys,  0.000 user,  1.33M sys,  0.00M vm
-                   accu: 0.010 sys,  0.030 user,  9.59M sys,  0.00M vm
-              accu incr: 0.000 sys,  0.000 user,  1.33M sys,  0.00M vm
+          CPU/Mem usage: 1.430 sys,  0.290 user,  229.72M sys,  0.00M vm
+                   incr: 0.030 sys,  0.000 user,  1.33M sys,  0.00M vm
+                   accu: 0.460 sys,  0.030 user,  9.59M sys,  0.00M vm
+              accu incr: 0.030 sys,  0.000 user,  1.33M sys,  0.00M vm
 
           Count usage: 33425 var,  6485 idcode,  392 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 33425 var,  6485 idcode,  392 callback
             accu incr: 0 var,  0 idcode,  0 callback
 247 VC callback profile - scalar:300 vector:602
-248 Tue Oct 31 23:04:23 2017
-249 End of simulation at 75895
-250 VC callback profile - scalar:246401 vector:102450
-251 Tue Oct 31 23:04:24 2017
-252 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:2
-253                        ProduceTime:0.628270156 ConsumerTime:0.337946422 Buffer:64MB
+248 Thu Nov  9 22:22:49 2017
+249 End of simulation at 46665
+250 VC callback profile - scalar:149122 vector:37755
+251 Thu Nov  9 22:49:37 2017
+252 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:1 BlockUsed:1
+253                        ProduceTime:0.314998427 ConsumerTime:0.000000000 Buffer:64MB
 254 SimExit
 255 Sim process exit
+256 Catch signal "Abort". Stack trace follows:
+stack trace not available

@@ -1,0 +1,77 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[hb]
+postSimFile = /home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/test.fsdb
+syncTime = 0
+viewport = 0 28 1920 1099 632 426 59 1918
+activeNode = "xbus_tb_top.xi0"
+activeScope = "xbus_tb_top.xi0"
+activeFile = "../sv/xbus_if.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 44
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "xbus_tb_top.xi0"
+Scope2 = "xbus_transfer"
+Scope3 = "xbus_slave_monitor"
+Scope4 = "xbus_demo_scoreboard"
+Scope5 = "xbus_slave_driver"
+Scope6 = "$root"
+Scope7 = "xbus_tb_top"
+Scope8 = "xbus_tb_top.dut"
+Scope9 = "xbus_demo_tb"
+Scope10 = "uvm_analysis_imp"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = xbus_tb_top.xi0
+File = /home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/sv/xbus_if.sv
+Line = 45
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples
+design = DebussyLib
+hostCommand = hostCommand +v2k -sverilog +incdir+env+../sv+/home/yy/EDA/uvm-1.2/src /home/yy/EDA/uvm-1.2/src/uvm.sv +systemverilogext+sv +verdilog2001ext+v ../sv/xbus.svh ./test_lib.sv xbus_tb_top.sv dut_dummy.v ../sv/xbus_if.sv
+[nMemoryManager]
+FsdbFile = /home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/test.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1920 455 100 65
+SessionFile = /home/yy/Desktop/My_prog/git_repo/UVM/xbus_example/examples/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

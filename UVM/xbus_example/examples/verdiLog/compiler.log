@@ -1,0 +1,19 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    +v2k
+    -sverilog
+    +incdir+env+../sv+/home/yy/EDA/uvm-1.2/src
+    /home/yy/EDA/uvm-1.2/src/uvm.sv
+    +systemverilogext+sv
+    +verdilog2001ext+v
+    ../sv/xbus.svh
+    ./test_lib.sv
+    xbus_tb_top.sv
+    dut_dummy.v
+    ../sv/xbus_if.sv
+
+Highest level modules:
+xbus_tb_top
+
+Total	0 error(s),   0 warning(s)

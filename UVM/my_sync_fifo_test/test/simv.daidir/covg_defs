@@ -1,0 +1,149 @@
+global coverage_group 0 $unit::my_scoreboard::cover_type __coverage_my_scoreboard.cover_type unused_my_scoreboard_cover_type_loop_label $unit 0 1 0 1 $unit::../dut/dut.sv::../dut/dut.v...@3169092938 ( )
+ 1 1
+ 77 /home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/my_scoreboard.sv
+ 24 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+ 6 t_type 25 0 0 0 64 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_cover_type_fn 64 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_cover_type_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 32 1 33 _vcs_unit__3169092938::trans_type 1 1 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 2 0 0 1 1 3 NOP 26 0 2 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 66 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_cover_type_fn_0 0 0 0 0 0 0 0
+
+end_coverage_group
+global coverage_group 0 $unit::my_scoreboard::crossTypeUsedDepth __coverage_my_scoreboard.crossTypeUsedDepth unused_my_scoreboard_crossTypeUsedDepth_loop_label $unit 0 1 0 1 $unit::../dut/dut.sv::../dut/dut.v...@3169092938 ( )
+ 0 29 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+2
+0
+1
+ 2 ty 31 0 0 0 72 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn 72 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 7 32 1 33 _vcs_unit__3169092938::trans_type 1 1 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_3
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 5 ty_pu 32 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 ty_po 33 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_1 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 ty_pupo 34 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_2 0 0 0 0 0 0 0
+
+ 5 depth 38 0 0 0 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_4 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_4 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 1 32 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_3
+ 0
+ 0
+ 0
+ 0
+ 3 1 1 0 0 1 1 5 empty 39 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_3 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 other 40 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_5 0 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_6 0 0 0 0 0
+ 1 1 0 0 1 1 4 full 41 0 1 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 74 my_scoreboard::_vcs_unit__3169092938_my_scoreboard_crossTypeUsedDepth_fn_7 0 0 0 0 0 0 0
+
+ 6 crossC 0 46 0 0 0 0 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 9 1 1 0 0 -1 0 0 1 1 8 pu_empth 47 0 1 0 1 3 1 0 0 1 5 ty_pu 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 8 pu_other 48 0 1 0 1 3 1 0 0 1 5 ty_pu 0 0 0 0 0 1 0 1 1 5 other 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 7 pu_full 49 0 1 0 1 3 1 0 0 1 5 ty_pu 0 0 0 0 0 1 0 1 1 4 full 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 8 po_empth 50 0 1 0 1 3 1 0 0 1 5 ty_po 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 8 po_other 51 0 1 0 1 3 1 0 0 1 5 ty_po 0 0 0 0 0 1 0 1 1 5 other 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 7 po_full 52 0 1 0 1 3 1 0 0 1 5 ty_po 0 0 0 0 0 1 0 1 1 4 full 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 10 pupo_empth 53 0 1 0 1 3 1 0 0 1 7 ty_pupo 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 10 pupo_other 54 0 1 0 1 3 1 0 0 1 7 ty_pupo 0 0 0 0 0 1 0 1 1 5 other 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 9 pupo_full 55 0 1 0 1 3 1 0 0 1 7 ty_pupo 0 0 0 0 0 1 0 1 1 4 full 0 0 0 0 0 0 0 0 0 0 0 0
+
+end_coverage_group

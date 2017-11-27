@@ -2,7 +2,17 @@ program automatic test;
 	import yy::*;
 	logic [7:0] d_in;
 	logic [3:0] a_in;
+		bit a [4];
+		int b;
+
 	MemTrans mt1,mt2;
+
+
+	initial begin
+		a = {1,0,1,1};
+		b = a.sum();
+		$display("b = %0d",b);
+	end
 	initial begin
 		d_in = 'h2;
 		mt1 = new(d_in,);

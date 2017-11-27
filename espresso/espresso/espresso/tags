@@ -1,0 +1,907 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABSENT	signature.h	13;"	d
+ACTIVE	espresso.h	116;"	d
+BB	black_white.c	/^static pcover BB;$/;"	v	file:
+BPI	espresso.h	22;"	d
+BPI	espresso.h	50;"	d
+BW_TIME	espresso.h	379;"	d
+COMPL	espresso.h	337;"	d
+COMPL_TIME	espresso.h	359;"	d
+CONSTRAINTS_type	espresso.h	329;"	d
+COVER	essentiality.c	/^pcover COVER; \/* A global bag to collect the signature cubes in the cover $/;"	v
+COVERED	espresso.h	118;"	d
+CUBELISTSIZE	espresso.h	315;"	d
+CUBE_TEMP	espresso.h	463;"	d
+D	espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon2
+DASH	espresso.h	404;"	d
+DISJOINT	espresso.h	503;"	d
+DISJOINT	espresso.h	506;"	d
+DISJOINT	espresso.h	508;"	d
+DR_type	espresso.h	333;"	d
+D_type	espresso.h	324;"	d
+EQNTOTT_type	espresso.h	327;"	d
+ESSEN	espresso.h	338;"	d
+ESSEN_TIME	espresso.h	361;"	d
+ETRAUX_TIME	espresso.h	376;"	d
+ETR_TIME	espresso.h	375;"	d
+EVEN_MASK	signature.h	3;"	d
+EVEN_MASK	signature.h	6;"	d
+EXACT	espresso.h	347;"	d
+EXEC	espresso.h	409;"	d
+EXECUTE	espresso.h	413;"	d
+EXEC_S	espresso.h	411;"	d
+EXPAND	espresso.h	339;"	d
+EXPAND1	espresso.h	340;"	d
+EXPAND_TIME	espresso.h	362;"	d
+F	espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon2
+FALSE	espresso.h	241;"	d
+FCC_TIME	espresso.h	374;"	d
+FDR_type	espresso.h	334;"	d
+FD_type	espresso.h	331;"	d
+FR_type	espresso.h	332;"	d
+F_type	espresso.h	323;"	d
+Fmin	cvrm.c	/^static pcover Fmin;$/;"	v	file:
+GASP	espresso.h	341;"	d
+GETINPUT	espresso.h	391;"	d
+GETOUTPUT	espresso.h	393;"	d
+GETSET	espresso.h	148;"	d
+GEXPAND_TIME	espresso.h	365;"	d
+GIRRED_TIME	espresso.h	366;"	d
+GREDUCE_TIME	espresso.h	367;"	d
+Gcube	map.c	/^static pcube Gcube;$/;"	v	file:
+Gminterm	map.c	/^static pset Gminterm;$/;"	v	file:
+IN	espresso.h	318;"	d
+INLABEL	espresso.h	388;"	d
+INLINEset_and	espresso.h	166;"	d
+INLINEset_and	espresso.h	189;"	d
+INLINEset_clear	espresso.h	164;"	d
+INLINEset_clear	espresso.h	184;"	d
+INLINEset_copy	espresso.h	163;"	d
+INLINEset_copy	espresso.h	182;"	d
+INLINEset_diff	espresso.h	168;"	d
+INLINEset_diff	espresso.h	195;"	d
+INLINEset_fill	espresso.h	165;"	d
+INLINEset_fill	espresso.h	186;"	d
+INLINEset_merge	espresso.h	172;"	d
+INLINEset_merge	espresso.h	212;"	d
+INLINEset_ndiff	espresso.h	169;"	d
+INLINEset_ndiff	espresso.h	198;"	d
+INLINEset_or	espresso.h	167;"	d
+INLINEset_or	espresso.h	192;"	d
+INLINEset_xnor	espresso.h	171;"	d
+INLINEset_xnor	espresso.h	203;"	d
+INLINEset_xnor	espresso.h	208;"	d
+INLINEset_xor	espresso.h	170;"	d
+INLINEset_xor	espresso.h	202;"	d
+INLINEset_xor	espresso.h	205;"	d
+INLINEsetp_disjoint	espresso.h	175;"	d
+INLINEsetp_disjoint	espresso.h	218;"	d
+INLINEsetp_equal	espresso.h	177;"	d
+INLINEsetp_equal	espresso.h	221;"	d
+INLINEsetp_implies	espresso.h	173;"	d
+INLINEsetp_implies	espresso.h	215;"	d
+INOUT	espresso.h	320;"	d
+IRRED	espresso.h	342;"	d
+IRRED1	espresso.h	351;"	d
+IRRED_TIME	espresso.h	363;"	d
+KEY_ESPRESSO	main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_MANY_ESPRESSO	main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_PLA_verify	main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_check	main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_contain	main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_d1merge	main.h	/^    KEY_ESPRESSO, KEY_PLA_verify, KEY_check, KEY_contain, KEY_d1merge,$/;"	e	enum:keys
+KEY_d1merge_in	main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KEY_disjoint	main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_dsharp	main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_echo	main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_equiv	main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_essen	main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_exact	main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_expand	main.h	/^    KEY_disjoint, KEY_dsharp, KEY_echo, KEY_essen, KEY_exact, KEY_expand,$/;"	e	enum:keys
+KEY_fsm	main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KEY_gasp	main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_intersect	main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_irred	main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_lexsort	main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_make_sparse	main.h	/^    KEY_gasp, KEY_intersect, KEY_irred, KEY_lexsort, KEY_make_sparse,$/;"	e	enum:keys
+KEY_map	main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_mapdc	main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_minterms	main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_opo	main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_opoall	main.h	/^    KEY_map, KEY_mapdc, KEY_minterms, KEY_opo, KEY_opoall,$/;"	e	enum:keys
+KEY_pair	main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_pairall	main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_primes	main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_qm	main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_reduce	main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_separate	main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KEY_sharp	main.h	/^    KEY_pair, KEY_pairall, KEY_primes, KEY_qm, KEY_reduce, KEY_sharp,$/;"	e	enum:keys
+KEY_signature	main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KEY_simplify	main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_so	main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_so_both	main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_stats	main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_super_gasp	main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_taut	main.h	/^    KEY_simplify, KEY_so, KEY_so_both, KEY_stats, KEY_super_gasp, KEY_taut,$/;"	e	enum:keys
+KEY_test	main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_union	main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_unknown	main.h	/^    KEY_unknown$/;"	e	enum:keys
+KEY_verify	main.h	/^    KEY_test, KEY_equiv, KEY_union, KEY_verify, KEY_MANY_ESPRESSO,$/;"	e	enum:keys
+KEY_xor	main.h	/^    KEY_separate, KEY_xor, KEY_d1merge_in, KEY_fsm, KEY_signature,$/;"	e	enum:keys
+KISS_type	espresso.h	328;"	d
+LOGBPI	espresso.h	54;"	d
+LOGBPI	espresso.h	56;"	d
+LOOP	espresso.h	91;"	d
+LOOPCOPY	espresso.h	94;"	d
+LOOPCOPY	espresso.h	98;"	d
+LOOPINIT	espresso.h	104;"	d
+MAGIC	sharp.c	202;"	d	file:
+MAGIC	unate.c	291;"	d	file:
+MAYBE	espresso.h	243;"	d
+MINCOV	espresso.h	348;"	d
+MINCOV1	espresso.h	349;"	d
+MINCOV_TIME	espresso.h	369;"	d
+MV_REDUCE_TIME	espresso.h	370;"	d
+NEGATIVE	signature.h	10;"	d
+NELEM	espresso.h	103;"	d
+NEW	expand.c	469;"	d	file:
+NONESSEN	espresso.h	115;"	d
+NO_INLINE	espresso.h	13;"	d
+NO_INLINE	espresso.h	21;"	d
+NO_LIFTING	compl.c	23;"	d	file:
+NUMINPUTS	espresso.h	382;"	d
+NUMOUTPUTS	espresso.h	383;"	d
+NullS	getopt.c	7;"	d	file:
+ODD_MASK	signature.h	2;"	d
+ODD_MASK	signature.h	5;"	d
+ONE	espresso.h	405;"	d
+ONSET_TIME	espresso.h	360;"	d
+OUT	espresso.h	319;"	d
+OUTLABEL	espresso.h	389;"	d
+PLA_labels	cvrin.c	/^PLA_labels(PLA)$/;"	f
+PLA_permute	verify.c	/^PLA_permute(PLA1, PLA2)$/;"	f
+PLA_summary	cvrin.c	/^void PLA_summary(PLA)$/;"	f
+PLA_t	espresso.h	/^} PLA_t, *pPLA;$/;"	t	typeref:struct:__anon2
+PLA_verify	verify.c	/^bool PLA_verify(PLA1, PLA2)$/;"	f
+PLEASURE_type	espresso.h	326;"	d
+POSITIVE	signature.h	9;"	d
+POSITIVE_PHASE	espresso.h	385;"	d
+POW2	opo.c	527;"	d	file:
+POWER2	map.c	60;"	d	file:
+PRESENT	signature.h	12;"	d
+PRIME	espresso.h	114;"	d
+PRIMES_TIME	espresso.h	368;"	d
+PUTINPUT	espresso.h	396;"	d
+PUTLOOP	espresso.h	92;"	d
+PUTOUTPUT	espresso.h	399;"	d
+PUTSIZE	espresso.h	100;"	d
+PUTSIZE	espresso.h	96;"	d
+R	espresso.h	/^    pcover F, D, R;		\/* on-set, off-set and dc-set *\/$/;"	m	struct:__anon2
+RAISED	signature.h	15;"	d
+RAISE_IN_TIME	espresso.h	371;"	d
+READ_TIME	espresso.h	358;"	d
+REDUCE	espresso.h	343;"	d
+REDUCE1	espresso.h	344;"	d
+REDUCE_TIME	espresso.h	364;"	d
+REDUND	espresso.h	117;"	d
+RELESSEN	espresso.h	119;"	d
+RESET	espresso.h	110;"	d
+R_type	espresso.h	325;"	d
+Rp_current	irred.c	/^static int Rp_current;$/;"	v	file:
+SET	espresso.h	109;"	d
+SET_SIZE	espresso.h	79;"	d
+SET_SIZE	espresso.h	81;"	d
+SHARP	espresso.h	350;"	d
+SIGMA_TIME	espresso.h	377;"	d
+SIZE	espresso.h	95;"	d
+SIZE	espresso.h	99;"	d
+SPARSE	espresso.h	345;"	d
+SPARSE_H	sparse.h	2;"	d
+SYMBOLIC_CONSTRAINTS_type	espresso.h	330;"	d
+S_EXECUTE	espresso.h	416;"	d
+TAUT	espresso.h	346;"	d
+TESTP	espresso.h	111;"	d
+TIME_COUNT	espresso.h	357;"	d
+TRUE	espresso.h	242;"	d
+TWO	espresso.h	403;"	d
+UCOMP_TIME	espresso.h	378;"	d
+USE_COMPL_LIFT	compl.c	20;"	d	file:
+USE_COMPL_LIFT_ONSET	compl.c	21;"	d	file:
+USE_COMPL_LIFT_ONSET_COMPLEX	compl.c	22;"	d	file:
+USE_GIMPEL	mincov.c	7;"	d	file:
+USE_INDEP_SET	mincov.c	8;"	d	file:
+VAR	essentiality.c	/^	} VAR;$/;"	t	typeref:struct:__anon1	file:
+VERIFY_TIME	espresso.h	372;"	d
+VERSION	espresso.h	353;"	d
+WEIGHT	mincov_int.h	44;"	d
+WHICH_BIT	espresso.h	75;"	d
+WHICH_WORD	espresso.h	74;"	d
+WRITE_TIME	espresso.h	373;"	d
+ZERO	espresso.h	406;"	d
+abs_covered	unate.c	/^abs_covered(A, pick)$/;"	f	file:
+abs_covered_many	unate.c	/^abs_covered_many(A, pick_set)$/;"	f	file:
+abs_select_restricted	unate.c	/^abs_select_restricted(A, restrict)$/;"	f	file:
+active_count	espresso.h	/^    int active_count;           \/* Number of "active" sets *\/$/;"	m	struct:set_family
+all_primes	expand.c	/^pcover all_primes(F, R)$/;"	f
+alloc_list	black_white.c	/^alloc_list(size)$/;"	f	file:
+alloc_stack	black_white.c	/^alloc_stack(size)$/;"	f	file:
+and_with_cofactor	primes.c	/^and_with_cofactor(A, cof)$/;"	f	file:
+ascend	setc.c	/^int ascend(a, b)$/;"	f
+ascending	essentiality.c	/^ascending(p1,p2)$/;"	f
+aux_etr_order	essentiality.c	/^aux_etr_order(F,E,R,c,d)$/;"	f
+backward	black_white.c	/^static int *forward, *backward;$/;"	v	file:
+backward_compatibility_hack	main.c	/^backward_compatibility_hack(argc, argv, option, out_type)$/;"	f
+backward_link	black_white.c	/^static int forward_link, backward_link;$/;"	v	file:
+best	espresso.h	/^    int best;                   \/* best "binate" variable *\/$/;"	m	struct:cdata_struct
+best_D	pair.c	/^static pcover best_F, best_D, best_R;$/;"	v	file:
+best_F	pair.c	/^static pcover best_F, best_D, best_R;$/;"	v	file:
+best_R	pair.c	/^static pcover best_F, best_D, best_R;$/;"	v	file:
+best_cost	pair.c	/^static int best_cost;$/;"	v	file:
+best_pair	pair.c	/^static ppair best_pair;$/;"	v	file:
+best_phase	pair.c	/^static pset best_phase;$/;"	v	file:
+binary_mask	espresso.h	/^    pset binary_mask;           \/* Mask to extract binary variables *\/$/;"	m	struct:cube_struct
+binate_count	essentiality.c	/^static int binate_count; \/* active size of the above list *\/$/;"	v	file:
+binate_list	essentiality.c	/^static VAR *binate_list; \/* List of binate variables in the $/;"	v	file:
+binate_split_select	cofactor.c	/^int binate_split_select(T, cleft, cright, debug_flag)$/;"	f
+bit_count	globals.c	/^int bit_count[256] = {$/;"	v
+bit_index	set.c	/^int bit_index(a)$/;"	f
+black_head	black_white.c	/^static int black_head, black_tail;$/;"	v	file:
+black_tail	black_white.c	/^static int black_head, black_tail;$/;"	v	file:
+black_white	black_white.c	/^black_white()$/;"	f
+bool	espresso.h	240;"	d
+build_intersection_matrix	indep.c	/^build_intersection_matrix(A)$/;"	f	file:
+c_free_count	essentiality.c	/^static int c_free_count; \/* active size of the above list *\/$/;"	v	file:
+c_free_list	essentiality.c	/^static int *c_free_list; \/* List of raised variables  in cube c *\/$/;"	v	file:
+cactive	setc.c	/^int cactive(a)$/;"	f
+capacity	espresso.h	/^    int capacity;               \/* Number of sets allocated *\/$/;"	m	struct:set_family
+cb1_dsharp	sharp.c	/^pcover cb1_dsharp(T, c)$/;"	f
+cb_consensus	essen.c	/^pcover cb_consensus(T, c)$/;"	f
+cb_consensus_dist0	essen.c	/^pcover cb_consensus_dist0(R, p, c)$/;"	f
+cb_dsharp	sharp.c	/^pcover cb_dsharp(c, T)$/;"	f
+cb_recur_sharp	sharp.c	/^pcover cb_recur_sharp(c, T, first, last, level)$/;"	f
+cb_sharp	sharp.c	/^pcover cb_sharp(c, T)$/;"	f
+cb_unravel	cvrm.c	/^static void cb_unravel(c, start, end, startbase, B1)$/;"	f	file:
+ccommon	setc.c	/^bool ccommon(a, b, cof)$/;"	f
+cdata	globals.c	/^struct cdata_struct cdata, temp_cdata_save;$/;"	v	typeref:struct:cdata_struct
+cdata_struct	espresso.h	/^struct cdata_struct {$/;"	s
+cdist	setc.c	/^int cdist(a, b)$/;"	f
+cdist0	setc.c	/^bool cdist0(a, b)$/;"	f
+cdist01	setc.c	/^int cdist01(a, b)$/;"	f
+check_arg	main.c	/^bool check_arg(argc, argv, s)$/;"	f
+check_consistency	verify.c	/^bool check_consistency(PLA)$/;"	f
+check_equiv	equiv.c	/^int check_equiv(f1, f2)$/;"	f
+cleanup	signature.c	/^cleanup()$/;"	f
+clear	black_white.c	/^clear()$/;"	f	file:
+cnt	espresso.h	/^    int cnt;$/;"	m	struct:pair_struct
+cof_output	cvrm.c	/^pcover cof_output(T, i)$/;"	f
+cofactor	cofactor.c	/^pcube *cofactor(T, c)$/;"	f
+col_num	sparse.h	/^    int col_num;		\/* column number of this element *\/$/;"	m	struct:sm_element_struct
+col_num	sparse.h	/^    int col_num;		\/* the column number *\/$/;"	m	struct:sm_col_struct
+cols	sparse.h	/^    sm_col **cols;		\/* pointer to column headers (by col #) *\/$/;"	m	struct:sm_matrix_struct
+cols_size	sparse.h	/^    int cols_size;		\/* alloc'ed size of above array *\/$/;"	m	struct:sm_matrix_struct
+comp_count	mincov_int.h	/^    int comp_count;		\/* number of components detected *\/$/;"	m	struct:stats_struct
+compl_cube	compl.c	/^static pcover compl_cube(p)$/;"	f	file:
+compl_d1merge	compl.c	/^static void compl_d1merge(L1, R1)$/;"	f	file:
+compl_lift	compl.c	/^static void compl_lift(A1, B1, bcube, var)$/;"	f	file:
+compl_lift_onset	compl.c	/^static void compl_lift_onset(A1, T, bcube, var)$/;"	f	file:
+compl_lift_onset_complex	compl.c	/^static void compl_lift_onset_complex(A1, T, var)$/;"	f	file:
+compl_merge	compl.c	/^static pcover compl_merge(T1, L, R, cl, cr, var, lifting)$/;"	f	file:
+compl_special_cases	compl.c	/^static bool compl_special_cases(T, Tbar)$/;"	f	file:
+complement	compl.c	/^pcover complement(T)$/;"	f
+component	mincov_int.h	/^    int component;		\/* currently solving a component *\/$/;"	m	struct:stats_struct
+consensus	setc.c	/^void consensus(r, a, b)$/;"	f
+copy_cost	cvrmisc.c	/^void copy_cost(s, d)$/;"	f
+copy_row	part.c	/^copy_row(A, prow)$/;"	f	file:
+cost	mincov_int.h	/^    int cost;$/;"	m	struct:solution_struct
+cost_array	pair.c	/^static int **cost_array;$/;"	v	file:
+cost_struct	espresso.h	/^typedef struct cost_struct {$/;"	s
+cost_t	espresso.h	/^} cost_t, *pcost;$/;"	t	typeref:struct:cost_struct
+count	espresso.h	/^    int count;                  \/* The number of sets in the family *\/$/;"	m	struct:set_family
+count_ones	espresso.h	228;"	d
+count_ones	espresso.h	232;"	d
+cover_cost	cvrmisc.c	/^void cover_cost(F, cost)$/;"	f
+cprint	cvrout.c	/^void cprint(T)$/;"	f
+cube	globals.c	/^struct cube_struct cube, temp_cube_save;$/;"	v	typeref:struct:cube_struct
+cube1list	cofactor.c	/^pcube *cube1list(A)$/;"	f
+cube2list	cofactor.c	/^pcube *cube2list(A, B)$/;"	f
+cube3list	cofactor.c	/^pcube *cube3list(A, B, C)$/;"	f
+cube_is_covered	irred.c	/^cube_is_covered(T, c)$/;"	f
+cube_setup	cubestr.c	/^void cube_setup()$/;"	f
+cube_struct	espresso.h	/^struct cube_struct {$/;"	s
+cubelist_partition	cvrm.c	/^int cubelist_partition(T, A, B, comp_debug)$/;"	f
+cubes	espresso.h	/^    int cubes;			\/* number of cubes in the cover *\/$/;"	m	struct:cost_struct
+cubeunlist	cofactor.c	/^pcover cubeunlist(A1)$/;"	f
+cv_dsharp	sharp.c	/^pcover cv_dsharp(A, B)$/;"	f
+cv_intersect	sharp.c	/^pcover cv_intersect(A, B)$/;"	f
+cv_sharp	sharp.c	/^pcover cv_sharp(A, B)$/;"	f
+d1_order	setc.c	/^int d1_order(a, b)$/;"	f
+d1_rm_equal	contain.c	/^int d1_rm_equal(A1, compare)$/;"	f
+d1merge	contain.c	/^pset_family d1merge(A, var)$/;"	f
+data	espresso.h	/^    pset data;                  \/* Pointer to the set data *\/$/;"	m	struct:set_family
+debug	globals.c	/^unsigned int debug;              \/* debug parameter *\/$/;"	v
+debug	mincov_int.h	/^    int debug;			\/* 1 if debugging is enabled *\/$/;"	m	struct:stats_struct
+debug1_print	cvrout.c	/^void debug1_print(T, name, num)$/;"	f
+debug_print	cvrout.c	/^void debug_print(T, name, level)$/;"	f
+debug_table	main.h	/^} debug_table[] = {$/;"	v	typeref:struct:__anon4
+delete	black_white.c	/^delete(element)$/;"	f	file:
+delete_arg	main.c	/^delete_arg(argc, argv, num)$/;"	f
+delvar	pair.c	/^pcover delvar(A, paired)$/;"	f
+desc1	setc.c	/^int desc1(a, b)$/;"	f
+descend	setc.c	/^int descend(a, b)$/;"	f
+disassemble_fsm	hack.c	/^disassemble_fsm(PLA, verbose_mode)$/;"	f
+dist_merge	contain.c	/^pset_family dist_merge(A, mask)$/;"	f
+dll_unlink	sparse_int.h	65;"	d
+do_minimize	exact.c	/^do_minimize(F, D, R, exact_cover, weighted)$/;"	f	file:
+do_sm_minimum_cover	sminterf.c	/^do_sm_minimum_cover(A)$/;"	f
+dsharp	sharp.c	/^pcover dsharp(a, b)$/;"	f
+dump_irredundant	exact.c	/^dump_irredundant(E, Rt, Rp, table)$/;"	f	file:
+echo_comments	globals.c	/^bool echo_comments;		 \/* turned off by -eat option *\/$/;"	v
+echo_unknown_commands	globals.c	/^bool echo_unknown_commands;	 \/* always true ?? *\/$/;"	v
+elim_lowering	expand.c	/^void elim_lowering(BB, CC, RAISE, FREESET)$/;"	f
+emptyset	espresso.h	/^    pset emptyset;              \/* an empty cube *\/$/;"	m	struct:cube_struct
+eqn_output	cvrout.c	/^void eqn_output(PLA)$/;"	f
+equal	espresso.h	312;"	d
+esp_opt_table	main.h	/^} esp_opt_table[] = {$/;"	v	typeref:struct:__anon5
+espresso	espresso.c	/^pcover espresso(F, D1, R)$/;"	f
+essen_cube	essen.c	/^bool essen_cube(F, D, c)$/;"	f
+essen_parts	expand.c	/^void essen_parts(BB, CC, RAISE, FREESET)$/;"	f
+essen_raising	expand.c	/^void essen_raising(BB, RAISE, FREESET)$/;"	f
+essential	essen.c	/^pcover essential(Fp, Dp)$/;"	f
+etr_order	essentiality.c	/^etr_order(F,E,R,c,d)$/;"	f
+exact_minimum_cover	unate.c	/^pset_family exact_minimum_cover(T)$/;"	f
+expand	expand.c	/^pcover expand(F, R, nonsparse)$/;"	f
+expand1	expand.c	/^void expand1(BB, CC, RAISE, FREESET, OVEREXPANDED_CUBE, SUPER_CUBE,$/;"	f
+expand1_gasp	gasp.c	/^void expand1_gasp(F, D, R, Foriginal, c1index, G)$/;"	f
+expand_gasp	gasp.c	/^pcover expand_gasp(F, D, R, Foriginal)$/;"	f
+explode	map.c	/^void explode(var, z)$/;"	f
+fail	mincov.c	14;"	d	file:
+fatal	cvrmisc.c	/^void fatal(s)$/;"	f
+fcube_is_covered	irred.c	/^fcube_is_covered(T, c, table)$/;"	f	file:
+feasibly_covered	expand.c	/^bool feasibly_covered(BB, c, RAISE, new_lower)$/;"	f
+filename	espresso.h	/^    char *filename;             \/* filename *\/$/;"	m	struct:__anon2
+filename	globals.c	/^char *filename;			 \/* filename PLA was read from *\/$/;"	v
+find_all_primes	expand.c	/^pcover find_all_primes(BB, RAISE, FREESET)$/;"	f
+find_best_cost	pair.c	/^int find_best_cost(pair)$/;"	f
+find_canonical_cover	canonical.c	/^find_canonical_cover(F1,D,R)$/;"	f
+find_equiv_outputs	equiv.c	/^find_equiv_outputs(PLA)$/;"	f
+find_inputs	hack.c	/^find_inputs(A, PLA, list, base, value, newF, newD)$/;"	f
+find_optimal_pairing	pair.c	/^void find_optimal_pairing(PLA, strategy)$/;"	f
+find_pairing_cost	pair.c	/^int **find_pairing_cost(PLA, strategy)$/;"	f
+find_phase	opo.c	/^pcube find_phase(PLA, first_output, phase1)$/;"	f
+first_col	sparse.h	/^    sm_col *first_col;		\/* first column (linked list of columns) *\/$/;"	m	struct:sm_matrix_struct
+first_col	sparse.h	/^    sm_element *first_col;	\/* first element in this row *\/$/;"	m	struct:sm_row_struct
+first_part	espresso.h	/^    int *first_part;            \/* first element of each variable *\/$/;"	m	struct:cube_struct
+first_row	sparse.h	/^    sm_element *first_row;	\/* first element in this column *\/$/;"	m	struct:sm_col_struct
+first_row	sparse.h	/^    sm_row *first_row;		\/* first row (linked list of all rows) *\/$/;"	m	struct:sm_matrix_struct
+first_word	espresso.h	/^    int *first_word;            \/* first word for each variable *\/$/;"	m	struct:cube_struct
+flag	sparse.h	/^    int flag;			\/* user-defined word *\/$/;"	m	struct:sm_col_struct
+flag	sparse.h	/^    int flag;			\/* user-defined word *\/$/;"	m	struct:sm_row_struct
+fmt_cost	cvrmisc.c	/^char *fmt_cost(cost)$/;"	f
+fmt_cube	cvrout.c	/^char *fmt_cube(c, out_map, s)$/;"	f
+force_irredundant	globals.c	/^bool force_irredundant;          \/* -nirr command line option *\/$/;"	v
+force_lower	setc.c	/^pset force_lower(xlower, a, b)$/;"	f
+foreach_active_set	espresso.h	126;"	d
+foreach_output_function	cvrm.c	/^foreach_output_function(PLA, func, func1)$/;"	f
+foreach_remaining_set	espresso.h	124;"	d
+foreach_set	espresso.h	122;"	d
+foreach_set_element	espresso.h	142;"	d
+foreachi_active_set	espresso.h	132;"	d
+foreachi_set	espresso.h	130;"	d
+form_bitvector	hack.c	/^form_bitvector(p, base, value, list)$/;"	f
+forward	black_white.c	/^static int *forward, *backward;$/;"	v	file:
+forward_link	black_white.c	/^static int forward_link, backward_link;$/;"	v	file:
+fpr_header	cvrout.c	/^void fpr_header(fp, PLA, output_type)$/;"	f
+fprint_pla	cvrout.c	/^void fprint_pla(fp, PLA, output_type)$/;"	f
+free_PLA	cvrin.c	/^void free_PLA(PLA)$/;"	f
+free_bw	black_white.c	/^free_bw()$/;"	f
+free_count	essentiality.c	/^	int free_count;$/;"	m	struct:__anon1	file:
+free_cover	espresso.h	252;"	d
+free_cube	espresso.h	249;"	d
+free_cubelist	espresso.h	253;"	d
+free_list	black_white.c	/^free_list()$/;"	f	file:
+free_stack	black_white.c	/^free_stack()$/;"	f	file:
+fsm_simplify	hack.c	/^static pcover fsm_simplify(F)$/;"	f	file:
+ftaut_special_cases	irred.c	/^ftaut_special_cases(T, table)$/;"	f	file:
+ftautology	irred.c	/^ftautology(T, table)$/;"	f	file:
+full_row	setc.c	/^bool full_row(p, cof)$/;"	f
+fullset	espresso.h	/^    pset fullset;               \/* a full cube *\/$/;"	m	struct:cube_struct
+generate_all_pairs	pair.c	/^generate_all_pairs(pair, n, candidate, action)$/;"	f
+generate_primes	signature.c	/^generate_primes(F,R)$/;"	f
+getPLA	main.c	/^getPLA(opt, argc, argv, option, PLA, out_type)$/;"	f
+get_mins	essentiality.c	/^get_mins(c)$/;"	f
+get_next_variable	black_white.c	/^get_next_variable(pv,pphase,R)$/;"	f
+get_sigma	sigma.c	/^get_sigma(R,c)$/;"	f
+get_word	cvrin.c	/^char *get_word(fp, word)$/;"	f
+getopt	getopt.c	/^int getopt(argc, argv, optstring)$/;"	f
+gimpel	mincov_int.h	/^    int gimpel;			\/* currently inside Gimpel reduction *\/$/;"	m	struct:stats_struct
+gimpel_count	mincov_int.h	/^    int gimpel_count;		\/* number of times Gimpel reduction applied *\/$/;"	m	struct:stats_struct
+gimpel_reduce	gimpel.c	/^gimpel_reduce(A, select, weight, lb, bound, depth, stats, best)$/;"	f
+global_PLA	pair.c	/^static pPLA global_PLA;$/;"	v	file:
+greedy_best_cost	pair.c	/^int greedy_best_cost(cost_array_local, pair_p)$/;"	f
+in	espresso.h	/^    int in;			\/* transistor count, binary-valued variables *\/$/;"	m	struct:cost_struct
+init_list	black_white.c	/^init_list(size)$/;"	f	file:
+init_runtime	main.c	/^init_runtime()$/;"	f
+inmask	espresso.h	/^    unsigned int inmask;        \/* mask to get odd word of binary part *\/$/;"	m	struct:cube_struct
+input_type	main.c	/^static int input_type = FD_type;$/;"	v	file:
+insert	black_white.c	/^insert(element)$/;"	f	file:
+intcpy	set.c	/^static int intcpy(d, s, n)$/;"	f	file:
+inword	espresso.h	/^    int inword;                 \/* which word number for above *\/$/;"	m	struct:cube_struct
+irred_derive_table	irred.c	/^irred_derive_table(D, E, Rp)$/;"	f
+irred_gasp	gasp.c	/^pcover irred_gasp(F, D, G)$/;"	f
+irred_split_cover	irred.c	/^irred_split_cover(F, D, E, Rt, Rp)$/;"	f
+irredundant	irred.c	/^irredundant(F, D)$/;"	f
+is_in_set	espresso.h	157;"	d
+is_unate	espresso.h	/^    bool *is_unate;             \/* indicates given var is unate *\/$/;"	m	struct:cdata_struct
+key	espresso.h	/^    char *key;$/;"	m	struct:pla_types_struct
+key	main.h	/^    enum keys key;$/;"	m	struct:__anon3	typeref:enum:__anon3::keys
+keys	main.h	/^enum keys {$/;"	g
+kiss	globals.c	/^bool kiss;                       \/* -kiss command line option *\/$/;"	v
+kiss_output	cvrout.c	/^kiss_output(fp, PLA)$/;"	f
+kiss_print_cube	cvrout.c	/^kiss_print_cube(fp, PLA, p, out_string)$/;"	f
+label	espresso.h	/^    char **label;		\/* labels for the columns *\/$/;"	m	struct:__anon2
+label	espresso.h	/^    char *label;$/;"	m	struct:symbolic_label_struct
+label_index	cvrin.c	/^int label_index(PLA, word, varp, ip)$/;"	f
+largest_string	set.c	501;"	d	file:
+last_col	sparse.h	/^    sm_col *last_col;		\/* last column (linked list of columns) *\/$/;"	m	struct:sm_matrix_struct
+last_col	sparse.h	/^    sm_element *last_col;	\/* last element in this row *\/$/;"	m	struct:sm_row_struct
+last_fp	main.c	/^static FILE *last_fp;$/;"	v	file:
+last_gasp	gasp.c	/^pcover last_gasp(F, D, R, cost)$/;"	f
+last_part	espresso.h	/^    int *last_part;             \/* first element of each variable *\/$/;"	m	struct:cube_struct
+last_row	sparse.h	/^    sm_element *last_row;	\/* last element in this column *\/$/;"	m	struct:sm_col_struct
+last_row	sparse.h	/^    sm_row *last_row;		\/* last row (linked list of all rows) *\/$/;"	m	struct:sm_matrix_struct
+last_word	espresso.h	/^    int *last_word;             \/* last word for each variable *\/$/;"	m	struct:cube_struct
+length	sparse.h	/^    int length;			\/* number of elements in this column *\/$/;"	m	struct:sm_col_struct
+length	sparse.h	/^    int length;			\/* number of elements in this row *\/$/;"	m	struct:sm_row_struct
+lex_order	setc.c	/^int lex_order(a, b)$/;"	f
+lex_sort	cvrm.c	/^pcover lex_sort(T)$/;"	f
+line_length_error	cvrin.c	/^static bool line_length_error;$/;"	v	file:
+lineno	cvrin.c	/^static int lineno;$/;"	v	file:
+lower_bound	mincov_int.h	/^    int lower_bound;$/;"	m	struct:stats_struct
+main	main.c	/^main(argc, argv)$/;"	f
+make_disjoint	sharp.c	/^pcover make_disjoint(A)$/;"	f
+make_sparse	sparse.c	/^pcover make_sparse(F, D, R)$/;"	f
+makeup_labels	cvrout.c	/^int makeup_labels(PLA)$/;"	f
+map	map.c	/^void map(T)$/;"	f
+map_cover_to_unate	unate.c	/^pcover map_cover_to_unate(T)$/;"	f
+map_dcset	hack.c	/^map_dcset(PLA)$/;"	f
+map_output_symbolic	hack.c	/^map_output_symbolic(PLA)$/;"	f
+map_symbolic	hack.c	/^map_symbolic(PLA)$/;"	f
+map_symbolic_cover	hack.c	/^pcover map_symbolic_cover(T, list, base)$/;"	f
+map_unate_to_cover	unate.c	/^pcover map_unate_to_cover(A)$/;"	f
+mapindex	map.c	/^static int mapindex[16][16] = {$/;"	v	file:
+mark_irredundant	irred.c	/^mark_irredundant(F, D)$/;"	f
+massive_count	cofactor.c	/^void massive_count(T)$/;"	f
+max_depth	mincov_int.h	/^    int max_depth;		\/* deepest the recursion has gone *\/$/;"	m	struct:stats_struct
+max_print_depth	mincov_int.h	/^    int max_print_depth;	\/* dump stats for levels up to this level *\/$/;"	m	struct:stats_struct
+mem_usage	util_signature.c	/^mem_usage(name)$/;"	f
+merge_list	black_white.c	/^merge_list()$/;"	f
+mincov	expand.c	/^void mincov(BB, RAISE, FREESET)$/;"	f
+mini_sort	cvrm.c	/^pcover mini_sort(F, compare)$/;"	f
+minimize	opo.c	/^static void minimize(PLA)$/;"	f	file:
+minimize_exact	exact.c	/^minimize_exact(F, D, R, exact_cover)$/;"	f
+minimize_exact_literals	exact.c	/^minimize_exact_literals(F, D, R, exact_cover)$/;"	f
+minimize_pair	pair.c	/^int minimize_pair(pair)$/;"	f
+minterms	map.c	/^pset minterms(T)$/;"	f
+most_frequent	expand.c	/^int most_frequent(CC, FREESET)$/;"	f
+mv	espresso.h	/^    int mv;			\/* transistor count, multiple-valued vars *\/$/;"	m	struct:cost_struct
+mv_mask	espresso.h	/^    pset mv_mask;               \/* mask to get mv parts *\/$/;"	m	struct:cube_struct
+mv_reduce	sparse.c	/^mv_reduce(F, D)$/;"	f
+name	main.h	/^    char *name;$/;"	m	struct:__anon3
+name	main.h	/^    char *name;$/;"	m	struct:__anon4
+name	main.h	/^    char *name;$/;"	m	struct:__anon5
+ncols	sparse.h	/^    int ncols;			\/* number of columns *\/$/;"	m	struct:sm_matrix_struct
+needs_dcset	main.h	/^    bool needs_dcset;$/;"	m	struct:__anon3
+needs_offset	main.h	/^    bool needs_offset;$/;"	m	struct:__anon3
+new_PLA	cvrin.c	/^pPLA new_PLA()$/;"	f
+new_cover	espresso.h	251;"	d
+new_cube	espresso.h	248;"	d
+next	espresso.h	/^    struct set_family *next;    \/* For garbage collection *\/$/;"	m	struct:set_family	typeref:struct:set_family::set_family
+next	espresso.h	/^    struct symbolic_label_struct *next;$/;"	m	struct:symbolic_label_struct	typeref:struct:symbolic_label_struct::symbolic_label_struct
+next	espresso.h	/^    struct symbolic_list_struct *next;$/;"	m	struct:symbolic_list_struct	typeref:struct:symbolic_list_struct::symbolic_list_struct
+next	espresso.h	/^    struct symbolic_struct *next;$/;"	m	struct:symbolic_struct	typeref:struct:symbolic_struct::symbolic_struct
+next_col	sparse.h	/^    sm_col *next_col;		\/* next column (in sm_matrix linked list) *\/$/;"	m	struct:sm_col_struct
+next_col	sparse.h	/^    sm_element *next_col;	\/* next column in this row *\/$/;"	m	struct:sm_element_struct
+next_row	sparse.h	/^    sm_element *next_row;	\/* next row in this column *\/$/;"	m	struct:sm_element_struct
+next_row	sparse.h	/^    sm_row *next_row;		\/* next row (in sm_matrix linked list) *\/$/;"	m	struct:sm_row_struct
+no_branching	mincov_int.h	/^    int no_branching;$/;"	m	struct:stats_struct
+nodes	mincov_int.h	/^    int nodes;			\/* total nodes visited *\/$/;"	m	struct:stats_struct
+nrows	sparse.h	/^    int nrows;			\/* number of rows *\/$/;"	m	struct:sm_matrix_struct
+num_binary_vars	espresso.h	/^    int num_binary_vars;        \/* number of binary variables *\/$/;"	m	struct:cube_struct
+num_mv_vars	espresso.h	/^    int num_mv_vars;            \/* number of multiple-valued variables *\/$/;"	m	struct:cube_struct
+num_plas	main.h	/^    int num_plas;$/;"	m	struct:__anon3
+num_vars	espresso.h	/^    int num_vars;               \/* number of variables in a cube *\/$/;"	m	struct:cube_struct
+opo	opo.c	/^pcover opo(phase, T, D, R, first_output)$/;"	f
+opo_exact	opo.c	/^static int opo_exact;$/;"	v	file:
+opo_leaf	opo.c	/^pset_family opo_leaf(T, select, out1, out2)$/;"	f
+opo_no_make_sparse	opo.c	/^static int opo_no_make_sparse;$/;"	v	file:
+opo_recur	opo.c	/^pset_family opo_recur(T, D, select, offset, first, last)$/;"	f
+opo_repeated	opo.c	/^static int opo_repeated;$/;"	v	file:
+opoall	opo.c	/^void opoall(PLA, first_output, last_output, opo_strategy)$/;"	f
+optarg	getopt.c	/^char	*optarg;	\/* Global argument pointer. *\/$/;"	v
+optind	getopt.c	/^int	optind = 0;	\/* Global argv index. *\/$/;"	v
+option_table	main.h	/^} option_table [] = {$/;"	v	typeref:struct:__anon3
+out	espresso.h	/^    int out;			\/* transistor count, output part *\/$/;"	m	struct:cost_struct
+output	espresso.h	/^    int output;                 \/* which variable is "output" (-1 if none) *\/$/;"	m	struct:cube_struct
+output_phase_setup	opo.c	/^output_phase_setup(PLA, first_output)$/;"	f
+output_symbolic_constraints	cvrout.c	/^output_symbolic_constraints(fp, PLA, output_symbolic)$/;"	f
+pPLA	espresso.h	/^} PLA_t, *pPLA;$/;"	t	typeref:struct:__anon2
+pair	espresso.h	/^    ppair pair;                 \/* how to pair variables *\/$/;"	m	struct:__anon2
+pair_all	pair.c	/^pair_all(PLA, pair_strategy)$/;"	f
+pair_best_cost	pair.c	/^ppair pair_best_cost(cost_array_local)$/;"	f
+pair_free	pair.c	/^int pair_free(pair)$/;"	f
+pair_minim_strategy	pair.c	/^static int pair_minim_strategy;$/;"	v	file:
+pair_new	pair.c	/^ppair pair_new(n)$/;"	f
+pair_save	pair.c	/^ppair pair_save(pair, n)$/;"	f
+pair_struct	espresso.h	/^typedef struct pair_struct {$/;"	s
+pair_t	espresso.h	/^} pair_t, *ppair;$/;"	t	typeref:struct:pair_struct
+pairvar	pair.c	/^pcover pairvar(A, pair)$/;"	f
+parse_pla	cvrin.c	/^void parse_pla(fp, PLA)$/;"	f
+part_size	espresso.h	/^    int *part_size;             \/* number of elements in each variable *\/$/;"	m	struct:cube_struct
+part_zeros	espresso.h	/^    int *part_zeros;            \/* count of zeros for each element *\/$/;"	m	struct:cdata_struct
+parts_active	espresso.h	/^    int *parts_active;          \/* number of "active" parts for each var *\/$/;"	m	struct:cdata_struct
+pbv1	set.c	/^char *pbv1(s, n)$/;"	f
+pc1	cvrout.c	/^char *pc1(c) pcube c;$/;"	f
+pc2	cvrout.c	/^char *pc2(c) pcube c;$/;"	f
+pcost	espresso.h	/^} cost_t, *pcost;$/;"	t	typeref:struct:cost_struct
+pcover	espresso.h	250;"	d
+pcube	espresso.h	247;"	d
+phase	cvrm.c	/^static pcube phase;$/;"	v	file:
+phase	espresso.h	/^    pcube phase;                \/* phase to split into on-set and off-set *\/$/;"	m	struct:__anon2
+phase_assignment	opo.c	/^void phase_assignment(PLA, opo_strategy)$/;"	f
+pla_type	espresso.h	/^    int pla_type;               \/* logical PLA format *\/$/;"	m	struct:__anon2
+pla_types	globals.c	/^struct pla_types_struct pla_types[] = {$/;"	v	typeref:struct:pla_types_struct
+pla_types_struct	espresso.h	/^struct pla_types_struct {$/;"	s
+pls_group	cvrout.c	/^void pls_group(PLA, fp)$/;"	f
+pls_label	cvrout.c	/^void pls_label(PLA, fp)$/;"	f
+pls_output	cvrout.c	/^void pls_output(PLA)$/;"	f
+pop_black_list	black_white.c	/^pop_black_list()$/;"	f
+pos	espresso.h	/^    int pos;$/;"	m	struct:symbolic_list_struct
+pos	globals.c	/^bool pos;                        \/* -pos command line option *\/$/;"	v
+ppair	espresso.h	/^} pair_t, *ppair;$/;"	t	typeref:struct:pair_struct
+prev_col	sparse.h	/^    sm_col *prev_col;		\/* prev column (in sm_matrix linked list) *\/$/;"	m	struct:sm_col_struct
+prev_col	sparse.h	/^    sm_element *prev_col;	\/* previous column in this row *\/$/;"	m	struct:sm_element_struct
+prev_row	sparse.h	/^    sm_element *prev_row;	\/* previous row in this column *\/$/;"	m	struct:sm_element_struct
+prev_row	sparse.h	/^    sm_row *prev_row;		\/* previous row (in sm_matrix linked list) *\/$/;"	m	struct:sm_row_struct
+primes	espresso.h	/^    int primes;			\/* number of prime cubes *\/$/;"	m	struct:cost_struct
+primes_consensus	primes.c	/^pcover primes_consensus(T)$/;"	f
+primes_consensus_merge	primes.c	/^primes_consensus_merge(Tl, Tr, cl, cr)$/;"	f	file:
+primes_consensus_special_cases	primes.c	/^primes_consensus_special_cases(T, Tnew)$/;"	f	file:
+print_bool	espresso.h	244;"	d
+print_bw	black_white.c	/^print_bw(size)$/;"	f
+print_cost	cvrmisc.c	/^char *print_cost(F)$/;"	f
+print_cover	util_signature.c	/^print_cover(F,name)$/;"	f
+print_cube	cvrout.c	/^void print_cube(fp, c, out_map)$/;"	f
+print_expanded_cube	cvrout.c	/^void print_expanded_cube(fp, c, phase)$/;"	f
+print_links	black_white.c	/^print_links(size,list)$/;"	f	file:
+print_list	essentiality.c	/^print_list(n,x,name)$/;"	f
+print_pair	pair.c	/^print_pair(pair)$/;"	f
+print_solution	globals.c	/^bool print_solution;             \/* -x command line option *\/$/;"	v
+print_stack	black_white.c	/^print_stack()$/;"	f	file:
+print_time	espresso.h	11;"	d
+print_trace	cvrmisc.c	/^void print_trace(T, name, time)$/;"	f
+print_variable_list	black_white.c	/^print_variable_list()$/;"	f
+ps1	set.c	/^char *ps1(a)$/;"	f
+pset	espresso.h	/^typedef unsigned int *pset;$/;"	t
+pset_family	espresso.h	/^} set_family_t, *pset_family;$/;"	t	typeref:struct:set_family
+ptime	espresso.h	10;"	d
+push_black_list	black_white.c	/^push_black_list()$/;"	f
+r_free_count	essentiality.c	/^static int r_free_count; \/* active size of the above list *\/$/;"	v	file:
+r_free_list	essentiality.c	/^static int *r_free_list; \/* List of subset of raised variables in cube c$/;"	v	file:
+r_head	essentiality.c	/^static int r_head; \/* current position in  the list above *\/$/;"	v	file:
+random_order	cvrm.c	/^pcover random_order(F)$/;"	f
+read_cube	cvrin.c	/^void read_cube(fp, PLA)$/;"	f
+read_pla	cvrin.c	/^int read_pla(fp, needs_dcset, needs_offset, pla_type, PLA_return)$/;"	f
+read_symbolic	cvrin.c	/^int read_symbolic(fp, PLA, word, retval)$/;"	f
+recompute_onset	globals.c	/^bool recompute_onset;            \/* -onset command line option *\/$/;"	v
+reduce	reduce.c	/^pcover reduce(F, D)$/;"	f
+reduce_cube	reduce.c	/^pcube reduce_cube(FD, p)$/;"	f
+reduce_gasp	gasp.c	/^static pcover reduce_gasp(F, D)$/;"	f	file:
+reduced_c_free_count	essentiality.c	/^static int reduced_c_free_count; \/* active size of the above list *\/$/;"	v	file:
+reduced_c_free_list	essentiality.c	/^static int *reduced_c_free_list; \/* c_free_list - r_free_list *\/$/;"	v	file:
+remove_essential	globals.c	/^bool remove_essential;           \/* -ness command line option *\/$/;"	v
+repeated_phase_assignment	opo.c	/^void repeated_phase_assignment(PLA)$/;"	f
+reset_black_list	black_white.c	/^reset_black_list()$/;"	f
+restore_cube_struct	cubestr.c	/^void restore_cube_struct()$/;"	f
+rm2_contain	contain.c	/^int rm2_contain(A1, B1)$/;"	f
+rm2_equal	contain.c	/^int rm2_equal(A1, B1, E1, compare)$/;"	f
+rm_contain	contain.c	/^int rm_contain(A1)$/;"	f
+rm_equal	contain.c	/^int rm_equal(A1, compare)$/;"	f
+rm_rev_contain	contain.c	/^int rm_rev_contain(A1)$/;"	f
+row	mincov_int.h	/^    sm_row *row;$/;"	m	struct:solution_struct
+row_num	sparse.h	/^    int row_num;		\/* row number of this element *\/$/;"	m	struct:sm_element_struct
+row_num	sparse.h	/^    int row_num;		\/* the row number *\/$/;"	m	struct:sm_row_struct
+rows	sparse.h	/^    sm_row **rows;		\/* pointer to row headers (by row #) *\/$/;"	m	struct:sm_matrix_struct
+rows_size	sparse.h	/^    int rows_size;		\/* alloc'ed size of above array *\/$/;"	m	struct:sm_matrix_struct
+runtime	main.c	/^runtime()$/;"	f
+s1	set.c	/^static char s1[largest_string];$/;"	v	file:
+s_runtime	util_signature.c	/^s_runtime(total)$/;"	f
+s_totals	util_signature.c	/^s_totals(time,i)$/;"	f
+save_cube_struct	cubestr.c	/^void save_cube_struct()$/;"	f
+sccc	reduce.c	/^pcube sccc(T)$/;"	f
+sccc_cube	reduce.c	/^pcube sccc_cube(result, p)$/;"	f
+sccc_merge	reduce.c	/^pcube sccc_merge(left, right, cl, cr)$/;"	f
+sccc_special_cases	reduce.c	/^bool sccc_special_cases(T, result)$/;"	f
+scofactor	cofactor.c	/^pcube *scofactor(T, c, var)$/;"	f
+select_column	mincov.c	/^select_column(A, weight, indep)$/;"	f	file:
+select_essential	mincov.c	/^select_essential(A, select, weight, bound)$/;"	f	file:
+select_feasible	expand.c	/^void select_feasible(BB, CC, RAISE, FREESET, SUPER_CUBE, num_covered)$/;"	f
+set_adjcnt	set.c	/^set_adjcnt(a, count, weight)$/;"	f
+set_and	set.c	/^pset set_and(r, a, b)$/;"	f
+set_andp	set.c	/^bool set_andp(r, a, b)$/;"	f
+set_clear	set.c	/^pset set_clear(r, size)$/;"	f
+set_copy	set.c	/^pset set_copy(r, a)$/;"	f
+set_diff	set.c	/^pset set_diff(r, a, b)$/;"	f
+set_dist	set.c	/^int set_dist(a, b)$/;"	f
+set_family	espresso.h	/^typedef struct set_family {$/;"	s
+set_family_garbage	set.c	/^static pset_family set_family_garbage = NULL;$/;"	v	file:
+set_family_t	espresso.h	/^} set_family_t, *pset_family;$/;"	t	typeref:struct:set_family
+set_fill	set.c	/^pset set_fill(r, size)$/;"	f
+set_free	espresso.h	154;"	d
+set_full	espresso.h	152;"	d
+set_insert	espresso.h	159;"	d
+set_merge	set.c	/^pset set_merge(r, a, b, mask)$/;"	f
+set_new	espresso.h	151;"	d
+set_not	sigma.c	/^set_not(c)$/;"	f
+set_or	set.c	/^pset set_or(r, a, b)$/;"	f
+set_ord	set.c	/^int set_ord(a)$/;"	f
+set_orp	set.c	/^bool set_orp(r, a, b)$/;"	f
+set_pair	pair.c	/^void set_pair(PLA)$/;"	f
+set_pair1	pair.c	/^void set_pair1(PLA, adjust_labels)$/;"	f
+set_phase	opo.c	/^pPLA set_phase(PLA)$/;"	f
+set_remove	espresso.h	158;"	d
+set_save	espresso.h	153;"	d
+set_time_limit	util_signature.c	/^set_time_limit(seconds)$/;"	f
+set_write	set.c	/^void set_write(fp, a)$/;"	f
+set_xor	set.c	/^pset set_xor(r, a, b)$/;"	f
+setdown_cube	cubestr.c	/^void setdown_cube()$/;"	f
+setp_disjoint	set.c	/^bool setp_disjoint(a, b)$/;"	f
+setp_empty	set.c	/^bool setp_empty(a)$/;"	f
+setp_equal	set.c	/^bool setp_equal(a, b)$/;"	f
+setp_full	set.c	/^bool setp_full(a, size)$/;"	f
+setp_implies	set.c	/^bool setp_implies(a, b)$/;"	f
+setup_BB_CC	expand.c	/^void setup_BB_CC(BB, CC)$/;"	f
+setup_bw	black_white.c	/^setup_bw(R,c)$/;"	f
+sf_active	set.c	/^pset_family sf_active(A)$/;"	f
+sf_addcol	set.c	/^pset_family sf_addcol(A, firstcol, n)$/;"	f
+sf_addset	set.c	/^pset_family sf_addset(A, s)$/;"	f
+sf_and	set.c	/^pset sf_and(A)$/;"	f
+sf_append	set.c	/^pset_family sf_append(A, B)$/;"	f
+sf_bm_print	set.c	/^void sf_bm_print(A)$/;"	f
+sf_bm_read	set.c	/^pset_family sf_bm_read(fp)$/;"	f
+sf_cleanup	set.c	/^void sf_cleanup()$/;"	f
+sf_compress	set.c	/^pset_family sf_compress(A, c)$/;"	f
+sf_contain	contain.c	/^pset_family sf_contain(A)$/;"	f
+sf_copy	set.c	/^pset_family sf_copy(R, A)$/;"	f
+sf_copy_col	set.c	/^pset_family sf_copy_col(dst, dstcol, src, srccol)$/;"	f
+sf_count	set.c	/^int *sf_count(A)$/;"	f
+sf_count_restricted	set.c	/^int *sf_count_restricted(A, r)$/;"	f
+sf_delc	set.c	/^pset_family sf_delc(A, first, last)$/;"	f
+sf_delcol	set.c	/^pset_family sf_delcol(A, firstcol, n)$/;"	f
+sf_delset	set.c	/^void sf_delset(A, i)$/;"	f
+sf_dupl	contain.c	/^pset_family sf_dupl(A)$/;"	f
+sf_equal	util_signature.c	/^sf_equal(F1,F2)$/;"	f
+sf_free	set.c	/^void sf_free(A)$/;"	f
+sf_inactive	set.c	/^pset_family sf_inactive(A)$/;"	f
+sf_ind_contain	contain.c	/^pset_family sf_ind_contain(A, row_indices)$/;"	f
+sf_ind_unlist	contain.c	/^pset_family sf_ind_unlist(A1, totcnt, size, row_indices, pfirst)$/;"	f
+sf_join	set.c	/^pset_family sf_join(A, B)$/;"	f
+sf_list	contain.c	/^pset *sf_list(A)$/;"	f
+sf_merge	contain.c	/^pset_family sf_merge(A1, B1, E1, totcnt, size)$/;"	f
+sf_new	set.c	/^pset_family sf_new(num, size)$/;"	f
+sf_or	set.c	/^pset sf_or(A)$/;"	f
+sf_permute	set.c	/^pset_family sf_permute(A, permute, npermute)$/;"	f
+sf_print	set.c	/^void sf_print(A)$/;"	f
+sf_read	set.c	/^pset_family sf_read(fp)$/;"	f
+sf_rev_contain	contain.c	/^pset_family sf_rev_contain(A)$/;"	f
+sf_save	set.c	/^pset_family sf_save(A)$/;"	f
+sf_size	espresso.h	/^    int sf_size;                \/* User declared set size *\/$/;"	m	struct:set_family
+sf_sort	contain.c	/^pset *sf_sort(A, compare)$/;"	f
+sf_transpose	set.c	/^pset_family sf_transpose(A)$/;"	f
+sf_union	contain.c	/^pset_family sf_union(A, B)$/;"	f
+sf_unlist	contain.c	/^pset_family sf_unlist(A1, totcnt, size)$/;"	f
+sf_write	set.c	/^void sf_write(fp, A)$/;"	f
+sharp	sharp.c	/^pcover sharp(a, b)$/;"	f
+signature	signature.c	/^signature(F1, D1, R1)$/;"	f
+signature_form_table	signature_exact.c	/^signature_form_table(ESCubes, ESSet)$/;"	f
+signature_minimize_exact	signature_exact.c	/^signature_minimize_exact(ESCubes,ESSet)$/;"	f
+simp_comp	compl.c	/^void simp_comp(T, Tnew, Tbar)$/;"	f
+simp_comp_special_cases	compl.c	/^static bool simp_comp_special_cases(T, Tnew, Tbar)$/;"	f	file:
+simplify	compl.c	/^pcover simplify(T)$/;"	f
+simplify_cubelist	cofactor.c	/^simplify_cubelist(T)$/;"	f
+simplify_special_cases	compl.c	/^static bool simplify_special_cases(T, Tnew)$/;"	f	file:
+single_expand	globals.c	/^bool single_expand;              \/* -fast command line option *\/$/;"	v
+size	espresso.h	/^    int size;                   \/* set size of a cube *\/$/;"	m	struct:cube_struct
+size_sort	cvrm.c	/^pcover size_sort(T)$/;"	f
+size_stamp	cvrmisc.c	/^void size_stamp(T, name)$/;"	f
+skip_line	cvrin.c	/^void skip_line(fpin, fpout, echo)$/;"	f
+skip_make_sparse	globals.c	/^bool skip_make_sparse;$/;"	v
+sm_alloc	matrix.c	/^sm_alloc()$/;"	f
+sm_alloc_size	matrix.c	/^sm_alloc_size(row, col)$/;"	f
+sm_block_partition	part.c	/^sm_block_partition(A, L, R)$/;"	f
+sm_cleanup	matrix.c	/^sm_cleanup()$/;"	f
+sm_col	sparse.h	/^typedef struct sm_col_struct sm_col;$/;"	t	typeref:struct:sm_col_struct
+sm_col_alloc	cols.c	/^sm_col_alloc()$/;"	f
+sm_col_and	cols.c	/^sm_col_and(p1, p2)$/;"	f
+sm_col_compare	cols.c	/^sm_col_compare(p1, p2)$/;"	f
+sm_col_contains	cols.c	/^sm_col_contains(p1, p2)$/;"	f
+sm_col_dominance	dominate.c	/^sm_col_dominance(A, weight)$/;"	f
+sm_col_dup	cols.c	/^sm_col_dup(pcol)$/;"	f
+sm_col_find	cols.c	/^sm_col_find(pcol, row)$/;"	f
+sm_col_free	cols.c	/^sm_col_free(pcol)$/;"	f
+sm_col_freelist	matrix.c	/^sm_col *sm_col_freelist;$/;"	v
+sm_col_hash	cols.c	/^sm_col_hash(pcol, modulus)$/;"	f
+sm_col_insert	cols.c	/^sm_col_insert(pcol, row)$/;"	f
+sm_col_intersects	cols.c	/^sm_col_intersects(p1, p2)$/;"	f
+sm_col_print	cols.c	/^sm_col_print(fp, pcol)$/;"	f
+sm_col_remove	cols.c	/^sm_col_remove(pcol, row)$/;"	f
+sm_col_remove_element	cols.c	/^sm_col_remove_element(pcol, p)$/;"	f
+sm_col_struct	sparse.h	/^struct sm_col_struct {$/;"	s
+sm_copy_col	matrix.c	/^sm_copy_col(dest, dest_col, pcol)$/;"	f
+sm_copy_row	matrix.c	/^sm_copy_row(dest, dest_row, prow)$/;"	f
+sm_delcol	matrix.c	/^sm_delcol(A, i)$/;"	f
+sm_delrow	matrix.c	/^sm_delrow(A, i)$/;"	f
+sm_dump	matrix.c	/^sm_dump(A, s, max)$/;"	f
+sm_dup	matrix.c	/^sm_dup(A)$/;"	f
+sm_element	sparse.h	/^typedef struct sm_element_struct sm_element;$/;"	t	typeref:struct:sm_element_struct
+sm_element_alloc	sparse_int.h	85;"	d
+sm_element_alloc	sparse_int.h	99;"	d
+sm_element_free	sparse_int.h	102;"	d
+sm_element_free	sparse_int.h	94;"	d
+sm_element_freelist	matrix.c	/^sm_element *sm_element_freelist;$/;"	v
+sm_element_struct	sparse.h	/^struct sm_element_struct {$/;"	s
+sm_find	matrix.c	/^sm_find(A, rownum, colnum)$/;"	f
+sm_foreach_col	sparse.h	87;"	d
+sm_foreach_col_element	sparse.h	93;"	d
+sm_foreach_row	sparse.h	84;"	d
+sm_foreach_row_element	sparse.h	90;"	d
+sm_free	matrix.c	/^sm_free(A)$/;"	f
+sm_get	sparse.h	99;"	d
+sm_get_col	sparse.h	76;"	d
+sm_get_row	sparse.h	80;"	d
+sm_insert	matrix.c	/^sm_insert(A, row, col)$/;"	f
+sm_longest_col	matrix.c	/^sm_longest_col(A)$/;"	f
+sm_longest_row	matrix.c	/^sm_longest_row(A)$/;"	f
+sm_matrix	sparse.h	/^typedef struct sm_matrix_struct sm_matrix;$/;"	t	typeref:struct:sm_matrix_struct
+sm_matrix_struct	sparse.h	/^struct sm_matrix_struct {$/;"	s
+sm_maximal_independent_set	indep.c	/^sm_maximal_independent_set(A, weight)$/;"	f
+sm_mincov	mincov.c	/^sm_mincov(A, select, weight, lb, bound, depth, stats)$/;"	f
+sm_minimum_cover	mincov.c	/^sm_minimum_cover(A, weight, heuristic, debug_level)$/;"	f
+sm_num_elements	matrix.c	/^sm_num_elements(A)$/;"	f
+sm_print	matrix.c	/^sm_print(fp, A)$/;"	f
+sm_put	sparse.h	96;"	d
+sm_read	matrix.c	/^sm_read(fp, A)$/;"	f
+sm_read_compressed	matrix.c	/^sm_read_compressed(fp, A)$/;"	f
+sm_remove	matrix.c	/^sm_remove(A, rownum, colnum)$/;"	f
+sm_remove_element	matrix.c	/^sm_remove_element(A, p)$/;"	f
+sm_resize	matrix.c	/^sm_resize(A, row, col)$/;"	f
+sm_row	sparse.h	/^typedef struct sm_row_struct sm_row;$/;"	t	typeref:struct:sm_row_struct
+sm_row_alloc	rows.c	/^sm_row_alloc()$/;"	f
+sm_row_and	rows.c	/^sm_row_and(p1, p2)$/;"	f
+sm_row_compare	rows.c	/^sm_row_compare(p1, p2)$/;"	f
+sm_row_contains	rows.c	/^sm_row_contains(p1, p2)$/;"	f
+sm_row_dominance	dominate.c	/^sm_row_dominance(A)$/;"	f
+sm_row_dup	rows.c	/^sm_row_dup(prow)$/;"	f
+sm_row_find	rows.c	/^sm_row_find(prow, col)$/;"	f
+sm_row_free	rows.c	/^sm_row_free(prow)$/;"	f
+sm_row_freelist	matrix.c	/^sm_row *sm_row_freelist;$/;"	v
+sm_row_hash	rows.c	/^sm_row_hash(prow, modulus)$/;"	f
+sm_row_insert	rows.c	/^sm_row_insert(prow, col)$/;"	f
+sm_row_intersects	rows.c	/^sm_row_intersects(p1, p2)$/;"	f
+sm_row_print	rows.c	/^sm_row_print(fp, prow)$/;"	f
+sm_row_remove	rows.c	/^sm_row_remove(prow, col)$/;"	f
+sm_row_remove_element	rows.c	/^sm_row_remove_element(prow, p)$/;"	f
+sm_row_struct	sparse.h	/^struct sm_row_struct {$/;"	s
+sm_write	matrix.c	/^sm_write(fp, A)$/;"	f
+so_both_do_espresso	cvrm.c	/^int so_both_do_espresso(PLA, i)$/;"	f
+so_both_do_exact	cvrm.c	/^int so_both_do_exact(PLA, i)$/;"	f
+so_both_espresso	cvrm.c	/^void so_both_espresso(PLA, strategy)$/;"	f
+so_both_save	cvrm.c	/^int so_both_save(PLA, i)$/;"	f
+so_do_espresso	cvrm.c	/^int so_do_espresso(PLA, i)$/;"	f
+so_do_exact	cvrm.c	/^int so_do_exact(PLA, i)$/;"	f
+so_espresso	cvrm.c	/^void so_espresso(PLA, strategy)$/;"	f
+so_save	cvrm.c	/^int so_save(PLA, i)$/;"	f
+solution_accept	solution.c	/^solution_accept(sol, A, weight, col)$/;"	f
+solution_add	solution.c	/^solution_add(sol, weight, col)$/;"	f
+solution_alloc	solution.c	/^solution_alloc()$/;"	f
+solution_choose_best	solution.c	/^solution_choose_best(best1, best2)$/;"	f
+solution_dup	solution.c	/^solution_dup(sol)$/;"	f
+solution_free	solution.c	/^solution_free(sol)$/;"	f
+solution_reject	solution.c	/^solution_reject(sol, A, weight, col)$/;"	f
+solution_struct	mincov_int.h	/^struct solution_struct {$/;"	s
+solution_t	mincov_int.h	/^typedef struct solution_struct solution_t;$/;"	t	typeref:struct:solution_struct
+sort_reduce	cvrm.c	/^pcover sort_reduce(T)$/;"	f
+sorted_insert	sparse_int.h	22;"	d
+sparse	espresso.h	/^    int *sparse;                \/* should this variable be sparse? *\/$/;"	m	struct:cube_struct
+split_list	black_white.c	/^split_list(R,v)$/;"	f
+stack_head	black_white.c	/^static int *stack_head, *stack_tail, stack_p;$/;"	v	file:
+stack_p	black_white.c	/^static int *stack_head, *stack_tail, stack_p;$/;"	v	file:
+stack_tail	black_white.c	/^static int *stack_head, *stack_tail, stack_p;$/;"	v	file:
+start_time	mincov_int.h	/^    long start_time;		\/* cpu time when the covering started *\/$/;"	m	struct:stats_struct
+start_time	sharp.c	/^long start_time;$/;"	v
+start_time	signature.c	/^static long start_time; \/* yuk *\/$/;"	v	file:
+stats_struct	mincov_int.h	/^struct stats_struct {$/;"	s
+stats_t	mincov_int.h	/^typedef struct stats_struct stats_t;$/;"	t	typeref:struct:stats_struct
+subcommands	main.c	/^subcommands()$/;"	f
+summary	globals.c	/^bool summary;                    \/* -s command line option *\/$/;"	v
+super_gasp	gasp.c	/^pcover super_gasp(F, D, R, cost)$/;"	f
+symbolic	espresso.h	/^    symbolic_t *symbolic;	\/* allow binary->symbolic mapping *\/$/;"	m	struct:__anon2
+symbolic_hack_labels	hack.c	/^symbolic_hack_labels(PLA, list, compress, new_size, old_size, size_added)$/;"	f
+symbolic_label	espresso.h	/^    symbolic_label_t *symbolic_label;	\/* linked list of new names *\/$/;"	m	struct:symbolic_struct
+symbolic_label_length	espresso.h	/^    int symbolic_label_length;		\/* length of symbolic_label list *\/$/;"	m	struct:symbolic_struct
+symbolic_label_struct	espresso.h	/^typedef struct symbolic_label_struct {$/;"	s
+symbolic_label_t	espresso.h	/^} symbolic_label_t;$/;"	t	typeref:struct:symbolic_label_struct
+symbolic_list	espresso.h	/^    symbolic_list_t *symbolic_list;	\/* linked list of items *\/$/;"	m	struct:symbolic_struct
+symbolic_list_length	espresso.h	/^    int symbolic_list_length;		\/* length of symbolic_list list *\/$/;"	m	struct:symbolic_struct
+symbolic_list_struct	espresso.h	/^typedef struct symbolic_list_struct {$/;"	s
+symbolic_list_t	espresso.h	/^} symbolic_list_t;$/;"	t	typeref:struct:symbolic_list_struct
+symbolic_output	espresso.h	/^    symbolic_t *symbolic_output;\/* allow symbolic output mapping *\/$/;"	m	struct:__anon2
+symbolic_struct	espresso.h	/^typedef struct symbolic_struct {$/;"	s
+symbolic_t	espresso.h	/^} symbolic_t;$/;"	t	typeref:struct:symbolic_struct
+taut_special_cases	irred.c	/^taut_special_cases(T)$/;"	f
+tautology	irred.c	/^tautology(T)$/;"	f
+temp	espresso.h	/^    pset *temp;                 \/* an array of temporary sets *\/$/;"	m	struct:cube_struct
+temp_cdata_save	globals.c	/^struct cdata_struct cdata, temp_cdata_save;$/;"	v	typeref:struct:
+temp_cube_save	globals.c	/^struct cube_struct cube, temp_cube_save;$/;"	v	typeref:struct:
+time_usage	util_signature.c	/^time_usage(name)$/;"	f
+toggle	reduce.c	/^static bool toggle = TRUE;$/;"	v	file:
+total	espresso.h	/^    int total;			\/* total number of transistors *\/$/;"	m	struct:cost_struct
+total_calls	globals.c	/^int total_calls[TIME_COUNT];     \/* # calls to each fct *\/$/;"	v
+total_name	globals.c	/^char *total_name[TIME_COUNT];    \/* basic function names *\/$/;"	v
+total_time	globals.c	/^long total_time[TIME_COUNT];     \/* time spent in basic fcts *\/$/;"	v
+totals	cvrmisc.c	/^void totals(time, i, T, cost)$/;"	f
+trace	globals.c	/^bool trace;                      \/* -t command line option *\/$/;"	v
+unate_compl	unate.c	/^pset_family unate_compl(A)$/;"	f
+unate_complement	unate.c	/^pset_family unate_complement(A)$/;"	f
+unate_count	essentiality.c	/^static int unate_count; \/* active size of the above list *\/$/;"	v	file:
+unate_intersect	unate.c	/^pset_family unate_intersect(A, B, largest_only)$/;"	f
+unate_list	essentiality.c	/^static VAR *unate_list; \/* List of unate variables in the reduced_c_free_list *\/$/;"	v	file:
+uncof_output	cvrm.c	/^pcover uncof_output(T, i)$/;"	f
+unravel	cvrm.c	/^pcover unravel(B, start)$/;"	f
+unravel_range	cvrm.c	/^pcover unravel_range(B, start, end)$/;"	f
+unwrap_onset	globals.c	/^bool unwrap_onset;               \/* -nunwrap command line option *\/$/;"	v
+usage	main.c	/^usage()$/;"	f
+use_random_order	globals.c	/^bool use_random_order;		 \/* -random command line option *\/$/;"	v
+use_super_gasp	globals.c	/^bool use_super_gasp;		 \/* -strong command line option *\/$/;"	v
+user_word	sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_col_struct
+user_word	sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_element_struct
+user_word	sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_matrix_struct
+user_word	sparse.h	/^    char *user_word;		\/* user-defined word *\/$/;"	m	struct:sm_row_struct
+value	espresso.h	/^    int value;$/;"	m	struct:pla_types_struct
+value	main.h	/^    int value;$/;"	m	struct:__anon4
+value	main.h	/^    int value;$/;"	m	struct:__anon5
+var1	espresso.h	/^    int *var1;$/;"	m	struct:pair_struct
+var2	espresso.h	/^    int *var2;$/;"	m	struct:pair_struct
+var_mask	espresso.h	/^    pset *var_mask;             \/* mask to extract a variable *\/$/;"	m	struct:cube_struct
+var_zeros	espresso.h	/^    int *var_zeros;             \/* count of zeros for each variable *\/$/;"	m	struct:cdata_struct
+variable	espresso.h	/^    int variable;$/;"	m	struct:symbolic_list_struct
+variable	essentiality.c	/^	int variable;$/;"	m	struct:__anon1	file:
+variable	main.h	/^    int *variable;$/;"	m	struct:__anon5
+variable_backward_chain	black_white.c	/^static int *variable_backward_chain; \/* Previous *\/$/;"	v	file:
+variable_count	black_white.c	/^static int variable_count; \/* Number of variables currently in the list *\/$/;"	v	file:
+variable_count	essentiality.c	/^static int variable_count; \/* active size of the above list *\/$/;"	v	file:
+variable_forward_chain	black_white.c	/^static int *variable_forward_chain; \/* Next *\/$/;"	v	file:
+variable_head	black_white.c	/^static int variable_head; \/* first element in the list *\/$/;"	v	file:
+variable_head	essentiality.c	/^static int variable_head; \/* current position in  the list above *\/$/;"	v	file:
+variable_list_alloc	black_white.c	/^variable_list_alloc(size)$/;"	f
+variable_list_delete	black_white.c	/^variable_list_delete(element)$/;"	f
+variable_list_empty	black_white.c	/^variable_list_empty()$/;"	f
+variable_list_init	black_white.c	/^variable_list_init(reduced_c_free_count, reduced_c_free_list)$/;"	f
+variable_list_insert	black_white.c	/^variable_list_insert(element)$/;"	f
+variable_order	essentiality.c	/^static int *variable_order; \/* permutation of reduced c_free_count determining $/;"	v	file:
+variable_tail	black_white.c	/^static int variable_tail; \/* last element in the list *\/$/;"	v	file:
+vars_active	espresso.h	/^    int vars_active;            \/* number of "active" variables *\/$/;"	m	struct:cdata_struct
+vars_unate	espresso.h	/^    int vars_unate;             \/* number of unate variables *\/$/;"	m	struct:cdata_struct
+verbose_debug	globals.c	/^bool verbose_debug;              \/* -v:  whether to print a lot *\/$/;"	v
+verify	verify.c	/^bool verify(F, Fold, Dold)$/;"	f
+verify_cover	mincov.c	/^verify_cover(A, cover)$/;"	f	file:
+visit_col	part.c	/^visit_col(A, pcol, rows_visited, cols_visited)$/;"	f	file:
+visit_row	part.c	/^visit_row(A, prow, rows_visited, cols_visited)$/;"	f	file:
+void	espresso.h	16;"	d
+white_head	black_white.c	/^static int white_head, white_tail;$/;"	v	file:
+white_tail	black_white.c	/^static int white_head, white_tail;$/;"	v	file:
+wsize	espresso.h	/^    int wsize;                  \/* Size of each set in 'ints' *\/$/;"	m	struct:set_family

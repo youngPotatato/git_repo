@@ -1,0 +1,47 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module"
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module"
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module"
+    ],
+    "_vcs_unit__476419078": [
+        "_vcs_unit__476419078",
+        "F0zPI",
+        "module"
+    ],
+    "dut_dummy": [
+        "dut_dummy",
+        "SfAKH",
+        "module"
+    ],
+    "xbus_tb_top": [
+        "xbus_tb_top",
+        "TtAqx",
+        "module"
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module"
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ],
+    "xbus_if": [
+        "xbus_if",
+        "Nibw9",
+        "module"
+    ]
+}

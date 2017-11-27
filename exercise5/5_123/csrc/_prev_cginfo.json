@@ -1,0 +1,106 @@
+{
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "yy": [
+            "yy",
+            "Vtv4E",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "MlibObjs": {},
+    "CompileStatus": "Successful",
+    "CompileProcesses": [
+        "cgproc.17212.json"
+    ],
+    "PrevCompiledModules": {},
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 61626
+    },
+    "stat": {
+        "CodeGen(%)": 38.145234689897279,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.038058000000000002,
+            "ru_stime_sec": 0.089163999999999993,
+            "ru_majflt": 30,
+            "ru_maxrss_kb": 46128,
+            "ru_nivcsw": 7,
+            "ru_minflt": 12633,
+            "ru_nvcsw": 53
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0032759999999999998,
+            "ru_stime_sec": 0.011135000000000001,
+            "ru_majflt": 9,
+            "ru_maxrss_kb": 9080,
+            "ru_nivcsw": 7,
+            "ru_minflt": 2175,
+            "ru_nvcsw": 13
+        },
+        "nMops": 1318,
+        "totalObjSize": 116110,
+        "nQuads": 463,
+        "outputSizePerQuad": 250.0,
+        "ru_self_end": {
+            "ru_utime_sec": 0.061527999999999999,
+            "ru_stime_sec": 0.10077899999999999,
+            "ru_majflt": 32,
+            "ru_maxrss_kb": 51228,
+            "ru_nivcsw": 10,
+            "ru_minflt": 14727,
+            "ru_nvcsw": 56
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0032759999999999998,
+            "ru_stime_sec": 0.011135000000000001,
+            "ru_majflt": 9,
+            "ru_maxrss_kb": 9080,
+            "ru_nivcsw": 7,
+            "ru_minflt": 2175,
+            "ru_nvcsw": 13
+        },
+        "mopSpeed": 56156.795909671928,
+        "Frontend(%)": 61.854765310102721,
+        "mop/quad": 2.8466522678185746,
+        "quadSpeed": 19727.311461440138
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "yy",
+        "yy",
+        "test",
+        "test"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "archive_dir": "archive.0",
+        "default_output_dir": "csrc",
+        "daidir_abs": "/home/yy/Desktop/My_prog/exercise5/5_123/simv.daidir",
+        "csrc_abs": "/home/yy/Desktop/My_prog/exercise5/5_123/csrc",
+        "csrc": "csrc",
+        "cwd": "/home/yy/Desktop/My_prog/exercise5/5_123",
+        "daidir": "/home/yy/Desktop/My_prog/exercise5/5_123/simv.daidir"
+    }
+}

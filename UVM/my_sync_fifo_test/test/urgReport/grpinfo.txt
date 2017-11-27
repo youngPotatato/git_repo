@@ -1,0 +1,177 @@
+Group : $unit::my_scoreboard::crossTypeUsedDepth
+
+===============================================================================
+Group : $unit::my_scoreboard::crossTypeUsedDepth
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 77.78 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/my_scoreboard.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::my_scoreboard::crossTypeUsedDepth
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        1         5       83.33   
+Crosses   9        3         6       66.67   
+
+
+Variables for Group  $unit::my_scoreboard::crossTypeUsedDepth
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+ty       3        0         3       100.00  100  1      1        0                    
+depth    3        1         2       66.67   100  1      1        0                    
+
+
+Crosses for Group  $unit::my_scoreboard::crossTypeUsedDepth
+
+
+CROSS  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+crossC 9        3         6       66.67   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable ty
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for ty
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+ty_pupo 206   1        
+ty_po   202   1        
+ty_pu   207   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable depth
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        1         2       66.67   
+
+
+User Defined Bins for depth
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+full 0     1        1      
+
+
+Covered bins
+
+NAME  COUNT AT LEAST 
+other 582   1        
+empty 33    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross crossC
+
+
+Samples crossed: ty depth
+CATEGORY                EXPECTED UNCOVERED COVERED PERCENT MISSING 
+User Defined Cross Bins 9        3         6       66.67           
+
+
+User Defined Cross Bins for crossC
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+pu_full   0     1        1      
+po_full   0     1        1      
+pupo_full 0     1        1      
+
+
+Covered bins
+
+NAME       COUNT AT LEAST 
+pu_empth   4     1        
+pu_other   203   1        
+po_empth   14    1        
+po_other   188   1        
+pupo_empth 15    1        
+pupo_other 191   1        
+
+
+Group : $unit::my_scoreboard::cover_type
+
+===============================================================================
+Group : $unit::my_scoreboard::cover_type
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/my_scoreboard.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::my_scoreboard::cover_type
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 3        0         3       100.00  
+
+
+Variables for Group  $unit::my_scoreboard::cover_type
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+t_type   3        0         3       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable t_type
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for t_type
+
+
+Excluded/Illegal bins
+
+NAME     COUNT STATUS   
+auto_NOP 0     Excluded 
+NOP      0     Excluded 
+
+
+Covered bins
+
+NAME          COUNT AT LEAST 
+auto_PUSH     207   1        
+auto_POP      202   1        
+auto_PUSH_POP 206   1        
+
+

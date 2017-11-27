@@ -1,7 +1,7 @@
 rc file Version 1.0
 
 [Design]
-COMPILE_PATH=/home/yy/Desktop/My_prog/exercise11/Example_midify
+COMPILE_PATH=/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify
 SystemC=FALSE
 UUM=FALSE
 KDB=FALSE

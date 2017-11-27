@@ -1,0 +1,213 @@
+uvm_basics_complete.sv:177:     virtual dut_if dut_vi;
+uvm_basics_complete.sv:188:     virtual dut_if dut_vi;
+uvm_basics_complete.sv:197:       dut_vi = dut_config_0.dut_vi;
+uvm_basics_complete.sv:206:        @(posedge dut_vi.clock);
+uvm_basics_complete.sv:210:        dut_vi.cmd  = tx.cmd;
+uvm_basics_complete.sv:211:        dut_vi.addr = tx.addr;
+uvm_basics_complete.sv:212:        dut_vi.data = tx.data;
+uvm_basics_complete.sv:226:     virtual dut_if dut_vi;
+uvm_basics_complete.sv:237:       dut_vi = dut_config_0.dut_vi;
+uvm_basics_complete.sv:246:        @(posedge dut_vi.clock);
+uvm_basics_complete.sv:248:        tx.cmd  = dut_vi.cmd;
+uvm_basics_complete.sv:249:        tx.addr = dut_vi.addr;
+uvm_basics_complete.sv:250:        tx.data = dut_vi.data;
+uvm_basics_complete.sv:384:	if(!uvm_config_db #(virtual dut_if)::get( this, "", "dut_vi", 
+uvm_basics_complete.sv:385:						  dut_config_0.dut_vi))
+uvm_basics_complete.sv:477:	                                  "dut_vi", dut_if1);
+sv/my_monitor.sv:8:     vdut_if dut_vi;
+sv/my_monitor.sv:20:       dut_vi = dut_config_0.dut_vi;
+sv/my_monitor.sv:28:        @(dut_vi.tx_cb);
+sv/my_monitor.sv:29:	if(dut_vi.tx_cb.valid) begin
+sv/my_monitor.sv:31:        	//tx.size  = dut_vi.rd_size;
+sv/my_monitor.sv:32:		tx.r_data = dut_vi.tx_cb.r_data;
+sv/my_monitor.sv:36:        	//	tx.r_data[i] = dut_vi.r_data;
+sv/my_monitor.sv:37:		//	@(posedge dut_vi.clock);
+sv/my_monitor.sv:38:		//	while(!dut_vi.valid)
+sv/my_monitor.sv:39:		//		@(posedge dut_vi.clock);
+sv/my_dut_config.sv:9:     vdut_if dut_vi;
+sv/my_monitor.sv~:8:     vdut_if dut_vi;
+sv/my_monitor.sv~:20:       dut_vi = dut_config_0.dut_vi;
+sv/my_monitor.sv~:28:        @(dut_vi.tx_cb);
+sv/my_monitor.sv~:29:	if(dut_vi.tx_cb.valid) begin
+sv/my_monitor.sv~:31:        	//tx.size  = dut_vi.rd_size;
+sv/my_monitor.sv~:32:		tx.r_data = dut_vi.tx_cb.r_data;
+sv/my_monitor.sv~:36:        	//	tx.r_data[i] = dut_vi.r_data;
+sv/my_monitor.sv~:37:		//	@(posedge dut_vi.clock);
+sv/my_monitor.sv~:38:		//	while(!dut_vi.valid)
+sv/my_monitor.sv~:39:		//		@(posedge dut_vi.clock);
+Binary file sv/.my_driver.sv.swp matches
+sv/my_driver.sv~:6:     vdut_if dut_vi;
+sv/my_driver.sv~:16:       dut_vi = dut_config_0.dut_vi;
+sv/my_driver.sv~:27:      	wait(~dut_vi.reset);
+sv/my_driver.sv~:31:        	@(dut_vi.TB.tx_cb);
+sv/my_driver.sv~:32:			dut_vi.TB.tx_cb.pop = 0;
+sv/my_driver.sv~:33:			dut_vi.TB.tx_cb.push = 0;
+sv/my_driver.sv~:35:			//dut_vi.w_data = 'dz;
+sv/my_driver.sv~:36:			dut_vi.TB.tx_cb.pop = 0;
+sv/my_driver.sv~:37:			dut_vi.TB.tx_cb.push = 0;
+sv/my_driver.sv~:40:		//	dut_vi.pop = 0;
+sv/my_driver.sv~:41:		//	dut_vi.push = 0;
+sv/my_driver.sv~:42:			while(dut_vi.TB.ful) @(dut_vi.TB.tx_cb);
+sv/my_driver.sv~:43:			dut_vi.TB.tx_cb.push = 1;
+sv/my_driver.sv~:44:			dut_vi.TB.tx_cb.w_data = tx.w_data;
+sv/my_driver.sv~:47:		//	dut_vi.push = 0;
+sv/my_driver.sv~:48:		//	dut_vi.pop = 0;
+sv/my_driver.sv~:49:			while(dut_vi.TB.tx_cb.ept) @(dut_vi.TB.tx_cb);
+sv/my_driver.sv~:50:			dut_vi.TB.tx_cbpop = 1;
+sv/my_driver.sv~:55:		//			dut_vi.pop = 0;
+sv/my_driver.sv~:56:		//			dut_vi.push = 0;
+sv/my_driver.sv~:57:					while(dut_vi.ful) @(posedge dut_vi.clock);
+sv/my_driver.sv~:58:					dut_vi.push = 1;
+sv/my_driver.sv~:59:					dut_vi.w_data = tx.w_data;
+sv/my_driver.sv~:62:		//			dut_vi.push = 0;
+sv/my_driver.sv~:63:		//			dut_vi.pop = 0;
+sv/my_driver.sv~:64:					while(dut_vi.ept) @(posedge dut_vi.clock);
+sv/my_driver.sv~:65:					dut_vi.pop = 1;
+sv/my_driver.sv~:71:        @(posedge dut_vi.clock);
+sv/my_driver.sv~:73:	dut_vi.pop = 0;
+sv/my_driver.sv~:74:	dut_vi.push = 0;
+sv/my_driver.sv~:78:        	    @(posedge dut_vi.clock);
+sv/my_driver.sv~:79:		    wait(dut_vi.reset);
+sv/my_driver.sv~:81:		    dut_vi.w_data <= 'dz;
+sv/my_driver.sv~:82:		    dut_vi.pop <= 'dz;
+sv/my_driver.sv~:83:		    dut_vi.push <= 'dz;
+sv/my_driver.sv~:84:		    wait(~dut_vi.reset);
+sv/my_driver.sv:6:     vdut_if dut_vi;
+sv/my_driver.sv:16:       dut_vi = dut_config_0.dut_vi;
+sv/my_driver.sv:27:      	wait(~dut_vi.reset);
+sv/my_driver.sv:31:        	@(dut_vi.TB.tx_cb);
+sv/my_driver.sv:32:			dut_vi.TB.tx_cb.pop = 0;
+sv/my_driver.sv:33:			dut_vi.TB.tx_cb.push = 0;
+sv/my_driver.sv:35:			//dut_vi.w_data = 'dz;
+sv/my_driver.sv:36:			dut_vi.TB.tx_cb.pop = 0;
+sv/my_driver.sv:37:			dut_vi.TB.tx_cb.push = 0;
+sv/my_driver.sv:40:		//	dut_vi.pop = 0;
+sv/my_driver.sv:41:		//	dut_vi.push = 0;
+sv/my_driver.sv:42:			while(dut_vi.TB.ful) @(dut_vi.TB.tx_cb);
+sv/my_driver.sv:43:			dut_vi.TB.tx_cb.push = 1;
+sv/my_driver.sv:44:			dut_vi.TB.tx_cb.w_data = tx.w_data;
+sv/my_driver.sv:47:		//	dut_vi.push = 0;
+sv/my_driver.sv:48:		//	dut_vi.pop = 0;
+sv/my_driver.sv:49:			while(dut_vi.TB.tx_cb.ept) @(dut_vi.TB.tx_cb);
+sv/my_driver.sv:50:			dut_vi.TB.tx_cb.pop = 1;
+sv/my_driver.sv:55:		//			dut_vi.pop = 0;
+sv/my_driver.sv:56:		//			dut_vi.push = 0;
+sv/my_driver.sv:57:					while(dut_vi.ful) @(posedge dut_vi.clock);
+sv/my_driver.sv:58:					dut_vi.push = 1;
+sv/my_driver.sv:59:					dut_vi.w_data = tx.w_data;
+sv/my_driver.sv:62:		//			dut_vi.push = 0;
+sv/my_driver.sv:63:		//			dut_vi.pop = 0;
+sv/my_driver.sv:64:					while(dut_vi.ept) @(posedge dut_vi.clock);
+sv/my_driver.sv:65:					dut_vi.pop = 1;
+sv/my_driver.sv:71:        @(posedge dut_vi.clock);
+sv/my_driver.sv:73:	dut_vi.pop = 0;
+sv/my_driver.sv:74:	dut_vi.push = 0;
+sv/my_driver.sv:78:        	    @(posedge dut_vi.clock);
+sv/my_driver.sv:79:		    wait(dut_vi.reset);
+sv/my_driver.sv:81:		    dut_vi.w_data <= 'dz;
+sv/my_driver.sv:82:		    dut_vi.pop <= 'dz;
+sv/my_driver.sv:83:		    dut_vi.push <= 'dz;
+sv/my_driver.sv:84:		    wait(~dut_vi.reset);
+Binary file test/.top.sv.swp matches
+test/test_lib.sv:16:	if(!uvm_config_db #(virtual dut_if)::get( this, "", "dut_vi", 
+test/test_lib.sv:17:						  dut_config_0.dut_vi))
+test/top.sv~:60:	                                  "dut_vi", dut_if1.TB);
+test/top.sv:60:	                                  "dut_vi", dut_if1.TB);
+Binary file test/simv.daidir/debug_dump/vir.sdb matches
+Binary file test/simv.daidir/_30388_archive_1.so matches
+Binary file test/csrc/archive.0/_30388_archive_1.a matches
+Binary file test/csrc/amcQwB.o matches
+Binary file test/simv matches
+grep_search.result~:1:sv/my_dut_config.sv:9:     vdut_if dut_vi;
+grep_search.result~:2:sv/my_monitor.sv:8:     vdut_if dut_vi;
+grep_search.result~:3:sv/my_monitor.sv:20:       dut_vi = dut_config_0.dut_vi;
+grep_search.result~:4:sv/my_monitor.sv:28:        @(posedge dut_vi.clock);
+grep_search.result~:5:sv/my_monitor.sv:29:	if(dut_vi.valid) begin
+grep_search.result~:6:sv/my_monitor.sv:31:        	//tx.size  = dut_vi.rd_size;
+grep_search.result~:7:sv/my_monitor.sv:32:		tx.r_data = dut_vi.r_data;
+grep_search.result~:8:sv/my_monitor.sv:36:        	//	tx.r_data[i] = dut_vi.r_data;
+grep_search.result~:9:sv/my_monitor.sv:37:		//	@(posedge dut_vi.clock);
+grep_search.result~:10:sv/my_monitor.sv:38:		//	while(!dut_vi.valid)
+grep_search.result~:11:sv/my_monitor.sv:39:		//		@(posedge dut_vi.clock);
+grep_search.result~:13:sv/my_driver.sv~:6:     vdut_if dut_vi;
+grep_search.result~:14:sv/my_driver.sv~:16:       dut_vi = dut_config_0.dut_vi;
+grep_search.result~:15:sv/my_driver.sv~:27:      	wait(~dut_vi.reset);
+grep_search.result~:16:sv/my_driver.sv~:31:        	@(dut_vi.TB.tx_cb);
+grep_search.result~:17:sv/my_driver.sv~:32:			dut_vi.TB.tx_cb.pop = 0;
+grep_search.result~:18:sv/my_driver.sv~:33:			dut_vi.TB.tx_cb.push = 0;
+grep_search.result~:19:sv/my_driver.sv~:35:			//dut_vi.w_data = 'dz;
+grep_search.result~:20:sv/my_driver.sv~:36:			dut_vi.TB.tx_cb.pop = 0;
+grep_search.result~:21:sv/my_driver.sv~:37:			dut_vi.TB.tx_cb.push = 0;
+grep_search.result~:22:sv/my_driver.sv~:40:		//	dut_vi.pop = 0;
+grep_search.result~:23:sv/my_driver.sv~:41:		//	dut_vi.push = 0;
+grep_search.result~:24:sv/my_driver.sv~:42:			while(dut_vi.TB.ful) @(dut_vi.TB.tx_cb);
+grep_search.result~:25:sv/my_driver.sv~:43:			dut_vi.TB.tx_cb.push = 1;
+grep_search.result~:26:sv/my_driver.sv~:44:			dut_vi.TB.tx_cb.w_data = tx.w_data;
+grep_search.result~:27:sv/my_driver.sv~:47:		//	dut_vi.push = 0;
+grep_search.result~:28:sv/my_driver.sv~:48:		//	dut_vi.pop = 0;
+grep_search.result~:29:sv/my_driver.sv~:49:			while(dut_vi.TB.tx_cb.ept) @(dut_vi.TB.tx_cb);
+grep_search.result~:30:sv/my_driver.sv~:50:			dut_vi.TB.tx_cbpop = 1;
+grep_search.result~:31:sv/my_driver.sv~:55:		//			dut_vi.pop = 0;
+grep_search.result~:32:sv/my_driver.sv~:56:		//			dut_vi.push = 0;
+grep_search.result~:33:sv/my_driver.sv~:57:					while(dut_vi.ful) @(posedge dut_vi.clock);
+grep_search.result~:34:sv/my_driver.sv~:58:					dut_vi.push = 1;
+grep_search.result~:35:sv/my_driver.sv~:59:					dut_vi.w_data = tx.w_data;
+grep_search.result~:36:sv/my_driver.sv~:62:		//			dut_vi.push = 0;
+grep_search.result~:37:sv/my_driver.sv~:63:		//			dut_vi.pop = 0;
+grep_search.result~:38:sv/my_driver.sv~:64:					while(dut_vi.ept) @(posedge dut_vi.clock);
+grep_search.result~:39:sv/my_driver.sv~:65:					dut_vi.pop = 1;
+grep_search.result~:40:sv/my_driver.sv~:71:        @(posedge dut_vi.clock);
+grep_search.result~:41:sv/my_driver.sv~:73:	dut_vi.pop = 0;
+grep_search.result~:42:sv/my_driver.sv~:74:	dut_vi.push = 0;
+grep_search.result~:43:sv/my_driver.sv~:78:        	    @(posedge dut_vi.clock);
+grep_search.result~:44:sv/my_driver.sv~:79:		    wait(dut_vi.reset);
+grep_search.result~:45:sv/my_driver.sv~:81:		    dut_vi.w_data <= 'dz;
+grep_search.result~:46:sv/my_driver.sv~:82:		    dut_vi.pop <= 'dz;
+grep_search.result~:47:sv/my_driver.sv~:83:		    dut_vi.push <= 'dz;
+grep_search.result~:48:sv/my_driver.sv~:84:		    wait(~dut_vi.reset);
+grep_search.result~:49:sv/my_driver.sv:6:     vdut_if dut_vi;
+grep_search.result~:50:sv/my_driver.sv:16:       dut_vi = dut_config_0.dut_vi;
+grep_search.result~:51:sv/my_driver.sv:27:      	wait(~dut_vi.reset);
+grep_search.result~:52:sv/my_driver.sv:31:        	@(dut_vi.TB.tx_cb);
+grep_search.result~:53:sv/my_driver.sv:32:			dut_vi.TB.tx_cb.pop = 0;
+grep_search.result~:54:sv/my_driver.sv:33:			dut_vi.TB.tx_cb.push = 0;
+grep_search.result~:55:sv/my_driver.sv:35:			//dut_vi.w_data = 'dz;
+grep_search.result~:56:sv/my_driver.sv:36:			dut_vi.TB.tx_cb.pop = 0;
+grep_search.result~:57:sv/my_driver.sv:37:			dut_vi.TB.tx_cb.push = 0;
+grep_search.result~:58:sv/my_driver.sv:40:		//	dut_vi.pop = 0;
+grep_search.result~:59:sv/my_driver.sv:41:		//	dut_vi.push = 0;
+grep_search.result~:60:sv/my_driver.sv:42:			while(dut_vi.TB.ful) @(dut_vi.TB.tx_cb);
+grep_search.result~:61:sv/my_driver.sv:43:			dut_vi.TB.tx_cb.push = 1;
+grep_search.result~:62:sv/my_driver.sv:44:			dut_vi.TB.tx_cb.w_data = tx.w_data;
+grep_search.result~:63:sv/my_driver.sv:47:		//	dut_vi.push = 0;
+grep_search.result~:64:sv/my_driver.sv:48:		//	dut_vi.pop = 0;
+grep_search.result~:65:sv/my_driver.sv:49:			while(dut_vi.TB.tx_cb.ept) @(dut_vi.TB.tx_cb);
+grep_search.result~:66:sv/my_driver.sv:50:			dut_vi.TB.tx_cb.pop = 1;
+grep_search.result~:67:sv/my_driver.sv:55:		//			dut_vi.pop = 0;
+grep_search.result~:68:sv/my_driver.sv:56:		//			dut_vi.push = 0;
+grep_search.result~:69:sv/my_driver.sv:57:					while(dut_vi.ful) @(posedge dut_vi.clock);
+grep_search.result~:70:sv/my_driver.sv:58:					dut_vi.push = 1;
+grep_search.result~:71:sv/my_driver.sv:59:					dut_vi.w_data = tx.w_data;
+grep_search.result~:72:sv/my_driver.sv:62:		//			dut_vi.push = 0;
+grep_search.result~:73:sv/my_driver.sv:63:		//			dut_vi.pop = 0;
+grep_search.result~:74:sv/my_driver.sv:64:					while(dut_vi.ept) @(posedge dut_vi.clock);
+grep_search.result~:75:sv/my_driver.sv:65:					dut_vi.pop = 1;
+grep_search.result~:76:sv/my_driver.sv:71:        @(posedge dut_vi.clock);
+grep_search.result~:77:sv/my_driver.sv:73:	dut_vi.pop = 0;
+grep_search.result~:78:sv/my_driver.sv:74:	dut_vi.push = 0;
+grep_search.result~:79:sv/my_driver.sv:78:        	    @(posedge dut_vi.clock);
+grep_search.result~:80:sv/my_driver.sv:79:		    wait(dut_vi.reset);
+grep_search.result~:81:sv/my_driver.sv:81:		    dut_vi.w_data <= 'dz;
+grep_search.result~:82:sv/my_driver.sv:82:		    dut_vi.pop <= 'dz;
+grep_search.result~:83:sv/my_driver.sv:83:		    dut_vi.push <= 'dz;
+grep_search.result~:84:sv/my_driver.sv:84:		    wait(~dut_vi.reset);
+grep_search.result~:86:test/test_lib.sv:16:	if(!uvm_config_db #(virtual dut_if)::get( this, "", "dut_vi", 
+grep_search.result~:87:test/test_lib.sv:17:						  dut_config_0.dut_vi))
+grep_search.result~:88:test/top.sv~:60:	                                  "dut_vi", dut_if1.TB);
+grep_search.result~:89:test/top.sv:60:	                                  "dut_vi", dut_if1.TB);
+grep_search.result~:96:grep_search.result~:2:sv/my_dut_config.sv:9:     vdut_if dut_vi;
+grep_search.result~:97:grep_search.result~:3:sv/my_monitor.sv:8:     vdut_if dut_vi;
+grep_search.result~:98:grep_search.result~:4:sv/my_driver.sv~:6:     vdut_if dut_vi;
+grep_search.result~:99:grep_search.result~:5:sv/my_driver.sv:6:     vdut_if dut_vi;
+grep_search.result~:100:grep_search.result~:10:test/test_lib.sv:16:	if(!uvm_config_db #(virtual dut_if)::get( this, "", "dut_vi", 
+grep_search.result~:101:grep_search.result~:38:test/top.sv:59:	                                  "dut_vi", dut_if1);

@@ -1,9 +1,9 @@
-/home/yy/Desktop/My_prog/UVM/hello_world/env/environment.sv
-/home/yy/Desktop/My_prog/UVM/hello_world/env/package.sv
-/home/yy/Desktop/My_prog/UVM/hello_world/env/test.sv
-/home/yy/Desktop/My_prog/UVM/hello_world/hdl/dut.sv
-/home/yy/Desktop/My_prog/UVM/hello_world/hdl/dut_if.sv
-/home/yy/Desktop/My_prog/UVM/hello_world/hdl/top.sv
+/home/yy/Desktop/My_prog/git_repo/UVM/hello_world/env/environment.sv
+/home/yy/Desktop/My_prog/git_repo/UVM/hello_world/env/package.sv
+/home/yy/Desktop/My_prog/git_repo/UVM/hello_world/env/test.sv
+/home/yy/Desktop/My_prog/git_repo/UVM/hello_world/hdl/dut.sv
+/home/yy/Desktop/My_prog/git_repo/UVM/hello_world/hdl/dut_if.sv
+/home/yy/Desktop/My_prog/git_repo/UVM/hello_world/hdl/top.sv
 /home/yy/EDA/uvm-1.2/src/base/uvm_barrier.svh
 /home/yy/EDA/uvm-1.2/src/base/uvm_base.svh
 /home/yy/EDA/uvm-1.2/src/base/uvm_bottomup_phase.svh

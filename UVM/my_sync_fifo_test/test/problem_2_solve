@@ -1,0 +1,9 @@
+**1**distrition is simple:    rand type[] type_a;	constraint {type_a dist {POP} := 2, {PUSH} := 4,{PUSH_POP} := 5, {NOP} := 1}
+**2**there is a way to solve solvers fail, in task body use int i,l to store current number of pop, push, then use rand case
+																disadvantage:1.OOP, extend
+																	     2. because of phase solver should give rand result before run phase,tr2 need to copy-----------------------this has connection to  another problem3
+																	     3. solver in sv was build to solves all conts simultaniously. And sequence is generated at once.
+
+
+
+**3** put predict in scoreboard, monitor has whole intf pointer, log both both tx& rx , and pass to predicter in subscriber, this helps functional coverage otherwise we can only have rd op in coverage

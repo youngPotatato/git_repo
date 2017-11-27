@@ -1,67 +1,12 @@
 {
     "MlibObjs": {},
-    "CompileStatus": "Successful",
-    "CompileProcesses": [
-        "cgproc.14062.json"
-    ],
+    "PEModules": [],
     "PrevCompiledModules": {},
-    "CompileStrategy": "fullobj",
-    "stat": {
-        "outputSizePerQuad": 60.0,
-        "mopSpeed": 139792.04113672045,
-        "ru_self_cgstart": {
-            "ru_nvcsw": 25,
-            "ru_utime_sec": 0.18632499999999999,
-            "ru_minflt": 14824,
-            "ru_stime_sec": 0.034058999999999999,
-            "ru_maxrss_kb": 57912,
-            "ru_majflt": 0,
-            "ru_nivcsw": 18
-        },
-        "ru_childs_cgstart": {
-            "ru_nvcsw": 4,
-            "ru_utime_sec": 0.0013060000000000001,
-            "ru_minflt": 2195,
-            "ru_stime_sec": 0.0071040000000000001,
-            "ru_maxrss_kb": 12564,
-            "ru_majflt": 0,
-            "ru_nivcsw": 4
-        },
-        "nMops": 24576,
-        "nQuads": 8739,
-        "ru_childs_end": {
-            "ru_nvcsw": 4,
-            "ru_utime_sec": 0.0013060000000000001,
-            "ru_minflt": 2195,
-            "ru_stime_sec": 0.0071040000000000001,
-            "ru_maxrss_kb": 12564,
-            "ru_majflt": 0,
-            "ru_nivcsw": 4
-        },
-        "totalObjSize": 528883,
-        "ru_self_end": {
-            "ru_nvcsw": 27,
-            "ru_utime_sec": 0.36212899999999998,
-            "ru_minflt": 18368,
-            "ru_stime_sec": 0.053018000000000003,
-            "ru_maxrss_kb": 67100,
-            "ru_majflt": 0,
-            "ru_nivcsw": 19
-        },
-        "quadSpeed": 49708.766580965166,
-        "mop/quad": 2.8122210779265364,
-        "Frontend(%)": 51.45265913528052,
-        "CodeGen(%)": 48.54734086471948
-    },
+    "CurCompileUdps": {},
     "NameTable": {
         "_vcs_unit__528695478": [
             "_vcs_unit__528695478",
             "yBBEe",
-            "module"
-        ],
-        "std": [
-            "std",
-            "reYIK",
             "module"
         ],
         "utopia1_atm_rx": [
@@ -69,9 +14,24 @@
             "qmxfw",
             "module"
         ],
-        "...MASTER...": [
-            "SIM",
-            "amcQw",
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "utopia1_atm_tx": [
+            "utopia1_atm_tx",
+            "AfFkn",
+            "module"
+        ],
+        "test": [
+            "test",
+            "x9Hvb",
+            "module"
+        ],
+        "LookupTable": [
+            "LookupTable",
+            "wBAGP",
             "module"
         ],
         "top": [
@@ -89,36 +49,58 @@
             "Ed7wN",
             "module"
         ],
-        "LookupTable": [
-            "LookupTable",
-            "wBAGP",
-            "module"
-        ],
-        "utopia1_atm_tx": [
-            "utopia1_atm_tx",
-            "AfFkn",
-            "module"
-        ],
-        "test": [
-            "test",
-            "x9Hvb",
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
             "module"
         ]
     },
-    "CurCompileUdps": {},
-    "PEModules": [],
-    "SIMBData": {
-        "out": "amcQwB.o",
-        "bytes": 74966
-    },
-    "Misc": {
-        "daidir_abs": "/home/yy/Desktop/My_prog/exercise11/Example_midify/simv.daidir",
-        "cwd": "/home/yy/Desktop/My_prog/exercise11/Example_midify",
-        "csrc": "csrc",
-        "default_output_dir": "csrc",
-        "csrc_abs": "/home/yy/Desktop/My_prog/exercise11/Example_midify/csrc",
-        "daidir": "/home/yy/Desktop/My_prog/exercise11/Example_midify/simv.daidir",
-        "archive_dir": "archive.0"
+    "stat": {
+        "Frontend(%)": 51.045940975977317,
+        "quadSpeed": 34847.971289004083,
+        "nMops": 24576,
+        "ru_self_cgstart": {
+            "ru_majflt": 858,
+            "ru_utime_sec": 0.26149099999999997,
+            "ru_nivcsw": 59,
+            "ru_stime_sec": 1.7342580000000001,
+            "ru_maxrss_kb": 22280,
+            "ru_nvcsw": 723,
+            "ru_minflt": 20513
+        },
+        "mop/quad": 2.8122210779265364,
+        "ru_childs_cgstart": {
+            "ru_majflt": 10,
+            "ru_utime_sec": 0.0015299999999999999,
+            "ru_nivcsw": 4,
+            "ru_stime_sec": 0.014102999999999999,
+            "ru_maxrss_kb": 9928,
+            "ru_nvcsw": 27,
+            "ru_minflt": 2183
+        },
+        "nQuads": 8739,
+        "ru_self_end": {
+            "ru_majflt": 964,
+            "ru_utime_sec": 0.512266,
+            "ru_nivcsw": 78,
+            "ru_stime_sec": 1.978029,
+            "ru_maxrss_kb": 25632,
+            "ru_nvcsw": 811,
+            "ru_minflt": 24612
+        },
+        "totalObjSize": 529075,
+        "ru_childs_end": {
+            "ru_majflt": 10,
+            "ru_utime_sec": 0.0015299999999999999,
+            "ru_nivcsw": 4,
+            "ru_stime_sec": 0.014102999999999999,
+            "ru_maxrss_kb": 9928,
+            "ru_nvcsw": 27,
+            "ru_minflt": 2183
+        },
+        "mopSpeed": 98000.199381916056,
+        "outputSizePerQuad": 60.0,
+        "CodeGen(%)": 48.954059024022683
     },
     "CurCompileModules": [
         "...MASTER...",
@@ -144,5 +126,23 @@
     ],
     "LVLData": [
         "SIM"
-    ]
+    ],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 74982
+    },
+    "CompileStatus": "Successful",
+    "CompileStrategy": "fullobj",
+    "CompileProcesses": [
+        "cgproc.15085.json"
+    ],
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify",
+        "csrc_abs": "/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify/csrc",
+        "archive_dir": "archive.0",
+        "daidir_abs": "/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify/simv.daidir",
+        "daidir": "/home/yy/Desktop/My_prog/git_repo/exercise11/Example_midify/simv.daidir",
+        "default_output_dir": "csrc"
+    }
 }

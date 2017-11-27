@@ -1,0 +1,26 @@
+22:39:46.486000: ================================================
+22:39:46.486000: ===== Starting new Eclipse logging session =====
+22:39:46.486000: ================================================
+22:39:46.486000: [Eclipse-INFO] Started with following parameters:
+22:39:46.488000: [Eclipse-INFO] 0:-product
+22:39:46.488000: [Eclipse-INFO] 1:org.eclipse.epp.package.cpp.product
+22:39:46.488000: [Eclipse-INFO] Command line arguments have passed the consistency check.
+22:39:46.504000: [Eclipse-INFO] [Workbench  ] Starting GUI State Monitor...
+22:39:47.713000: [Eclipse-INFO] [Workbench  ] GUI State Monitor started.
+22:39:46.486000: [Eclipse-INFO] Initialized logging of GUI events.
+22:39:53.806000: [Eclipse-INFO] There is no FSDB path specified upon Eclipse launch.
+22:39:53.815000: [Eclipse-INFO] Looking to see if there is indicatior to start HW/SW Debug automatically...
+22:39:53.815000: [Eclipse-INFO] Indicator not found.
+22:39:53.816000: [Eclipse-INFO] HW/SW Debug plugin automation will not take place.
+22:42:42.917000: [Eclipse-INFO] [Command    ] Pending: 'org.eclipse.equinox.p2.ui.sdk.install'
+22:46:49.678000: [Eclipse-INFO] [Command    ] Executed: 'org.eclipse.equinox.p2.ui.sdk.install'
+22:46:53.569000: [Eclipse-INFO] [Command    ] Pending: 'org.eclipse.ui.help.aboutAction'
+22:46:58.114000: [Eclipse-INFO] [Command    ] Executed: 'org.eclipse.ui.help.aboutAction'
+22:47:00.238000: [Eclipse-INFO] [Command    ] Pending: 'org.eclipse.equinox.p2.ui.sdk.update'
+22:47:00.254000: [Eclipse-INFO] [Command    ] Executed: 'org.eclipse.equinox.p2.ui.sdk.update'
+22:49:07.323000: [Eclipse-INFO] [Workbench  ] View: 'Outline' closed.
+22:49:07.393000: [Eclipse-INFO] [Workbench  ] View: 'Problems (0 items)' closed.
+22:49:07.412000: [Eclipse-INFO] [Workbench  ] View: 'EmbSys Registers' closed.
+22:49:07.433000: [Eclipse-INFO] [Workbench  ] View: 'Project Explorer' closed.
+22:49:07.493000: [Eclipse-INFO] [Workbench  ] View: 'Welcome' deactivated.
+22:49:07.494000: [Eclipse-INFO] [Workbench  ] View: 'Welcome' closed.

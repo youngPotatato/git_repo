@@ -34,8 +34,8 @@
 /home/yy/EDA/VCS2016/linux/bin/vcs1
 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
 comp1.log
-56
-sysc_uni_pwd=/home/yy/Desktop/My_prog/exercise5/5_123
+58
+sysc_uni_pwd=/home/yy/Desktop/My_prog/git_repo/exercise5/5_123
 XMODIFIERS=@im=ibus
 XDG_VTNR=1
 XDG_SESSION_ID=1
@@ -44,6 +44,7 @@ XDG_SEAT=seat0
 XDG_RUNTIME_DIR=/run/user/1000
 XDG_MENU_PREFIX=gnome-
 XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-yy-G4JKUJ/database
 WINDOWPATH=1
 VTE_VERSION=3804
 VMR_MODE_FLAG=32
@@ -56,12 +57,13 @@ VCS_DEPTH=0
 VCS_ARG_ADDED_FOR_TMP=1
 VCS_ARCH=linux
 VCS_AMD_PURE32=1
+UVM_HOME=/home/yy/EDA/uvm-1.2
 USERNAME=yy
 UNAME=/bin/uname
 TOOL_HOME=/home/yy/EDA/VCS2016/linux
 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
-SSH_AGENT_PID=3032
-SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2850,unix/unix:/tmp/.ICE-unix/2850
+SSH_AGENT_PID=3068
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2886,unix/unix:/tmp/.ICE-unix/2886
 SCRNAME=vcs
 SCRIPT_NAME=vcs
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
@@ -72,8 +74,8 @@ QTINC=/usr/lib64/qt-3.3/include
 QTDIR=/usr/lib64/qt-3.3
 PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
 PERL_MB_OPT=--install_base /home/yy/perl5
-PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
-PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
+PERL_LOCAL_LIB_ROOT=:/home/yy/perl5
+PERL5LIB=/home/yy/perl5/lib/perl5:
 OVA_UUM=0
 MFLAGS=
 MAKELEVEL=1
@@ -90,12 +92,12 @@ GNOME_DESKTOP_SESSION_ID=this-is-deprecated
 GDM_LANG=en_US.UTF-8
 GDMSESSION=gnome-classic
 DESKTOP_SESSION=gnome-classic
-DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-8t7UjhXYka,guid=830f2e1c4db408cfab00b2cc59da9e2b
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Wk9XkirkRQ,guid=39bb75bfa3a91284e4116a875a0e2ef6
 0
 5
-1507165479 ./test.sv
-1507165444 ./MemTrans.sv
-1507161293 1.f
+1510880754 ./test.sv
+1509762738 ./MemTrans.sv
+1509762738 1.f
 1468145765 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
 1464145466 /home/yy/EDA/VCS2016/linux/lib/vcsdp_lite.tab
 4
@@ -103,4 +105,4 @@ DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-8t7UjhXYka,guid=830f2e1c4db408c
 1464147795 /home/yy/EDA/VCS2016/linux/lib/libvirsim.so
 1464147272 /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so
 1464147247 /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so
-1507604090 simv.daidir
+1510880757 simv.daidir
