@@ -10,7 +10,7 @@ FILES =  ../sv/env.svh ./test_lib.sv top.sv ../dut/dut.v ../dut/dut.sv
 ##	 env/generator.sv  env/driver.sv env/monitor.sv env/scoreboard.sv env/coverage.sv \
 ##	 env/cpu_driver.sv ## env/definitions.sv 
 FLAGS = -sverilog -timescale=1ns/1ns -debug_all +incdir+env+$(ENV_DIR)
-RUN_FLAGS = +ntb_solver_mode=1 -cm line+tgl +UVM_NO_RELNOTES +UVM_TESTNAME=$(TN) -ucli
+RUN_FLAGS = +ntb_solver_mode=1 -cm line+tgl +UVM_NO_RELNOTES +UVM_TESTNAME=$(TN) +SW=$(SW) -ucli
 VERDI_FLAGS = +v2k -sverilog +incdir+env+$(ENV_DIR)+$(UVM_HOME)/src $(UVM_HOME)/src/uvm.sv +systemverilogext+sv +verdilog2001ext+v
 
 test: 	clean comp run 

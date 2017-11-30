@@ -136,13 +136,13 @@ global coverage_group 0 $unit::my_scoreboard::crossTypeUsedDepth __coverage_my_s
  0
  0
  0
- 9 1 1 0 0 -1 0 0 1 1 8 pu_empth 47 0 1 0 1 3 1 0 0 1 5 ty_pu 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
+ 9 1 1 0 0 -1 0 0 1 1 8 pu_empty 47 0 1 0 1 3 1 0 0 1 5 ty_pu 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
  1 1 0 0 -1 0 0 1 1 8 pu_other 48 0 1 0 1 3 1 0 0 1 5 ty_pu 0 0 0 0 0 1 0 1 1 5 other 0 0 0 0 0 0 0 0 0 0 0 0
  1 1 0 0 -1 0 0 1 1 7 pu_full 49 0 1 0 1 3 1 0 0 1 5 ty_pu 0 0 0 0 0 1 0 1 1 4 full 0 0 0 0 0 0 0 0 0 0 0 0
- 1 1 0 0 -1 0 0 1 1 8 po_empth 50 0 1 0 1 3 1 0 0 1 5 ty_po 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 8 po_empty 50 0 1 0 1 3 1 0 0 1 5 ty_po 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
  1 1 0 0 -1 0 0 1 1 8 po_other 51 0 1 0 1 3 1 0 0 1 5 ty_po 0 0 0 0 0 1 0 1 1 5 other 0 0 0 0 0 0 0 0 0 0 0 0
  1 1 0 0 -1 0 0 1 1 7 po_full 52 0 1 0 1 3 1 0 0 1 5 ty_po 0 0 0 0 0 1 0 1 1 4 full 0 0 0 0 0 0 0 0 0 0 0 0
- 1 1 0 0 -1 0 0 1 1 10 pupo_empth 53 0 1 0 1 3 1 0 0 1 7 ty_pupo 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 1 0 0 -1 0 0 1 1 10 pupo_empty 53 0 1 0 1 3 1 0 0 1 7 ty_pupo 0 0 0 0 0 1 0 1 1 5 empty 0 0 0 0 0 0 0 0 0 0 0 0
  1 1 0 0 -1 0 0 1 1 10 pupo_other 54 0 1 0 1 3 1 0 0 1 7 ty_pupo 0 0 0 0 0 1 0 1 1 5 other 0 0 0 0 0 0 0 0 0 0 0 0
  1 1 0 0 -1 0 0 1 1 9 pupo_full 55 0 1 0 1 3 1 0 0 1 7 ty_pupo 0 0 0 0 0 1 0 1 1 4 full 0 0 0 0 0 0 0 0 0 0 0 0
 

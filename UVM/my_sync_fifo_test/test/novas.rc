@@ -222,19 +222,20 @@ nWaveOpenFsdbDirHistory = "\"/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_
 nWaveRestoreRCDirHistory = "\"/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/yy_wave/yy.rc\"" "\"/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test\""
 [Form]
 version = Verdi3_L-2016.06-1
-wave/openWFile.fm = 100,100,825,688
 hb/fileWithNote.fm = 100,100,490,545
-wave/saveSig.fm = 100,100,723,530
 wave/restoreSig.fm = 100,100,723,530
+wave/openWFile.fm = 100,100,825,688
+wave/saveSig.fm = 100,100,723,530
+wave/unknownSave.fm = 100,100,520,275
 specifyArrayIndexForm.fm = 100,100,300,450
 [General]
 autoSaveSession = FALSE
 TclAutoSource = 
 cmd_enter_form = FALSE
 SyncBrowserDir = TRUE
-version = Verdi3_L-2016.06-1
 SignalCaseInSensitive = FALSE
 ShowWndCtntDuringResizing = FALSE
+version = Verdi3_L-2016.06-1
 [GlobalProp]
 ErrWindow_Font = Helvetica_M_R_12
 [Globals]
@@ -358,9 +359,9 @@ savePropStat = FALSE
 savePropDtl = TRUE
 [QtDialog]
 QwInfoMsgDlg = 576,471,750,250
-nsWindowManager = 592,354,738,404
-QwWarnMsgDlg = 633,722,600,250
-QwUserAskDlg = 798,484,324,130
+nsWindowManager = 352,264,738,404
+QwWarnMsgDlg = 649,615,600,250
+QwUserAskDlg = 559,427,324,109
 [Relationship]
 hideRecursiceNode = FALSE
 [Session Cache]
@@ -640,8 +641,7 @@ waveform_vertical_scroll_bar = TRUE
 scope_to_save_with_macro
 open_file_dir
 open_rc_file_dir
-getSignalForm = 0 0 800 479 100 30 100 30
-viewPort = 0 28 1920 609 422 65
+viewPort = 0 28 1920 876 422 65
 signalSpacing = 5
 digitalSignalHeight = 15
 analogSignalHeight = 98
@@ -902,16 +902,16 @@ group_name_font = -f COURIER12 -c ID_GREEN5
 ruler_value_font = -f COURIER12 -c ID_CYAN5
 analog_ruler_value_font = -f COURIER12 -c ID_CYAN5
 comment_string_font = -f COURIER12 -c ID_RED5
-getsignal_form_font = -f COURIER12 
+getsignal_form_font = -f COURIER12
 SigsCheckNum = on 1000
 filter_synthesized_net = off n
 filterOutNet = on
-filter_synthesized_instance = off 
+filter_synthesized_instance = off
 filterOutInstance = on
 showGroupTree = TRUE
 hierGroupDelim = /
 MsgSeverityColor = {y \"Severity\"==\"1\" ID_RED5} {y \"Severity\"==\"2\" ID_RED6} {y \"Severity\"==\"3\" ID_RED7} {y \"Severity\"==\"4\" ID_RED8} {y \"Severity\"==\"5\" ID_ORANGE5} {y \"Severity\"==\"6\" ID_ORANGE6} {y \"Severity\"==\"7\" ID_ORANGE7} {y \"Severity\"==\"8\" \
-ID_GREEN7} {y \"Severity\"==\"9\" ID_GREEN6} {y \"Severity\"==\"10\" ID_GREEN5} 
+ID_GREEN7} {y \"Severity\"==\"9\" ID_GREEN6} {y \"Severity\"==\"10\" ID_GREEN5}
 AutoApplySeverityColor = TRUE
 AutoAdjustMsgWidthByLabel = off
 verilogStrengthDispType = type1
@@ -920,6 +920,7 @@ autoConnectTBrowser = FALSE
 connectTBrowserInContainer = TRUE
 SEQShowComparisonIcon = TRUE
 SEQAddDriverLoadInSameGroup = TRUE
+getSignalForm = 0 0 800 479 100 30 100 30
 [cov_hier_name_column]
 justify = TRUE
 [coverageColors]
@@ -977,7 +978,7 @@ OutputPinStatus = 2
 RevisedComponentColor = ID_BLUE5
 SpareCellColor = ID_RED5
 UserName = yy
-CommentFormat = Novas ECO updated by ${UserName} ${Date} ${Time} 
+CommentFormat = Novas ECO updated by ${UserName} ${Date} ${Time}
 PrefixN = eco_n
 PrefixP = eco_p
 PrefixI = eco_i
@@ -1153,7 +1154,7 @@ AddImportArgument = FALSE
 LineBreakWithScope = TRUE
 StopAfterCompileOption = -s
 [wave.0]
-viewPort = 0 28 1920 609 422 65
+viewPort = 0 28 1920 876 422 65
 [wave.1]
 viewPort = 127 219 960 332 100 65
 [wave.2]

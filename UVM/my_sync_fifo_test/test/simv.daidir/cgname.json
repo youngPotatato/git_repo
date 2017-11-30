@@ -1,17 +1,12 @@
 {
-    "vcs_paramclassrepository": [
-        "vcs_paramclassrepository",
-        "hEeZs",
-        "module"
-    ],
     "_vcs_DPI_package": [
         "_vcs_DPI_package",
         "uM9F1",
         "module"
     ],
-    "...MASTER...": [
-        "SIM",
-        "amcQw",
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
         "module"
     ],
     "fifo_grm": [
@@ -24,6 +19,11 @@
         "N5CAk",
         "module"
     ],
+    "dut_if": [
+        "dut_if",
+        "e7EBi",
+        "module"
+    ],
     "std": [
         "std",
         "reYIK",
@@ -34,19 +34,19 @@
         "zr7M1",
         "module"
     ],
+    "top": [
+        "top",
+        "Emx8S",
+        "module"
+    ],
     "fifo": [
         "fifo",
         "BWIbP",
         "module"
     ],
-    "dut_if": [
-        "dut_if",
-        "e7EBi",
-        "module"
-    ],
-    "top": [
-        "top",
-        "Emx8S",
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
         "module"
     ]
 }

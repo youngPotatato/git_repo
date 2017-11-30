@@ -2,10 +2,10 @@ module top;
 
 //  import uvm_pkg::*;
 //  import my_pkg::*;
-logic clock,clock_45,clock_60,clock_90,clock_315;
+logic clock,clock_45,clock_90,clock_135;
   
-  dut_if dut_if1 (clock,clock_45,clock_60,clock_90,clock_315);//for dut
-  dut_if dut_if2 (clock,clock_45,clock_60,clock_90,clock_315);//for golden reference model
+  dut_if dut_if1 (clock,clock_45,clock_90,clock_135);//for dut
+  dut_if dut_if2 (clock,clock_45,clock_90,clock_135);//for golden reference model
   
   fifo#(
 		.B(`Width),
@@ -42,12 +42,6 @@ logic clock,clock_45,clock_60,clock_90,clock_315;
     forever #8 clock_45 = ~clock_45;
   end
 
-  initial
-  begin
-    #3;
-    clock_60 = 0;
-    forever #8 clock_60 = ~clock_60;
-  end
 
   initial
   begin
@@ -58,9 +52,9 @@ logic clock,clock_45,clock_60,clock_90,clock_315;
 
   initial
   begin
-    #14;
-    clock_315 = 0;
-    forever #8 clock_315 = ~clock_315;
+    #6;
+    clock_135 = 0;
+    forever #8 clock_135 = ~clock_135;
   end
 
   initial

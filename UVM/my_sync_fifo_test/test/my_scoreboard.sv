@@ -44,13 +44,13 @@
 
 	    crossC: cross ty, depth
 	    {
-		    bins pu_empth   = binsof(ty.ty_pu)   && binsof(depth.empty);
+		    bins pu_empty   = binsof(ty.ty_pu)   && binsof(depth.empty);
 		    bins pu_other   = binsof(ty.ty_pu)   && binsof(depth.other);
 		    bins pu_full    = binsof(ty.ty_pu)   && binsof(depth.full);
-		    bins po_empth   = binsof(ty.ty_po)   && binsof(depth.empty);
+		    bins po_empty   = binsof(ty.ty_po)   && binsof(depth.empty);
 		    bins po_other   = binsof(ty.ty_po)   && binsof(depth.other);
 		    bins po_full    = binsof(ty.ty_po)   && binsof(depth.full);
-		    bins pupo_empth = binsof(ty.ty_pupo) && binsof(depth.empty);
+		    bins pupo_empty = binsof(ty.ty_pupo) && binsof(depth.empty);
 		    bins pupo_other = binsof(ty.ty_pupo) && binsof(depth.other);
 		    bins pupo_full  = binsof(ty.ty_pupo) && binsof(depth.full);
 	    }
@@ -107,9 +107,7 @@
 				else begin
 					forever begin
 						actual_port.get(tr);
-						//$display("[SUBCCRIBER] @%0t received actual trans:",$time);
 						exped_port.get(tr2);
-						//$display("[SUBCCRIBER] @%0t received ecped trans:",$time);
 						//tr2.print($sformat("@%0t monitor receiced expected tr",$time));	
 						if(!tr.compare(tr2)) begin
       							`uvm_error("scoreboard",$sformatf("@%0t: expected tr is not matched to actual tr!!!!",$time));

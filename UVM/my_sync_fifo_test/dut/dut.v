@@ -1,8 +1,8 @@
 // Listing 4.20
 module fifo
    #(
-    parameter B=8, // number of bits in a word
-              W=4  // number of address bits
+    parameter B=`Width, // number of bits in a word
+              W=`Depth_bits  // number of address bits
    )
    (
     input wire clk, reset,
@@ -28,7 +28,7 @@ module fifo
    // register file read operation
    assign r_data = array_reg[r_ptr_reg];
    // write enabled only when FIFO is not full
-   assign wr_en = wr & ~full_reg;
+   assign wr_en = ({wr,rd}==2'b11)?wr:(wr & ~full_reg);
 
    // fifo control logic
    // register for read and write pointers
@@ -83,10 +83,15 @@ module fifo
                end
          2'b11: // write and read
             begin
-	       if(~empty_reg)
+		if(empty_reg) begin
+                   empty_next = 1'b0;
+      		   r_ptr_next = r_ptr_reg;
+       		end
+		else begin
       	       	   valid = 1;
-               w_ptr_next = w_ptr_succ;
-               r_ptr_next = r_ptr_succ;
+               	   r_ptr_next = r_ptr_succ;
+		end
+               	w_ptr_next = w_ptr_succ;
             end
       endcase
    end

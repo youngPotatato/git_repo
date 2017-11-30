@@ -1,4 +1,4 @@
-interface dut_if(input logic clock,input logic clock_45, input logic clock_60,input logic clock_90,input logic clock_315);
+interface dut_if(input logic clock,input logic clock_45,input logic clock_90,input logic clock_135);
 
   logic reset;
   logic [`Width-1:0] r_data,w_data;
@@ -26,13 +26,11 @@ interface dut_if(input logic clock,input logic clock_45, input logic clock_60,in
 
   clocking rx_cb_45 @(posedge clock_45);
   endclocking
-  clocking rx_cb_60 @(posedge clock_60);
-  endclocking
 
   clocking rx_cb_90 @(posedge clock_90);
   endclocking
 
-  clocking rx_cb_315 @(posedge clock_315);
+  clocking rx_cb_135 @(posedge clock_135);
   endclocking
 
   modport DUT(
@@ -48,7 +46,7 @@ interface dut_if(input logic clock,input logic clock_45, input logic clock_60,in
 	clocking rx_cb,
 	clocking rx_cb_45,
 	clocking rx_cb_90,
-	clocking rx_cb_315,
+	clocking rx_cb_135,
 	input  reset	,
   	input  w_data	,
 	output r_data	,
@@ -57,7 +55,7 @@ interface dut_if(input logic clock,input logic clock_45, input logic clock_60,in
 	output valid    	
   );
   modport TB(
-	  clocking tx_cb,clocking rx_cb,clocking rx_cb_60,output reset,output pop,input ept
+	  clocking tx_cb,clocking rx_cb,output reset,output pop,input ept
   );
 
   always @(posedge clock) begin

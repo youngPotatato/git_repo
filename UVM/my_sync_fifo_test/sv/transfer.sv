@@ -12,15 +12,33 @@ typedef enum {
     rand bit [`Width-1:0] w_data;
     rand bit [`Width-1:0] r_data;
     //rand int size;
-  
-    //constraint c_size {
-    //        size inside{[1:2**`Depth_bits]};
-    //}
-    //constraint data_size {
-    //        w_data.size() == size;
-    //        r_data.size() == size;
-    //        tr_type.size() == size;
-    //}
+    
+    //distritbution
+    //only push
+    constraint type_c1 {
+            tr_type dist {
+		    NOP := 1,
+		    PUSH := 1,
+		    PUSH_POP := 0,
+		    POP := 0
+	    		};
+    }
+    constraint type_c2 {
+            tr_type dist {
+        	    NOP := 1,
+        	    PUSH := 0,
+        	    PUSH_POP := 0,
+        	    POP := 1
+            		};
+    }
+    constraint type_c3 {
+            tr_type dist {
+        	    NOP := 1,
+        	    PUSH := 7,
+        	    PUSH_POP := 3,
+        	    POP := 3
+            		};
+    }
   `uvm_object_utils_begin(my_transaction_base)
     //`uvm_field_int      (size,           UVM_ALL_ON)
     //`uvm_field_array_enum  (trans_type, tr_type, UVM_ALL_ON)
@@ -91,23 +109,23 @@ typedef enum {
 
 
     int ii;
-    rand bit rdA[];
-    rand bit wrA[];
+    //rand bit rdA[];
+    //rand bit wrA[];
     rand int t_num;
-    rand int size;//means how many trans(pop) to be check in the scoreboard
+    //rand int size;//means how many trans(pop) to be check in the scoreboard
     rand my_transaction_base tx[];
 
-    constraint c_size{
-	    size  == sumi(rdA,rdA.size());
-            //solve rdA before size;
-    }
+    //constraint c_size{
+    //        size  == sumi(rdA,rdA.size());
+    //        //solve rdA before size;
+    //}
     constraint c_num{
             t_num inside{
 //        	     [1:2*2**`Depth_bits]
         	     [2**`Depth_bits:8*2**`Depth_bits]
         	     //[14:16]
              };
-             solve t_num before rdA;
+             //solve t_num before rdA;
              //solve t_num before wrA;
     }
 
@@ -115,9 +133,7 @@ typedef enum {
 	    tx.size() == t_num;
     }
 
-    //constraint distribution {
-    //        sumi(wrA,wrA.size())/sumi(rdA,rdA.size()) == 2;
-    //}
+    /*
     constraint wrr{
             wrA.size() == t_num;
             rdA.size() == t_num;
@@ -129,46 +145,39 @@ typedef enum {
             //}
             
     }
+    */
 
 
-    function int sumi(bit a[], int i);
-	int result=0;
-	for(int m=0; m < i+1; m++) 
-		result += a[m];
-	return result;
-    endfunction
+    //function int sumi(bit a[], int i);
+    //    int result=0;
+    //    for(int m=0; m < i+1; m++) 
+    //    	result += a[m];
+    //    return result;
+    //endfunction
 
 
 
     
     function new (string name = "");
       super.new(name);
-      tx = new[2*2**`Depth_bits];
-      foreach (tx[i])
-	      tx[i] = new();
+      tx = new[`Max_Ratio*2**`Depth_bits];
+      foreach (tx[i]) begin
+	 tx[i] = new();
+      end 
     endfunction: new
 
   	`uvm_object_utils_begin(my_random_sequence1)
-  	  //`uvm_field_int      (ii,           UVM_ALL_ON)
   	  `uvm_field_int      (t_num,           UVM_ALL_ON)
-  	  //`uvm_field_enum  (trans_type, tr_type, UVM_ALL_ON)
-  	  `uvm_field_array_int(wrA,           UVM_ALL_ON)
-  	  `uvm_field_array_int(rdA,     UVM_ALL_ON) 
-	  //`uvm_field_int(w_data,           UVM_ALL_ON)
-  	  `uvm_field_int(size,     UVM_ALL_ON)
+  	  //`uvm_field_int(size,     UVM_ALL_ON)
   	  `uvm_field_array_object(tx,     UVM_ALL_ON)
   	`uvm_object_utils_end
     task body;
       use_response_handler(1);
       ii = 0;
 
-      `uvm_info("",$sformatf("@%0t: sequence is randomized,t_num is %0d,size is %0d",$time,t_num,size),UVM_MEDIUM);
-	      $write("rd wr is ");
-      while(ii < t_num) begin 
-	      $write("%0d %0d,\n",rdA[ii],wrA[ii]);
-	      ii++;
-      end
-      $display();
+      `uvm_info("",$sformatf("@%0t: sequence is randomized,t_num is %0d",$time,t_num),UVM_MEDIUM);
+      foreach(tx[i])
+      	`uvm_info("",$sformatf("@%0t: sequence type is  %s",$time,tx[i].tr_type),UVM_MEDIUM);
       ii = 0;
       while(ii<t_num) begin
       	//tx = my_transaction_base::type_id::create("tx");
@@ -176,12 +185,12 @@ typedef enum {
       	//assert( tx.randomize() );
       	//`uvm_info("YY DEBUG INFO",$sformatf("@%0t: tx is randomized",$time),UVM_MEDIUM);
       	//case({rdA[ii][0],wrA[ii][0]}) 
-      	case({rdA[ii],wrA[ii]}) 
-      	        2'b00:tx[ii].tr_type = NOP;
-      	        2'b10:tx[ii].tr_type = POP;
-      	        2'b01:tx[ii].tr_type = PUSH;
-      	        2'b11:tx[ii].tr_type = PUSH_POP;
-      	endcase
+      	//case({rdA[ii],wrA[ii]}) 
+      	//        2'b00:tx[ii].tr_type = NOP;
+      	//        2'b10:tx[ii].tr_type = POP;
+      	//        2'b01:tx[ii].tr_type = PUSH;
+      	//        2'b11:tx[ii].tr_type = PUSH_POP;
+      	//endcase
       	finish_item(tx[ii]);
       	ii++;
       	//$display("sequence%d fin",ii);

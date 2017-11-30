@@ -1,29 +1,19 @@
 {
     "MlibObjs": {},
     "PrevCompiledModules": {},
-    "CurCompileUdps": {},
-    "LVLData": [
-        "SIM"
+    "CompileProcesses": [
+        "cgproc.39345.json"
     ],
     "CompileStrategy": "fullobj",
-    "SIMBData": {
-        "out": "amcQwB.o",
-        "bytes": 277918
-    },
     "NameTable": {
-        "vcs_paramclassrepository": [
-            "vcs_paramclassrepository",
-            "hEeZs",
-            "module"
-        ],
         "_vcs_DPI_package": [
             "_vcs_DPI_package",
             "uM9F1",
             "module"
         ],
-        "...MASTER...": [
-            "SIM",
-            "amcQw",
+        "vcs_paramclassrepository": [
+            "vcs_paramclassrepository",
+            "hEeZs",
             "module"
         ],
         "fifo_grm": [
@@ -36,6 +26,11 @@
             "N5CAk",
             "module"
         ],
+        "dut_if": [
+            "dut_if",
+            "e7EBi",
+            "module"
+        ],
         "std": [
             "std",
             "reYIK",
@@ -46,78 +41,74 @@
             "zr7M1",
             "module"
         ],
+        "top": [
+            "top",
+            "Emx8S",
+            "module"
+        ],
         "fifo": [
             "fifo",
             "BWIbP",
             "module"
         ],
-        "dut_if": [
-            "dut_if",
-            "e7EBi",
-            "module"
-        ],
-        "top": [
-            "top",
-            "Emx8S",
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
             "module"
         ]
     },
-    "Misc": {
-        "cwd": "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test",
-        "daidir_abs": "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/simv.daidir",
-        "csrc": "csrc",
-        "csrc_abs": "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/csrc",
-        "daidir": "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/simv.daidir",
-        "archive_dir": "archive.0",
-        "default_output_dir": "csrc"
-    },
     "stat": {
-        "totalObjSize": 9246510,
+        "mopSpeed": 127408.47551925702,
         "ru_self_cgstart": {
-            "ru_utime_sec": 4.175732,
-            "ru_nvcsw": 45,
-            "ru_maxrss_kb": 97604,
-            "ru_stime_sec": 0.168716,
-            "ru_minflt": 36790,
-            "ru_majflt": 24,
-            "ru_nivcsw": 146
+            "ru_stime_sec": 0.30527799999999999,
+            "ru_utime_sec": 3.9097900000000001,
+            "ru_maxrss_kb": 97388,
+            "ru_minflt": 36636,
+            "ru_nivcsw": 146,
+            "ru_majflt": 0,
+            "ru_nvcsw": 25
         },
         "ru_childs_cgstart": {
-            "ru_utime_sec": 0.0,
-            "ru_nvcsw": 7,
-            "ru_maxrss_kb": 40888,
-            "ru_stime_sec": 0.012902,
-            "ru_minflt": 2766,
-            "ru_majflt": 2,
-            "ru_nivcsw": 8
+            "ru_stime_sec": 0.010500000000000001,
+            "ru_utime_sec": 0.0020730000000000002,
+            "ru_maxrss_kb": 40704,
+            "ru_minflt": 2773,
+            "ru_nivcsw": 8,
+            "ru_majflt": 0,
+            "ru_nvcsw": 5
         },
-        "nMops": 389771,
-        "nQuads": 129091,
         "ru_self_end": {
-            "ru_utime_sec": 7.2779619999999996,
-            "ru_nvcsw": 50,
-            "ru_maxrss_kb": 105104,
-            "ru_stime_sec": 0.63216799999999995,
-            "ru_minflt": 43811,
-            "ru_majflt": 30,
-            "ru_nivcsw": 206
+            "ru_stime_sec": 0.75452600000000003,
+            "ru_utime_sec": 6.9168269999999996,
+            "ru_maxrss_kb": 106328,
+            "ru_minflt": 44037,
+            "ru_nivcsw": 196,
+            "ru_majflt": 0,
+            "ru_nvcsw": 28
         },
+        "CodeGen(%)": 43.474225970954599,
+        "quadSpeed": 42244.574975299613,
+        "nMops": 383122,
+        "nQuads": 127031,
+        "totalObjSize": 9177704,
         "ru_childs_end": {
-            "ru_utime_sec": 0.0,
-            "ru_nvcsw": 7,
-            "ru_maxrss_kb": 40888,
-            "ru_stime_sec": 0.012902,
-            "ru_minflt": 2766,
-            "ru_majflt": 2,
-            "ru_nivcsw": 8
+            "ru_stime_sec": 0.010500000000000001,
+            "ru_utime_sec": 0.0020730000000000002,
+            "ru_maxrss_kb": 40704,
+            "ru_minflt": 2773,
+            "ru_nivcsw": 8,
+            "ru_majflt": 0,
+            "ru_nvcsw": 5
         },
-        "mopSpeed": 125642.19932113352,
-        "mop/quad": 3.0193506905981051,
-        "quadSpeed": 41612.324037869541,
-        "Frontend(%)": 57.375017896493553,
-        "outputSizePerQuad": 71.0,
-        "CodeGen(%)": 42.624982103506447
+        "mop/quad": 3.0159724791586306,
+        "outputSizePerQuad": 72.0,
+        "Frontend(%)": 56.525774029045401
     },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 278020
+    },
+    "CurCompileUdps": {},
     "CurCompileModules": [
         "...MASTER...",
         "...MASTER...",
@@ -140,9 +131,18 @@
         "fifo_grm",
         "fifo_grm"
     ],
-    "PEModules": [],
-    "CompileProcesses": [
-        "cgproc.54687.json"
+    "LVLData": [
+        "SIM"
     ],
+    "PEModules": [],
+    "Misc": {
+        "archive_dir": "archive.0",
+        "csrc_abs": "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/csrc",
+        "cwd": "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test",
+        "daidir_abs": "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/simv.daidir",
+        "csrc": "csrc",
+        "daidir": "/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/simv.daidir",
+        "default_output_dir": "csrc"
+    },
     "CompileStatus": "Successful"
 }

@@ -1,824 +1,104 @@
-UVM_INFO ./test_lib.sv(79) @ 0: uvm_test_top [YY DEBUG INFO] @0: raise objection
-UVM_INFO ../sv/transfer.sv(165) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence is randomized,t_num is 806,size is 408
-UVM_INFO ../sv/transfer.sv(165) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence is randomized,t_num is 806,size is 408
-UVM_INFO top.sv(71) @ 8: reporter [DEBUG INFO] @8: reset posedge
-UVM_INFO top.sv(75) @ 56: reporter [DEBUG INFO] @56: reset negedge
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 184: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5061 : rhs = 'hafb5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 184: reporter [MISCMP] 1 Miscompare(s) for object rx@11905 vs. rx@11913
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 312: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb9c8 : rhs = 'h5061
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 312: reporter [MISCMP] 1 Miscompare(s) for object rx@11927 vs. rx@11975
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 328: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hcd4d : rhs = 'hc9d1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 328: reporter [MISCMP] 1 Miscompare(s) for object rx@11939 vs. rx@11997
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 344: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h3c60 : rhs = 'h5ecd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 344: reporter [MISCMP] 1 Miscompare(s) for object rx@11967 vs. rx@12019
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 360: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb4fb : rhs = 'hb9c8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 360: reporter [MISCMP] 1 Miscompare(s) for object rx@11989 vs. rx@12041
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 424: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9604 : rhs = 'hcd4d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 424: reporter [MISCMP] 1 Miscompare(s) for object rx@12011 vs. rx@12083
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 568: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h636c : rhs = 'h3c60
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 568: reporter [MISCMP] 1 Miscompare(s) for object rx@12033 vs. rx@12121
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 584: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1239 : rhs = 'hb4fb
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 584: reporter [MISCMP] 1 Miscompare(s) for object rx@12055 vs. rx@12143
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 600: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h317a : rhs = 'h9604
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 600: reporter [MISCMP] 1 Miscompare(s) for object rx@12075 vs. rx@12165
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 616: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9b9b : rhs = 'h636c
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 616: reporter [MISCMP] 1 Miscompare(s) for object rx@12113 vs. rx@12187
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 632: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9ad : rhs = 'h1239
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 632: reporter [MISCMP] 1 Miscompare(s) for object rx@12135 vs. rx@12209
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 712: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8435 : rhs = 'h317a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 712: reporter [MISCMP] 1 Miscompare(s) for object rx@12157 vs. rx@12255
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 728: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7471 : rhs = 'h9b9b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 728: reporter [MISCMP] 1 Miscompare(s) for object rx@12179 vs. rx@12277
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 760: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hee94 : rhs = 'h9ad
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 760: reporter [MISCMP] 1 Miscompare(s) for object rx@12201 vs. rx@12299
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 776: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc033 : rhs = 'h8435
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 776: reporter [MISCMP] 1 Miscompare(s) for object rx@12247 vs. rx@12321
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 856: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h230b : rhs = 'h7471
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 856: reporter [MISCMP] 1 Miscompare(s) for object rx@12269 vs. rx@12343
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 888: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd385 : rhs = 'hee94
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 888: reporter [MISCMP] 1 Miscompare(s) for object rx@12291 vs. rx@12365
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 904: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7af6 : rhs = 'hc033
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 904: reporter [MISCMP] 1 Miscompare(s) for object rx@12313 vs. rx@12387
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1032: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hae93 : rhs = 'h230b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1032: reporter [MISCMP] 1 Miscompare(s) for object rx@12335 vs. rx@12457
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1112: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h49e3 : rhs = 'hd385
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1112: reporter [MISCMP] 1 Miscompare(s) for object rx@12357 vs. rx@12495
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1128: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h324e : rhs = 'h7af6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1128: reporter [MISCMP] 1 Miscompare(s) for object rx@12379 vs. rx@12517
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1224: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9ec4 : rhs = 'ha295
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1224: reporter [MISCMP] 1 Miscompare(s) for object rx@12409 vs. rx@12555
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1240: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h47c3 : rhs = 'hf91d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1240: reporter [MISCMP] 1 Miscompare(s) for object rx@12429 vs. rx@12577
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1272: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h615b : rhs = 'hae93
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1272: reporter [MISCMP] 1 Miscompare(s) for object rx@12449 vs. rx@12599
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1304: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h506d : rhs = 'h49e3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1304: reporter [MISCMP] 1 Miscompare(s) for object rx@12487 vs. rx@12629
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1336: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h537f : rhs = 'h324e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1336: reporter [MISCMP] 1 Miscompare(s) for object rx@12509 vs. rx@12651
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1352: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5215 : rhs = 'h9ec4
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1352: reporter [MISCMP] 1 Miscompare(s) for object rx@12547 vs. rx@12673
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1448: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h3718 : rhs = 'h47c3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1448: reporter [MISCMP] 1 Miscompare(s) for object rx@12569 vs. rx@12727
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1464: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hee83 : rhs = 'h615b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1464: reporter [MISCMP] 1 Miscompare(s) for object rx@12591 vs. rx@12749
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1496: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf210 : rhs = 'h506d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1496: reporter [MISCMP] 1 Miscompare(s) for object rx@12621 vs. rx@12771
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1576: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h33fa : rhs = 'h537f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1576: reporter [MISCMP] 1 Miscompare(s) for object rx@12643 vs. rx@12817
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1608: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he1de : rhs = 'h5215
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1608: reporter [MISCMP] 1 Miscompare(s) for object rx@12665 vs. rx@12847
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1624: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h880a : rhs = 'h3718
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1624: reporter [MISCMP] 1 Miscompare(s) for object rx@12719 vs. rx@12869
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1640: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h91c0 : rhs = 'hee83
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1640: reporter [MISCMP] 1 Miscompare(s) for object rx@12741 vs. rx@12891
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1656: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1c7a : rhs = 'hf210
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1656: reporter [MISCMP] 1 Miscompare(s) for object rx@12763 vs. rx@12913
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1672: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4ece : rhs = 'h33fa
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1672: reporter [MISCMP] 1 Miscompare(s) for object rx@12809 vs. rx@12935
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1704: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha4b4 : rhs = 'he1de
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1704: reporter [MISCMP] 1 Miscompare(s) for object rx@12839 vs. rx@12965
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1720: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h951e : rhs = 'h880a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1720: reporter [MISCMP] 1 Miscompare(s) for object rx@12861 vs. rx@12987
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1752: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h82aa : rhs = 'h91c0
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1752: reporter [MISCMP] 1 Miscompare(s) for object rx@12883 vs. rx@13017
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1768: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9a11 : rhs = 'h1c7a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1768: reporter [MISCMP] 1 Miscompare(s) for object rx@12905 vs. rx@13039
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1784: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hdb5f : rhs = 'h4ece
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1784: reporter [MISCMP] 1 Miscompare(s) for object rx@12927 vs. rx@13061
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1816: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7402 : rhs = 'ha4b4
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1816: reporter [MISCMP] 1 Miscompare(s) for object rx@12957 vs. rx@13083
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1848: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hab51 : rhs = 'h951e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1848: reporter [MISCMP] 1 Miscompare(s) for object rx@12979 vs. rx@13113
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1928: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1663 : rhs = 'h82aa
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1928: reporter [MISCMP] 1 Miscompare(s) for object rx@13009 vs. rx@13151
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1960: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hcfcc : rhs = 'h9a11
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1960: reporter [MISCMP] 1 Miscompare(s) for object rx@13031 vs. rx@13181
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1976: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h986f : rhs = 'hdb5f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1976: reporter [MISCMP] 1 Miscompare(s) for object rx@13053 vs. rx@13203
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 1992: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6afe : rhs = 'h7402
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 1992: reporter [MISCMP] 1 Miscompare(s) for object rx@13075 vs. rx@13225
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2008: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf275 : rhs = 'hab51
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2008: reporter [MISCMP] 1 Miscompare(s) for object rx@13105 vs. rx@13247
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2056: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h33ad : rhs = 'h1663
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2056: reporter [MISCMP] 1 Miscompare(s) for object rx@13143 vs. rx@13277
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2088: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hfe4f : rhs = 'hcfcc
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2088: reporter [MISCMP] 1 Miscompare(s) for object rx@13173 vs. rx@13299
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2120: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hadf3 : rhs = 'h986f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2120: reporter [MISCMP] 1 Miscompare(s) for object rx@13195 vs. rx@13321
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2168: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h57d7 : rhs = 'h6afe
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2168: reporter [MISCMP] 1 Miscompare(s) for object rx@13217 vs. rx@13351
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2200: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb193 : rhs = 'hf275
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2200: reporter [MISCMP] 1 Miscompare(s) for object rx@13239 vs. rx@13373
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2232: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h56be : rhs = 'h33ad
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2232: reporter [MISCMP] 1 Miscompare(s) for object rx@13269 vs. rx@13395
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2248: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8ec0 : rhs = 'hfe4f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2248: reporter [MISCMP] 1 Miscompare(s) for object rx@13291 vs. rx@13417
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2264: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha48e : rhs = 'hadf3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2264: reporter [MISCMP] 1 Miscompare(s) for object rx@13313 vs. rx@13439
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2296: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hcce9 : rhs = 'h57d7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2296: reporter [MISCMP] 1 Miscompare(s) for object rx@13343 vs. rx@13469
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2328: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4c61 : rhs = 'hb193
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2328: reporter [MISCMP] 1 Miscompare(s) for object rx@13365 vs. rx@13491
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2360: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8d2 : rhs = 'h56be
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2360: reporter [MISCMP] 1 Miscompare(s) for object rx@13387 vs. rx@13521
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2392: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1abf : rhs = 'h8ec0
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2392: reporter [MISCMP] 1 Miscompare(s) for object rx@13409 vs. rx@13551
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2408: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4cd0 : rhs = 'ha48e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2408: reporter [MISCMP] 1 Miscompare(s) for object rx@13431 vs. rx@13573
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2488: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h991d : rhs = 'hcce9
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2488: reporter [MISCMP] 1 Miscompare(s) for object rx@13461 vs. rx@13619
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2536: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hbd67 : rhs = 'h4c61
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2536: reporter [MISCMP] 1 Miscompare(s) for object rx@13483 vs. rx@13649
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2568: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h49ea : rhs = 'h8d2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2568: reporter [MISCMP] 1 Miscompare(s) for object rx@13513 vs. rx@13671
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2584: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hed59 : rhs = 'h1abf
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2584: reporter [MISCMP] 1 Miscompare(s) for object rx@13543 vs. rx@13693
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2600: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7bcd : rhs = 'h4cd0
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2600: reporter [MISCMP] 1 Miscompare(s) for object rx@13565 vs. rx@13715
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2680: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h10a9 : rhs = 'h991d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2680: reporter [MISCMP] 1 Miscompare(s) for object rx@13611 vs. rx@13761
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2696: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha916 : rhs = 'hbd67
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2696: reporter [MISCMP] 1 Miscompare(s) for object rx@13641 vs. rx@13783
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2744: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hef83 : rhs = 'h49ea
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2744: reporter [MISCMP] 1 Miscompare(s) for object rx@13663 vs. rx@13813
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2760: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8f90 : rhs = 'hed59
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2760: reporter [MISCMP] 1 Miscompare(s) for object rx@13685 vs. rx@13835
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2824: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb35f : rhs = 'h7bcd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2824: reporter [MISCMP] 1 Miscompare(s) for object rx@13707 vs. rx@13865
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2840: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hdb15 : rhs = 'h10a9
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2840: reporter [MISCMP] 1 Miscompare(s) for object rx@13753 vs. rx@13887
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2856: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h44a : rhs = 'ha916
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2856: reporter [MISCMP] 1 Miscompare(s) for object rx@13775 vs. rx@13909
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2904: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h3b0 : rhs = 'hef83
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2904: reporter [MISCMP] 1 Miscompare(s) for object rx@13805 vs. rx@13931
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 2952: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he746 : rhs = 'h8f90
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 2952: reporter [MISCMP] 1 Miscompare(s) for object rx@13827 vs. rx@13969
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3000: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h16bb : rhs = 'hb35f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3000: reporter [MISCMP] 1 Miscompare(s) for object rx@13857 vs. rx@13999
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3016: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5246 : rhs = 'hdb15
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3016: reporter [MISCMP] 1 Miscompare(s) for object rx@13879 vs. rx@14021
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3032: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4a9b : rhs = 'h44a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3032: reporter [MISCMP] 1 Miscompare(s) for object rx@13901 vs. rx@14043
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3064: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6514 : rhs = 'h3b0
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3064: reporter [MISCMP] 1 Miscompare(s) for object rx@13923 vs. rx@14073
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3112: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6b90 : rhs = 'he746
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3112: reporter [MISCMP] 1 Miscompare(s) for object rx@13961 vs. rx@14103
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3144: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5d60 : rhs = 'h16bb
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3144: reporter [MISCMP] 1 Miscompare(s) for object rx@13991 vs. rx@14125
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3176: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h53e9 : rhs = 'h5246
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3176: reporter [MISCMP] 1 Miscompare(s) for object rx@14013 vs. rx@14147
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3208: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8187 : rhs = 'h4a9b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3208: reporter [MISCMP] 1 Miscompare(s) for object rx@14035 vs. rx@14169
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3224: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h50e1 : rhs = 'h6514
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3224: reporter [MISCMP] 1 Miscompare(s) for object rx@14065 vs. rx@14191
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3240: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h26da : rhs = 'h6b90
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3240: reporter [MISCMP] 1 Miscompare(s) for object rx@14095 vs. rx@14213
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3256: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha910 : rhs = 'h5d60
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3256: reporter [MISCMP] 1 Miscompare(s) for object rx@14117 vs. rx@14235
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3304: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha47f : rhs = 'h53e9
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3304: reporter [MISCMP] 1 Miscompare(s) for object rx@14139 vs. rx@14273
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3320: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6357 : rhs = 'h8187
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3320: reporter [MISCMP] 1 Miscompare(s) for object rx@14161 vs. rx@14295
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3336: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4dec : rhs = 'h50e1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3336: reporter [MISCMP] 1 Miscompare(s) for object rx@14183 vs. rx@14317
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3400: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc060 : rhs = 'h26da
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3400: reporter [MISCMP] 1 Miscompare(s) for object rx@14205 vs. rx@14355
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3416: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9c81 : rhs = 'ha910
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3416: reporter [MISCMP] 1 Miscompare(s) for object rx@14227 vs. rx@14377
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3432: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha413 : rhs = 'ha47f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3432: reporter [MISCMP] 1 Miscompare(s) for object rx@14265 vs. rx@14399
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3464: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1b90 : rhs = 'h6357
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3464: reporter [MISCMP] 1 Miscompare(s) for object rx@14287 vs. rx@14429
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3480: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h592f : rhs = 'h4dec
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3480: reporter [MISCMP] 1 Miscompare(s) for object rx@14309 vs. rx@14451
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3528: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc2d3 : rhs = 'hc060
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3528: reporter [MISCMP] 1 Miscompare(s) for object rx@14347 vs. rx@14473
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3544: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hbf78 : rhs = 'h9c81
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3544: reporter [MISCMP] 1 Miscompare(s) for object rx@14369 vs. rx@14495
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3576: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h522c : rhs = 'ha413
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3576: reporter [MISCMP] 1 Miscompare(s) for object rx@14391 vs. rx@14517
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3608: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h94e8 : rhs = 'h1b90
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3608: reporter [MISCMP] 1 Miscompare(s) for object rx@14421 vs. rx@14539
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3624: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1421 : rhs = 'h592f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3624: reporter [MISCMP] 1 Miscompare(s) for object rx@14443 vs. rx@14561
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3640: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h915c : rhs = 'hc2d3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3640: reporter [MISCMP] 1 Miscompare(s) for object rx@14465 vs. rx@14583
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3688: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h65ad : rhs = 'hbf78
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3688: reporter [MISCMP] 1 Miscompare(s) for object rx@14487 vs. rx@14605
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3720: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1ae6 : rhs = 'h522c
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3720: reporter [MISCMP] 1 Miscompare(s) for object rx@14509 vs. rx@14627
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3864: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5f68 : rhs = 'h94e8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3864: reporter [MISCMP] 1 Miscompare(s) for object rx@14531 vs. rx@14681
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3880: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he888 : rhs = 'h1421
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3880: reporter [MISCMP] 1 Miscompare(s) for object rx@14553 vs. rx@14703
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3896: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h454a : rhs = 'h915c
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3896: reporter [MISCMP] 1 Miscompare(s) for object rx@14575 vs. rx@14725
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 3928: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb841 : rhs = 'h65ad
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 3928: reporter [MISCMP] 1 Miscompare(s) for object rx@14597 vs. rx@14755
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4008: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9d19 : rhs = 'h1ae6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4008: reporter [MISCMP] 1 Miscompare(s) for object rx@14619 vs. rx@14809
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4024: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h373d : rhs = 'h5f68
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4024: reporter [MISCMP] 1 Miscompare(s) for object rx@14673 vs. rx@14831
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4056: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd14a : rhs = 'he888
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4056: reporter [MISCMP] 1 Miscompare(s) for object rx@14695 vs. rx@14853
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4088: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h937a : rhs = 'h454a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4088: reporter [MISCMP] 1 Miscompare(s) for object rx@14717 vs. rx@14875
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4104: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd60e : rhs = 'hb841
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4104: reporter [MISCMP] 1 Miscompare(s) for object rx@14747 vs. rx@14897
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4120: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7e1f : rhs = 'h9d19
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4120: reporter [MISCMP] 1 Miscompare(s) for object rx@14801 vs. rx@14919
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4136: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h25ff : rhs = 'h373d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4136: reporter [MISCMP] 1 Miscompare(s) for object rx@14823 vs. rx@14941
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4152: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc1e5 : rhs = 'hd14a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4152: reporter [MISCMP] 1 Miscompare(s) for object rx@14845 vs. rx@14963
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4184: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd2d0 : rhs = 'h937a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4184: reporter [MISCMP] 1 Miscompare(s) for object rx@14867 vs. rx@14985
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4280: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h73d3 : rhs = 'hd60e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4280: reporter [MISCMP] 1 Miscompare(s) for object rx@14889 vs. rx@15031
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4312: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h727 : rhs = 'h7e1f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4312: reporter [MISCMP] 1 Miscompare(s) for object rx@14911 vs. rx@15053
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4328: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hadfb : rhs = 'h25ff
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4328: reporter [MISCMP] 1 Miscompare(s) for object rx@14933 vs. rx@15075
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4344: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb584 : rhs = 'hc1e5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4344: reporter [MISCMP] 1 Miscompare(s) for object rx@14955 vs. rx@15097
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4360: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9a9e : rhs = 'hd2d0
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4360: reporter [MISCMP] 1 Miscompare(s) for object rx@14977 vs. rx@15119
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4392: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd09 : rhs = 'h73d3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4392: reporter [MISCMP] 1 Miscompare(s) for object rx@15023 vs. rx@15141
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4408: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hadf1 : rhs = 'h727
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4408: reporter [MISCMP] 1 Miscompare(s) for object rx@15045 vs. rx@15163
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4424: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hde3d : rhs = 'hadfb
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4424: reporter [MISCMP] 1 Miscompare(s) for object rx@15067 vs. rx@15185
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4472: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd3e : rhs = 'hb584
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4472: reporter [MISCMP] 1 Miscompare(s) for object rx@15089 vs. rx@15207
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4488: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb947 : rhs = 'h9a9e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4488: reporter [MISCMP] 1 Miscompare(s) for object rx@15111 vs. rx@15229
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4520: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hab15 : rhs = 'hd09
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4520: reporter [MISCMP] 1 Miscompare(s) for object rx@15133 vs. rx@15259
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4552: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h317 : rhs = 'hadf1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4552: reporter [MISCMP] 1 Miscompare(s) for object rx@15155 vs. rx@15289
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4568: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha9bf : rhs = 'hde3d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4568: reporter [MISCMP] 1 Miscompare(s) for object rx@15177 vs. rx@15311
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4584: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf30e : rhs = 'hd3e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4584: reporter [MISCMP] 1 Miscompare(s) for object rx@15199 vs. rx@15333
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4600: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2f9a : rhs = 'hb947
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4600: reporter [MISCMP] 1 Miscompare(s) for object rx@15221 vs. rx@15355
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4632: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf119 : rhs = 'hab15
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4632: reporter [MISCMP] 1 Miscompare(s) for object rx@15251 vs. rx@15385
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4648: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf19e : rhs = 'h317
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4648: reporter [MISCMP] 1 Miscompare(s) for object rx@15281 vs. rx@15407
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4664: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb20f : rhs = 'ha9bf
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4664: reporter [MISCMP] 1 Miscompare(s) for object rx@15303 vs. rx@15429
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4680: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1e32 : rhs = 'hf30e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4680: reporter [MISCMP] 1 Miscompare(s) for object rx@15325 vs. rx@15451
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4696: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2e57 : rhs = 'h2f9a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4696: reporter [MISCMP] 1 Miscompare(s) for object rx@15347 vs. rx@15473
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4728: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h716a : rhs = 'hf119
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4728: reporter [MISCMP] 1 Miscompare(s) for object rx@15377 vs. rx@15503
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4744: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6599 : rhs = 'hf19e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4744: reporter [MISCMP] 1 Miscompare(s) for object rx@15399 vs. rx@15525
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4792: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc9e0 : rhs = 'hb20f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4792: reporter [MISCMP] 1 Miscompare(s) for object rx@15421 vs. rx@15555
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4824: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1536 : rhs = 'h1e32
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4824: reporter [MISCMP] 1 Miscompare(s) for object rx@15443 vs. rx@15585
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4856: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h70d5 : rhs = 'h2e57
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4856: reporter [MISCMP] 1 Miscompare(s) for object rx@15465 vs. rx@15615
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4872: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hee79 : rhs = 'h716a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4872: reporter [MISCMP] 1 Miscompare(s) for object rx@15495 vs. rx@15637
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4936: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hdff2 : rhs = 'h6599
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4936: reporter [MISCMP] 1 Miscompare(s) for object rx@15517 vs. rx@15667
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 4952: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc73e : rhs = 'hc9e0
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 4952: reporter [MISCMP] 1 Miscompare(s) for object rx@15547 vs. rx@15689
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5016: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf1bc : rhs = 'h1536
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5016: reporter [MISCMP] 1 Miscompare(s) for object rx@15577 vs. rx@15719
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5032: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd2b6 : rhs = 'h70d5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5032: reporter [MISCMP] 1 Miscompare(s) for object rx@15607 vs. rx@15741
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5048: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hca91 : rhs = 'hee79
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5048: reporter [MISCMP] 1 Miscompare(s) for object rx@15629 vs. rx@15763
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5064: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb130 : rhs = 'hdff2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5064: reporter [MISCMP] 1 Miscompare(s) for object rx@15659 vs. rx@15785
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5112: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hab6f : rhs = 'hc73e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5112: reporter [MISCMP] 1 Miscompare(s) for object rx@15681 vs. rx@15815
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5128: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7e2a : rhs = 'hf1bc
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5128: reporter [MISCMP] 1 Miscompare(s) for object rx@15711 vs. rx@15837
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5144: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he3a7 : rhs = 'hd2b6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5144: reporter [MISCMP] 1 Miscompare(s) for object rx@15733 vs. rx@15859
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5160: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h31e8 : rhs = 'hca91
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5160: reporter [MISCMP] 1 Miscompare(s) for object rx@15755 vs. rx@15881
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5176: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc51 : rhs = 'hb130
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5176: reporter [MISCMP] 1 Miscompare(s) for object rx@15777 vs. rx@15903
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5192: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf2eb : rhs = 'hab6f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5192: reporter [MISCMP] 1 Miscompare(s) for object rx@15807 vs. rx@15925
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5208: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h397c : rhs = 'h7e2a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5208: reporter [MISCMP] 1 Miscompare(s) for object rx@15829 vs. rx@15947
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5224: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb345 : rhs = 'he3a7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5224: reporter [MISCMP] 1 Miscompare(s) for object rx@15851 vs. rx@15969
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5240: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2313 : rhs = 'h31e8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5240: reporter [MISCMP] 1 Miscompare(s) for object rx@15873 vs. rx@15991
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5304: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5710 : rhs = 'hc51
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5304: reporter [MISCMP] 1 Miscompare(s) for object rx@15895 vs. rx@16037
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5336: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'had82 : rhs = 'hf2eb
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5336: reporter [MISCMP] 1 Miscompare(s) for object rx@15917 vs. rx@16067
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5352: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb2e7 : rhs = 'h397c
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5352: reporter [MISCMP] 1 Miscompare(s) for object rx@15939 vs. rx@16089
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5416: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf12 : rhs = 'hb345
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5416: reporter [MISCMP] 1 Miscompare(s) for object rx@15961 vs. rx@16127
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5432: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6316 : rhs = 'h2313
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5432: reporter [MISCMP] 1 Miscompare(s) for object rx@15983 vs. rx@16149
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5480: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hff10 : rhs = 'h5710
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5480: reporter [MISCMP] 1 Miscompare(s) for object rx@16029 vs. rx@16187
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5528: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h757 : rhs = 'had82
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5528: reporter [MISCMP] 1 Miscompare(s) for object rx@16059 vs. rx@16217
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5592: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb704 : rhs = 'hb2e7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5592: reporter [MISCMP] 1 Miscompare(s) for object rx@16081 vs. rx@16239
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5624: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1ca7 : rhs = 'hf12
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5624: reporter [MISCMP] 1 Miscompare(s) for object rx@16119 vs. rx@16269
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5640: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5eb5 : rhs = 'h6316
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5640: reporter [MISCMP] 1 Miscompare(s) for object rx@16141 vs. rx@16291
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5656: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hbe23 : rhs = 'hff10
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5656: reporter [MISCMP] 1 Miscompare(s) for object rx@16179 vs. rx@16313
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5672: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha60b : rhs = 'h757
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5672: reporter [MISCMP] 1 Miscompare(s) for object rx@16209 vs. rx@16335
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5688: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha734 : rhs = 'hb704
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5688: reporter [MISCMP] 1 Miscompare(s) for object rx@16231 vs. rx@16357
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5704: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8f59 : rhs = 'h1ca7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5704: reporter [MISCMP] 1 Miscompare(s) for object rx@16261 vs. rx@16379
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5736: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd38b : rhs = 'h5eb5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5736: reporter [MISCMP] 1 Miscompare(s) for object rx@16283 vs. rx@16409
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5752: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1585 : rhs = 'hbe23
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5752: reporter [MISCMP] 1 Miscompare(s) for object rx@16305 vs. rx@16431
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5768: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6f40 : rhs = 'ha60b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5768: reporter [MISCMP] 1 Miscompare(s) for object rx@16327 vs. rx@16453
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5784: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4fa7 : rhs = 'ha734
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5784: reporter [MISCMP] 1 Miscompare(s) for object rx@16349 vs. rx@16475
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5800: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd280 : rhs = 'h8f59
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5800: reporter [MISCMP] 1 Miscompare(s) for object rx@16371 vs. rx@16497
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5816: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h52f9 : rhs = 'hd38b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5816: reporter [MISCMP] 1 Miscompare(s) for object rx@16401 vs. rx@16519
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5832: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc614 : rhs = 'h1585
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5832: reporter [MISCMP] 1 Miscompare(s) for object rx@16423 vs. rx@16541
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5848: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd390 : rhs = 'h6f40
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5848: reporter [MISCMP] 1 Miscompare(s) for object rx@16445 vs. rx@16563
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5864: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hfadf : rhs = 'h4fa7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5864: reporter [MISCMP] 1 Miscompare(s) for object rx@16467 vs. rx@16585
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5880: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hcc3b : rhs = 'hd280
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5880: reporter [MISCMP] 1 Miscompare(s) for object rx@16489 vs. rx@16607
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5896: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he515 : rhs = 'h52f9
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5896: reporter [MISCMP] 1 Miscompare(s) for object rx@16511 vs. rx@16629
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 5912: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9982 : rhs = 'hc614
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 5912: reporter [MISCMP] 1 Miscompare(s) for object rx@16533 vs. rx@16651
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6008: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h97f1 : rhs = 'hd390
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6008: reporter [MISCMP] 1 Miscompare(s) for object rx@16555 vs. rx@16689
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6024: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5bb1 : rhs = 'hfadf
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6024: reporter [MISCMP] 1 Miscompare(s) for object rx@16577 vs. rx@16711
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6056: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc8be : rhs = 'hcc3b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6056: reporter [MISCMP] 1 Miscompare(s) for object rx@16599 vs. rx@16733
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6072: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h492a : rhs = 'he515
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6072: reporter [MISCMP] 1 Miscompare(s) for object rx@16621 vs. rx@16755
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6120: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h15d0 : rhs = 'h9982
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6120: reporter [MISCMP] 1 Miscompare(s) for object rx@16643 vs. rx@16793
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6152: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6395 : rhs = 'h97f1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6152: reporter [MISCMP] 1 Miscompare(s) for object rx@16681 vs. rx@16815
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6168: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2bcc : rhs = 'h5bb1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6168: reporter [MISCMP] 1 Miscompare(s) for object rx@16703 vs. rx@16837
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6184: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hdc11 : rhs = 'hc8be
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6184: reporter [MISCMP] 1 Miscompare(s) for object rx@16725 vs. rx@16859
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6200: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2672 : rhs = 'h492a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6200: reporter [MISCMP] 1 Miscompare(s) for object rx@16747 vs. rx@16881
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6216: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'had8e : rhs = 'h15d0
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6216: reporter [MISCMP] 1 Miscompare(s) for object rx@16785 vs. rx@16903
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6232: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5664 : rhs = 'h6395
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6232: reporter [MISCMP] 1 Miscompare(s) for object rx@16807 vs. rx@16925
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6248: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4f65 : rhs = 'h2bcc
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6248: reporter [MISCMP] 1 Miscompare(s) for object rx@16829 vs. rx@16947
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6264: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4e27 : rhs = 'hdc11
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6264: reporter [MISCMP] 1 Miscompare(s) for object rx@16851 vs. rx@16969
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6360: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h10 : rhs = 'h2672
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6360: reporter [MISCMP] 1 Miscompare(s) for object rx@16873 vs. rx@17023
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6392: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb98d : rhs = 'had8e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6392: reporter [MISCMP] 1 Miscompare(s) for object rx@16895 vs. rx@17053
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6440: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5fcd : rhs = 'h5664
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6440: reporter [MISCMP] 1 Miscompare(s) for object rx@16917 vs. rx@17091
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6456: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc3f : rhs = 'h4f65
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6456: reporter [MISCMP] 1 Miscompare(s) for object rx@16939 vs. rx@17113
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6488: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb0dd : rhs = 'h4e27
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6488: reporter [MISCMP] 1 Miscompare(s) for object rx@16961 vs. rx@17135
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6520: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h52a9 : rhs = 'h10
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6520: reporter [MISCMP] 1 Miscompare(s) for object rx@17015 vs. rx@17157
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6536: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he35e : rhs = 'hb98d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6536: reporter [MISCMP] 1 Miscompare(s) for object rx@17045 vs. rx@17179
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6600: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8a45 : rhs = 'h5fcd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6600: reporter [MISCMP] 1 Miscompare(s) for object rx@17083 vs. rx@17229
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6648: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h78d4 : rhs = 'hc3f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6648: reporter [MISCMP] 1 Miscompare(s) for object rx@17105 vs. rx@17251
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6680: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8914 : rhs = 'hb0dd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6680: reporter [MISCMP] 1 Miscompare(s) for object rx@17127 vs. rx@17281
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6744: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2519 : rhs = 'h52a9
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6744: reporter [MISCMP] 1 Miscompare(s) for object rx@17149 vs. rx@17311
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6840: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h60c8 : rhs = 'he35e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6840: reporter [MISCMP] 1 Miscompare(s) for object rx@17171 vs. rx@17357
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6888: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha20e : rhs = 'heb04
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6888: reporter [MISCMP] 1 Miscompare(s) for object rx@17201 vs. rx@17379
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6920: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h84e1 : rhs = 'h3a3b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6920: reporter [MISCMP] 1 Miscompare(s) for object rx@17221 vs. rx@17409
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6936: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he22f : rhs = 'h8a45
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6936: reporter [MISCMP] 1 Miscompare(s) for object rx@17243 vs. rx@17431
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 6984: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5b27 : rhs = 'h78d4
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 6984: reporter [MISCMP] 1 Miscompare(s) for object rx@17273 vs. rx@17469
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7000: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h38cf : rhs = 'h8914
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7000: reporter [MISCMP] 1 Miscompare(s) for object rx@17303 vs. rx@17491
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7016: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8bcd : rhs = 'h2519
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7016: reporter [MISCMP] 1 Miscompare(s) for object rx@17349 vs. rx@17513
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7048: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc956 : rhs = 'h60c8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7048: reporter [MISCMP] 1 Miscompare(s) for object rx@17371 vs. rx@17535
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7064: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h14e2 : rhs = 'ha20e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7064: reporter [MISCMP] 1 Miscompare(s) for object rx@17401 vs. rx@17557
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7112: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7c2 : rhs = 'h84e1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7112: reporter [MISCMP] 1 Miscompare(s) for object rx@17423 vs. rx@17587
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7144: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h74a5 : rhs = 'he22f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7144: reporter [MISCMP] 1 Miscompare(s) for object rx@17461 vs. rx@17617
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7176: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd922 : rhs = 'h5b27
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7176: reporter [MISCMP] 1 Miscompare(s) for object rx@17483 vs. rx@17647
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7208: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h937a : rhs = 'h38cf
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7208: reporter [MISCMP] 1 Miscompare(s) for object rx@17505 vs. rx@17677
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7240: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2875 : rhs = 'h8bcd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7240: reporter [MISCMP] 1 Miscompare(s) for object rx@17527 vs. rx@17699
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7304: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h3bc4 : rhs = 'hc956
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7304: reporter [MISCMP] 1 Miscompare(s) for object rx@17549 vs. rx@17737
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7352: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1701 : rhs = 'h14e2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7352: reporter [MISCMP] 1 Miscompare(s) for object rx@17579 vs. rx@17767
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7368: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hee8b : rhs = 'h7c2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7368: reporter [MISCMP] 1 Miscompare(s) for object rx@17609 vs. rx@17789
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7384: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hfee2 : rhs = 'h74a5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7384: reporter [MISCMP] 1 Miscompare(s) for object rx@17639 vs. rx@17811
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7416: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hda55 : rhs = 'hd922
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7416: reporter [MISCMP] 1 Miscompare(s) for object rx@17669 vs. rx@17841
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7448: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h43f6 : rhs = 'h937a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7448: reporter [MISCMP] 1 Miscompare(s) for object rx@17691 vs. rx@17871
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7480: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h428f : rhs = 'h2875
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7480: reporter [MISCMP] 1 Miscompare(s) for object rx@17729 vs. rx@17901
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7496: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h3fc1 : rhs = 'h3bc4
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7496: reporter [MISCMP] 1 Miscompare(s) for object rx@17759 vs. rx@17923
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7512: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8897 : rhs = 'h1701
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7512: reporter [MISCMP] 1 Miscompare(s) for object rx@17781 vs. rx@17945
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7528: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd103 : rhs = 'hee8b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7528: reporter [MISCMP] 1 Miscompare(s) for object rx@17803 vs. rx@17967
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7560: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h844e : rhs = 'hfee2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7560: reporter [MISCMP] 1 Miscompare(s) for object rx@17833 vs. rx@17997
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7576: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h84a4 : rhs = 'hda55
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7576: reporter [MISCMP] 1 Miscompare(s) for object rx@17863 vs. rx@18019
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7592: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb441 : rhs = 'h43f6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7592: reporter [MISCMP] 1 Miscompare(s) for object rx@17893 vs. rx@18041
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7624: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5e26 : rhs = 'h428f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7624: reporter [MISCMP] 1 Miscompare(s) for object rx@17915 vs. rx@18071
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7656: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8783 : rhs = 'h3fc1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7656: reporter [MISCMP] 1 Miscompare(s) for object rx@17937 vs. rx@18101
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7672: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h57fd : rhs = 'h8897
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7672: reporter [MISCMP] 1 Miscompare(s) for object rx@17959 vs. rx@18123
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7688: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5a24 : rhs = 'hd103
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7688: reporter [MISCMP] 1 Miscompare(s) for object rx@17989 vs. rx@18145
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7704: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9eb6 : rhs = 'h844e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7704: reporter [MISCMP] 1 Miscompare(s) for object rx@18011 vs. rx@18167
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7752: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf6ac : rhs = 'h84a4
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7752: reporter [MISCMP] 1 Miscompare(s) for object rx@18033 vs. rx@18189
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7768: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4889 : rhs = 'hb441
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7768: reporter [MISCMP] 1 Miscompare(s) for object rx@18063 vs. rx@18211
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7784: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf6e3 : rhs = 'h5e26
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7784: reporter [MISCMP] 1 Miscompare(s) for object rx@18093 vs. rx@18233
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7800: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd79e : rhs = 'h8783
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7800: reporter [MISCMP] 1 Miscompare(s) for object rx@18115 vs. rx@18255
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7832: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf001 : rhs = 'h57fd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7832: reporter [MISCMP] 1 Miscompare(s) for object rx@18137 vs. rx@18277
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7896: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h59a9 : rhs = 'h5a24
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7896: reporter [MISCMP] 1 Miscompare(s) for object rx@18159 vs. rx@18315
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7912: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha39b : rhs = 'h9eb6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7912: reporter [MISCMP] 1 Miscompare(s) for object rx@18181 vs. rx@18337
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7928: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5d4d : rhs = 'hf6ac
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7928: reporter [MISCMP] 1 Miscompare(s) for object rx@18203 vs. rx@18359
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7944: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h53f8 : rhs = 'h4889
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7944: reporter [MISCMP] 1 Miscompare(s) for object rx@18225 vs. rx@18381
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 7976: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h92f1 : rhs = 'hf6e3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 7976: reporter [MISCMP] 1 Miscompare(s) for object rx@18247 vs. rx@18403
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8008: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7357 : rhs = 'hd79e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8008: reporter [MISCMP] 1 Miscompare(s) for object rx@18269 vs. rx@18425
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8040: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h98f7 : rhs = 'hf001
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8040: reporter [MISCMP] 1 Miscompare(s) for object rx@18307 vs. rx@18455
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8104: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf400 : rhs = 'h59a9
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8104: reporter [MISCMP] 1 Miscompare(s) for object rx@18329 vs. rx@18493
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8120: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h3501 : rhs = 'ha39b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8120: reporter [MISCMP] 1 Miscompare(s) for object rx@18351 vs. rx@18515
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8168: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h121f : rhs = 'h5d4d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8168: reporter [MISCMP] 1 Miscompare(s) for object rx@18373 vs. rx@18545
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8216: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h83d2 : rhs = 'h53f8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8216: reporter [MISCMP] 1 Miscompare(s) for object rx@18395 vs. rx@18575
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8232: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1bcd : rhs = 'h92f1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8232: reporter [MISCMP] 1 Miscompare(s) for object rx@18417 vs. rx@18597
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8248: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he74f : rhs = 'h7357
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8248: reporter [MISCMP] 1 Miscompare(s) for object rx@18447 vs. rx@18619
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8312: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hff24 : rhs = 'h98f7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8312: reporter [MISCMP] 1 Miscompare(s) for object rx@18485 vs. rx@18649
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8328: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5d8f : rhs = 'hf400
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8328: reporter [MISCMP] 1 Miscompare(s) for object rx@18507 vs. rx@18671
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8344: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7320 : rhs = 'h3501
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8344: reporter [MISCMP] 1 Miscompare(s) for object rx@18537 vs. rx@18693
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8488: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha942 : rhs = 'h121f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8488: reporter [MISCMP] 1 Miscompare(s) for object rx@18567 vs. rx@18771
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8520: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6a64 : rhs = 'h83d2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8520: reporter [MISCMP] 1 Miscompare(s) for object rx@18589 vs. rx@18801
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8536: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5168 : rhs = 'h1bcd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8536: reporter [MISCMP] 1 Miscompare(s) for object rx@18611 vs. rx@18823
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8664: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6976 : rhs = 'he74f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8664: reporter [MISCMP] 1 Miscompare(s) for object rx@18641 vs. rx@18885
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8680: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9278 : rhs = 'hff24
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8680: reporter [MISCMP] 1 Miscompare(s) for object rx@18663 vs. rx@18907
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8712: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8075 : rhs = 'h5d8f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8712: reporter [MISCMP] 1 Miscompare(s) for object rx@18685 vs. rx@18929
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8728: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'heec6 : rhs = 'h7320
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8728: reporter [MISCMP] 1 Miscompare(s) for object rx@18707 vs. rx@18951
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8760: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb888 : rhs = 'h44ba
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8760: reporter [MISCMP] 1 Miscompare(s) for object rx@18743 vs. rx@18973
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8840: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd75f : rhs = 'ha942
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8840: reporter [MISCMP] 1 Miscompare(s) for object rx@18763 vs. rx@19011
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8872: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb712 : rhs = 'h6a64
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8872: reporter [MISCMP] 1 Miscompare(s) for object rx@18793 vs. rx@19033
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 8952: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hfc74 : rhs = 'h5168
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 8952: reporter [MISCMP] 1 Miscompare(s) for object rx@18815 vs. rx@19071
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9000: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd308 : rhs = 'h6976
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9000: reporter [MISCMP] 1 Miscompare(s) for object rx@18877 vs. rx@19093
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9096: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7a08 : rhs = 'h9278
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9096: reporter [MISCMP] 1 Miscompare(s) for object rx@18899 vs. rx@19139
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9112: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h86ae : rhs = 'h8075
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9112: reporter [MISCMP] 1 Miscompare(s) for object rx@18921 vs. rx@19161
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9128: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h50ab : rhs = 'heec6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9128: reporter [MISCMP] 1 Miscompare(s) for object rx@18943 vs. rx@19183
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9144: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8b14 : rhs = 'hb888
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9144: reporter [MISCMP] 1 Miscompare(s) for object rx@18965 vs. rx@19205
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9160: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7513 : rhs = 'hd75f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9160: reporter [MISCMP] 1 Miscompare(s) for object rx@19003 vs. rx@19227
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9176: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8d3f : rhs = 'hb712
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9176: reporter [MISCMP] 1 Miscompare(s) for object rx@19025 vs. rx@19249
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9192: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1a25 : rhs = 'hfc74
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9192: reporter [MISCMP] 1 Miscompare(s) for object rx@19063 vs. rx@19271
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9208: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h665a : rhs = 'hd308
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9208: reporter [MISCMP] 1 Miscompare(s) for object rx@19085 vs. rx@19293
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9224: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hfc8a : rhs = 'h7a08
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9224: reporter [MISCMP] 1 Miscompare(s) for object rx@19131 vs. rx@19315
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9240: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd82c : rhs = 'h86ae
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9240: reporter [MISCMP] 1 Miscompare(s) for object rx@19153 vs. rx@19337
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9288: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h92dd : rhs = 'h50ab
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9288: reporter [MISCMP] 1 Miscompare(s) for object rx@19175 vs. rx@19359
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9320: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'haf61 : rhs = 'h8b14
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9320: reporter [MISCMP] 1 Miscompare(s) for object rx@19197 vs. rx@19381
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9336: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc5e5 : rhs = 'h7513
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9336: reporter [MISCMP] 1 Miscompare(s) for object rx@19219 vs. rx@19403
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9384: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf6f2 : rhs = 'h8d3f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9384: reporter [MISCMP] 1 Miscompare(s) for object rx@19241 vs. rx@19441
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9416: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8a7a : rhs = 'h1a25
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9416: reporter [MISCMP] 1 Miscompare(s) for object rx@19263 vs. rx@19471
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9432: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7806 : rhs = 'h665a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9432: reporter [MISCMP] 1 Miscompare(s) for object rx@19285 vs. rx@19493
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9480: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2f64 : rhs = 'hfc8a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9480: reporter [MISCMP] 1 Miscompare(s) for object rx@19307 vs. rx@19515
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9496: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc919 : rhs = 'hd82c
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9496: reporter [MISCMP] 1 Miscompare(s) for object rx@19329 vs. rx@19537
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9512: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hbe39 : rhs = 'h92dd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9512: reporter [MISCMP] 1 Miscompare(s) for object rx@19351 vs. rx@19559
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9624: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5f00 : rhs = 'haf61
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9624: reporter [MISCMP] 1 Miscompare(s) for object rx@19373 vs. rx@19605
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9672: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h51f3 : rhs = 'hc5e5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9672: reporter [MISCMP] 1 Miscompare(s) for object rx@19395 vs. rx@19643
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9688: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hdfe : rhs = 'hf6f2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9688: reporter [MISCMP] 1 Miscompare(s) for object rx@19433 vs. rx@19665
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9736: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h96b7 : rhs = 'h8a7a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9736: reporter [MISCMP] 1 Miscompare(s) for object rx@19463 vs. rx@19703
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9752: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4d71 : rhs = 'h7806
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9752: reporter [MISCMP] 1 Miscompare(s) for object rx@19485 vs. rx@19725
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9768: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h4fe0 : rhs = 'h2f64
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9768: reporter [MISCMP] 1 Miscompare(s) for object rx@19507 vs. rx@19747
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9784: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'haa1c : rhs = 'hc919
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9784: reporter [MISCMP] 1 Miscompare(s) for object rx@19529 vs. rx@19769
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9800: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9410 : rhs = 'hbe39
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9800: reporter [MISCMP] 1 Miscompare(s) for object rx@19551 vs. rx@19791
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9832: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb3b2 : rhs = 'h5f00
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9832: reporter [MISCMP] 1 Miscompare(s) for object rx@19597 vs. rx@19821
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9864: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h794d : rhs = 'h51f3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9864: reporter [MISCMP] 1 Miscompare(s) for object rx@19635 vs. rx@19843
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9880: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he0c5 : rhs = 'hdfe
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9880: reporter [MISCMP] 1 Miscompare(s) for object rx@19657 vs. rx@19865
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9912: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h939a : rhs = 'h96b7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9912: reporter [MISCMP] 1 Miscompare(s) for object rx@19695 vs. rx@19895
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9928: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2ca4 : rhs = 'h4d71
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9928: reporter [MISCMP] 1 Miscompare(s) for object rx@19717 vs. rx@19917
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 9944: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h66a2 : rhs = 'h4fe0
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 9944: reporter [MISCMP] 1 Miscompare(s) for object rx@19739 vs. rx@19939
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10072: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8b45 : rhs = 'haa1c
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10072: reporter [MISCMP] 1 Miscompare(s) for object rx@19761 vs. rx@19985
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10152: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h111a : rhs = 'h9410
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10152: reporter [MISCMP] 1 Miscompare(s) for object rx@19783 vs. rx@20031
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10184: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hbf32 : rhs = 'hb3b2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10184: reporter [MISCMP] 1 Miscompare(s) for object rx@19813 vs. rx@20061
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10232: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hec38 : rhs = 'h794d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10232: reporter [MISCMP] 1 Miscompare(s) for object rx@19835 vs. rx@20091
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10248: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h385d : rhs = 'he0c5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10248: reporter [MISCMP] 1 Miscompare(s) for object rx@19857 vs. rx@20113
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10312: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hba6d : rhs = 'h939a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10312: reporter [MISCMP] 1 Miscompare(s) for object rx@19887 vs. rx@20143
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10424: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1274 : rhs = 'h2ca4
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10424: reporter [MISCMP] 1 Miscompare(s) for object rx@19909 vs. rx@20181
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10440: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6514 : rhs = 'h66a2
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10440: reporter [MISCMP] 1 Miscompare(s) for object rx@19931 vs. rx@20203
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10456: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h404a : rhs = 'h8b45
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10456: reporter [MISCMP] 1 Miscompare(s) for object rx@19977 vs. rx@20225
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10472: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hdc76 : rhs = 'h111a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10472: reporter [MISCMP] 1 Miscompare(s) for object rx@20023 vs. rx@20247
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10520: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha3cf : rhs = 'hbf32
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10520: reporter [MISCMP] 1 Miscompare(s) for object rx@20053 vs. rx@20285
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10536: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6657 : rhs = 'hec38
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10536: reporter [MISCMP] 1 Miscompare(s) for object rx@20083 vs. rx@20307
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10568: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb3a6 : rhs = 'h385d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10568: reporter [MISCMP] 1 Miscompare(s) for object rx@20105 vs. rx@20329
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10648: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb17c : rhs = 'hba6d
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10648: reporter [MISCMP] 1 Miscompare(s) for object rx@20135 vs. rx@20375
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10664: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf5e8 : rhs = 'h1274
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10664: reporter [MISCMP] 1 Miscompare(s) for object rx@20173 vs. rx@20397
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10712: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8117 : rhs = 'h6514
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10712: reporter [MISCMP] 1 Miscompare(s) for object rx@20195 vs. rx@20419
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10728: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb736 : rhs = 'h404a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10728: reporter [MISCMP] 1 Miscompare(s) for object rx@20217 vs. rx@20441
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10744: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5299 : rhs = 'hdc76
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10744: reporter [MISCMP] 1 Miscompare(s) for object rx@20239 vs. rx@20463
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10760: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hbc46 : rhs = 'ha3cf
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10760: reporter [MISCMP] 1 Miscompare(s) for object rx@20277 vs. rx@20485
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10776: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h90a3 : rhs = 'h6657
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10776: reporter [MISCMP] 1 Miscompare(s) for object rx@20299 vs. rx@20507
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10792: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hca22 : rhs = 'hb3a6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10792: reporter [MISCMP] 1 Miscompare(s) for object rx@20321 vs. rx@20529
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10856: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5b75 : rhs = 'hb17c
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10856: reporter [MISCMP] 1 Miscompare(s) for object rx@20367 vs. rx@20559
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10888: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h619b : rhs = 'hf5e8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10888: reporter [MISCMP] 1 Miscompare(s) for object rx@20389 vs. rx@20589
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10904: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h846 : rhs = 'h8117
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10904: reporter [MISCMP] 1 Miscompare(s) for object rx@20411 vs. rx@20611
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 10936: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h43df : rhs = 'hb736
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 10936: reporter [MISCMP] 1 Miscompare(s) for object rx@20433 vs. rx@20641
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11048: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hcea5 : rhs = 'h5299
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11048: reporter [MISCMP] 1 Miscompare(s) for object rx@20455 vs. rx@20687
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11064: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd0d7 : rhs = 'hbc46
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11064: reporter [MISCMP] 1 Miscompare(s) for object rx@20477 vs. rx@20709
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11096: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc0cd : rhs = 'h90a3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11096: reporter [MISCMP] 1 Miscompare(s) for object rx@20499 vs. rx@20739
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11112: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h30c4 : rhs = 'hca22
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11112: reporter [MISCMP] 1 Miscompare(s) for object rx@20521 vs. rx@20761
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11128: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hfcda : rhs = 'h5b75
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11128: reporter [MISCMP] 1 Miscompare(s) for object rx@20551 vs. rx@20783
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11160: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hff0a : rhs = 'h619b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11160: reporter [MISCMP] 1 Miscompare(s) for object rx@20581 vs. rx@20813
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11192: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h27d5 : rhs = 'h846
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11192: reporter [MISCMP] 1 Miscompare(s) for object rx@20603 vs. rx@20835
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11224: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h66fb : rhs = 'h43df
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11224: reporter [MISCMP] 1 Miscompare(s) for object rx@20633 vs. rx@20857
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11240: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5e95 : rhs = 'hcea5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11240: reporter [MISCMP] 1 Miscompare(s) for object rx@20679 vs. rx@20879
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11288: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h59dd : rhs = 'hd0d7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11288: reporter [MISCMP] 1 Miscompare(s) for object rx@20701 vs. rx@20901
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11304: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc3b7 : rhs = 'hc0cd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11304: reporter [MISCMP] 1 Miscompare(s) for object rx@20731 vs. rx@20923
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11400: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1589 : rhs = 'h30c4
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11400: reporter [MISCMP] 1 Miscompare(s) for object rx@20753 vs. rx@20969
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11416: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h89f4 : rhs = 'hfcda
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11416: reporter [MISCMP] 1 Miscompare(s) for object rx@20775 vs. rx@20991
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11464: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd2fd : rhs = 'hff0a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11464: reporter [MISCMP] 1 Miscompare(s) for object rx@20805 vs. rx@21013
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11496: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h3922 : rhs = 'h27d5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11496: reporter [MISCMP] 1 Miscompare(s) for object rx@20827 vs. rx@21043
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11560: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hac80 : rhs = 'h66fb
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11560: reporter [MISCMP] 1 Miscompare(s) for object rx@20849 vs. rx@21073
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11576: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h2304 : rhs = 'h5e95
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11576: reporter [MISCMP] 1 Miscompare(s) for object rx@20871 vs. rx@21095
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11640: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h76ca : rhs = 'h59dd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11640: reporter [MISCMP] 1 Miscompare(s) for object rx@20893 vs. rx@21141
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11656: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha108 : rhs = 'hc3b7
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11656: reporter [MISCMP] 1 Miscompare(s) for object rx@20915 vs. rx@21163
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11672: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h812a : rhs = 'h1589
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11672: reporter [MISCMP] 1 Miscompare(s) for object rx@20961 vs. rx@21185
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11688: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h39e5 : rhs = 'h89f4
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11688: reporter [MISCMP] 1 Miscompare(s) for object rx@20983 vs. rx@21207
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11704: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h95d6 : rhs = 'hd2fd
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11704: reporter [MISCMP] 1 Miscompare(s) for object rx@21005 vs. rx@21229
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11720: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he081 : rhs = 'h3922
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11720: reporter [MISCMP] 1 Miscompare(s) for object rx@21035 vs. rx@21251
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11752: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9bd5 : rhs = 'hac80
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11752: reporter [MISCMP] 1 Miscompare(s) for object rx@21065 vs. rx@21273
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11768: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h725f : rhs = 'h2304
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11768: reporter [MISCMP] 1 Miscompare(s) for object rx@21087 vs. rx@21295
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11784: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb9c1 : rhs = 'h76ca
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11784: reporter [MISCMP] 1 Miscompare(s) for object rx@21133 vs. rx@21317
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11800: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6a6 : rhs = 'ha108
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11800: reporter [MISCMP] 1 Miscompare(s) for object rx@21155 vs. rx@21339
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11816: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hc3e6 : rhs = 'h812a
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11816: reporter [MISCMP] 1 Miscompare(s) for object rx@21177 vs. rx@21361
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11832: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h69c8 : rhs = 'h39e5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11832: reporter [MISCMP] 1 Miscompare(s) for object rx@21199 vs. rx@21383
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11848: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha4e : rhs = 'h95d6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11848: reporter [MISCMP] 1 Miscompare(s) for object rx@21221 vs. rx@21405
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11880: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'ha4f8 : rhs = 'he081
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11880: reporter [MISCMP] 1 Miscompare(s) for object rx@21243 vs. rx@21435
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11912: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h7c01 : rhs = 'h9bd5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11912: reporter [MISCMP] 1 Miscompare(s) for object rx@21265 vs. rx@21457
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11928: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb693 : rhs = 'h725f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11928: reporter [MISCMP] 1 Miscompare(s) for object rx@21287 vs. rx@21479
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 11960: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6f4f : rhs = 'hb9c1
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 11960: reporter [MISCMP] 1 Miscompare(s) for object rx@21309 vs. rx@21501
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12008: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h97f5 : rhs = 'h6a6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12008: reporter [MISCMP] 1 Miscompare(s) for object rx@21331 vs. rx@21539
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12040: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1a3 : rhs = 'hc3e6
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12040: reporter [MISCMP] 1 Miscompare(s) for object rx@21353 vs. rx@21561
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12104: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h205b : rhs = 'h69c8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12104: reporter [MISCMP] 1 Miscompare(s) for object rx@21375 vs. rx@21591
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12136: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hf362 : rhs = 'ha4e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12136: reporter [MISCMP] 1 Miscompare(s) for object rx@21397 vs. rx@21621
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12168: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h5819 : rhs = 'ha4f8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12168: reporter [MISCMP] 1 Miscompare(s) for object rx@21427 vs. rx@21643
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12184: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h16f : rhs = 'h7c01
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12184: reporter [MISCMP] 1 Miscompare(s) for object rx@21449 vs. rx@21665
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12248: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9467 : rhs = 'hb693
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12248: reporter [MISCMP] 1 Miscompare(s) for object rx@21471 vs. rx@21703
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12296: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h428e : rhs = 'h6f4f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12296: reporter [MISCMP] 1 Miscompare(s) for object rx@21493 vs. rx@21741
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12344: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hd44c : rhs = 'h97f5
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12344: reporter [MISCMP] 1 Miscompare(s) for object rx@21531 vs. rx@21779
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12360: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb02b : rhs = 'h1a3
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12360: reporter [MISCMP] 1 Miscompare(s) for object rx@21553 vs. rx@21801
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12392: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h95ba : rhs = 'h205b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12392: reporter [MISCMP] 1 Miscompare(s) for object rx@21583 vs. rx@21831
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12424: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'had5f : rhs = 'hf362
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12424: reporter [MISCMP] 1 Miscompare(s) for object rx@21613 vs. rx@21861
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12440: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hac93 : rhs = 'h5819
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12440: reporter [MISCMP] 1 Miscompare(s) for object rx@21635 vs. rx@21883
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12472: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h6829 : rhs = 'h16f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12472: reporter [MISCMP] 1 Miscompare(s) for object rx@21657 vs. rx@21913
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12504: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he041 : rhs = 'h9467
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12504: reporter [MISCMP] 1 Miscompare(s) for object rx@21695 vs. rx@21935
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12520: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h9781 : rhs = 'h428e
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12520: reporter [MISCMP] 1 Miscompare(s) for object rx@21733 vs. rx@21957
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12568: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h1f : rhs = 'hd44c
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12568: reporter [MISCMP] 1 Miscompare(s) for object rx@21771 vs. rx@21979
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12584: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he8f8 : rhs = 'hb02b
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12584: reporter [MISCMP] 1 Miscompare(s) for object rx@21793 vs. rx@22001
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12616: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h410f : rhs = 'h95ba
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12616: reporter [MISCMP] 1 Miscompare(s) for object rx@21823 vs. rx@22031
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12680: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'he7f : rhs = 'had5f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12680: reporter [MISCMP] 1 Miscompare(s) for object rx@21853 vs. rx@22069
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12728: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hab6a : rhs = 'hac93
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12728: reporter [MISCMP] 1 Miscompare(s) for object rx@21875 vs. rx@22099
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12744: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h618a : rhs = 'h6829
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12744: reporter [MISCMP] 1 Miscompare(s) for object rx@21905 vs. rx@22121
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12776: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h75f6 : rhs = 'he041
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12776: reporter [MISCMP] 1 Miscompare(s) for object rx@21927 vs. rx@22143
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12808: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'hb995 : rhs = 'h9781
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12808: reporter [MISCMP] 1 Miscompare(s) for object rx@21949 vs. rx@22173
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12840: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h3632 : rhs = 'h1f
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12840: reporter [MISCMP] 1 Miscompare(s) for object rx@21971 vs. rx@22203
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(351) @ 12920: reporter [MISCMP] Miscompare for rx.r_data: lhs = 'h8e26 : rhs = 'he8f8
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_comparer.svh(382) @ 12920: reporter [MISCMP] 1 Miscompare(s) for object rx@21993 vs. rx@22249
-UVM_INFO ./test_lib.sv(93) @ 12920: uvm_test_top [YY DEBUG INFO] @12920: drop objection
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 12920: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO @ 12936: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h [Sequencer] Dropping response for sequence 1, sequence not found.  Probable cause: sequence exited or has been killed
-UVM_INFO @ 12936: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h [Sequencer] Dropping response for sequence 2, sequence not found.  Probable cause: sequence exited or has been killed
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 452600: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 454648: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 456696: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 458744: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 460792: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 462840: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 464888: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 466936: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 468984: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 471032: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 473080: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 475128: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 477176: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 479224: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 481272: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 483320: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 485368: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 487416: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 489464: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 491512: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_report_server.svh(847) @ 493560: reporter [UVM/REPORT/SERVER] 
+UVM_INFO ./test_lib.sv(113) @ 0: uvm_test_top [YY DEBUG INFO] @0: raise objection
+UVM_INFO ../sv/transfer.sv(178) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence is randomized,t_num is 30
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  NOP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  NOP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH_POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH_POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH_POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  PUSH_POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h@@seq [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(178) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence is randomized,t_num is 30
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  NOP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  NOP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH_POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH_POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH_POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  PUSH_POP
+UVM_INFO ../sv/transfer.sv(180) @ 0: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h@@seq2 [] @0: sequence type is  POP
+UVM_INFO top.sv(65) @ 8: reporter [DEBUG INFO] @8: reset posedge
+UVM_INFO top.sv(69) @ 56: reporter [DEBUG INFO] @56: reset negedge
+UVM_INFO ./test_lib.sv(121) @ 504: uvm_test_top [YY DEBUG INFO] @504: drop objection
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 504: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO @ 520: uvm_test_top.my_env_h.my_agent_h.my_sequencer_h [Sequencer] Dropping response for sequence 1, sequence not found.  Probable cause: sequence exited or has been killed
+UVM_INFO @ 520: uvm_test_top.my_env_h.my_agent2_h.my_sequencer_h [Sequencer] Dropping response for sequence 2, sequence not found.  Probable cause: sequence exited or has been killed
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14136: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14200: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14264: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14328: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14392: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14456: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14520: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14584: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14648: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14712: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14776: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14840: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14904: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 14968: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 15032: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 15096: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 15160: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 15224: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 15288: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_objection.svh(1270) @ 15352: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/yy/EDA/uvm-1.2/src/base/uvm_report_server.svh(847) @ 15416: reporter [UVM/REPORT/SERVER] 
 --- UVM Report Summary ---
 
 ** Report counts by severity
-UVM_INFO :  807
+UVM_INFO :   89
 UVM_WARNING :    0
-UVM_ERROR :  389
+UVM_ERROR :    0
 UVM_FATAL :    0
 ** Report counts by id
-[]     2
+[]    62
 [DEBUG INFO]     2
-[MISCMP]   778
 [Sequencer]     2
 [TEST_DONE]    21
 [YY DEBUG INFO]     2
-[scoreboard]   389
 

@@ -54,28 +54,24 @@
 			forever begin
         			@(dut_vi.rx_cb);
 				//`uvm_info("monitor stimulus",$sformatf("@%0t: No.%d stimulus info",$time,cnt),UVM_MEDIUM);
+        			tx = my_transaction_base::type_id::create("tx");
 				case({dut_vi.rx_cb.push, dut_vi.rx_cb.pop}) 
 					2'b11:begin
-        					tx = my_transaction_base::type_id::create("tx");
 						tx.w_data = dut_vi.rx_cb.w_data;
 						tx.tr_type= PUSH_POP;
-        					bport.write(tx);
 						//cnt++;
 					end
 					2'b10:begin
-        					tx = my_transaction_base::type_id::create("tx");
 						tx.w_data = dut_vi.rx_cb.w_data;
 						tx.tr_type= PUSH;
-        					bport.write(tx);
 						//cnt++;
 					end
 					2'b01:begin
-        					tx = my_transaction_base::type_id::create("tx"); 
 						tx.tr_type= POP;
-        					bport.write(tx);
 						//cnt++;
 					end
 				endcase
+        			bport.write(tx);
 			end//end forever
 		end
 	join

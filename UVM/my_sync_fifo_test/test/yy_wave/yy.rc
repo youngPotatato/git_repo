@@ -2,7 +2,7 @@ Magic 271485
 Revision Verdi3_L-2016.06-1
 
 ; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
-viewPort 0 28 1920 876 422 65
+viewPort 0 28 1440 669 422 65
 
 ; File list:
 ; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
@@ -16,8 +16,8 @@ signalSpacing 5
 
 ; windowTimeUnit is used for zoom, cursor & marker
 ; waveform viewport range
-zoom 0.000000 260.588120
-cursor 122.000000
+zoom 0.000000 342.350676
+cursor 138.000000
 marker 0.000000
 
 ; user define markers
@@ -25,7 +25,7 @@ marker 0.000000
 ; visible top row signal index
 top 0
 ; marker line index
-markerPos 18
+markerPos 19
 
 ; event list
 ; addEvent event_name event_expression
@@ -58,17 +58,18 @@ addSignal -h 15 /top/dut_if1/pop
 addSignal -h 15 -holdScope ept
 addSignal -h 15 -UNSIGNED -UDEC -holdScope r_data[15:0]
 addSignal -h 15 -holdScope valid
-addSignal -h 15 /BLANK
 addGroup "G2"
 addSignal -h 15 /top/dut_if2/ful
 addSignal -h 15 -UNSIGNED -UDEC -holdScope w_data[15:0]
 addSignal -h 15 -holdScope push
 addSignal -h 15 /BLANK
+addSignal -h 15 -UNSIGNED -HEX /top/grm/used_depth[31:0]
+addSignal -h 15 /top/clock
+addSignal -h 15 /BLANK
 addSignal -h 15 /top/dut_if2/pop
 addSignal -h 15 -holdScope ept
 addSignal -h 15 -UNSIGNED -UDEC -holdScope r_data[15:0]
 addSignal -h 15 -holdScope valid
-addSignal -h 15 /top/clock
 addSignal -h 15 /BLANK
 addGroup "G3"
 

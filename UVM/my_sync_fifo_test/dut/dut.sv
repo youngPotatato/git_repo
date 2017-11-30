@@ -19,14 +19,14 @@ module fifo_grm
 
    initial begin
 	   forever begin
-		   @(if1.rx_cb);
-		        if1.ful = (my_queue.size()==2**`Width);
+		   @(if1.rx_cb_45);
+		        if1.ful = (my_queue.size()==2**`Depth_bits);
 	   end
   end
 
    initial begin
 	   forever begin
-		   @(if1.rx_cb);
+		   @(if1.rx_cb_45);
 		        used_depth = my_queue.size();
 	   end
   end
@@ -35,7 +35,7 @@ module fifo_grm
 	  forever begin
 		   @(if1.rx_cb);
 		   if(if1.push) begin
-		   	if((~if1.reset) && (my_queue.size()<2**`Width)) begin
+		   	if((~if1.reset) && (my_queue.size()<2**`Depth_bits)) begin
 			   	my_queue.push_front(if1.w_data);
 		   	end
 		   end

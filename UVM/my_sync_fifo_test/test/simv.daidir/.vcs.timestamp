@@ -364,11 +364,11 @@
 comp.log
 libnovas.so:FSDBDumpCmd
 top.sv
-60
+63
 sysc_uni_pwd=/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test
 XMODIFIERS=@im=ibus
 XDG_VTNR=1
-XDG_SESSION_ID=1
+XDG_SESSION_ID=2
 XDG_SESSION_DESKTOP=gnome-classic
 XDG_SEAT=seat0
 XDG_RUNTIME_DIR=/run/user/1000
@@ -391,10 +391,11 @@ USERNAME=yy
 UNAME=/bin/uname
 TOOL_HOME=/home/yy/EDA/VCS2016/linux
 TN=test1
+SW=more_push
 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
-SSH_AGENT_PID=3059
-SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2877,unix/unix:/tmp/.ICE-unix/2877
-SEED=453
+SSH_AGENT_PID=3121
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2940,unix/unix:/tmp/.ICE-unix/2940
+SEED=139
 SCRNAME=vcs
 SCRIPT_NAME=vcs
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
@@ -411,7 +412,7 @@ OVA_UUM=0
 MFLAGS=
 MAKEOVERRIDES=${-*-command-variables-*-}
 MAKELEVEL=1
-MAKEFLAGS=SEED=453 TN=test1
+MAKEFLAGS=SEED=139 SW=more_push TN=test1
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 LC_ALL=C
 KDEDIRS=/usr
@@ -423,20 +424,22 @@ GNOME_SHELL_SESSION_MODE=classic
 GNOME_DESKTOP_SESSION_ID=this-is-deprecated
 GDM_LANG=en_US.UTF-8
 GDMSESSION=gnome-classic
+DVT_LICENSE_FILE=/home/yy/EDA/license/dvt_YuYang_Academic_20171128_Local.license
+DVT_HOME=/home/yy/EDA/dvt_eclipse
 DESKTOP_SESSION=gnome-classic
-DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-5AY972J5jn,guid=10ab4d24912320620475789a5a1b4968
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LEjRBEhqEf,guid=77ccdc97fc9a3af5575de8215a1effb9
 0
 161
 1511725487 ../sv/my_env.sv
-1511749012 my_scoreboard.sv
+1511996883 my_scoreboard.sv
 1511728813 ../sv/my_agent.sv
-1511738331 ../sv/my_monitor.sv
+1511996921 ../sv/my_monitor.sv
 1511748663 ../sv/my_driver.sv
 1511728687 ../sv/my_dut_config.sv
 1510022717 ../sv/my_sequencer.sv
-1511748027 ../sv/transfer.sv
-1511743396 ../test/dut_if.sv
-1510879568 ../test/definition.sv
+1511995980 ../sv/transfer.sv
+1511989360 ../test/dut_if.sv
+1511988239 ../test/definition.sv
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh
@@ -579,10 +582,10 @@ DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-5AY972J5jn,guid=10ab4d249123206
 1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_version_defines.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/uvm_macros.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/uvm_pkg.sv
-1511738852 ../dut/dut.sv
-1511747434 ../dut/dut.v
-1511743249 top.sv
-1511728661 ./test_lib.sv
+1511994726 ../dut/dut.sv
+1511995581 ../dut/dut.v
+1511989443 top.sv
+1511995836 ./test_lib.sv
 1510627104 ../sv/env.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/uvm.sv
 1468145765 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/verdi.tab
@@ -595,4 +598,4 @@ DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-5AY972J5jn,guid=10ab4d249123206
 1464147272 /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so
 1464147247 /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so
 1468144949 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a
-1511749036 simv.daidir
+1511996945 simv.daidir
