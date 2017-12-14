@@ -1,0 +1,167 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "dut_if": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_unit__3169092938": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "fifo_grm": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "fifo": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mode": 4,
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 5346,
+            "checksum": 0
+        },
+        "hEeZs_d": {
+            "mode": 4,
+            "mod": "vcs_paramclassrepository",
+            "out": "hEeZs_d.o",
+            "bytes": 4175589,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        },
+        "BWIbP_d": {
+            "mode": 4,
+            "mod": "fifo",
+            "out": "BWIbP_d.o",
+            "bytes": 15122,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        },
+        "zr7M1_d": {
+            "mode": 4,
+            "mod": "uvm_pkg",
+            "out": "zr7M1_d.o",
+            "bytes": 4309424,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        },
+        "uM9F1_d": {
+            "mode": 4,
+            "mod": "_vcs_DPI_package",
+            "out": "uM9F1_d.o",
+            "bytes": 5880,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        },
+        "N5CAk_d": {
+            "mode": 4,
+            "mod": "_vcs_unit__3169092938",
+            "out": "N5CAk_d.o",
+            "bytes": 275139,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        },
+        "reYIK_d": {
+            "mode": 4,
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 26893,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        },
+        "zKa3y_d": {
+            "mode": 4,
+            "mod": "fifo_grm",
+            "out": "zKa3y_d.o",
+            "bytes": 18962,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        },
+        "e7EBi_d": {
+            "mode": 4,
+            "mod": "dut_if",
+            "out": "e7EBi_d.o",
+            "bytes": 45530,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        },
+        "Emx8S_d": {
+            "mode": 4,
+            "mod": "top",
+            "out": "Emx8S_d.o",
+            "bytes": 21799,
+            "checksum": 0,
+            "archive": "archive.0/_25533_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_25533_archive_1.a",
+            "objects": [
+                [
+                    "hEeZs_d.o",
+                    4175589
+                ],
+                [
+                    "uM9F1_d.o",
+                    5880
+                ],
+                [
+                    "N5CAk_d.o",
+                    275139
+                ],
+                [
+                    "reYIK_d.o",
+                    26893
+                ],
+                [
+                    "zr7M1_d.o",
+                    4309424
+                ],
+                [
+                    "e7EBi_d.o",
+                    45530
+                ],
+                [
+                    "Emx8S_d.o",
+                    21799
+                ],
+                [
+                    "BWIbP_d.o",
+                    15122
+                ],
+                [
+                    "zKa3y_d.o",
+                    18962
+                ]
+            ],
+            "size": 8894338
+        }
+    ],
+    "reusePaths": {}
+}

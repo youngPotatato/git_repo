@@ -1,7 +1,17 @@
 {
+    "fifo": [
+        "fifo",
+        "BWIbP",
+        "module"
+    ],
     "_vcs_DPI_package": [
         "_vcs_DPI_package",
         "uM9F1",
+        "module"
+    ],
+    "top": [
+        "top",
+        "Emx8S",
         "module"
     ],
     "vcs_paramclassrepository": [
@@ -9,9 +19,9 @@
         "hEeZs",
         "module"
     ],
-    "fifo_grm": [
-        "fifo_grm",
-        "zKa3y",
+    "dut_if": [
+        "dut_if",
+        "e7EBi",
         "module"
     ],
     "_vcs_unit__3169092938": [
@@ -19,9 +29,9 @@
         "N5CAk",
         "module"
     ],
-    "dut_if": [
-        "dut_if",
-        "e7EBi",
+    "fifo_grm": [
+        "fifo_grm",
+        "zKa3y",
         "module"
     ],
     "std": [
@@ -32,16 +42,6 @@
     "uvm_pkg": [
         "uvm_pkg",
         "zr7M1",
-        "module"
-    ],
-    "top": [
-        "top",
-        "Emx8S",
-        "module"
-    ],
-    "fifo": [
-        "fifo",
-        "BWIbP",
         "module"
     ],
     "...MASTER...": [

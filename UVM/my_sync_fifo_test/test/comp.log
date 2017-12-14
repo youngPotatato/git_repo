@@ -17,7 +17,7 @@ Command: vcs +acc -lca +vpi -debug_access+all -rdynamic -LDFLAGS-wl,--rpth,/home
 -CFLAGS -DVCS -sverilog -timescale=1ns/1ns -debug_all +incdir+env+../sv ../sv/env.svh \
 ./test_lib.sv top.sv ../dut/dut.v ../dut/dut.sv -l comp.log -o simv
                          Chronologic VCS (TM)
-            Version L-2016.06 -- Wed Nov 29 17:08:54 2017
+            Version L-2016.06 -- Wed Dec 13 14:37:33 2017
                Copyright (c) 1991-2016 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -763,7 +763,7 @@ g++ -w  -pipe -m32 -DVCS -O -I/home/yy/EDA/VCS2016/include    -c /home/yy/EDA/uv
 if [ -x ../simv ]; then chmod -x ../simv; fi
 g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
 -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -m32 -m32 -LDFLAGS-wl,--rpth,/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX \
--rdynamic  uvm_dpi.o   amcQwB.o objs/amcQw_d.o   _39345_archive_1.so  SIM_l.o    \
+-rdynamic  uvm_dpi.o   amcQwB.o objs/amcQw_d.o   _25533_archive_1.so  SIM_l.o    \
 rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /home/yy/EDA/VCS2016/linux/lib/libzerosoft_rt_stubs.so \
 /home/yy/EDA/VCS2016/linux/lib/libvirsim.so /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so \
 /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a \
@@ -775,4 +775,4 @@ rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /home/y
 ../simv up to date
 make[1]: Leaving directory `/home/yy/Desktop/My_prog/git_repo/UVM/my_sync_fifo_test/test/csrc' \
 
-CPU time: 7.741 seconds to compile + .726 seconds to elab + 1.718 seconds to link
+CPU time: 7.158 seconds to compile + .317 seconds to elab + .504 seconds to link

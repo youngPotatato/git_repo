@@ -374,6 +374,7 @@ XDG_SEAT=seat0
 XDG_RUNTIME_DIR=/run/user/1000
 XDG_MENU_PREFIX=gnome-
 XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-yy-BTWscl/database
 WINDOWPATH=1
 VTE_VERSION=3804
 VMR_MODE_FLAG=32
@@ -391,11 +392,10 @@ USERNAME=yy
 UNAME=/bin/uname
 TOOL_HOME=/home/yy/EDA/VCS2016/linux
 TN=test1
-SW=more_push
 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
-SSH_AGENT_PID=3121
-SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2940,unix/unix:/tmp/.ICE-unix/2940
-SEED=139
+SSH_AGENT_PID=3114
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2932,unix/unix:/tmp/.ICE-unix/2932
+SEED=9093
 SCRNAME=vcs
 SCRIPT_NAME=vcs
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
@@ -406,13 +406,13 @@ QTINC=/usr/lib64/qt-3.3/include
 QTDIR=/usr/lib64/qt-3.3
 PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
 PERL_MB_OPT=--install_base /home/yy/perl5
-PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
-PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
+PERL_LOCAL_LIB_ROOT=:/home/yy/perl5
+PERL5LIB=/home/yy/perl5/lib/perl5:
 OVA_UUM=0
 MFLAGS=
 MAKEOVERRIDES=${-*-command-variables-*-}
 MAKELEVEL=1
-MAKEFLAGS=SEED=139 SW=more_push TN=test1
+MAKEFLAGS=SEED=9093 TN=test1
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 LC_ALL=C
 KDEDIRS=/usr
@@ -427,19 +427,19 @@ GDMSESSION=gnome-classic
 DVT_LICENSE_FILE=/home/yy/EDA/license/dvt_YuYang_Academic_20171128_Local.license
 DVT_HOME=/home/yy/EDA/dvt_eclipse
 DESKTOP_SESSION=gnome-classic
-DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LEjRBEhqEf,guid=77ccdc97fc9a3af5575de8215a1effb9
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-yUaJMfWiZW,guid=8a6d002dff73e1110a82b4e25a209722
 0
 161
-1511725487 ../sv/my_env.sv
+1512089348 ../sv/my_env.sv
 1511996883 my_scoreboard.sv
 1511728813 ../sv/my_agent.sv
 1511996921 ../sv/my_monitor.sv
 1511748663 ../sv/my_driver.sv
 1511728687 ../sv/my_dut_config.sv
 1510022717 ../sv/my_sequencer.sv
-1511995980 ../sv/transfer.sv
+1512089254 ../sv/transfer.sv
 1511989360 ../test/dut_if.sv
-1511988239 ../test/definition.sv
+1512081669 ../test/definition.sv
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh
@@ -582,7 +582,7 @@ DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LEjRBEhqEf,guid=77ccdc97fc9a3af
 1402647219 /home/yy/EDA/uvm-1.2/src/macros/uvm_version_defines.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/uvm_macros.svh
 1402647219 /home/yy/EDA/uvm-1.2/src/uvm_pkg.sv
-1511994726 ../dut/dut.sv
+1512089374 ../dut/dut.sv
 1511995581 ../dut/dut.v
 1511989443 top.sv
 1511995836 ./test_lib.sv
@@ -598,4 +598,4 @@ DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LEjRBEhqEf,guid=77ccdc97fc9a3af
 1464147272 /home/yy/EDA/VCS2016/linux/lib/liberrorinf.so
 1464147247 /home/yy/EDA/VCS2016/linux/lib/libsnpsmalloc.so
 1468144949 /home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX/pli.a
-1511996945 simv.daidir
+1513197461 simv.daidir

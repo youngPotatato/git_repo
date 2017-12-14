@@ -75,9 +75,9 @@ VCS compile option:
  option[4]: line+tgl
  option[5]: +UVM_NO_RELNOTES
  option[6]: +UVM_TESTNAME=test1
- option[7]: +SW=more_push
+ option[7]: +SW=
  option[8]: -ucli
- option[9]: +ntb_random_seed=139
+ option[9]: +ntb_random_seed=9093
  option[10]: +UVM_VERBOSITY=UVM_NONE
  option[11]: +UVM_VERDI_TRACE=UVM_AWARE+RAL+TLM+MSG+HIER+PRINT
  option[12]: +UVM_VERDI_TRACE
@@ -162,7 +162,7 @@ maxproc			4096
 Runtime environment variables:
 XDG_VTNR=1
 XDG_SESSION_ID=2
-SSH_AGENT_PID=3121
+SSH_AGENT_PID=3114
 HOSTNAME=localhost.localdomain
 UVM_HOME=/home/yy/EDA/uvm-1.2
 IMSETTINGS_INTEGRATE_DESKTOP=yes
@@ -172,9 +172,9 @@ XDG_MENU_PREFIX=gnome-
 VTE_VERSION=3804
 SHELL=/bin/bash
 HISTSIZE=1000
-MAKEFLAGS=SEED=139 SW=more_push TN=test1
-PERL5LIB=/home/yy/perl5/lib/perl5:/root/perl5/lib/perl5
-WINDOWID=35651591
+MAKEFLAGS=SEED=9093 TN=test1
+PERL5LIB=/home/yy/perl5/lib/perl5:
+WINDOWID=37749274
 QTDIR=/usr/lib64/qt-3.3
 QTINC=/usr/lib64/qt-3.3/include
 PERL_MB_OPT=--install_base /home/yy/perl5
@@ -186,14 +186,14 @@ MAKEOVERRIDES=${-*-command-variables-*-}
 LD_LIBRARY_PATH=/home/yy/EDA/disk2/verdi2016_06/share/PLI/VCS/LINUX
 LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
-SEED=139
+SEED=9093
 MAKELEVEL=1
-SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2940,unix/unix:/tmp/.ICE-unix/2940
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2932,unix/unix:/tmp/.ICE-unix/2932
 USERNAME=yy
 MFLAGS=
 GNOME_SHELL_SESSION_MODE=classic
 MAIL=/var/spool/mail/yy
-PATH=/home/yy/perl5/bin:/root/perl5/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/.local/bin:/home/yy/bin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin
+PATH=/usr/lib64/qt-3.3/bin:/home/yy/perl5/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/.local/bin:/home/yy/bin:/home/yy/EDA/VCS2016/gui/dve/bin:/home/yy/EDA/VCS2016/bin:/home/yy/EDA/disk2/verdi2016_06/bin:/home/yy/EDA/disk2/verdi2016_06/platform/LINUX/bin:/home/yy/EDA/scl11_12/linux/bin:/home/yy/.vimpkg/bin
 DESKTOP_SESSION=gnome-classic
 QT_IM_MODULE=ibus
 _=./simv
@@ -207,25 +207,25 @@ KDEDIRS=/usr
 LM_LICENSE_FILE=27000@localhost
 GDMSESSION=gnome-classic
 HISTCONTROL=ignoredups
-SHLVL=5
+SHLVL=3
 XDG_SEAT=seat0
 HOME=/home/yy
 GNOME_DESKTOP_SESSION_ID=this-is-deprecated
-PERL_LOCAL_LIB_ROOT=/root/perl5:/home/yy/perl5
+PERL_LOCAL_LIB_ROOT=:/home/yy/perl5
 TN=test1
 DVT_LICENSE_FILE=/home/yy/EDA/license/dvt_YuYang_Academic_20171128_Local.license
 LOGNAME=yy
 XDG_SESSION_DESKTOP=gnome-classic
 QTLIB=/usr/lib64/qt-3.3/lib
-DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LEjRBEhqEf,guid=77ccdc97fc9a3af5575de8215a1effb9
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-yUaJMfWiZW,guid=8a6d002dff73e1110a82b4e25a209722
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 WINDOWPATH=1
 DISPLAY=:0
 XDG_RUNTIME_DIR=/run/user/1000
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
 XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
-SW=more_push
 PERL_MM_OPT=INSTALL_BASE=/home/yy/perl5
+XAUTHORITY=/run/gdm/auth-for-yy-BTWscl/database
 VCS_PATHMAP_PRELOAD_DONE=1
 LC_ALL=C
 DVE=/home/yy/EDA/VCS2016/gui/dve
@@ -238,9 +238,9 @@ argv[3]=-cm
 argv[4]=line+tgl
 argv[5]=+UVM_NO_RELNOTES
 argv[6]=+UVM_TESTNAME=test1
-argv[7]=+SW=more_push
+argv[7]=+SW=
 argv[8]=-ucli
-argv[9]=+ntb_random_seed=139
+argv[9]=+ntb_random_seed=9093
 argv[10]=+UVM_VERBOSITY=UVM_NONE
 argv[11]=+UVM_VERDI_TRACE=UVM_AWARE+RAL+TLM+MSG+HIER+PRINT
 argv[12]=+UVM_VERDI_TRACE
@@ -249,9 +249,9 @@ argv[14]=+UVM_LOG_RECORD
 argv[15]=-l
 argv[16]=run.log
 250 profile - 100
-          CPU/Mem usage: 0.110 sys,  0.350 user,  164.99M sys,  0.00M vm
+          CPU/Mem usage: 0.140 sys,  0.290 user,  165.00M sys,  0.00M vm
 251 VC callback profile - scalar:0 vector:0
-252 Wed Nov 29 17:09:08 2017
+252 Wed Dec 13 14:37:45 2017
 253 pliAppInit
 254 *Verdi3* : FSDB_GATE is set.
 255 *Verdi3* : FSDB_RTL is set.
@@ -270,21 +270,21 @@ argv[16]=run.log
 268 *Verdi3* : Enable +all dumping.
 269 *Verdi3* : End of traversing.
 270 fsdbDumpvars traverse var: profile - 
-          CPU/Mem usage: 0.120 sys,  0.390 user,  255.45M sys,  0.00M vm
-                   incr: 0.010 sys,  0.040 user,  13.72M sys,  0.00M vm
-                   accu: 0.010 sys,  0.040 user,  13.72M sys,  0.00M vm
-              accu incr: 0.010 sys,  0.040 user,  13.72M sys,  0.00M vm
+          CPU/Mem usage: 0.160 sys,  0.320 user,  255.45M sys,  0.00M vm
+                   incr: 0.020 sys,  0.030 user,  13.72M sys,  0.00M vm
+                   accu: 0.020 sys,  0.030 user,  13.72M sys,  0.00M vm
+              accu incr: 0.020 sys,  0.030 user,  13.72M sys,  0.00M vm
 
           Count usage: 135 var,  92 idcode,  70 callback
                  incr: 135 var,  92 idcode,  70 callback
                  accu: 135 var,  92 idcode,  70 callback
             accu incr: 135 var,  92 idcode,  70 callback
 271 VC callback profile - scalar:0 vector:0
-272 Wed Nov 29 17:09:08 2017
+272 Wed Dec 13 14:37:45 2017
 273 fsdbDumpvars: profile - 
-          CPU/Mem usage: 0.120 sys,  0.390 user,  256.50M sys,  0.00M vm
+          CPU/Mem usage: 0.160 sys,  0.320 user,  256.50M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
-                   accu: 0.010 sys,  0.040 user,  14.77M sys,  0.00M vm
+                   accu: 0.020 sys,  0.030 user,  14.77M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
 
           Count usage: 135 var,  92 idcode,  70 callback
@@ -292,11 +292,11 @@ argv[16]=run.log
                  accu: 135 var,  92 idcode,  70 callback
             accu incr: 0 var,  0 idcode,  0 callback
 274 VC callback profile - scalar:47 vector:26
-275 Wed Nov 29 17:09:08 2017
+275 Wed Dec 13 14:37:45 2017
 276 End of simulation at 15416
-277 VC callback profile - scalar:21589 vector:333
-278 Wed Nov 29 17:09:08 2017
+277 VC callback profile - scalar:21448 vector:155
+278 Wed Dec 13 14:37:46 2017
 279 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
-280                        ProduceTime:0.695567903 ConsumerTime:0.000000000 Buffer:64MB
+280                        ProduceTime:0.626398858 ConsumerTime:0.000000000 Buffer:64MB
 281 SimExit
 282 Sim process exit

@@ -34,9 +34,9 @@ typedef enum {
     constraint type_c3 {
             tr_type dist {
         	    NOP := 1,
-        	    PUSH := 7,
-        	    PUSH_POP := 3,
-        	    POP := 3
+        	    PUSH := 3,
+        	    PUSH_POP := 2,
+        	    POP := 2
             		};
     }
   `uvm_object_utils_begin(my_transaction_base)
@@ -202,61 +202,27 @@ typedef enum {
    
   endclass: my_random_sequence1
 
-//  class read_modify_write extends uvm_sequence #(my_transaction);
+//  class sequence_of_sequence extends uvm_sequence #(my_transaction_base);
 //  
-//    `uvm_object_utils(read_modify_write)
-//    
-//    function new (string name = "");
-//      super.new(name);
-//    endfunction: new
-//
-//    task body;
-//      my_transaction tx;
-//      int a;
-//      int d;
-//
-//      tx = my_transaction::type_id::create("tx");
-//      start_item(tx);
-//      assert( tx.randomize() );
-//      tx.cmd = 1;
-//      finish_item(tx);
-//
-//      a = tx.addr;      
-//      d = tx.data;
-//      ++d;
-//
-//      tx = my_transaction::type_id::create("tx");
-//      start_item(tx);
-//      tx.cmd = 1;
-//      tx.addr = a;
-//      tx.data = d;
-//      finish_item(tx);
-//    endtask: body
-//   
-//  endclass: read_modify_write
-//  
-//
-//  class seq_of_commands extends uvm_sequence #(my_transaction);
-//  
-//    `uvm_object_utils(seq_of_commands)
-//    `uvm_declare_p_sequencer(uvm_sequencer#(my_transaction))
+//    `uvm_object_utils(sequence_of_sequence)
+//    `uvm_declare_p_sequencer(uvm_sequencer#(my_transaction_base))
 //    
 //    rand int n;
 //    
-//    constraint how_many { n inside {[2:4]}; }
+//    //constraint//new constraints 
 //    
 //    function new (string name = "");
 //      super.new(name);
 //    endfunction: new
 //
 //    task body;
-//      repeat(n)
 //      begin
-//        read_modify_write seq;
-//        seq = read_modify_write::type_id::create("seq");
+//        my_random_sequence1 seq;
+//        seq = my_random_sequence1::type_id::create("seq");
 //        assert( seq.randomize() );
+//	  //*** more work here
 //        seq.start(p_sequencer);
 //      end
 //    endtask: body
 //   
-//  endclass: seq_of_commands
+//  endclass: sequence_of_sequence
